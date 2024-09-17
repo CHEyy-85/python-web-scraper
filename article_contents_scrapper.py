@@ -26,7 +26,12 @@ def scrape_article_content(article_url):
 
 
     # More specific search for relevant content containers
-    content_containers = article_soup.find_all(['div', 'header'], class_=lambda x: x and ('helpArticle' in x or 'contentfulRichText' in x or 'help-article-header' in x or 'mediaWithCaption_media__TLfag' in x or 'animation--running appear-instantly' in x or 'faqDrawers_questionText__CBY_y' in x))
+    content_containers = article_soup.find_all(['div', 'header'], class_=lambda x: x and ('helpArticle' in x 
+                                                                                          or 'contentfulRichText' in x 
+                                                                                          or 'help-article-header' in x 
+                                                                                          or 'mediaWithCaption_media__TLfag' in x 
+                                                                                          or 'animation--running appear-instantly' in x 
+                                                                                          or 'faqDrawers_questionText__CBY_y' in x))
     # Process each content container
     for container in content_containers:
         for element in container.find_all(['h2', 'h3', 'h4', 'p', 'ul', 'ol', 'img', 'video'], recursive=False):
