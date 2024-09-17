@@ -29,7 +29,7 @@ if __name__ == "__main__":
             chapter_content += f"\n\n{article_content}\n"
 
         # Define file path for saving the chapter content
-        file_path = os.path.join('txt_files/', f"{chapter_name}.txt")
+        file_path = os.path.join('txt_files/', f"{chapter_name.replace('. ', '_').replace(' ', '_')}.txt")
 
         # Save the chapter content to a file
         save_content_to_file(chapter_content, file_path)
