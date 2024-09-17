@@ -1,0 +1,1034 @@
+<10. Settings>
+
+From language options to notification settings, there are lots of adjustments you can make to Notion so that it suits your personal workflow. 
+
+
+
+# Account settings
+
+### You can update your profile photo, name, email address, and preferences on desktop. Updates you make to your account affect all of your Notion workspaces ⚙️
+
+### Profile settings
+
+#### Change your profile photo
+
+  -Click `Settings & members` at the top of the left sidebar, then select `My account` .
+
+  -Select your current photo or your initial above `Add photo` . Choose the file you want to use from your device and click `Open` .
+
+#### Change your name
+
+  -Click `Settings & members` at the top of the left sidebar, then select `My account` .
+
+  -Under `Preferred name` , enter the name you want to use.
+
+#### Profile discoverability
+
+You can decide if users with your email address can see your name and profile picture when they invite you to a new workspace. To do so:
+
+  -Select `Settings & members` at the top of the left sidebar, then select `My settings` .
+
+  -Under `Privacy` , find `Profile discoverability` . Turn this on to make your profile discoverable to people with your email address, or turn it off to hide your profile from people with your email address.
+
+If you turn profile discoverability on, a user will see this when they invite you to a workspace or a page:
+
+![Image](/cdn-cgi/image/format=webp,width=2048/https://images.ctfassets.net/spoqsaf9291f/4owNaFdGFI6paoWwecBJi3/3a75010a2638c635ea97d2c31785b602/Frame_17__1_.jpg)
+
+If you turn profile discoverability off, a user will see this when they invite you to a workspace or page:
+
+![Image](/cdn-cgi/image/format=webp,width=2048/https://images.ctfassets.net/spoqsaf9291f/3wz1pTH2BTIdzudRYJUaXH/af65f56b5e0fec655d14f74021fc8265/image_7__1_.jpg)
+
+Note:If you’re already part of the same workspace as the user inviting you, or once you’ve joined the workspace, they’ll be able to see your profile.
+
+### Account security settings
+
+#### Change your email address
+
+  -Click `Settings & members` at the top of the left sidebar, then select `My account` .
+
+  -Under `Account security` , click `Change email` .
+
+  -From here:
+
+    *If you have a Notion password set, enter it.
+
+    *If you don’t have a Notion password, we’ll send a verification code to your old email. Enter this into Notion.
+
+  -Enter your new email address and click `Send verification code` . We’ll send a verification code to your new email.
+
+  -Copy the verification code sent to your new email address, paste it into Notion, and click `Change email` .
+
+Tip:If you use a Google account or Apple ID to log into Notion, you can log into Notion directly with Google or Apple.Learn more here →
+
+#### Set, change, or remove your password
+
+If you want to log into Notion using a permanent password instead of temporary login codes:
+
+  -Click `Settings & members` at the top of the left sidebar, then select `My account` .
+
+  -Click `Set a password` .
+
+  -Enter a password that meets the security requirements and confirm it. Passwords must be at least eight characters long, with at least three special characters, one letter, and one number.
+
+If you want to change your password, click `Change password` , then enter your current and new password and click `Change password` .
+
+If you want to remove your password, click `Change password` → `Remove password` . This means you’ll have to log in with temporary codes in the future.
+
+Note:Never share your password with anyone, even Notion support! If someone's claiming to be Notion support and asking for your password, it's not us.
+
+All passwords are encrypted on our servers, so we don't have access to any password data.
+
+#### Reset your password
+
+If you forgot your password,follow the instructions to reset it here →
+
+### Time zone settings
+
+  -Click `Settings & members` at the top of the left sidebar, then select `My settings` .
+
+  -Under `Date & time` , turn on `Set timezone automatically using your location` or set your time zone manually.
+
+### More settings
+
+To access even more settings, click `Settings & members` at the top of the left sidebar, then select `My settings` .
+
+If you're on web and you want any links to Notion pages to open in your desktop app, toggle on `Open links in desktop app` . You'll need to have the desktop app already installed. You’ll also need to go to Notion in your desktop app and ensure that `Open links in browser` is turned off in your settings.
+
+If you're on the desktop app, you'll be able to control the following settings:
+
+  -If you want search to open whenever you create a new tab, toggle on `New Tab Search` . This allows you to immediately search for and navigate to a specific page when you open a new tab. If this setting is toggled off, new tabs will display the default page specified in the `Default page` setting.
+
+  -If you want any links to Notion pages to open in your web browser instead of the desktop app, toggle on `Open links in browser` . You’ll need to go to Notion in your browser and ensure that `Open links in desktop app` is turned off in your settings.
+
+  -If you set up links to open in the desktop app, your browser will open a new tab automatically redirect you to the desktop app every time you click on a link to a Notion page. To have these tabs automatically closed once you’re redirected to the desktop app, toggle on `Close redirecting browser tabs` .
+
+  -If you want to useCommand Search, which allows you to quickly search in Notion while you’re in another app, turn on `Use Command Search` . Once this setting is turned on, you can also adjust the `Command Search shortcut` and `Notion AI shortcut` , as well as turn on `Show Notion in Menu Bar` so you can get to Notion from the top of your screen.
+
+### Startup settings
+
+You can control what you see in Notion when you start the app. To access these settings, go to `Settings & members` in the sidebar → `My settings` , then scroll down to `Startup` .
+
+If you're on web, open the dropdown next to `Open on start` and select `Home` , `Last visited page` , `Top page in sidebar` , or `Notion AI` .
+
+If you're on the desktop app, you can:
+
+  -Open the dropdown next to `On startup` to choose `Continue where you left off` , which will open the tabs you had open right before you last closed the app. Alternatively, you can choose `Default page` if you’d like to start with the same page every time.
+
+  -`Default page` lets you select the page that’ll show when you open new windows, switch workspaces, or start the Notion desktop app (if you’ve selected `Default page` as your `On startup` page). Open the dropdown and select `Home` , `Last visited page` , `Top page in sidebar` , or `Notion AI` .
+
+### Log in and out
+
+You can use `Continue with Google` or `Continue with Apple` for a faster login as long as your Notion account email is the same as your Google email or Apple ID.
+
+#### Continue with Google
+
+When you choose `Continue with Google` to login, you'll be asked for your Google password in a pop-up window. If you have 2-step verification enabled for your Google account, you'll need to authenticate with a second device.
+
+#### Continue with Apple
+
+When you choose `Continue with Apple` to login, you'll be asked for your Apple ID password in a pop-up window. If you have two-factor authentication enabled for your Apple ID, you'll need to authenticate with a second device.
+
+If you're using `Continue with Apple` for the first time, you'll see two options:
+
+  -`Share My Email` : Choose this option if you want to link your Apple ID with an existing Notion account. If you're creating a new Notion account, we'll use the email associated with your Apple ID as your Notion account email.
+
+  -`Hide My Email` : Choose this option if you want to hide your email from Notion. A brand new account will be created with a unique email such as dpdcnf87nu@privaterelay.appleid.com, which will only work with Notion.
+
+    *You won't be able to link `Continue with Apple` with an existing Notion account if you choose `Hide My Email` .
+
+    *You'll still receive Notion emails forwarded to the email associated with your Apple ID.
+
+  -To stop using Apple with Notion, or to change your email preferences, go to the Apple ID settings on your device.
+
+Tip: `Continue with Apple` allows you to use Face ID or Touch ID to log in to Notion!
+
+#### New login alerts
+
+You may receive an email alert if you log into Notion from a new device. If you recognize the login, you can ignore the email.
+
+If you don't recognize the login, you can select `This was not me` in the email. This will log out of the device that was used for the new login and direct you to Notion settings, where you can reset your password or enroll in MFA.
+
+The approximate location in the new login alert email is based on the IP address. This is just a best estimate of location and may not reflect the true location of the login.
+
+#### Log out remotely
+
+For security purposes, you can remotely log out of any active sessions attributed to your Notion account.
+
+  -Clicking `Log out of all devices` will keep your current session active but require you to log back into Notion on all other devices and instances.
+
+  -To log out of a specific session, locate the device in the table view and click `Log out` next to it.
+
+
+
+### FAQs
+
+How can I link my existing Notion account with Continue with Apple?
+
+You can use `Continue with Apple` for a faster login as long as your Notion account email is the same as your Apple ID.
+
+For example, if your Apple ID isadalovelace@icloud.com, you can use `Continue with Apple` to login as long as that's the email you see in the `My account` section of `Settings & members` in Notion.
+
+When you use `Continue with Apple` for the first time, you'll see two options:Share My EmailandHide My Email. SelectShare My Email, and you should be logged into your Notion account.
+
+If you selectedHide My Email, you'll need to unlink `Continue with Apple` from your Notion account and start over. To do that, go to the Apple ID section of your device settings, thenPassword & Security.
+
+I forgot my password. What do I do?
+
+Follow the instructionshereto reset your Notion password.
+
+
+
+I just got an email saying I changed my email address or password, but I didn't!
+
+If you receive an unexpected email notifying you of a change to your password, you should reset your password as soon as possible. Follow these steps:
+
+  -Navigate tonotion.so/loginin your web browser.
+
+  -Click the `Continue with email` button.
+
+  -Enter the email address associated with your Notion account.
+
+  -Click the `Forgot password?` button, and then the `Send Reset Link` button.
+
+  -We'll send a link to your email address. When you click that link, you'll be taken to `Settings & Members` in your Notion workspace, and your password will be reset.
+
+  -Please report any suspicious activity like this to our support team, team@makenotion.com.
+
+
+
+I tried changing my email address but got an error message saying: "A user with this email already exists."
+
+If you'd like to change your account email to one that already exists within Notion, you can log into the account that holds the email you want and delete that account to free up that email address.
+
+To delete the account, go to `Settings & Members` in the left sidebar, then `My Account` , then `Delete My Account` .
+
+Then log into your current account, and go to `Settings & Members` , then `My Account` , and select `Change email` . You should be able to switch to the freed up email address.
+
+What if I accidentally deleted something permanently? Any way to get it back?
+
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom left on desktop (or in your sidebar on mobile). Or email us atteam@makenotion.com.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
+
+
+
+# Appearance settings
+
+### Looking to reduce eye fatigue? Want better contrast? Simply prefer an edgier look? Notion comes complete with dark mode 🌒
+
+### Customize appearance on desktop
+
+To customize Notion's appearance on desktop:
+
+  -Go to `Settings & members` at the top of your sidebar.
+
+  -A new window will open. Click `My settings` .
+
+  -Openthe dropdown next to `Appearance` and select one of the following options:
+
+    *`Use system setting` to follow your system appearance setting.
+
+    *`Light` to display light mode.
+
+    *`Dark` to display dark mode.
+
+  -You can also turn dark mode on or off anytime with the shortcut `cmd/ctrl` + `shift` + `L` .
+
+### Customize appearance on mobile
+
+To customize Notion's appearance on mobile:
+
+  -Open the sidebar by tapping the `•••` in the top corner.
+
+  -Tap `Settings` and scroll to the `Appearance` section.
+
+  -Open the dropdown and select one of the following options:
+
+    *`Use system setting` to follow your system appearance setting.
+
+    *`Light` to display light mode.
+
+    *`Dark` to display dark mode.
+
+Note:When you select dark mode, it applies to all workspaces you're signed into on your account. If you switch between them, they'll all be dark.
+
+
+
+
+
+# Notification settings
+
+### Notion is set up to notify you if you're mentioned in a page or database, for reminders, and when updates have been made to a page you care about. Below, we describe how notifications work, and how you can modify them 🛎
+
+### How notifications work
+
+Here's when you will get a notification:
+
+  -Someone @-mentions you or replies to your comment.
+
+    *Or you have notifications set to `All comments` for a page.
+
+  -You're added to a `Person` property in a database.
+
+  -You set a reminder for yourself to show up at a certain time.
+
+#### Types & timing
+
+There are several ways these notifications will reach you:
+
+  -You'll see a red badge with the number of notifications waiting for you next to `Inbox` at the top of your sidebar.Learn more about updates here →
+
+  -Desktop pushnotifications show up if you have the app installed and open.
+
+  -Mobile pushnotifications show up if you have the app installed and you haven't checked the notification within 5 minutes.
+
+  -Email notificationsare sent if you don't have Notion open at the time of the notification, or if you have mobile notifications turned off and you haven't seen a notification within 5 minutes.
+
+    *If you have `Always send email notifications` turned on, you'll receive an email for every notification, even if you're active on the app.
+
+Note:If you're actively viewing a page that the notification trigger was created on (i.e. the @-mention or reminder), you won't see any notifications.
+
+### Notification settings
+
+Go to `Settings & members` → `My notifications` to adjust your settings for:
+
+  -Mobile push notifications
+
+  -Desktop push notifications and badge icons (if you’re using the desktop app)
+
+  -Slack notifications
+
+  -Email notifications. You can receive notifications about activity in your workspace, email digests, and updates or announcements from Notion.
+
+On mobile, tap `•••` near the top of your home page → `Settings` → `My notifications` .
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/6oYlA5GJlSeirspGiu125l/907a6cba2499942ddf2c2a4e9c095e8a/Notifications_settings_mobile.png)
+
+
+
+### FAQs
+
+I'm not receiving any mobile or email notifications, but I have them enabled.
+
+If you have Notion open on a mobile device or computer, you won't receive push or email notifications for reminders — you'll only see the badge next to `All Updates` .
+
+If Notion is not open on your mobile device or computer, then you will receive a push or email notification.
+
+To always receive email updates regardless of whether or not you have the app open, you can enable `Always send email notifications` in the My notifications section of Settings & members.
+
+Is there a way for the notifications to make a sound or vibration?
+
+Not at the moment, unfortunately 😓 On our to-do list though!
+
+
+
+# Workspace settings
+
+### When you sign up for Notion, you can create multiple workspaces connected to your account. Each one can be customized to your liking with workspace-specific settings. Here's how to manage every aspect of an individual workspace 🗝️
+
+Note:Many of these settings are only visible if you're an admin on a Plus Plan or Enterprise Plan. They don't appear in the mobile app at all.Contact sales to learn more about our Enterprise plan →
+
+### Access workspace settings
+
+To see your workspace management options, go to `Settings & members` at the top of the left sidebar. In the window that pops up, click on the `Settings` tab.
+
+In this window, you can:
+
+  -Change your workspace name: We recommend keeping it short and simple!
+
+  -Change your workspace icon: Click on it to choose an emoji or upload your own image. Ideal dimensions are 280px by 280px.
+
+### Allowed email domains
+
+Make it simple for people with certain email address domains to automatically join your workspace as members, or as workspace owners if you're on a Free Plan. As soon as they sign up, Notion will recognize their email and ask if they want to join your workspace.
+
+  -New allowed domains are restricted to the email domains of the members of that workspace. To add a domain that isn't available, someone with an email address from that domain will have to join the workspace.
+
+  -Use this so all new employees who join your company can easily join your shared workspace. All they have to do is sign up for Notion with their work email.
+
+  -Bear in mind that you'll be charged per member onPlus, Business andEnterprisePlans.
+
+### Workspace security
+
+Depending on how you're using your workspace, you may want to keep the data you have in it private for just your team. If you have an Enterprise Plan, you can go to the `Security` section to adjust two kinds of settings.
+
+Note:Some of the following settings are available to Enterprise users only.
+
+  -`Allow members to request adding other members` : This setting is available on all plans.
+
+  -`Allow any user to request to be added as a member of the workspace` : This setting is available on all plans.
+
+  -`Allow page access requests from non-members` : This setting is available to all plans except Enterprise.
+
+#### Security settings available on Enterprise Plans only
+
+  -`Disable public sharing` : Don't let memberspublish Notion Sites. Any Notion Sites already live on the web will be taken down.
+
+  -`Disable duplicating pages to other workspaces` : Don't let members move pages to other workspaces. Especially helpful if you have a lot of people and a lot of pages. It can get confusing fast, and some people may lose access when pages get moved.
+
+  -`Disable export` : Don't let members export pages. This ensures that all your data stays in Notion rather than having different versions saved as Markdown or CSV.
+
+  -`Disable members inviting guests to pages`
+
+    *`Allow members to request adding guests` (available if the above setting is turned on)
+
+Looking for information about connections settings?Read this article →
+
+Note:If you're interested in learning more about our Enterprise Plan, you can contact us by filling outthis form. We will get back to you as soon as possible!
+
+### Export your entire workspace
+
+Note:You must be a workspace admin to do this.
+
+Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
+
+If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
+
+Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
+
+A sitemap (index.html) is included the export to help you navigate the exported workspace. The list items in the sitemap are locally linked to the exported pages in HTML and Markdown formats.
+
+To export your workspace content:
+
+  -Go to `Settings & members` in your sidebar → `Settings` .
+
+  -Find and select `Export all workspace content` .
+
+  -You'll receive an email from Notion with a link to download your files. This link will expire after 7 days.
+
+Note:
+
+  -You can only export your entire workspace on desktop or web.
+
+  -You can’t instantly recreate your workspace by reuploading your exported workspace content.
+
+
+
+### Export workspace members
+
+If you have a Business Plan or Enterprise Plan, you can click the `Export members as CSV` button to quickly get a list of everyone in your workspace.
+
+The exported CSV will include:
+
+  -Email
+
+  -First name
+
+  -Last name
+
+  -Role (Workspace owner, membership admin, member, or guest)
+
+  -A comma separated list of permission groups that each member is part of
+
+  -User ID
+
+Note:If you're interested in learning more about our Enterprise Plan, you can contact us by filling outthis form. We will get back to you as soon as possible!
+
+
+
+### FAQs
+
+I'm on a Plus Plan, but don't see any of these settings in Settings & Members?
+
+Only Workspace owners can access these workspace settings. If you navigate to the Members tab, you'll see whether you're a guest, member, Membership admin, or Workspace owner in the workspace. Ask a Workspace owner to upgrade your membership status if necessary.
+
+I'm trying to add a new domain to the Allowed Email Domains setting, but it won't let me.
+
+New allowed domains are restricted to the email domains of the members of that workspace. To add a domain that isn't available, someone with an email address from that domain will have to join the workspace.
+
+Does Notion support custom domains?
+
+Learn how to claim a `notion.site` domain or connect a custom domain to your Notion Sitehere →
+
+How can I migrate all my Notion content to a different workspace?
+
+Note:Any migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information,click here.
+
+To move your content from one workspace to another associated with the same account, click `•••` next to each of the top-level pages in your sidebar (or right click) and select `Move to` .At the bottom of the move menu, you’ll see a drop down to select a different workspace.
+
+When you move top-level pages, all their sub-pages go with them. They'll appear in the `Private` section but can be moved wherever you want to put them.
+
+
+
+What if I accidentally deleted something permanently? Any way to get it back?
+
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom left on desktop (or in your sidebar on mobile). Or email us atteam@makenotion.com.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
+
+
+
+# Language & region settings
+
+### Notion is used by people around the globe, so we're dedicated to making our tool accessible for everybody across our international community 🌍
+
+### Change your language
+
+Notion is currently available in the following languages:
+
+  -English
+
+  -Korean
+
+  -Japanese
+
+  -French
+
+  -German
+
+  -Spanish (Spain)
+
+  -Spanish (Latin America)
+
+  -Portuguese (Brazil)
+
+  -Chinese (simplified)
+
+  -Chinese (traditional)
+
+  -Dutch (beta)
+
+  -Norwegian (beta)
+
+  -Swedish (beta)
+
+  -Danish (beta)
+
+  -Finnish (beta)
+
+We're working on more languages!
+
+To change your display language:
+
+  -Click `Settings & members` at the top of the left sidebar.
+
+  -Select `Language & region` in the sidebar of the new window.
+
+  -Click the first dropdown and select your language.
+
+Note:On mobile, your Notion app language will follow the language ranking in your system preferences.
+
+### Start your calendar week on Monday
+
+Calendars in Notion will use Sunday or Monday as the first day of the week, depending on your region. That includes the date picker for reminders and calendar databases. If you prefer, you can change this manually.
+
+  -Click `Settings & members` at the top of the left sidebar.
+
+  -Select `Language & region` in the sidebar of the new window.
+
+  -Toggle on `Start week on Monday` .
+
+
+
+
+
+# Troubleshoot & reset
+
+### Sometimes, things don't work as expected. Here's how you can get back to using Notion ⚠️
+
+Running into a problem in Notion? Check ourstatus pageandXfor live updates on any known issues.
+
+### General troubleshooting tips
+
+Here are some things you can do if you encounter an error in Notion:
+
+  -Make sure your internet connection is stable.
+
+  -Try Notion in a different browser or on a different browser.
+
+  -Clear your browser’s cache and cookies.
+
+  -Ensure you’re logged into the right Notion account, and you have the right permissions to access the page you’re trying to work in.
+
+  -Wait a few minutes before trying again.
+
+  -Check ourstatus pageandXfor live updates on any known issues.
+
+### Can't log in
+
+Can’t log into Notion? Here are some things you can do.
+
+#### If you forgot your password
+
+If you don’t remember your Notion password, you can reset it. To do so:
+
+  -Go tonotion.so/loginin your web browser.
+
+  -Select `Forgot password?` , enter your email address, then select `Send reset link` .
+
+  -We'll send a link to your email address. Open the link to be taken to `Settings & members` in your Notion workspace, where you can set a new password.
+
+    *If you do not set a new password at this point, your password will simply be removed and you can log in using temporary codes.
+
+  -Log in again.
+
+#### If you lost access to your email
+
+If you no longer have access to the email address you used to sign up for Notion, you can change this email in Notion settings. You’ll need to have a permanent password for your account already. To do so:
+
+  -Go to `Settings & members` in the left sidebar of Notion.
+
+  -Select `My account` → `Change email` .
+
+  -Enter your password, then select `Continue` .
+
+  -Enter your new email, then select `Send verification code` . Once you receive this code at your new email address, enter it.
+
+  -Select `Change email` .
+
+  -Log in again.
+
+Still having trouble logging in? Contact us at team@makenotion.com.
+
+### Record HAR files for troubleshooting
+
+HAR is an archive file format that records information about your Notion session. It might be helpful to record and share a HAR file with our support team so they can help you troubleshoot your issue.
+
+Find more information on how you can record HAR files on various browsers:
+
+  -Chrome(also applicable to desktop users)
+
+  -Firefox
+
+  -Safari
+
+  -Edge
+
+### Reset Notion
+
+Resetting Notion may help resolve issues like content not displaying correctly.
+
+Note:
+
+  -Resetting your app or browser will log you out of any active Notion accounts. Make sure you have your login information handy so you can sign back in after resetting!
+
+  -Not seeing your menu bar? On Windows, you may have to press `alt` to see it appear.
+
+
+
+#### Reset Notion for desktop
+
+  -Select `View` in your device’s menu bar → `Force reload` .
+
+  -Select `Help` in your menu bar → `Troubleshooting` → `Reset & Erase All Local Data` .
+
+  -Close Notion, then:
+
+    *On Mac: Open Finder, then select `Go` → `Go To Folder` in your menu bar. Enter `/Users/<USERNAME>/Library/Application Support` , then delete Notion.
+
+    *On Windows: In File Explorer, go to `C:\Users\<USERNAME>\AppData\Roaming` , then delete Notion.
+
+#### Reset Notion for web
+
+Chrome and Microsoft Edge
+
+  -Open Developer Tools using `cmd + option + i` for Mac, or `ctrl + shift + i for Windows` .
+
+  -With Developer Tools open, right click the refresh button in your browser.
+
+  -Select `Empty Cache and Hard Reload` .
+
+  -In Developer Tools, go to `Application` and expand the `Cookies` on the left hand side.
+
+  -Right click on the Notion link and select `Clear` .
+
+Safari
+
+  -Open the `Safari` menu in your system menu bar, and select `Preferences` .
+
+  -In the `Privacy` section, select `Manage Website Data` .
+
+  -Find and select `Notion` , then select `Remove All` .
+
+Firefox
+
+To the left of the URL, select `🔒` → `Clear Cookies and Site Data` → `Remove` .
+
+#### Reset Notion for mobile
+
+To reset Notion for mobile, simply delete the app from your device and reinstall it. Don’t worry about losing your Notion data — it’s synced to your account!
+
+
+
+
+
+# Two-step verification
+
+### Add an extra layer of account security with a second method of verification, also known as 2FA or MFA 🔐
+
+In order to use 2-step verification, you must:
+
+  -Have a password.
+
+  -Not be in an organization that requires login via identity provider (such as Okta, Microsoft Azure, Google Workspace, etc.).
+
+
+
+2-step verification adds an extra layer of protection to your Notion account.
+
+By enabling 2-step verification, you can help keep your Notion account and your organization more secure. This feature is available to all plan types and can be set up easily in your account settings.
+
+### Setting up 2-step verification
+
+  -Click on `Settings & members` in your sidebar.
+
+  -Under `My account` , toggle on `2-step verification` .
+
+  -Select to enable 2-step via `Code from authenticator` or `Text me a code` .
+
+Note:Depending on your region, you may only be able to verify using an authenticator app.
+
+#### Using authenticator
+
+  -Scan the QR code from your chosen authenticator app and name the authentication method to help you remember later.
+
+  -Enter a one-time code from the authenticator to complete setup.
+
+  -If this is your first added 2-step method, make sure to save your backup codes.
+
+#### Using text
+
+  -Add a phone number where you can receive text messages.
+
+  -Enter the code you were sent.
+
+  -If this is your first added 2-step method, make sure to save your backup codes.
+
+### Changing or removing verification methods
+
+You can have up to four verification methods, two authenticators and two phone numbers.
+
+  -When you have a 2-step method setup, click on `Settings & members` in your sidebar
+
+  -Under `My account` , click `Change verification methods` .
+
+  -Verify your identity using an active 2-step method.
+
+#### Remove 2-step verification
+
+  -Hover and click the ••• next to the Active method you want to remove.
+
+  -Click `Delete` and confirm your choice.
+
+#### Add a verification method
+
+  -Click on `Add authenticator` or `Add phone number` .
+
+  -Follow the instructions above as normal.
+
+
+
+### FAQs
+
+Do I need 2-step verification?
+
+2-step verification is not required for Notion users.
+
+However we highly recommend that all users implement it as an extra layer of security to protect your work.
+
+I login to Notion through an identity provider. Do I still need 2-step verification?
+
+If you login to Notion through SAML SSO (using an identity provider), we recommend setting up 2-step verification directly through that identity provider.
+
+How can I disable 2-step verification after I set it up?
+
+  -Click on `Settings & members`
+
+  -in your sidebar.
+
+  -Under `My account` , click `Change verification methods` .
+
+  -Click `Turn off 2-step verification` .
+
+
+
+What if I lose my phone or verification device?
+
+When you first set up 2-step verification, you will receive a set of six backup text codes. You can use these codes to access your account in the event that you lose your verification device.
+
+Each backup code can only be used once. Once all the codes have been used, you can generate a new set in your settings.
+
+If you are having trouble, please contact us atteam@makenotion.com.
+
+I’m a workspace owner. Can I enforce everyone in my workspace to enable 2-step verification?
+
+No, workspace owners can not enforce this feature for all users at this time.
+
+
+
+# Notion IP addresses & domains
+
+### Contact your security team to allowlist these Notion IP addresses or domains 🌐
+
+Notion provides a fixed range of outgoing IP addresses, as well as domains that you can allowlist, helping you increase the security of your network.
+
+These cannot be managed in your Notion account, so please contact your security team to allowlist these IP addresses or domains.
+
+#### Notion IP addresses and domains
+
+Notion is solely hosted in US-West-2 (Oregon).Click herefor the complete list of Notion affiliated IP addresses.
+
+Notion owned domains:
+
+  -notion.com
+
+  -notion.site
+
+  -notion.so
+
+  -api.notion.com
+
+  -img.notionusercontent.com
+
+  -notionusercontent.com
+
+Notion is hosted on CloudFlare, so we recommend allowlistingCloudflare IP addresses.
+
+
+
+
+
+# HIPAA configuration
+
+### Learn about how to make your Notion workspace HIPAA compliant, and how to enable HIPAA compliance 🏥
+
+The Health Insurance Portability and Accountability Act (HIPAA) is a US federal law that was enacted in 1996 that requires the protection and confidential handling of protected health information (PHI) by covered entities such as healthcare providers, health plans, and healthcare clearinghouses, as well as their business associates.
+
+This article provides users required product configurations to make their Notion workspace HIPAA compliant.
+
+Note:Notion's Business Associate Agreement (BAA) governs the protection of Personal Health Information (PHI) that is stored in the Notion Service. To be eligible to sign Notion’s BAA, you must subscribe to our Enterprise Plan.
+
+Notion Calendar and any Notion Calendar features are not covered by the BAA and therefore may not be used or deployed in a manner that processes protected health information.
+
+To the extent that any language on this page and language found in the BAA conflict at any time, the BAA shall control.
+
+### Configuring Notion for HIPAA
+
+HIPAA Technical Safeguard Requirements
+
+Notion's Supporting Configurations
+
+Access Control
+
+Implement technical policies and procedures for electronic information systems that maintain electronic protected health information to allow access only to those persons or software programs that have been granted access rights.
+
+Notion’s SAML SSO is built upon the SAML 2.0 standard, connecting your Identity Provider (IdP) and workspace(s) for an easier, more secure login experience. Notion supports official configurations for SAML SSO with: Azure, Google, Gusto, Okta, OneLogin, and Rippling.
+
+To get started using SAML SSO with Notion, you'll need to complete the following steps:
+
+Verify domain(s):To use advanced security features, you must verify ownership of your email domain. This is an automated process that involves adding a TXT record onto your domain’s DNS to verify your ownership of it.
+
+Enable SAML SSO:This will toggle the feature on and complete the configuration. For more information on completing the SAML SSO configuration, please refer tothis article.
+
+Change default login method:Once SAML SSO is enabled for the first time, the default login method will be set to `Any method` , meaning that users have the option of logging in via SAML or their normal login method. By setting this to `Only SAML SSO` , this enforces SAML as the login method for your workspace for managed users with verified company emails.
+
+Link additional workspaces:If you have more than one workspace you’d like to configure with SSO, you can do so by reaching out toteam@makenotion.com.
+
+Once properly configured, any members signing into your workspace(s) will need to use the verified domain and will need to be authenticated through your identity provider. Enterprise workspace owners are able to bypass by using an alternative login method in case there’s an IdP/SAML SSO failure.
+
+Unique User Identification
+
+Assign a unique name and/or number for identifying and tracking user identity.
+
+Notion has a SCIM API which can be used to provision, manage, and de-provision members and groups. Workspace owners can find the required API key by going to `Settings & members` → `Security & identity` → `SCIM Configuration` and clicking to view the token.Please seeour SCIM documentationfor the latest information on how you can interact with Notion’s SCIM API. Notion supports official SCIM applications with Google, Gusto, Okta, OneLogin, and Rippling.
+
+Emergency Access Procedure
+
+Establish (and implement as needed) procedures for obtaining necessary electronic protected health information during an emergency.
+
+Content search provides Enterprise workspace owners with visibility into workspace content to improve governance of the workspace and resolve page access issues. Content search allows you to:• View who has access to a page• Modify the permissions of a page• Discover and re-assign abandoned pages from former employeesYou can export a Notion page, database, or entire workspace at any time.
+
+Automatic Logoff
+
+Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity.
+
+Set custom session duration:For managed users on the Enterprise plan, Notion has a default session duration of 180 days. However, workspace owners can customize their session duration from 1 hour to 180 days.Force logout managed users:Force logout for individual users or for all workspace users at once.Force password reset:Force password reset for individual users or for all workspace users at once.If you de-provision a user via SCIM, they will be removed from the workspace and their session will be terminated.
+
+Audit Controls
+
+Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information.
+
+Enterprise workspace owners have access to an Audit Log via `Settings & members` . This gives an overview of a large range of events that have occurred in the workspace.
+
+This can be especially helpful for identifying potential security issues, investigating suspicious behavior, and troubleshooting access. The workspace audit log can be exported in CSV format.
+
+Enterprise customers can also utilize ourData Loss Prevention (DLP) partner integrationsto discover, classify, and protect sensitive data in Notion.
+
+Integrity Controls
+
+Implement policies and procedures to protect electronic protected health information from improper alteration or destruction.Implement electronic mechanisms to corroborate that electronic protected health information has not been altered or destroyed in an unauthorized manner.Implement security measures to ensure that electronically transmitted electronic protected health information is not improperly modified without detection until disposed of.
+
+Disable public page sharing:This will disable the Share to web option in the Share menu on every page in this workspace.Disable guests:This prevents anyone from inviting people outside the workspace to any page. You don’t need to use this control if you’d like to invite guests as needed, but note that Notion may not be used to communicate with patients, plan members, or their families and employers. If you need to enable guests, we recommend turning onguest requests. This implements an approval process so that you can have guests in your workspace while ensuring HIPAA compliance.Disable moving or duplicating pages to other workspaces:This prevents anyone from moving or duplicating pages to other workspaces via the Move To or Duplicate action.Disable export:This prevents anyone from exporting as Markdown, CSV, or PDF.Disable workspace creation:This prevents anyone from creating new workspace(s) without approval.Disable or allowlist third party extensions:This prevents anyone from adding non-approved 3rd party extensions to your Notion workspace.Disable external workspace access:This prevents managed users from joining or accessing external workspace outside of your organization.
+
+Person or Entity Authentication
+
+Implement procedures to verify that a person or entity seeking access to electronic protected health information is the one claimed.
+
+Disable profile changes:This prevents managed users from changing their own profile information to avoid impersonations.Domain management:Domain refers to the email address domain associated with a Notion account. Domain verification allows workspace owners to claim ownership over a domain, which will unlock domain management settings.Disable guests:This prevents anyone from inviting people outside the workspace to any page. You don’t need to use this control if you’d like to invite guests as needed, but note that Notion may not be used to communicate with patients, plan members, or their families and employers. If you need to enable guests, we recommend turning onguest requests. This implements an approval process so that you can have guests in your workspace while ensuring HIPAA compliance.Suspend or delete a managed user account:Suspend or delete managed user accounts from the user management dashboard.Disable managed user account deletion:Prevent managed users from deleting their accounts on their own.
+
+Data Retention & Disposal
+
+Implement policies and procedures to address the final disposition of electronic PHI and/or the hardware or electronic media on which it is stored.
+
+Custom data retention settingsallow Enterprise workspace owners to have control over when users’ pages are deleted from Trash, and how long they can be retained for afterwards.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
+
+Transmission Security
+
+Implement technical security measures to guard against unauthorizedaccess to electronic protected health information that is being transmitted over an electronic communications network.Implement a mechanism to encrypt electronic protected health information whenever deemed appropriate.
+
+Encryption at rest:Customer data is encrypted at rest using AES-256. Customer data is encrypted when on Notion’s internal networks, at rest in Cloud storage, database tables, and backups.Encryption in transit:Data sent in-transit is encrypted using TLS 1.2 or greater.
+
+Note:Enterprise workspace owners are able to bypass by using an alternative login method in case there’s an IdP/SAML SSO failure.
+
+### Enable HIPAA compliance
+
+To enable HIPAA compliance for your workspace:
+
+  -Go to `Settings & members` in your sidebar → `Workspace settings` → `HIPAA compliance` → `Activate` .
+
+  -A window will appear where you can read the full signed BAA before you select `Accept` .
+
+  -Once you’ve accepted, you’ll see confirmation that HIPAA compliance has been enabled. You’ll also receive an email confirming that your workspace has accepted the HIPAA BAA.
+
+### Deactivate HIPAA compliance
+
+If you’d like to turn off HIPAA compliance for your workspace:
+
+  -Go to `Settings & members` in your sidebar → `Workspace settings` → `HIPAA compliance` → `Deactivate` .
+
+  -In the window that appears, select `Disable` .
+
+  -Once you’ve accepted, you’ll see confirmation that HIPAA compliance has been disabled. This means you can no longer store Protected Health Information (PHI) in your Notion workspace. You’ll also receive a confirmation email.
+
+
+
+### FAQs
+
+What is the cost of enabling HIPAA compliance?
+
+HIPAA compliance is available free of charge to customers on the Enterprise plan.Customers must agree to Notion's Business Associate Agreement and utilize Notion in a manner that complies with HIPAA, the BAA, and the HIPAA Product Configuration Guide.
+
+What are the product limitations of enabling HIPAA compliance?
+
+  -Notion may not be used to communicate with patients, plan members, or their families or employers.
+
+  -Usersmay notinclude PHI in any of the following fields or functionality:
+
+    *Workspace or organization names
+
+    *Teamspace names
+
+    *File names
+
+    *Account/user profile
+
+    *Name of user groups
+
+  -Support requests and attachments to a support request must not include any PHI.
+
+  -Notion Calendar and any Notion Calendar features are not covered by the BAA and therefore should not be used/deployed in manner that collects or processes protected health information.
+
+
+
+Will integrations still be available?
+
+Yes, previously enabled apps will remain enabled. Admins should review existing integrations used to ensure they are compliant. Admins can choose to disable the addition of new integrations that are not allowlisted.
+
+
+
+# Data access consent
+
+### Notion employees will only ever access your data for the purposes of troubleshooting problems or recovering content on your behalf, after hearing from you via email or in-app support chat with a request for help. Here's how you can grant access consent🚪
+
+For more information about Notion's security practices, and how your data is stored on our servers, please refer to ourSecurity & privacyarticle. Below, you'll find instructions for how to grant Notion's support team consent to access your account.
+
+### Data access consent on desktop
+
+#### Allow data access
+
+When chatting with Notion support via email or in-app chat, you may be asked for consent to access your account, in order to help with troubleshooting or recovery. To allow data access:
+
+  -Navigate to `Settings & members` in your sidebar, then `My account` .
+
+  -Toggle on `Support access` .
+
+#### Revoke data access
+
+After you've granted access, Notion's support team will have permission to access your content for 28 days, or until you revoke this access. This timeframe will be visible in-app.
+
+To revoke access at any time:
+
+  -Navigate to `Settings & members` in your sidebar, then `My account` .
+
+  -Toggle off `Support access` .
+
+### Data access consent on mobile
+
+To allow or revoke support access on Notion for mobile:
+
+  -Open Notion on mobile and tap•••.
+
+  -Tap `S`  `ettings` .
+
+  -Toggle on or off `Support access` .
+
+
+
+
+
+# Delete your account
+
+### No hard feelings - but we're sad to see you go! Here's how to delete your Notion account 🗑
+
+### What happens when an account is deleted?
+
+When you delete an account, Notion will:
+
+  -delete the account associated with that email address.
+
+  -delete anyprivate workspace(s)in which you are theonly member.
+
+  -delete anyshared workspace(s)in which you are theonly admin.
+
+  -remove you from any shared workspace(s) in which you are a member or one of multiple admins.
+
+All of these workspaces will be listed in a warning when you click `Delete my account` .
+
+### How do I delete an account?
+
+  -Go to `Settings & members` . In the window the pops up, click `My account` at the top of the sidebar.
+
+  -Scroll down until you see the title `Danger zone` . Click `Delete my account` .
+
+    *A window will pop up to confirm this is what you want to do before we remove your data. This also shows any workspaces that will be deleted.
+
+  -To proceed, manually enter your account email. Then, click `Permanently delete account and # workspaces` .
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/wQlnwrYtrEY5pW6d8lwMt/37a0d7049b865893002ebbed7daf9399/Delete_account.mp4)
+
+Note:Deleted something by accident? We may be able to restore your content within 30 days of deletion. Contact us atteam@makenotion.comwith more details.
+
+
+
+
+
+### FAQs
+
+What if I accidentally deleted something permanently? Any way to get it back?
+
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom left on desktop (or in your sidebar on mobile). Or email us atteam@makenotion.com.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
+
+How can I migrate all my Notion content to a different workspace?
+
+Note:Any migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information,click here.
+
+To move your content from one workspace to another associated with the same account, click `•••` next to each of the top-level pages in your sidebar (or right click) and select `Move to` .At the bottom of the move menu, you’ll see a drop down to select a different workspace.
+
+When you move top-level pages, all their sub-pages go with them. They'll appear in the `Private` section but can be moved wherever you want to put them.
+
+
+

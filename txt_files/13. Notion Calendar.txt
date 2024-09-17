@@ -1,0 +1,1032 @@
+<13. Notion Calendar>
+
+Notion Calendar is a free-to-use tool where you can view and manage your personal and work schedules in one place. Learn how to bring all of your commitments together, and even use Notion Calendar with Notion.
+
+
+
+# Create a Notion Calendar account
+
+### Download Notion Calendar and sign in with Google to move effortlessly between work and meetings ⏰
+
+### What is Notion Calendar?
+
+Notion Calendar is the next-generation calendar for professionals and teams. It’s a free-to-use tool that helps you manage all aspects of your life with better organization and context.Learn more about what Notion Calendar is and what makes it special →
+
+### Download Notion Calendar
+
+To get started with Notion Calendar, select the version that works best for youhere. If you want to use Notion Calendar on both your phone and your computer, you’ll need to download both versions of the app.Learn more about our apps here →
+
+Find inspiration for how to make the most of Notion Calendar here →
+
+### Create a Notion Calendar account with Google
+
+You’ll need a Google account to use Notion Calendar. Once you’ve downloaded the Notion Calendar app, create an account using your Google credentials.
+
+Note:We know you may want to connect calendars other than Google Calendar. We’re working on adding support for other calendar apps — checkhttps://www.notion.so/releasesandhttps://twitter.com/notioncalendarfor updates.
+
+If you’re a Google Workspace admin and you want to restrict access to Notion Calendar or learn more about our security practices,read this article →
+
+#### Giving Notion Calendar permission to access your Google account
+
+Notion Calendar asks only for the Google permissions that we absolutely need to make sure Notion Calendar works properly. These permissions are only used to access data on your behalf, never to read, edit, or delete it without direct action from you.Notion Calendar is verified by Google and can’t access any user data categorized as restricted. We’ll never see your Google password. You also have the ability to remove access at any time.Learn more about how we protect your data here →
+
+Here are the permissions we require to run Notion Calendar effectively. Once you give these permissions at first login, you won’t have to do it again.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/7GJW22CKn3Qx8TpoSnajRz/fa8357d471b5deeda64e1fc78625c6f1/Screenshot_2024-08-01_at_1.49.49_PM_1.png)
+
+If you don’t grant some of these permissions while you’re setting up, you might not see all your events and contacts in Notion Calendar. Don’t worry — to go back and update this, select your avatar in Notion Calendar → `Log out` → `Sign in with Google` .
+
+### Troubleshoot login issues
+
+If you’re told you’re not a Notion Calendar user when signing in with Google, make sure you’ve signed in with the Google account you used to create your Notion Calendar account. If you have multiple Google accounts, you canadd themandpick a primary Google accountin Notion Calendar settings once you’re successfully logged in.
+
+If you’re told something went wrong when signing in with Google, try signing in again in a different browser. You can also select `Sign into another account` and try again with the same credentials.
+
+If you get an authorization error when signing in with Google with a work email, it might be because an admin hasn’t approved Notion Calendar to be authorized with Google at your organization yet. To fix this issue, admins can:
+
+  -Sign intoadmin.google.comwith their admin credentials.
+
+  -Go to `Security` → `Access and data control` → `API controls` → `Manage Google services` .
+
+  -Under `Configured apps` , select `View list` → `Add app` → `OAuth app Name or Client ID` .
+
+  -Find and select `Notion Calendar` , and from the app access options, choose `Trusted` .
+
+Learn more
+
+  -Manage your calendars and events
+
+  -Availability, blocking, and time zones
+
+  -Manage your Google and Notion Calendar accounts
+
+  -Notion Calendar settings
+
+  -Notion Calendar for teams
+
+
+
+
+
+
+
+# Manage your calendars & events
+
+### Here’s how to set up your calendar so you can get around the grid quickly and focus on what matters most to you 🏃🏼‍♂️
+
+### Manage your calendars
+
+You can connect multiple Google Calendar accounts to Notion Calendar. Connected accounts and their calendars are listed in the left sidebar of Notion Calendar. You can collapse accounts, reorder them, and reorder calendars within them.
+
+#### Add another Google Calendar account
+
+To add another Google Calendar account to Notion Calendar, go to `Settings` → `Calendars` and select `Connect` next to `Add Google Calendar account` .
+
+Note:
+
+  -If you’re unable to add more than five calendars to Notion Calendar, this is because performance can be affected past this number.
+
+  -At this time, it’s not possible to subscribe to a new calendar from inside Notion Calendar. Subscribe to a calendar directly from Google Calendar, and it’ll show up in Notion Calendar.
+
+
+
+#### Remove a Google Calendar account
+
+You can remove any Google Calendar account from Notion Calendar except your primary Google account. To do this, go to `Settings` → `Calendars` . Next to the calendar you want to remove, select `Disconnect` .
+
+Want to change your primary Google account?Follow the instructions here →
+
+#### Set a default calendar
+
+Notion Calendar defaults to a calendar when you create new events. To set a default calendar, go to `Settings` → `Calendars` → `Default calendar` and pick the calendar you want to set as your default — this can be aNotion database, too! On desktop, you can also set a default calendar by clicking the square next to a calendar’s name in the left sidebar.
+
+#### Hide a calendar
+
+If you want to hide a calendar, select `👁️` next to its name. This will take all events on that calendar away from view and the icon will have a strikethrough. To show a calendar, select `👁️` again.
+
+#### Change a calendar's color or name
+
+On desktop or web, select a calendar, then enter a new name or select a new color.
+
+### Manage your events
+
+Note:On mobile, you can’t update an event’s details unless they were created on mobile and you’re the organizer. If you need to make changes, you can do so on desktop or web.
+
+#### Create events
+
+To create an event in Notion Calendar, select a time slot in your calendar, then enter details for your event. If there are participants other than yourself, you can select `Send invite` to invite them. If you want to create a focus or out of office block, open the dropdown next to `Event` and choose your desired event type.
+
+If you’re on mobile, select `+` at the bottom right of the app, then enter details for your event. To finish, select `Done` , or `Send invite` if you’ve added other participants.
+
+Note:Only certain types of Google accounts can be used to create Focus events. Learn morehere →
+
+Create multiple-day events with start and end times
+
+To create multiple-day events with time details, select a time slot in your calendar, then drag it across the days the event will span. Once the event is created, you can enter start and end times for it.
+
+Note:You can use headers, hyperlinks, numbered and bulleted lists, and more in your event description.
+
+#### RSVP to events
+
+To respond to a calendar invite, right-click the event on desktop or select the event on mobile, then select your RSVP status.
+
+If you’re the event organizer, your RSVP status will automatically be `Yes` . To change your status, select the arrows next to your name in the event details on desktop. On mobile, select the event, then select a new RSVP status.
+
+You can also add a note after you’ve RSVPed to an event. To do this, select an event, then select `✏️` next to the RSVP options. Enter your note in the text field. Once you’re done, select `Send update` to share the note with other participants via email. If you don’t want an email to be sent, open the dropdown next to `Send update` and select `Send update without email` .
+
+Select an event to see any RSVP notes for it.
+
+If the same event shows up on more than one of your calendars — that is, if they share the same event ID — Notion Calendar will merge those events automatically.If an event has been auto-merged and you want to RSVP from a specific calendar, hide your other calendars and RSVP from the calendar that’s visible.
+
+#### Change an event's location
+
+To add or remove the location for an event, select the event and edit the `Location` field in the right context panel.
+
+#### Change your status and event privacy
+
+Select an event. Then, in the right context panel, show your status as `Busy` or `Free` . You can also make your event’s details visible to others by making them `Public` , or only to yourself and other participants by making them `Private` .
+
+#### Change your event type
+
+In Notion Calendar, there are three kinds of events: `Event` , `Focus time` , or `Out of office` . You can change your event type at any time using Notion Calendar on desktop or web. To change your event type, click on the event, open the dropdown next to the event type, and choose your desired event type.
+
+Note:At this time, Focus and OOO events are only available to Notion Calendar users with work or school accounts managed by Google Workspace.
+
+#### Email participants
+
+Select an event, then select `•••` at the top right of the right context panel → `Email participants` . This will open a mailto: link.
+
+On Mac, this defaults to the Mail app. To change this:
+
+  -Open the Mail app.
+
+  -Go to `Settings...` .
+
+  -Open the dropdown next to `Default email reader` and select your preferred email client.
+
+To update to Gmail in Chrome:
+
+  -Go to Gmail.
+
+  -Click the two diamonds in the URL bar. If you don’t see this, enter `chrome://settings/handlers` into your URL bar and allow Gmail handle protocols, then try again.
+
+  -Select `Allow` .
+
+#### Mark participant as optional
+
+Select an event, then add a participant to it from the right context panel. Then, select `•••` next to their name → `Mark optional` .
+
+If an event appears on multiple calendars, and you want to edit the event from an account that is not your primary account, toggle off the other calendars in your calendar list in the left sidebar so only the calendar that you want to use to edit is visible.
+
+#### Move an event to a different calendar
+
+Because Notion Calendar brings all of your commitments together in one place, it’s easy to move an event from one calendar to another. To do this:
+
+  -Select an event.
+
+  -In the right context panel, click on the name of the current calendar
+
+  -In the dropdown, select a new calendar for the event.
+
+#### Bulk edit events
+
+You can take action on multiple events at a time. These include changing their color or blocking them on another calendar. To do this:
+
+  -Hold `shift` while using Notion Calendar on desktop or web, then select multiple events.
+
+  -Right-click, then select the action you want to take.
+
+You can also shift multiple events over on your calendar. To do this:
+
+  -Hold `shift` while using Notion Calendar on desktop or web, then select multiple events.
+
+  -Drag the events to their desired time slots. They’ll all move together.
+
+Learn more
+
+  -Availability, blocking, and time zones
+
+  -Manage your Google and Notion Calendar accounts
+
+  -Notion Calendar settings
+
+  -Notion Calendar conferencing integrations and API
+
+  -Use Notion Calendar with Notion
+
+
+
+#### Delete an event
+
+There are a few ways to delete an event in Notion Calendar:
+
+  -Right-click the event and select `Delete` .
+
+  -Select an event and press `delete` on your keyboard.
+
+  -On mobile, tap an event, then select `•••` → `Delete event` .
+
+If you delete an event as a participant, you have the option to leave an RSVP note. If you’re an organizer, you won’t be able to do this.
+
+
+
+# Availability, blocking & time zones
+
+### Notion Calendar allows you to easily set up time with others and let others know when you are or aren’t available. It also lets you see your schedule across different time zones and quickly travel to a new one ✈️
+
+### Share availability
+
+On desktop and web, you can quickly indicate and share your availability directly from inside Notion Calendar to make it easier to schedule meetings with others.
+
+To share your availability with someone:
+
+  -Select `Share availability` in your right context panel, or use the keyboard shortcut `S` .
+
+  -Select open time slots in your calendar.
+
+  -Set a name for the event you want to schedule during one of these time slots, as well as duration, the invitee’s time zone, and conferencing details.
+
+  -Select `Create` on your availability. Calendar holds will be placed for your available dates and times so you can keep that time available for your invitees.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/1p74I33hfqqMF1w3C8QDAg/c06e4a656167ca08a2fae987f4663937/scheduling_snippet_2.mp4)
+
+Notion Calendar won’t automatically detect changes to your calendar and update your availability, so make sure to keep your availability up to date as your schedule changes.
+
+#### Scheduling snippet
+
+As you mark your availability and provide details for the meeting you’re trying to schedule, a message will automatically populate at the top of your right context panel. Select `•••` → `Copy snippet` to save this message to your clipboard. You can paste this and send it to your invitees in an email, text message, and more.
+
+#### Scheduling link
+
+Turn on `Scheduling link` to generate a link that your invitees can go to to confirm when they’d like to meet with you. When turned on, this link will be included in your scheduling snippet. You can also select `•••` → `Copy scheduling link` to quickly send it to someone. When your invitees visit your link, they’ll see your snippet along with your availability. They can choose a time slot that works for them. Then, your meeting with them will automatically appear on your calendar, and any unnecessary calendar holds will be released.
+
+Note: At this time, it’s not possible to:
+
+  -Indicate or take into account the availabilities of people other than yourself.
+
+  -Change the content of your snippet.
+
+  -Create multiple or repeat bookings using the same scheduling link.
+
+We’re working on improving the share availability experience, and we’ll keep you updated athttps://www.notion.so/releasesandhttps://twitter.com/notioncalendar.
+
+### Blocking
+
+Have a doctor’s appointment that you don’t want a teammate to schedule over? Notion Calendar’s blocking features make it easy to block events across your various calendars. For example, Notion Calendar can put a block on your work calendar for an event you have on your personal calendar, so people know you’re busy without being able to see your personal commitments. You can block single events or auto-block whole calendars.
+
+#### Block an event or an entire calendar
+
+On desktop or web:
+
+  -Right-click an event and select `Block on calendar` .
+
+  -Select the calendar you want to create a block in.
+
+  -To create a block for a single event, select `This event` . Alternatively, you can select `All events from {calendar name}` to set up auto-blocking. For example, if you are creating a block on your work calendar for an event on your personal calendar, you can synchronize the two calendars so that all future events from your personal calendar will be blocked on your work calendar.
+
+  -Choose to `Include details` from the original calendar event in the block, or simply `Show as busy` . This will apply to future blocks if you choose to auto-block.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/2nHP24YLWO6wcqf02lErUJ/4e33bd41a6518e011eb9448d619bc15f/event_blocking.mp4)
+
+To see what details you’ve shared on a calendar block, right-click the original event and select Block on calendar. There will be a `🔒` next to the calendar where the block was set up — if the lock is open, that means the event’s details have been shared. If the lock is closed, that means the event’s details are hidden.
+
+Alternatively, you can hide the original calendar from view by selecting the eye icon next to its name in the left sidebar. Then, you can find the block on your other calendar and see its details.
+
+#### Remove blocking
+
+You can remove blocks the same way you created them. Right-click a blocked event and unselect the calendar where the block lives. You can unblock a single event, or turn off auto-blocking by unblocking all events.
+
+You may want to undo auto-blocking for a calendar that you no longer have access to. We’re working to improve this experience, but in the meantime you can reach out toteam@makenotion.com.
+
+### Time zones
+
+In Notion Calendar, time zones are first-class citizens. You can add multiple time zones to your calendar, give them custom labels, and even temporarily travel to time zones.
+
+#### Primary time zone
+
+Note: When you set up Notion Calendar for the first time, we get your primary time zone from Google Calendar. After that, any changes you make to your time zones in Notion Calendar won’t be reflected in Google Calendar, and vice versa.
+
+Events on your calendar are displayed in your primary time zone. This time zone is displayed directly to the left of your calendar.
+
+#### Add a time zone
+
+Use the keyboard shortcut `cmd/ctrl` + `K` and enter “time zone” for quick access to time zone features.
+
+Any new time zones you display on your calendar are secondary time zones. To add a time zone, select `+` next to your primary time zone. Select your desired time zone from the list that appears. This time zone will appear next to your other time zones.
+
+If you’re on mobile, select the time zone on the very left of your calendar, then select `Add time zone` .
+
+If you want to have more than four total time zones shown in your calendar,follow the instructions here →
+
+#### Edit or remove a time zone
+
+Right-click a time zone, then:
+
+  -Select `Change` to replace it with another time zone.
+
+  -Select `Rename` to give your time zone another name.
+
+  -Select `Make time zone primary` . This will bring this time zone closest to your calendar, and move any other time zones to the left.
+
+  -Select `Remove time zone from list` .
+
+#### Reorder your time zones
+
+On desktop, you can rearrange your time zones by selecting and dragging them.The right-most time zone will become your primary time zone.
+
+#### Travel to a time zone
+
+Use the keyboard shortcut `Z` to travel to a new time zone. This time zone will temporarily become your primary time zone. You can permanently add this time zone to your calendar by right-clicking on it and selecting `Add as primary time zone` or `Add as secondary time zone` .
+
+#### Update time zones on mobile
+
+To make changes to time zones on Notion Calendar for mobile, select a time zone, then select `Make time zone secondary` , `Make time zone primary` , `Add time zone` , or `Remove time zone` .
+
+Learn more
+
+  -Manage your calendars and events
+
+  -Manage your Google and Notion Calendar accounts
+
+  -Notion Calendar settings
+
+  -Notion Calendar conferencing integrations and API
+
+  -Use Notion Calendar with Notion
+
+
+
+
+
+
+
+# Manage your Google & Notion Calendar accounts
+
+### Connect multiple Google calendars to Notion Calendar to manage all of your plans in one place. Here’s how to manage your Notion Calendar account and all of the Google accounts that may be connected to Notion Calendar 🔃
+
+Notion Calendar can be used with multiple Google accounts. To connect additional Google Calendar accounts to Notion Calendar,follow the instructions here →
+
+If you’re a Google Workspace admin and you want to restrict access to Notion Calendar or learn more about our security practices,read this article →
+
+### Change your primary Google account
+
+There are a few ways to change your primary Google account.
+
+If you’re still logged into Notion Calendar with your old email address or still have access to your old email address:
+
+  -Go to `Settings` → `Calendars` .
+
+  -Connect your new Google account.
+
+  -Make your new Google account your primary account by going to `Settings` → `Profile` and selecting it in the dropdown under `Primary account` .
+
+  -Select `Update` to save your changes.
+
+If you’re not logged into Notion Calendar with your old email address or lost access to your old email address, we recommend creating a new account with your desired email address.
+
+### Delete your Notion Calendar account
+
+You must be on the desktop or web version of Notion Calendar in order to delete your account. Go to `Settings` → `Profile` → `Delete Notion Calendar account` → `Permanently delete account` .
+
+You’ll have to create a new account if you want to use Notion Calendar again in the future.
+
+You’re in full control of your data. We don’t store data from your calendar or contacts, but you cantake away Notion Calendar’s access to your Google account by following the instructions here →
+
+Learn more
+
+  -Manage your calendars and events
+
+  -Notion Calendar settings
+
+  -Notion Calendar conferencing integrations and API
+
+  -Use Notion Calendar with Notion
+
+  -Notion Calendar for teams
+
+
+
+
+
+
+
+# Notion Calendar settings
+
+### There are lots of ways to change how Notion Calendar shows and reminds you about meetings 🗓️
+
+### Settings on mobile
+
+If you’re using Notion Calendar for mobile, you can go to settings by selecting `≡` in the top left corner → `⚙️` .
+
+### Notification settings
+
+#### Upcoming meeting notifications
+
+Upcoming meeting notifications remind you about meetings you have as early as five minutes before.
+
+To adjust these notifications, go to `Settings` → `Notifications` . From there, you can decide how early you want to be notified about a meeting, and what sound you want notifications to play.
+
+#### Default event reminders
+
+Default event reminders are configurable by calendar. These are tied to your Google Calendar notification settings. To adjust these notifications, go to `Settings` → `Notifications` → `Google Calendar Settings` .
+
+#### System notifications
+
+You can receive Notion Calendar desktop notifications by allowing them in your device’s settings.
+
+#### Browser notifications
+
+To receive Notion Calendar browser notifications, go tohttps://calendar.notion.so/settings/notifications. If notifications are turned off, go to your browser’s settings and make sure to allow notifications fromhttps://calendar.notion.so.
+
+Note:Due to some technical limitations, you can’t currently categorize Notion Calendar notifications as time-sensitive on your mobile device. We’re looking to improve this in the future.
+
+### Menu bar settings
+
+Note:The menu bar is available only on Notion Calendar for desktop.
+
+Notion Calendar’s handy menu bar shows you your upcoming events and lets you take quick actions like joining a meeting or emailing an event’s participants. The menu bar stays on your screen at all times so you can access Notion Calendar even when the app is running in the background.
+
+To ensure your menu bar is always visible on your screen:
+
+  -On MacOS: Hold `cmd` and drag the menu bar icon closer to the system clock. You might have to go to Notion Calendar `Settings` → `Menu bar` and turn off `Event title` to get the Notion Calendar icon to show up.
+
+  -On Windows: Click `^` in your taskbar, then drag the Notion Calendar icon to where you want it in your taskbar.
+
+
+
+#### Turn off the menu bar
+
+If you don’t want to see or use the menu bar, go to `Settings` → `Menu bar` and turn off `Menu bar calendar` .
+
+#### Choose what events you want to see in the menu bar
+
+Choose which calendars you want included in the menu bar by going to `Settings` → `Menu bar` .
+
+In the dropdown under `Include events:` , select how many days’ worth of events you want the menu bar to show. You can also include or exclude `All-day events` , `Events without participants` , or `Events without conferencing/location` .
+
+If you want to hide an entire calendar from the menu bar, select the calendar from the left sidebar of Notion Calendar. Then, in the right context panel, turn off `Events included in menu bar` . This will also turn off upcoming meeting notifications for this calendar.
+
+#### Choose how you want to see events in the menu bar
+
+You can customize how you want the menu bar to display events. Go to `Settings` → `Menu bar` . In the dropdown under `Preview upcoming event in menu bar:` , select how much in advance you want the menu bar to tell you about an upcoming event.
+
+You can also turn on or turn off the ability for the menu bar to show you an `Event title` or `Event time` .
+
+### Calendar view settings
+
+#### Change the number of days displayed
+
+Select `±` to the immediate right of the last date displayed in Notion Calendar. From there, select `-` or `+` to adjust how many days you’re able to see in your calendar at once.
+
+If you’re on mobile, open the left sidebar menu and select `1 day` , `2 days` , or `3 days` .
+
+#### Show or hide week numbers
+
+Week numbers can help you see how far you are in the year. Go to `Settings` → `General` and under `Calendar view` , turn on or turn off `Week numbers` .
+
+#### Show or hide weekends
+
+To show or hide weekends from your calendar, go to `Settings` → `General` and under `Calendar view` , turn on or turn off `Weekends` .
+
+#### Hide declined events
+
+To hide a declined event from your calendar, go to settings. Under `Calendar view` , turn off `Declined events` . You can turn this setting back on if you want your calendar to show declined events.
+
+#### All-day section
+
+You can collapse or expand the section of your calendar that shows all-day events by clicking on the two arrows in your zone column or pressing `ctrl/⌘` + `K` > `Collapse all-day section` or `Expand all-day section` .
+
+#### Change the start of the week
+
+To set a starting day of the week, go to `Settings` → `General` and under `Start week on:` , choose a day of the week.
+
+On mobile, you can adjust this in your device’s settings.
+
+#### Resize your grid
+
+On desktop with Notion Calendar open, go to `View` in the top bar of your screen and select `Zoom Hours In` or `Zoom Hours Out` to adjust your calendar’s density.
+
+If the keyboard shortcut for `Zoom hours in` isn’t working on Windows, you can change this in Windows settings. Find the `Input language hot keys` setting and make sure that `Ctrl + Shift` is not selected, so that it can be used for Notion Calendar. You can learn more about reassigning hot keys for your keyboardhere →
+
+#### Change interface scale
+
+On desktop with Notion Calendar open, go to `View` in the top bar of your screen. Hover over `Interface scale` and select `Zoom In` , `Zoom Out` , or `Actual Size` .
+
+### Light and dark mode
+
+To use Notion Calendar in light or dark mode, go to `Settings` → `General` → `Theme` → `Auto` , `Light mode` , or `Dark mode` .
+
+### Username
+
+Your username is visible to others when you share scheduling links, as in calendar.notion.so/meet/username. To change your username, go to `Settings` → `Profile` → `Username` and enter the username you want to use. Select `Update` to save your changes.
+
+Learn more
+
+  -Notion Calendar conferencing integrations and API
+
+  -Use Notion Calendar with Notion
+
+  -Notion Calendar for teams
+
+  -Notion Calendar keyboard shortcuts
+
+  -Notion Calendar apps
+
+
+
+
+
+
+
+# Notion Calendar conferencing integrations & API
+
+### Notion Calendar works with a lot of other tools that you already use in your day to day. It also works seamlessly with Notion 🔌
+
+Did you know you can use Notion Calendar with Notion?Learn more here →
+
+### Conferencing integrations
+
+For the best experience with setting up conferencing integrations and adding conferencing links to events, use Notion Calendar on desktop or web.
+
+Notion Calendar integrates with conferencing tools like Zoom, Microsoft Teams, and many more. There are three types of conferencing integrations in Notion Calendar:
+
+  -Default integrations: Conferencing that is available to you by default from your calendar provider. Google Meet, which is linked to Google Calendar, is one example.
+
+  -Connected integrations: An integration you can set up by logging into a conferencing tool. New events you create on desktop or web will generate new links for this conference tool from within Notion Calendar. Zoom is an example of a connected integration that Notion Calendar supports.
+
+  -Custom integrations: You can add a stable conferencing link for a conferencing tool of your choice by going to `Settings` → `Conferencing` → `Conferencing providers` → `Add` . You can give your integration a name. This conferencing tool will show up in the conferencing dropdown when you create events. Any stable links will work, but Notion Calendar can detect popular services, includingAround,BlueJeans,Doxy.me,Microsoft Teams,Skype,Webex, andWhereby.
+
+Note:If an event contains conferencing links in both its description and conferencing field, you’ll be taken to the link from the event’s description when you join a meeting from Notion Calendar.
+
+#### Set a default conferencing option
+
+A default conferencing option allows you to automatically add conferencing to an event that has at least one other participant when you’re using Notion Calendar on desktop. To set Zoom as this default option, go to `Settings` → `Conferencing` → `Default conferencing` , then in the dropdown, select `Zoom` .
+
+#### Zoom
+
+Connect your Zoom account
+
+To connect your Zoom and Notion Calendar accounts, go to `Settings` → `Conferencing` . Find `Zoom` and select `Configure` . When you’re redirected to your browser, make sure you’re logged in with the right Zoom account, then select `Authorize` to give Notion Calendar access.
+
+Notion Calendar asks only for theZoom permissionsthat we absolutely need to make sure the integration with Notion Calendar works properly. These permissions are only used to allow you to connect your account and add Zoom meetings to events.Learn more about our security practices here →
+
+Passcode settings
+
+If you’ve enabled the use of Personal Meeting IDs (PMIs) in yourZoom Profile Settings, Notion Calendar will use your configured stable PMI and passcode when adding a Zoom link to a meeting. If this setting is off in Zoom, Notion Calendar will protect your Zoom calls with a secure, one-time PIN and include it in the meeting for you and participants to join with a single click. Notion Calendar generates these PINs according to your Zoom admin'spasscode complexity requirements.
+
+Disconnect your Zoom account
+
+To stop using your Zoom account with Notion Calendar, go to `Settings` → `Conferencing` . Find Zoom and select `Disconnect` .
+
+If you remove Notion Calendar from your installed apps in Zoom App Marketplace, we will follow Zoom'sdeauthorization and data complianceguidelines.
+
+Note:
+
+  -If you’re having trouble authorizing Notion Calendar as you set up the integration, have an admin sign intomarketplace.zoom.us, search for Notion Calendar, and turn on `Pre-approve` .
+
+  -Currently, when you join a meeting in the Zoom app from Notion Calendar, your video will be turned off by default.
+
+  -If you have any problems joining a meeting, try disconnecting then reconnecting your Zoom account.
+
+
+
+#### Google Meet
+
+Because Notion Calendar is already connected to your Google account, you don’t need to do anything else to add Google Meet links to your meetings! Even if you’ve connected multiple Google accounts to Notion Calendar, Notion Calendar will make sure you’re joining meetings across your various calendars from the right Google account.
+
+Note:If you don’t see Google Meet as a conferencing option in Notion Calendar, it might mean your Google Workspace doesn’t have Google Meet enabled. Reach out to an admin toturn on Meet video calling.
+
+
+
+### Notion integration
+
+Notion Calendar can be used with Notion. Add Notion pages to your event details for easy access and view important dates from Notion databases directly in Notion Calendar so you don’t have to track your database events separately from your other important plans.Learn more here →
+
+### Notion Calendar API
+
+Notion Calendar has a simple local API you can use to open Notion Calendar to a specific event from another tool. This works on desktop, on both macOS and Windows.
+
+Here is an example schema:
+
+`cron://showEvent?accountEmail=test@example.com&iCalUID=51p9lhpkrerfom8cqn9g1btjuu@google.com&startDate=2022-01-05T20:30:00.000Z&endDate2022-01-05T21:00:00.000Z&title=Test&ref=com.example.test`
+
+Here are the components of the schema:
+
+Component
+
+Definition
+
+Example
+
+`accountEmail` (required)
+
+The Google account the event belongs to
+
+test@example.com
+
+`iCalUID` (required)
+
+The event identifier as defined in RFC5545 (see documentation fromApple DeveloperandGoogle Workspace)
+
+51p9lhpkrerfom8cqn9g1btjuu@google.com
+
+`startDate` (required)
+
+ISO 8601 date, with an optional time
+
+2022-01-05 (all-day event)2022-01-05T20:30:00.000Z
+
+`endDate` (required)
+
+ISO 8601 date, with an optional time
+
+2022-01-06 (all-day-event)2022-01-05T21:00:00.000Z
+
+`title` (optional)
+
+The title of the event to be opened
+
+Weekly meeting
+
+`ref` (optional)
+
+Your app’s referrer
+
+com.example.test
+
+Learn more
+
+  -Use Notion Calendar with Notion
+
+  -Notion Calendar for teams
+
+  -Notion Calendar keyboard shortcuts
+
+  -Notion Calendar apps
+
+
+
+
+
+
+
+# Use Notion Calendar with Notion
+
+### Notion Calendar and Notion work together to create a seamless experience as you go from meetings to notes to projects 🪄
+
+### Connect Notion Calendar and Notion
+
+To connect Notion Calendar to Notion:
+
+  -Open Notion Calendar on desktop or web.
+
+  -Go to `Settings` → `Notion` .
+
+  -Next to `Add Notion workspace` , select `Connect` .
+
+  -Give Notion Calendar access to Notion by selecting `Allow access` . If the integration is successful, you’ll see it appear in your settings.
+
+Note:
+
+  -If you have multiple workspaces, you need to connect them individually to Notion Calendar, even if those workspaces are associated with the same email address.
+
+  -A workspace admin can’t turn on Notion Calendar for everyone in their Notion workspace. Notion Calendar and Notion must be connected at the user level.
+
+  -Don’t worry — connecting Notion Calendar and Notion doesn’t mean your company will have access to your calendars.
+
+
+
+### Add Notion pages to your Notion Calendar event
+
+When you create an event in Notion Calendar, you’ll see a `Docs and links` field in the event. Click into this field to add a Notion page, like an agenda, to the event details. From here, you can:
+
+  -Make a new Notion page by selecting `Create Notion page` . Give your page a title and indicate where you want that page to live, and in which Notion workspace. Select `Create` when you’re done.
+
+  -Choose an existing Notion page by searching for it, or selecting an option from `Recent Notion pages` . You can also switch between Notion workspaces if you have more than one connected to Notion Calendar.
+
+  -Once you attach a Notion page to an event, you’ll be able to access it quickly and easily before a meeting, both from inside Notion Calendar and your menu bar.
+
+### Connect Notion database entries to Notion Calendar
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/5JLddr7e87l0d0LlE3porS/60df583a47c40685c8fcd9fd37e82baf/add_notion_db.mp4)
+
+You might use Notion databases to track important deadlines or events in calendar or timeline view. You can bring these events directly into Notion Calendar so you can see all of these dates in one place! To add a Notion database:
+
+  -At the bottom of the left sidebar of Notion Calendar, find the Notion workspace that contains the database you want to see in your calendar.
+
+  -Hover over the calendar’s name, then select `•••` → `Add Notion database` . Search for and select the database you want to add to your calendar.
+
+  -Dates from your database will appear in your calendar.
+
+Alternatively, you can use the keyboard shortcut `O` , or enter `cmd` + `K` and type “show Notion database”.
+
+You can also add a Notion database to Notion Calendar from inside Notion. When you open a database with a date property in Notion, you’ll see the option to `Open in Calendar` .
+
+Note:
+
+  -You can only add a database while using Notion Calendar for desktop or web.
+
+  -At the moment, you can only view your Notion database in Notion Calendar, not in Google Calendar.
+
+  -You can add up to 10 databases to Notion Calendar.
+
+  -While you can connect an existing Notion database to Notion Calendar, you can’t turn your Notion Calendar into a Notion database at this time.
+
+
+
+### Add and edit Notion database entries in Notion Calendar
+
+Note:To edit Notion databases from Notion Calendar, you’ll need edit access for the database.
+
+To create a new database entry from inside Notion Calendar:
+
+  -Select an open time slot in your calendar.
+
+  -In the right context panel, enter the details for your database entry.
+
+  -Open the dropdown menu and select your Notion database.
+
+Need to make adjustments to Notion database items from within Notion Calendar? To do so:
+
+  -Select a database item.
+
+  -In the right context panel, change the title, date, and time of your event. You can even move the item to another calendar.
+
+These changes will all be reflected in the original database in Notion.
+
+Note:
+
+  -If the dates for a database you connect to Notion Calendar are generated using the Formula, Created time, or Last edited time properties, those dates will be read-only in Notion Calendar. In other words, you can’t edit those dates from inside your calendar.
+
+  -If you duplicate a Notion database item in Notion Calendar, a new page will be created in your Notion database with the same title and date, but it won’t duplicate any other content inside the original page.
+
+  -If you move a database item from one workspace to another inside of Notion Calendar, a new page will be created in the destination workspace with the same title and date. The original page will be archived in the source Notion workspace and can berestored.
+
+
+
+### Make a Notion database your default calendar
+
+If you want all new events you create in Notion Calendar to be added to your Notion database, change your default calendar to the database. To do this, go to `Settings` → `Calendars` → `Default calendar` and pick the database you want to set as your default. On desktop, you can also set a default calendar by clicking the square next to the database’s name in the left sidebar.
+
+### Upcoming events in Home
+
+Your calendar events can be viewed and joined directly from inside Notion. In Notion, go to `Home` in your sidebar to view your Upcoming events widget. If you haven’t already used Notion Calendar with Notion, you’re logged out of Notion Calendar, or you’re using the widget in a new or different Notion workspace, you can select `Connect to Google Calendar` in the widget to set up your calendar.
+
+Note:If you’re using Notion for desktop, you may be prompted to sign into your Notion account on the web to set up the Upcoming events widget.
+
+This widget can be customized to show the calendars and events that you want — learn more inthis article.
+
+Note:
+
+  -You can connect multiple Notion Calendar accounts to the Upcoming events widget in Home.
+
+  -If you’re in multiple Notion workspaces, don’t worry — you can adjust your Upcoming events widget differently for each!
+
+
+
+### Disconnect Notion Calendar and Notion
+
+You can unlink Notion Calendar and Notion from inside either app.
+
+In Notion Calendar, go to `Settings` → `Notion` and select `Disconnect` beside the workspace you want to unlink.
+
+In Notion, go to `Settings & members` → `My connections` . Select `•••` beside `Notion Calendar` , then `Disconnect account` .
+
+Learn more
+
+  -Notion Calendar conferencing integrations and API
+
+  -Use Notion Calendar with Notion
+
+  -Notion Calendar keyboard shortcuts
+
+  -Notion Calendar apps
+
+
+
+
+
+
+
+# Notion Calendar for teams
+
+### No need to share calendars just to see someone’s schedule. With Notion Calendar, you can instantly find time to collaborate or connect 👀
+
+To use Notion Calendar with a team, make sure the user accounts belonging your team are managed by Google Workspace.
+
+If you’re a Google Workspace admin and you want to restrict access to Notion Calendar or learn more about our security practices,read this article →
+
+### See a teammate's calendar
+
+To see a teammate’s calendar:
+
+  -In the left sidebar of Notion Calendar, find your work calendar and select `•••` next to it.
+
+  -Select `Show teammate calendar...` .
+
+  -Search for and select your teammate’s email.
+
+  -Press `esc` or select the `x` next to their calendar in the left sidebar when you’re done looking at your teammate’s calendar.
+
+### Add your teammate's calendar to your calendar
+
+To keep your teammate’s calendar in view, follow the steps toview a teammate's calendar, then right-click their email in your left sidebar and select `Pin to calendar list` . The calendar will then join the rest of the calendars associated with your work email account in your sidebar.
+
+You can remove a teammate’s calendar by right-clicking your teammate’s calendar and selecting `Remove teammate from list` .
+
+### Create 1:1 meetings with drag and drop
+
+Drag a teammate from the Notion Calendar menu onto your grid to schedule a 1:1 meeting. The meeting title, time, and participant will be automatically populated, and conferencing will be automatically added based on your preferences.
+
+Learn more
+
+  -Manage your calendars and events
+
+  -Availability, blocking, and time zones
+
+  -Manage your Google and Notion Calendar accounts
+
+  -Notion Calendar conferencing integrations and API
+
+  -Use Notion Calendar with Notion
+
+
+
+
+
+
+
+# Notion Calendar keyboard shortcuts
+
+### Save even more time by using keyboard shortcuts in Notion Calendar ⌨️
+
+In Notion Calendar for desktop or web, use the keyboard shortcut `?` to pull up a list of all of the keyboard shortcuts you can use. You can also search for a specific shortcut.
+
+There are also global Notion Calendar keyboard shortcuts, which you can use even when you’re in a different app and Notion Calendar is running in the background. To see and change these shortcuts:
+
+  -Go to `Settings` → `Menu bar` → `System-wide keyboard shortcuts` .
+
+  -You’ll see your default shortcuts for showing and hiding the menu bar, as well as joining a meeting. You can customize these shortcuts by selecting the existing shortcut and entering your own.
+
+Learn more
+
+  -Notion Calendar settings
+
+  -Notion Calendar conferencing integrations and API
+
+  -Use Notion Calendar with Notion
+
+  -Notion Calendar apps
+
+
+
+
+
+
+
+# Notion Calendar apps
+
+### Notion Calendar is available on web, Mac, Windows, iOS, and Android 🌐
+
+### Notion Calendar for web
+
+Get Notion Calendar for web here →
+
+Notion Calendar for web is available on all major browsers, including:
+
+  -Chrome
+
+  -Safari
+
+  -Firefox
+
+  -Edge
+
+  -Arc: Go to Arc's preview settings to get previews of your Notion Calendar while using the browser.
+
+It also works on any OS, including:
+
+  -macOS
+
+  -Windows
+
+  -ChromeOS
+
+  -Linux
+
+### Notion Calendar for desktop
+
+Download Notion Calendar forMacorWindows. If you install your macOS apps usingHomebrew Cask, there is a cask for installing Notion Calendarhere →
+
+Note:Notion Calendar supports macOS Catalina 10.15 and above.
+
+### Notion Calendar for mobile
+
+Get Notion Calendar for iOS here →
+
+Get Notion Calendar for Android here →
+
+Notion Calendar is available for both iOS and Android. The mobile experience is slightly different from the web and desktop experiences, but seamlessly syncs with other platforms.
+
+#### Notion Calendar mobile widgets
+
+The Notion Calendar home screen widget is available on both iOS 14 and above on both iPhone and iPad, as well as Android 8. Learn how to get home screen widgets for iOShere, and Androidhere.
+
+The Notion Calendarlock screen widgetis available on iOS 16 and above on both iPhone and iPad.
+
+Widget settings
+
+Open Notion Calendar settings in your mobile app to customize your home or lock screen widgets. You can decide how many days’ worth of events you want to see, and whether you want to see all-day events. You can also turn off event titles in your lock screen widget for privacy.
+
+You can also exclude certain calendars from appearing in your home screen or lock screen widgets.
+
+#### Things you can't do on Notion Calendar for mobile
+
+At the moment, you can't do the following while using Notion Calendar for mobile:
+
+  -Search for events or contacts.
+
+  -Edit events, unless they were created on iOS and you’re the organizer.
+
+  -Create scheduling snippets.
+
+  -Set up integrations or create meetings with auto-generated conferencing links (you need to add a conferencing link manually) or attached Notion pages.
+
+  -Set Notion Calendar as your default calendar app.
+
+  -Change to week, month, agenda, schedule, or list view. On mobile, you’re limited to a one, two, or three-day view.
+
+  -Create OOO and Focus events.
+
+Learn more
+
+  -Create a Notion Calendar account
+
+  -Manage your calendars and events
+
+  -Availability, blocking, and time zones
+
+  -Manage your Google and Notion Calendar accounts
+
+  -Notion Calendar settings
+
+
+
+
+
+
+
+# Notion Calendar security practices
+
+### Learn how Notion Calendar, a Notion product, provides secure access to your calendar and protects your data 🔒
+
+### General data and security
+
+#### What encryption does Calendar use?
+
+Notion Calendar follows Notion’s encryption practices and data is encrypted at rest using AES-256. Customer data is encrypted when on Notion’s internal networks, at rest in Cloud storage, database tables, and backups. Data sent in-transit is encrypted using TLS 1.2 or greater. For further information,please refer to this article →
+
+#### What data does Notion Calendar store?
+
+Notion Calendar is verified by Google to utilize OAuth API verification and does not access any user data categorized as restricted.Learn more here →
+
+Notion Calendar never stores nor sees your Google password. You sign in directly with Google and we carefully chose the scope of requested access to the minimum. For more information,see this article →
+
+#### Who is your cloud service provider and what region are your instances located in?
+
+Notion Calendar and Notion are on the same infrastructure and hosted on Amazon Web Services (AWS), one of the major cloud service providers. Our instances are located in the United States.
+
+#### Do you have a bug bounty program?
+
+Notion Calendar and Notion follow the same bug bounty process. Please refer to ourResponsible Disclosure Policyfor more information.
+
+#### Can Notion Calendar permanently delete my data?
+
+None of your data is edited or deleted without your action. If you use Notion Calendar to delete events or contacts, they will remain in your Google account's trash and can be restored.
+
+If you want to delete your Notion Calendar user account,follow the instructions here →
+
+Calendar also follows Notion’s data handling practices. Please refer to theData Processing Addendumfor more information.
+
+#### What is pstmrk.it?
+
+Postmark is one of our email service providers. Notion Calendar uses the domainpstmrk.itto track link opens for aggregate analytics. You can learn more onPostmark’s website.
+
+### Enterprise
+
+#### How do users authenticate into Notion Calendar?
+
+Users use OAuth with Google to log into Notion Calendar. Google Workspace admins can opt-out of or restrict access to Notion Calendar for all users associated with their company’s domain.
+
+#### Do you have a GDPR Data Processing Agreement (DPA)?
+
+Notion Calendar follows Notion’sData Processing Addendum.
+
+#### Who are your data sub-processors?
+
+You can find a list of our sub-processorshere.
+
+#### Is Notion Calendar SOC 2 certified?
+
+Notion Calendar will be in scope for Notion’s upcoming SOC 2 attestation in May 2024.
+

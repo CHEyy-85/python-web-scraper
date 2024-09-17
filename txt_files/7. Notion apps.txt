@@ -1,0 +1,504 @@
+<7. Notion apps>
+
+You can use Notion on desktop, web, or mobile. Read on to explore the differences and get the most out of Notion on each platform.
+
+
+
+# Notion for desktop
+
+### You can use Notion on your Mac or PC as a downloadable desktop application. Here's what you need to know 🖥️
+
+### Why use the desktop app?
+
+Notion's desktop app is a clean, distraction-free interface without all the temptation of tabs. Switching between tabs in the desktop app is smooth and quick so that you can work more efficiently.You can even hover over a tab to preview the page inside it.
+
+You'll receive push notifications in the desktop app when something important happens inside Notion, like when someone mentions you, someone assigns you a task, or you set a reminder for yourself.
+
+#### New Tab Search
+
+Navigating to a new page is quick and easy in the desktop app. With Notion for desktop, you can set every new tab you create to open up a search window. From the search window that opens when you open a new tab, you can:
+
+  -Look for and quickly navigate to the page you want.
+
+  -Open a new page or start a chat with Notion AI in a new tab in just one click.
+
+  -Jump to an existing tab.
+
+New Tab Search will be turned on by default, but if you’d like to turn this off:
+
+  -Go to `Settings & members` → `My settings` .
+
+  -Toggle off `New Tab Search` . If this setting is toggled off, new tabs will display the default page specified in the `Open on start` setting.
+
+#### Command Search
+
+On desktop, you can use search andQ&Aeven when you’re outside of the Notion app. Trigger Command Search with a customizable keyboard shortcut, your menu bar on Mac, or your task bar on Windows so you can search or ask Q&A without switching between windows or bringing the Notion desktop app to the foreground. To make it easier to access Notion this way, a few things will happen by default:
+
+  -Command Search will be turned on. To turn this off, go to `Settings & members` → `My settings` → toggle off `Enable Command Search` . You can also turn off `Show Notion in Menu Bar` or customize your `Command Search shortcut` .
+
+  -Notion will be set to open at login. To turn this off:
+
+    *On Mac: Right-click on the Notion icon in the dock → select `Options` → `Open at Login` to remove the check mark beside it.
+
+    *On Windows: Right-click on the Notion icon in the task bar → select `Launch Preferences` → `Open Notion at Login` to remove the check mark beside it.
+
+### Download the app
+
+#### Mac desktop app
+
+  -To get the Mac desktop app, go tonotion.so/desktopand click `Download for macOS` .
+
+  -Open the downloaded file and follow the instructions to install Notion.
+
+  -Open the Notion app and log in using your email.
+
+#### Windows desktop app
+
+  -To get the Windows desktop app, go tonotion.so/desktopand click `Download for Windows` .
+
+  -Open the downloaded file and follow the instructions to install Notion.
+
+  -Open the Notion app and log in using your email.
+
+### Update the desktop app
+
+Notion updates automatically! We push updates on a regular basis with bug fixes and performance improvements.
+
+To check for updates:
+
+  -On Mac: Click `Notion` in the menu bar and click `Check for Updates` .
+
+  -On Windows: Click `File` in the menu bar and click `Check for Updates` . If you can’t see your menu bar, try pressing `alt` first.
+
+If there are new features that you can't see yet, try refreshing with `cmd/ctrl` + `R` .
+
+Very rarely, you may need to re-install Notion to see an update. We'll let you know when that's the case.
+
+### System requirements
+
+See our system requirements for desktop here →
+
+
+
+### FAQs
+
+Does Notion have a Linux app?
+
+We don’t have a Linux app at the moment and don't have any immediate plans for it, unfortunately 🐧
+
+For the time being, hopefully you can access Notion with your Chrome, Firefox, or Safari browser!
+
+How do I update to the latest version?
+
+Notion updates automatically! If you click the `?` at the bottom right of Notion, it will show you the last time it updated.
+
+If Notion hasn't updated for a few days, you can usually force an update by refreshing with the keyboard shortcut `cmd/ctrl` + `r` .
+
+How do I automatically open Notion links in the desktop app?
+
+  -Click on `Settings & members` in your sidebar.
+
+  -Select `My settings` .
+
+  -Toggle on `Open links in desktop app` .
+
+
+
+
+
+# Notion for web
+
+### Notion is a cloud-based app, and you can access it from various web browsers. As long as you're connected to the web, all of your content syncs automatically 💻
+
+### Access the web app
+
+  -To use Notion in your browser, go towww.notion.soand click `Log in` at the top right corner.
+
+  -Log in using your email address.
+
+### System requirements
+
+We fully support Notion on Safari, Google Chrome and Microsoft Edge. Unfortunately, Internet Explorer isn't supported at this time.
+
+See our system requirements for web here →
+
+
+
+# Notion for mobile
+
+### You can download Notion on your iOS or Android device for easy access on the go. Read, edit and comment on any of your Notion content from the mobile app 🤳
+
+### Download the mobile app
+
+  -On your device's browser, go towww.notion.so.
+
+  -Click the button on the homepage to download Notion for your device.
+
+  -You'll be taken to theApple App Storeor theGoogle Play Storewhere you can download the app for free!
+
+  -You can also go to the App Store or Play Store app on your device and search for Notion.
+
+  -Sign in with your email and you're all set.
+
+### System requirements
+
+See our system requirements for mobile here →
+
+### Mobile menu bar
+
+  -Create a new page by tapping on the `📝` at the bottom right.
+
+  -Open search by tapping on the `🔍` at the bottom.
+
+  -Open your Inbox by tapping the mailbox at the bottom.
+
+  -Go to your sidebar is by tapping the `🏠` at the bottom left.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/244oujs9Tr2OYdq2BCqXxR/db9435ee3db3a62966d8018b9417fd57/Notion_for_mobile.png)
+
+### Add and edit content using the mobile toolbar
+
+  -To add content blocks, press `+` in the toolbar above your keyboard and select from your options.
+
+    *You can also use the toolbar to @-mention a page or person, add a comment, add an image, delete content, indent content, and more.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/30nBqkDEN9iiwIzxeGkvN7/06cc90bcc50e276cc7fc3839aca2929e/Mobile_editing.png)
+
+### Notion AI shortcut on iOS
+
+You can create a shortcut on your iOS device to quickly accessQ&A. There are several ways to get to Q&A on your device:
+
+  -Tell Siri to open Notion AI.
+
+  -Search for Notion inSpotlight.
+
+  -Open the `Shortcuts` app on your device. Look for `Notion` and tap `AI` to ask your question. If you want to save the Notion AI shortcut to your home screen, hold down on `AI` , then tap `Add to Home Screen` .
+
+  -If you have the iPhone 15 Pro, customize theaction buttonso that it opens Notion AI.
+
+### Key differences between mobile and desktop
+
+  -There are no hover states on mobile. Instead, you'll see `•••` and `+` icons. On desktop, these icons only appear on hover.
+
+  -There are no columns on mobile. Any column structure that you created on desktop will be collapsed to a single column.
+
+On mobile, you also can't take the following actions. You'll have to log in on your desktop or in your browser to:
+
+  -Select multiple blocks on a page at a time.
+
+  -Import data.
+
+  -Change your account information (photo, email address, name, etc.)
+
+  -Delete or leave workspaces.
+
+  -Edit workspace security settings.
+
+  -Edit plan or billing settings.
+
+
+
+
+
+# System requirements for Notion
+
+### See what Notion’s system requirements are for desktop, web, and mobile ⚙️
+
+For the best experience with Notion, make sure you’re using the latest version of your operating system or browser.
+
+### Desktop
+
+Learn more about Notion for desktop here →
+
+Operating system
+
+Version
+
+macOS
+
+macOS 11 or above
+
+Windows
+
+Windows 10 version 21H2 or above
+
+Windows Server 2016
+
+### Web
+
+Learn more about Notion for web here →
+
+Browser
+
+Version
+
+Chrome
+
+The last two majorExtended stablereleases
+
+Firefox, Safari, Edge
+
+The last two major releases
+
+### Mobile
+
+Learn more about Notion for mobile here →
+
+Operating system
+
+Version
+
+iOS
+
+iOS 15.0 or above
+
+Android
+
+Android 8 or above
+
+
+
+
+
+# Notion beta program
+
+### Get early access to new mobile features before anyone else, and help shape the future of Notion’s iOS & Android apps! Compared to the standard mobile apps, you’ll receive bug fixes and updates much quicker 📲
+
+### Notion beta for iOS
+
+#### How to sign up
+
+Like many other apps, Notion’s iOS beta is distributed through TestFlight.
+
+  -Go here to install the TestFlight appon your device if you don’t have it already.
+
+  -Once the TestFlight app is downloaded to your device,click on this linkto download the Notion iOS beta app. If you already have the standard Notion app installed, the beta version will replace it.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/29e7M5pLp6pAf0Ox8sdKaD/7eee974017c110959c467d2c2eec4bd7/Sign_up_on_iOS.png)
+
+Note: Apple only allows up to 10,000 people to sign up for a beta app through TestFlight. First come, first served!
+
+#### How to submit feedback
+
+Feedback is a gift! Help Notion’s engineering team make our mobile apps even better by sending bug reports and feedback:
+
+  -In the Notion Beta app, press the power button and volume up button at the same time to take a screenshot. Tap the “Share” button at the top right, then scroll down to see the “Share Beta Feedback” button in the share sheet.
+
+  -In the TestFlight app, tap on “Notion Beta,” then tap the “Send Beta Feedback” button.
+
+#### How to leave the beta
+
+In the TestFlight app, tap on “Notion Beta,” then scroll to the bottom of the page. Tap the “Stop testing” button to be removed from the beta.
+
+### Notion beta for Android
+
+#### How to sign up
+
+  -Go toNotion’s app listing in the Google Play Store here.
+
+  -Scroll to the bottom of the page until you see the section titled “Join the beta.”
+
+  -Then tap the “Join” button — that’s it!
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/6nTGF8XuqiMbTWJXG6bdRO/ef4e65d1888d5932708932e6b7ebd5ab/Sign_up_on_Android.png)
+
+#### How to submit feedback
+
+Feedback is a gift! Help Notion’s engineering team make our mobile apps even better by sending bug reports and feedback:
+
+  -Open the Play Store.
+
+  -At the top right, tap your profile icon.
+
+  -Tap “Manage apps & device”.
+
+  -Tap “Ratings & reviews”.
+
+  -Scroll until you find Notion in the list, then tap “Write feedback”.
+
+#### How to leave the beta
+
+Go toNotion’s app listing in the Google Play Store here. Scroll to the bottom of the page until you see the section titled “You’re a beta tester.” Tap the “Leave” button to be removed from the beta.
+
+### Becoming a mobile beta tester
+
+Participation is entirely voluntary.  Before you sign up, please keep in mind that by accessing and using our beta apps, you are acknowledging and accepting any risks from using an app that has not yet been released to the general public.  For example, beta apps can contain more bugs than our publicly available products.
+
+Your decision to participate in beta testing is also subject to any applicable Beta Services terms in youragreementswith us.  If you’re using the mobile app to access your company’s Notion workspace, you may need to check with your IT department before installing beta software.
+
+
+
+# Mobile widgets
+
+### Quickly access your Notion pages right from your iPhone or Android phone screen! You can add a widget that links to any workspace or page of your choosing, making it easy to access frequently visited pages 📲
+
+### iOS widget
+
+Note:Our iOS widget is an app extension available only for iOS version 14.0 or above on iPhone or iPad.
+
+  -Downloadthe Notion iOS app from the Apple App Store.
+
+  -On your iPhone home screen, long press on any app `icon` and then select `Edit Home Screen` .
+
+  -In the top left corner of your screen, tap the `+` button.
+
+  -From the widgets menu, tap the top search bar to find and selectNotionfrom the list.
+
+  -Swipe through the widget options, tapping `Add Widget` when you have selected the widget you would like to add.
+
+  -Tap and drag the widget to rearrange it on your home screen.
+
+  -Long press the widget until a list of options appears. Tap `Edit Widget` and then choose which workspace and/or page you would like the widget to display, tapping anywhere outside of the popup to save your selections.
+
+  -Your widget now lives on your home screen! Add as many widgets as you like or edit the content of your existing widgets at any time.
+
+### Android widget
+
+  -Download the Notion Android app from the Google Play Store.
+
+  -On your Android home screen, long press the Notion app, scroll in the menu, and then tap `Widgets` .
+
+  -Swipe through the widget options. Touch, hold, and drag the widget to rearrange it on your home screen.
+
+  -Tap the widget to then choose which workspace and/or page you would like the widget to display.
+
+  -Your widget now lives on your home screen! Add as many widgets as you like or edit the content of your existing widgets at any time.
+
+  -On some devices, you'll also be able to edit the size of the widget.
+
+### Types of widgets
+
+There's three widgets to choose from:
+
+  -Add one page as a widget for easy access, complete with icon and cover image.
+
+  -See the pages you visited most recently.
+
+  -Pin a few pages from the `Favorites` section of your sidebar.
+
+
+
+### FAQs
+
+How do I modify my widget after adding it to my home screen?
+
+Long press on your widget and select `Edit Widget` to edit or modify the content displayed✨
+
+
+
+# Web Clipper
+
+### The Web Clipper lets you save any web page off the internet to your workspace so you can read or edit it later. You can add this web content to a workspace or page of your choosing, making it easy to build a reading list, collect references and more ✂️
+
+### On desktop
+
+Our desktopWeb Clipperis a browser extension available for Chrome, Firefox and Safari.
+
+#### Install the extension
+
+  -Downloadthe Chrome extension 🌈
+
+  -Downloadthe Firefox add-on 🦊
+
+  -Downloadthe Safari extension 🧭
+
+Once you've downloaded and installed the Web Clipper, you'll see a small Notion button appear just to the right of your browser search bar.
+
+#### Use the clipper
+
+  -Log into Notion on your browser with the account you want to clip into.
+
+  -Click the Notion icon to the right of your browser search bar.
+
+  -A small window will pop up asking which workspace and Notion page (or database) you want to add the web page into.
+
+    *You can create a new database to save your web pages into by clicking `+ New links database` in the `Add to` menu. You can change the name of the page in the text box.
+
+    *If you'd like to clip into a page or database that already exists, it might not be included in the default list. You can search for it!
+
+  -Press `Save page` or `enter` .
+
+  -You'll have the option to `Open in Notion` to go right to the page you just saved.
+
+  -When you clip a web page into a database, a URL property will automatically be added to capture the address of the original page (even if there wasn't one before)!
+
+  -You can also add tags, other properties, comments, and edits to the pages you clip. Here's what a clipped article looks like in a Notion database:
+
+### On mobile
+
+Our mobile Web Clipper uses native share sheet functionality on both iOS and Android.
+
+Note:You'll need iOS version 13.0 or above to use Web Clipper on iPhone or iPad. For Android, you'll need version 7.0 or above.
+
+#### Clip on iOS
+
+  -Open Safari or Chrome on your device and tap the `Share` icon on any page you want to save. (It looks like a box with an upward arrow in the center.)
+
+  -This will bring up your device's mobile share sheet. Scroll through the apps that appear to select `••• More` .
+
+  -From that menu, turn on Notion access.
+
+  -From now on, Notion will appear on your mobile share sheet.
+
+  -Tap the Notion icon, title the page you're saving, choose which workspace and page you want to add it to, and tap `Save` .
+
+  -Go to the page you chose to see your clipping, comment on it, add properties, etc.!
+
+#### Clip on Android
+
+Notion will be added automatically to your browser's sharing options, no extra steps required!
+
+  -Open Chrome, and on any page you want to save, click the share icon.
+
+  -This will bring up the mobile share sheet, which will already include Notion.
+
+  -Tap the Notion icon, title the page you're saving, choose which workspace and page/database you want to add it to, and tap `Save` .
+
+  -Go to the page you chose to see your clipping, comment on it, add properties, etc.!
+
+#### Clip images & local files on your phone
+
+Want to add the photos you take on your phone to your Notion workspace? You can do that in just a few steps:
+
+  -Select the photos you want to copy into Notion.
+
+  -Tap the `Share` icon at the bottom of your screen.
+
+  -Tap on `Notion` if it's already an option in the share menu that pops up. (Or, on iPhone, scroll to tap `••• More` and turn Notion on as an option.)
+
+  -Create a title for the image, select the Notion workspace you want, and tap `Add to` to choose the exact page/database you want to add the image to.
+
+  -When you clip local files to a database, no URL will be added.
+
+Note:Websites are built in all kinds of ways, so they can't all be parsed the same way. Formatting in Notion will vary. We've made sure clips from top sites like Pinterest, Netflix, Wikipedia, etc. look great, and we're always improving!
+
+
+
+### FAQs
+
+I tried using the web clipper on mobile, but got an error message This app is not supported.
+
+Unfortunately, Notion Web Clipper only works for entire pages from your web browser, or photos from your photo roll. It doesn't support other apps yet, like the Twitter app or the iOS Notes app. Definitely possible in the future though!
+
+I tried clipping a web page with the Web Clipper, but some of the page content is missing.
+
+Oops, sorry about that 🙈 If you wouldn't mind sharing the URL with us atteam@makenotion.com, we'd be happy to flag to our engineering team so they can tweak the clipper accordingly.
+
+Can you add tags to a web page while clipping it?
+
+Not at the moment, unfortunately. Definitely possible for a future iteration though ✂️
+
+For the time being, you'll need to open the clipped page in a Notion database to add and edit any tags or other database properties.
+
+I installed the Safari extension, but am seeing long loading spinners when I try to use it.
+
+Unfortunately, some Safari configurations seem to be causing performance issues across many different Safari extensions, including Notion's. To help our engineering team debug this issue with Apple, could you let us know:
+
+  -What version of macOS are you running on your computer?
+
+  -In the Safari → About Safari window, which version number of Safari are you running on your computer?
+
+  -In the Safari → Settings... → Extensions, which version number of the Notion Web Clipper do you have installed?
+
+
+

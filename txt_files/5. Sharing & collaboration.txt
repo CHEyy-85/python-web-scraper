@@ -1,0 +1,1362 @@
+<5. Sharing & collaboration>
+
+You can share your Notion pages with clients, teammates, collaborators, or the internet! Here, we'll cover how to share content and work with others in Notion.
+
+
+
+# Sharing & permissions
+
+### Notion is built for collaboration, so there are many ways to share your work with other people. Our permission levels ensure that your collaborators access your content exactly the way you want them to 📣
+
+### Ways to share
+
+There are several different ways you can share the pages and databases you build in Notion with folks inside and outside your workspace. Below is an overview of all the ways to share.
+
+### Share menu
+
+Select `Share` at the top of any page to open its share menu. Here, you can:
+
+  -Invite someone to the page.
+
+  -See and change who has access to the page, and what level of permissions they have.
+
+  -Copy the page’s link to share it with others.
+
+Select `•••` at the top of any page, then open the `Publish` tab toshare your page to the web as a Notion Siteand manage it.
+
+### Share with everyone in your workspace
+
+Your workspace might contain other members like teammates, friends, or anyone else you want to work with on pages. There are a few ways to share Notion pages with all members of your workspace:
+
+  -Hover over the name of a default teamspace in your sidebar and create a new page inside of that teamspace by clicking the + that appears.
+
+  -In your sidebar, drag a page into a default teamspace.
+
+  -Select `Share` at the top of a page and in the dropdown at the bottom of the menu, select `Everyone at {your workspace}` .
+
+Note:A default teamspace is a teamspace that everyone in a workspace must be a part of by default. To find out if a given teamspace is a default teamspace:
+
+  -Select `•••` next to the name of a teamspace in your sidebar.
+
+  -Select `Teamspace settings` .
+
+  -In the `Members` tab, look for `Permissions` . If you see `Default` , this means that teamspace is a default teamspace.
+
+
+
+### Share with a teamspace
+
+Teamspaces are dedicated spaces for every team within your organization or company. Each teamspace has its own members and permission levels, which can be customized by its teamspace owners.Learn more about adding members and assigning permissions in teamspaces →
+
+There are two ways to share Notion pages with any teamspace that you’re a member of:
+
+  -Hover over the name of a teamspace in your sidebar and create a new page inside of that teamspace by clicking the `+` that appears.
+
+  -In your sidebar, drag a page into a teamspace.
+
+### Share with individuals or groups
+
+Sometimes you'll want to share a page with only select members of your workspace — like a meeting doc for 1:1s with your manager, or notes for a small project team. To share a page with specific people:
+
+  -Select `Share` at the top of any page.
+
+  -Find and select the names of the members/groups in your workspace that you want to share the page with.
+
+  -Open the dropdown next to the names of the people you’re inviting, then select a permission level.
+
+  -Select `Invite` .
+
+Pages shared with select workspace members will appear in the Shared section of your sidebar. Learn more about sidebar sectionshere →
+
+### Share with guests
+
+You can invite people from outside your workspace to access certain Notion pages as guests. This could be useful if you want to share a Notion page with a contractor you've hired, or a client you’re working with. Learn more about guestshere →
+
+To share a page with a guest:
+
+  -Select `Share` at the top of the page.
+
+  -Enter the email address of any guest you want to invite.
+
+  -Select a level of access for that guest from the dropdown and select `Invite` .
+
+  -Your invited guest will receive an email with a link to the page.
+
+  -If they don't already use Notion, they can sign up to access your page.
+
+Note:If you’re on an Enterprise plan and the owner has prevented members from inviting guests to pages, then any people you invite to a page will automatically be added as members. Before you select `Invite` in the steps above, you can hover over your guest’s name or email for more information on how that person will be added to the page.
+
+### Share to the web
+
+You can easily turn your Notion page into a beautiful website with Notion Sites. Learn more about how to share your page with the webhere →
+
+### Stop sharing
+
+Seeing other people in a page you didn't mean to share? Want to make a page private? There are a few ways you can stop sharing your pages with others:
+
+  -In your sidebar, drag a page into your `Private` section so that only you can see it.
+
+  -Select `Share` at the top of the page, and switch off access for your workspace, individuals, groups, or the public. You can also select `Remove` from the dropdown next to any of these.
+
+  -To remove guests from pages, click `Share` on the top of the page and find the guest's name. Click `Remove` .
+
+### Permission levels
+
+For every person, group, or teamspace you share a page with, you can assign a different permission level. This helps to keep private information private and gives you granular, precise control over your work.
+
+Here are the different permission levels in Notion:
+
+  -`Full access` : People with full access to a page can edit any of the content it contains and share the page with anyone they want.
+
+  -`Can edit` : Select this level of access for people who should be able to edit the content on the page, but not share the page with others.
+
+  -`Can edit content` : This permission level is only found ondatabase pages. People with this level of access can create and edit pages within the database, and edit property values for those pages. However, they will not be able to change the structure of the database and its properties, views, sorts, or filters.Learn more about databases here →
+
+  -`Can comment` : Select this level of access for people who should only have the ability to comment on a page. They won’t be able to edit or share the content.
+
+  -`Can view` : People with this level of access can read the content on the page, but they won’t be able to comment, edit, or share.
+
+There are also different actions that people can take in a workspace depending on their role in the workspace. To learn more, readthis article →
+
+#### Edit permission levels
+
+Note:If someone has requested a change in their permissions on a page you own, you’ll be able to see, approve, and reject those requests from your `Inbox` .
+
+To change someone’s permission level for a specific page:
+
+  -Select `Share` at the top of the page.
+
+  -Open the dropdown next to the name of a person, group, or teamspace with whom the page has been shared.
+
+  -Select a permission level.
+
+#### Inherited permissions
+
+When you create a subpage inside of a page, that subpage will take on the permissions of its parent page. To change this, go into a subpage and update the permissions there.
+
+Teamspace owners can set default permissions for content in their teamspace. This will apply to every new page created in the teamspace, and if you want to change them, you’ll have to make changes at the page level.
+
+#### Permission overrides
+
+Notion respects thebroadest level of accessgiven to a user. For example, let's say you give Member A `Can view` permissions to a page. Then you give everyone in your workspace `Full access` , Member A will also get full access because they are member in your workspace.
+
+Additionally, moving a shared page to the `Private` section of your sidebar will remove everyone else's access on that page.Note:This override will only apply to the parent page — the permissions granted for any subpages will remain the same.
+
+If a page is set to be accessible to `Anyone with link` , note that even those that don’t have the direct link may be able to access in certain cases including the following:
+
+  -The page is mentioned in or linked from another page shared more broadly.
+
+  -The page uses atwo-way relationthat links to another page shared more broadly.
+
+  -The page is nested inside another page that has been shared more broadly.
+
+### See who's sharing a page
+
+You can tell who else has access to a page because their profile photos can be seen in the bar at the very top of the page.
+
+  -An avatar appears faded out if that person is not currently looking at the page.
+
+  -An avatar appears unfaded if the person is currently on the page.
+
+  -Hovering over an avatar will show you the person's name, email, and when they were last on the page.
+
+  -Clicking on an active avatar will jump you to the part of the page where they're reading or typing.
+
+  -When people are collaborating on the same page at the same time, you'll see their avatars move next to the blocks they are looking at or editing.
+
+  -Click `•••` at the top right of any page and look at the bottom of the menu that pops up. You'll see who last edited the page and when.
+
+### Request access
+
+#### Request access to a page
+
+If you open a page that you don’t have access to, you can select `No access` on the page to send a request. This will notify the page’s creators or editors, who can choose to accept or deny your access request.
+
+#### Request edit access
+
+If you have view or comment access to a page and want edit access:
+
+  -Open the page and select `Share` .
+
+  -In the `Share` tab, you’ll see what level of permissions you currently have. Open the dropdown next to this information.
+
+  -Select `Request edit access` .
+
+This request will go to the page creator, who can accept or ignore it. You’ll be notified once your request has been accepted — try refreshing the page if you’re not able to edit it.
+
+### Enterprise security settings
+
+If you’re a workspace owner on an Enterprise Plan, you can control content sharing with additional security settings. Learn more about these featureshere →
+
+To see these settings, go to `Settings & members` in your sidebar, then select `Security & data` .
+
+
+
+
+
+### FAQs
+
+I tried adding a guest to my workspace but they were turned into a member automatically. How can I prevent that?
+
+If your workspace is above the guest limit for yourplan, new users that you share content with will be automatically added as a member (instead of as a guest) if they have the same organization email domain.
+
+To allow for a new user with the same organization email domain to be added as a guest, you will need to remove existing guests to fall below your plan limit, upgrade to a plan with a higher limit, or work with our sales team (for eligible customers).
+
+If your workspace is above the guest limit for yourplan, you may have the Allowed Email Domains setting turned on. When enabled, this feature allows people with that email domain to join your workspace as a member automatically. You can disable this setting in the Settings tab of Settings & Members in the left sidebar.
+
+I want to share a page with a client, but they don't use Notion.
+
+You can enable Share to the web in the Share menu, and share the URL with them. As long as you keep the Search engine indexing setting disabled (always disabled by default), only people with that exact URL will be able to access the page. They'll be able to view the page, even if they don't have a Notion account. However, they won't be able to make any edits, leave comments, or sort/filter a database.
+
+My Export button is missing, it doesn't appear in any menus.
+
+You may have the `Disable Export` setting enabled in the `Settings` tab of `Settings & Members` in your left sidebar. You'll need to be an admin in your workspace, and on desktop to change this.
+
+Can I limit access to different parts of a database? Can you make it so that some people can see certain database views or properties, but not others?
+
+Unfortunately, database permissions don't get quite that granular yet 😓 It’s a legit use case though, and definitely something we want to support in the future. Stay tuned!
+
+
+
+# Add members, admins, guests & groups
+
+### It's easy to work with others in Notion. Add members to collaborate together within a workspace. Want to work with people outside your team? Invite them as guests to view, comment on, or edit specific pages within the workspace 💌
+
+Note:If you're on the Enterprise plan, the images in this article might look a little different from what you see in Notion. Thanks for your understanding!
+
+Learn more
+
+  -Notion pricing
+
+  -Billing, payment, and refunds
+
+
+
+### Who’s who in a workspace
+
+There are several ways users can interact with a Notion workspace:
+
+  -Members:People in your company or organization who can create and edit Notion pages, but can’t change any settings. These are colleagues or people who you work with across a large portion of your workspace.
+
+  -Guests:People external to your company or organization who can be invited to individual Notion pages, but not an entire workspace. These are people who aren’t part of your team that you may want to work on specific pages with.
+
+  -Workspace owners:Admins who can manage workspace settings, delete a workspace, and manage other workspace owners, admins, members, and guests.
+
+  -Membership admins (Enterprise Plan only):People who can add or remove members from workspaces or groups. They don’t have access to workspace settings.
+
+Note: Depending on how your workspace owner has adjusted your workspace’s security settings, members may or may not by able to request adding guests or members. Additionally, users may or may not be able to request to be added to a workspace as a member.
+
+### Members
+
+Members are individualsin your company or organization. These could be colleagues at the same organization or people who read, edit, and comment on a lot of the same pages in a workspace.
+
+To manage your workspace members, go to `Settings & members` → `People` or `Members` (depending on your plan). Here, you’ll see:
+
+  -A list of active members of your workspace.
+
+  -What teamspaces and groups they belong to.
+
+  -Each member’s role in the workspace.
+
+#### Add a member
+
+Note:On paid plans, you'll be charged per member in your workspace. For more information on plans,go here →
+
+With email
+
+  -Go to `Settings & members` → `People` or `Members` (depending on your plan).
+
+  -Go to the `Members` tab.
+
+  -Select `Add members` and type the email address of the person you want to add. If you don't have invite access, you will instead have the option to request to add a member.
+
+  -Select whether to add them as a `Workspace owner` , `Membership admin` , or `Member` from the dropdown, then press `Invite` .
+
+  -They'll receive an email with a link to sign in and join your workspace.
+
+Using a link
+
+  -Go to `Settings & members` → `People` or `Members` (depending on your plan).
+
+  -Go to the `Members` tab.
+
+  -Select `Copy link` to copy the secret link to your clipboard, and share with anyone you’d like to invite to work with you.
+
+  -When an invited user clicks on the secret link, they'll be able to join your workspace automatically as a paid member, without you having to add their email address manually.
+
+  -If you don’t want to be able to invite people to your workspace with a link, turn off the toggle next to `Invite link` .
+
+#### Change a member's role
+
+  -Go to `Settings & members` → `People` or `Members` (depending on your plan).
+
+  -Go to the `Members` tab.
+
+  -Select the dropdown for a member’s role, then select `Workspace owner` , `Membership admin` , or `Member` .
+
+#### Remove a member
+
+  -Go to `Settings & members` → `People` or `Members` (depending on your plan).
+
+  -Go to the `Members` tab.
+
+  -Depending on your plan:
+
+    *Select the dropdown for a member’s role, then select `Remove from workspace` .
+
+    *Select `•••` next to a member, then select `Remove from workspace` .
+
+Workspace owners can also remove other workspace owners from the workspace.
+
+Note:
+
+  -When you remove a member from a workspace, that person will instantly lose access to the workspace, and pages from the `Private` section of their left sidebar will be hidden from view. If you invite that member back to the workspace, their private pages will be unhidden.
+
+  -If a user has left and rejoined a workspace within the last 30 days, their private pages, shared pages, group membership, and teamspace membership will be restored upon rejoining the workspace.
+
+
+
+#### Allowed domains & auto-joining
+
+If you're using Notion at your company, you can make it easy for anyone to automatically join your workspace as a member when they sign in with their work email.
+
+  -Go to `Settings & members` → `Settings` .
+
+  -Under `Allowed email domains` , enter any email domain that you want to grant access to automatically, like your company's email domain. You can add multiple allowed domains in this field, but you'll only be able to add domains that workspace members' accounts are under.
+
+Now, whenever someone signs into Notion with an email that has one of those domains, they'll see the option to join your workspace during onboarding. If the user joins your workspace, they will become a member of your workspace and you will be billed accordingly.
+
+### Guests
+
+Note:Unlike members,guests are free to invite to your workspace as long as you stay withinyour plan’s guest limit. If your workspace is above this limit, any new users that you share content with will be automatically added as members and not guests if they have the same organization email domain.
+
+To ensure you’re adding users as guests and not members, you’ll need to remove existing guests so you’re below your limit, upgrade to a plan with a higher limit, or work with our sales team (for eligible customers).
+
+Guests are individualsexternal to your company or organizationwho you invite into your workspace on a page-by-page basis. For example, guests could be:
+
+  -People who have a different organization email domain.
+
+  -Contractors or interns who are working with you temporarily.
+
+  -Clients who you want to provide feedback on your work.
+
+  -Friends, family, or mentors that you want to have contribute to or review your work.
+
+Guests have the same capabilities as members, except:
+
+  -They can't be given workspace-wide access. They must be invited to individual pages in order to view them and their sub-pages.
+
+  -They can't create new pages outside of the ones they have access to.
+
+  -They can't be added to groups of members.
+
+  -They can't adjust workspace settings or billing information.
+
+  -They can't add new members to your workspace.
+
+  -They can't add new integrations to your workspace.
+
+#### Add a guest
+
+On any page you want to share with a guest:
+
+  -Go to `Share` at the top right.
+
+  -Enter the email address of any guest you want to invite.
+
+  -Select a level of access for that guest from the dropdown and press `Invite` .
+
+  -Select `Skip for now` to make sure you’re adding them as a guest and not a member.
+
+  -They'll receive an email with a link to the page.
+
+  -If they don't already use Notion, they can sign up to access your page.
+
+Note:If you’re on an Enterprise plan and the owner has prevented members from inviting guests to pages, then any people you invite to a page will automatically be added as members. Before you select `Invite` in the steps above, you can hover over your guest’s name or email for more information on how that person will be added to the page.
+
+Allow and approve access requests from guests
+
+To make it easier for you to add guests to your workspace, Notion also allows people outside of your workspace to request access to certain pages in your workspace. This feature is available and turned on by default for all plans except Enterprise.
+
+If you’re on a Personal Pro, Plus, or Business Plan and you want to turn this setting off:
+
+  -Open `Settings & members` → `Security` .
+
+  -Toggle off `Allow page access requests from non-members` .
+
+Free plans will not be able to turn this feature off.
+
+Once the guest submits a request to access a page, a notification will be sent to the inbox of the page’s creator. The page creator can approve the request as well as adjust the level of access for that guest, or they can ignore the request.
+
+Note:When you add someone to a page, they can automatically access all of its sub-pages by default. That being said, you can restrict or expand sub-page permissions!
+
+#### Request adding guests
+
+Members of a workspace can request to add guests to it. This feature is available on Enterprise Plans only, and only workspace owners can enable or disable it.
+
+Enable guest requests
+
+  -Go to `Settings & members` → `Security` .
+
+  -Make sure `Disable members inviting guests to pages` is turned on, then turn on `Allow members to request adding guests` . Workspace owners can `Disable guests` without removing existing guests from the workspace. They still have the option to remove all existing guests if desired.
+
+Once this is turned on, members will have to submit a request before they can invite a guest. Workspace owners are exempt and can continue to invite guests directly.
+
+Note: `Allow members to request adding guests` is a workspace level setting, and will override the any teamspace level guest setting. This means if a teamspace allows guests, but the workspace has enabled guest requests, members will have to submit guest invite requests to add guests to pages in the teamspace.
+
+Request to invite a guest
+
+If you're a workspace owner,you caninvite guests directly.
+
+If you're a member:
+
+  -Navigate to the page you want to invite a guest to. Just like with regular sharing, you must have full access permissions on the page to request to invite a guest.
+
+  -Select `Share` and type the name of the guest you want to invite.
+
+  -Select the role you want the guest to have.
+
+  -Select `Invite` .
+
+  -A notification will be sent to your workspace owner about your request, along with the page, role and email of the guest you requested. You will also receive confirmation that your workspace owner has been notified.
+
+Approve a guest
+
+Guest invite requests must be approved on a per page, per guest basis.Only workspace owners can view and approve guest requests. Each request will have the email of the guest, the member who requested it, the role that was requested, and the name of the page.
+
+A workspace owner can approve or reject a request to invite a guest directly from the notification they receive, or by going to by going to `Settings & members` → `Members` → `Guests` and finding the requests at the top. Once a workspace owner responds to a request, the member who submitted will be notified of the decision.
+
+#### Change guest access levels
+
+Once you've added a guest to a page, you can always change their level of access later. To change a guest's access level:
+
+  -Go to `Share` at the top right. You'll see the page's guests listed in the dropdown menu.
+
+  -Click the menu to the right of a guest's name. Choose which level of access you want to grant that guest from the following options:
+
+    *Full access:They can edit and share the page.
+
+    *Can edit:They can edit the page's content, but they can't share the page. (This is not available for guests on the Free Plan.)
+
+    *Can edit content:This permission level is only found ondatabase pages. They can create and edit pages within the database. They can't change the structure of the database and its properties, views, sorts or filters.Learn more about databases here →
+
+    *Can comment:They can only read and comment, not edit or share.
+
+    *Can view:They can only view the content, and can't share it.
+
+    *Remove:Revokes their access to the page.
+
+#### View guests & permissions
+
+You can see a list of all the guests in your workspace and the pages they each have access by going to `Settings & members` → `People` or `Members` (depending on your plan) → `Guests` .
+
+  -Under your list of workspace members, find your list of guests.
+
+  -To the right, you'll see how many pages each guest has been invited to. Click to see or hop to the pages they can access.
+
+  -On any of these pages, you can edit their level of access or remove them.
+
+#### Turn guests into members
+
+Give any guest the ability to access your entire workspace by turning them into a member. On paid plans, you'll be charged for each additional member. To turn a guest into a member:
+
+  -Go to `Settings & members` → `People` or `Members` (depending on your plan) → `Guests` .
+
+  -Check the box next to the guests you want to upgrade.
+
+  -Select `Upgrade {#} guest(s) to member` .
+
+  -Once they become a member, you can find them in your member list and change their role.
+
+On non-Enterprise Plans, we’ll also suggest some guests who might benefit from becoming members in your workspace. To see who these guests are, go to `Settings & members` → `Members` → `Suggestions` . You can select `Upgrade` to turn someone into a workspace member.
+
+#### Remove guests
+
+To remove a guest from your workspace:
+
+  -Go to `Settings & members` → `People` or `Members` (depending on your plan) → `Guests` .
+
+  -Check the box next to the guests you want to remove from your workspace.
+
+  -Select `Remove from workspace` .
+
+To remove a guest from specific pages, you’ll have to go to the `Share` menu in each page and `Remove` them there.
+
+### Groups
+
+You can set varying and granular permissions for different groups and teams without having to divide your people into different workspaces! Instead, create groups inside one workspace and grant them different levels of access page by page. Here's how.
+
+Note:Guests in your workspace can't be added to groups. This feature is for members only!
+
+#### Create and edit groups
+
+Workspace owners and membership admins can create and edit groups. To do this:
+
+  -Go to `Settings & members` → `People` or `Members` (depending on your plan) → `Groups` .
+
+  -Select `Create a group` and enter a name for your group. To set an icon for the group, just click the emoji icon that appears on hover.
+
+  -Toggle open your new group and select `Add members` .
+
+  -Add as many members as you want to any group.
+
+  -You can also click `Remove` to the right of any group member.
+
+  -Select `•••` next to a group to `Rename` it, `Create teamspace from group` , or `Delete` it.
+
+  -You can always search someone's name or email to see which group they're in.
+
+#### Share a page with groups
+
+For any page, choose which groups can read, comment, edit, and share it. To share a page with a group:
+
+  -Click `Share` , then `Invite` . You'll see all groups at the bottom of the pop-up.
+
+  -Pick a group, then choose what type of access you'd like to give that group from the dropdown:
+
+    *Full access:They can edit and share the page.
+
+    *Can edit:They can edit the page's content, but they can't share the page. (This is only available on paid plans.)
+
+    *Can comment:They can only read and comment, not edit or share.
+
+    *Can view:They can only read the content, and can't share it.
+
+    *Remove:Revokes their access to the page.
+
+  -Once a group has been added, you'll see it in the `Share` menu, and you can adjust their access level in the drop-down.
+
+    *You can give multiple groups access at any level on the same page.
+
+    *Permissions on any page also apply to all of their sub-pages.
+
+#### Share a teamspace with groups
+
+Teamspaces are a dedicated area for every team within your organization or company, and can be customized on an individual basis.Learn more about teamspaces →
+
+To share a teamspace with groups in your workspace:
+
+  -Hover over the name of the teamspace in your sidebar.
+
+  -Click the `•••` button, then `Teamspace settings` .
+
+  -From here, you'll be able to search and add groups to the teamspace.
+
+
+
+### FAQs
+
+Is there a limit to how many guests I can add?
+
+See the guest limit for your planhere →
+
+If your workspace is above the guest limit for yourplan,new users that you share content with can only be added as a member (instead of as a guest) if they belong to your workspace's email domains. This could mean that they have anallowed email domainor an email domain matching the workspace owner’s domain or one of the workspace’sverified domains.
+
+I clicked the Join or create workspace button, but it will only let me create a workspace. How do I join a workspace?
+
+You can only join a workspace via the `Join or create workspace` button if that workspace has the `Allowed Email Domains` setting enabled to allow users with your email domain join the workspace automatically.
+
+Otherwise, you'll need to ask an admin from the workspace to send you an invite.
+
+How do I share with individuals and not whole groups?
+
+You can share a private page with individual members of your workspace by clicking `Share` at the top right and then `Invite a Person` . Search for their name, set a level of access for them and press `Invite` .
+
+You can also share a private page with a guest through the same mechanism, only you should type their email instead of searching their name and press `Invite` .
+
+Why do I need to disable workspace-level access?
+
+You don't have to. Just know that whatever level of access is specified for `Everyone at [workspace]` is the lowest level of access for everyone in your workspace. If you want some pages to not be visible to certain people, then we recommend disabling it. You can always grant some groups or individuals more access.
+
+Why are these pages in the Shared section of my left-hand sidebar?
+
+Those are pages shared with only specific groups or individuals. They aren't visible to the rest of the people in your workspace. In order for pages shared with groups to show up in this part of your sidebar, you need to disable `Everyone at [workspace]` . Otherwise, everyone in your workspace will still see it.
+
+As a quick refresher, any page in the `Workspace` section of your sidebar can be viewed in some respect by everyone in your workspace. Any page in the `Private` section of your sidebar is for your eyes only.
+
+How can groups be used instead of multiple separate workspaces?
+
+We've seen people create multiple workspaces instead of groups to set granular permissions. For instance, they create separate workspaces for Design, Marketing, and their executive team so these groups can't access, edit, or get distracted by each other's work. There's a quick workaround for this using groups:
+
+  -Disable `Workspace access` . That way pages won't show for people and groups who aren't specifically granted access.
+
+  -On every page, grant different levels of access per group. Those access levels will hold true for all the sub-pages on that page.
+
+  -So, for example, you could have a section of your workspace just for the engineering team. Create a group of all your engineers, then on the top-level page for that team, turn on `Full access` for only that group. Nest pages inside that page, and only the engineering team can access them, too!
+
+
+
+Can I create a shared private page using groups?
+
+Yes. If you create a page in the `Private` section of your sidebar, you can go to `Share` and toggle on access for a group inside your workspace. Choose their access level like you would on any other page. You'll see the page automatically move to the `Shared` section of your sidebar. Only you and the members of that group will be able to see it.
+
+How can I allow members in my workspace to request guests for approval?
+
+As a workspace owner, you can disable guests for your workspace in yourworkspace security settings, but still allow members to send guest invite requests for review by the workspace owners. This provides a standardized way for guests to get access to content within your workspace, without being an all or nothing approach.
+
+
+
+# Collaborate in a workspace
+
+### There's no limit on the number of people who can view and edit the same page or database at the same time. Your team can collaborate on shared content no matter where they are, what time it is, or what device they're using 💼
+
+### Real-time collaboration
+
+  -You can see which teammates are working on what because their avatars/profile photos will appear next to any block they clicked on or are editing. Here's how that looks in practice:
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/5TSwHtdL5zaiZFxQUq2Yqk/bf38adb05882de8c4eb77f7fe98d9e1f/collaboratewithpeople1.mp4)
+
+  -Edits, comments, and suggestions made by other people will appear to you in real-time.
+
+  -You can edit the same block as someone else at the same time. Unlike other document software, content is not locked if someone else is making changes to it. The most recent change will be reflected on the page.
+
+Tip:When other people are viewing the same page as you, click on their avatar at the top to jump to wherever they're reading or editing.
+
+### Lock pages and databases
+
+If you have a lot of people in the same workspace, it can be easy for accidental edits and changes to get made to a page or database. You can use `Lock page` or `Lock database` to prevent this without fully revoking edit rights from other members of your workspace.
+
+#### Lock page
+
+For pages that contain non-database content, like documents, notes, wikis, etc., you can lock the content so that no one can make changes unless they explicitly turn the lock off — including you.
+
+  -Click `•••` at the top right corner of your page.
+
+  -Turn on `Lock page` in the menu that appears.
+
+  -Your page will immediately become read-only for everyone.
+
+  -You can tell if a page is locked because a gray `Locked` indicator will appear next to the name of your page in the top breadcrumb menu.
+
+Note:Anyone with full or edit access to your page can turn page lock off using the same menu. It's designed to provide one layer of extra protection so people have to be intentional about the changes they make.
+
+
+
+#### Lock views
+
+For full page databases, you can lock in structure while allowing other members of your workspace to continue editing the actual data.
+
+  -Click `•••` at the top right corner of the page.
+
+  -Switch on the toggle next to `Lock database` in the menu that appears.
+
+  -Immediately, everyone on the page (including you) will only be able to edit the data the database contains, but not views or properties.
+
+  -Turn `Lock database` off using the same toggle in the `•••` menu.
+
+  -When a database is locked, you'll see `Locked` next to its title in the top breadcrumb menu.
+
+Learn more about collaborating in your workspace
+
+  -Comments, mentions, and reminders
+
+  -Suggested edits
+
+
+
+
+
+### FAQs
+
+Why didn't I receive a notification that someone @-mentioned me while we were working on the same page?
+
+If you're mentioned on the page that you currently have open, you will not receive any notifications.
+
+What if I want only some people to be able to edit a page and the rest to read?
+
+You can assign different levels of access to different individuals. Learn more about permission levels and changing people's access to read-, comment-, or edit-only here.
+
+
+
+# Inbox & page notifications
+
+### Your inbox and notifications help you stay on top of work that needs your attention, and changes made to the pages and projects you care about. The more people you collaborate with in your workspace, the more helpful these features become 🔔
+
+### Inbox
+
+To keep your inbox open as you’re working in Notion, open your inbox and select `Lock inbox pane open` .
+
+The `Inbox` at the top of your sidebar gathers updates from across your workspace. These updates are organized by page and by comment thread, so you can see all of the updates related to a specific page in one place. You’ll see an update in your inbox when:
+
+  -Someone @-mentions you or replies to your comment, or you have notifications set to `All comments` for a page.
+
+  -You're added to a `Person` property in a database.
+
+  -You've set areminderfor yourself, or someone else has set a reminder for you.
+
+  -You're invited to a page.
+
+If you have the Notion desktop or mobile app installed:
+
+  -You'll get a desktop push notification 10 seconds after someone @-mentions you.
+
+  -You'll get a mobile push notification if you don't view a mention within 5 minutes, or if you don't have Notion open on your device.
+
+You can turn these notifications on or off from `Settings & members` → `My notifications` .Learn more about notification settings here →
+
+Tip:Use the `Archive read` or `Archive all` button to help ensure that your `Inbox` only contains your unfinished tasks.
+
+#### Interact with your inbox
+
+You can interact with notifications in your inbox in several ways.
+
+  -Select any notifications in your inbox to jump to the part of the page where the mention or edit was made. When you click on a comment, you’ll go directly to that thread on the page.
+
+  -Filter your notifications by `Unread and read` , `Unread only` , `Archived` , or `All workspace updates` .
+
+  -Mark notifications as read or unread.
+
+  -Archive notifications.
+
+  -Change your notification settings for a given page. Hover over a notification and select `•••` → `All updates` , `All comments` , or `Replies and @mentions` .
+
+  -Collapse notifications by page by selecting `^` next to the page name.
+
+  -Open and reply to comment threads.
+
+#### Inbox in the mobile app
+
+In the Notion mobile app, you’ll also be able to filter your notifications and take bulk actions. There are a few other things you can do in your inbox in the mobile app:
+
+  -Swipe right on a notification to mark it as read or reply to it.
+
+  -Long swipe to the right on a notification to mark it as read.
+
+  -Swipe left on a notification to get to settings or archive the notification.
+
+  -Long swipe to the left on a notification to archive it.
+
+  -Long press a notification to react with an emoji, or take any of the actions mentioned above.
+
+### Page notifications
+
+Each page has an updates menu. This is a list of edits and comments made on the page. To see a page’s updates, select `🕘` at the top of the page.
+
+#### Change page notification settings
+
+Open the dropdown at the top of a page’s updates and select `All comments` or `Replies and @mentions` to adjust the way you want to be notified about that page in the future.
+
+#### Change database page notification settings
+
+You can be notified when updates are made to specific pages in your database. To do this, open a database page and select `•••` at the top of the page → `Notify me` . From here, you can select:
+
+  -`All updates` to be notified about all new comments and property changes.
+
+  -`Important updates` to be notified about all new comments, as well as changes to status, assignee, and due date.
+
+  -`Replies and @mentions` .
+
+Tip:Want to get Slack notifications when important updates happen in your Notion workspace? Learn how to set up Slack notificationshere →
+
+
+
+
+
+# Comments, mentions & reminders
+
+### There are several ways to communicate with your teammates in Notion. Our collaboration tools help you work with others asynchronously and remember important deadlines 💬
+
+### Comments
+
+#### Top-level page discussions
+
+If you want to give or get high-level feedback on your page, you can leave a comment at the top of it to start a discussion.
+
+  -Hover over the top of any page and click `Add comment` .
+
+  -@-mention colleagues to refer to them or bring them into the conversation.
+
+  -You can edit or delete comments. Just hover over them to edit, delete, or resolve them.
+
+  -You can always re-open resolved comments by clicking the `# resolved comments` button at the top of the page.
+
+#### Customize top-level page discussions
+
+For every page in Notion, you can choose whether to display or hide top-level page comments.
+
+  -Go to the `•••` icon at the very top right of any Notion page and choose `Page options` .
+
+  -Click `Top-level page discussions` and you'll see a dropdown menu with comment options:
+
+    *Expanded:See all the page comments exchanged at the top of the page.
+
+    *Off:Hide comments on the page completely (handy for minimalists).
+
+#### Page comments
+
+Offer your opinion or ask a question by commenting on specific parts of a page. There are several ways to make a comment in Notion:
+
+  -Select any text and choose `Comment` from the menu that pops up.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/56eQgv5hzINGKYcQcVcQGu/d939f050786902cbb824ed6ad8c0c13a/collaboratewithpeople4.mp4)
+
+  -Click the `⋮⋮` icon that appears to the left of any content block when you hover and choose `Comment` from the menu that pops up.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/3lya9QCLMWJpBj3YrPvSGy/4a30b1023bbf99aa34e9cf6a66a277ed/Block_comment.mp4)
+
+  -Hover over a block and select the `💬` that appears.
+
+  -Use the shortcut `cmd/ctrl` + `shift` + `M` to make a comment on whatever you have selected or wherever your blinking text cursor is positioned.
+
+  -If there’s an existing comment or comment thread that you want to respond to, click `💬` to open it and add a comment.
+
+Note:You can't comment on multiple blocks at a time. However, you can select text across multiple blocks and leave a comment via the menu that appears.
+
+Want to suggest edits on a page? Learn howhere →
+
+#### Customize page comments
+
+By default, page comments will appear to the right of the corresponding text. Longer comment threads will be collapsed. You can simply click on these to expand them and see every comment in the thread.
+
+  -Go to the `•••` icon at the very top right of any Notion page and choose `Page options` .
+
+  -Click `Page comments` and you'll see a dropdown menu with comment options:
+
+    *Default:See all the page comments to the right of the corresponding text.
+
+    *Minimal:Display a small comment icon to the right of the corresponding text.
+
+#### Comments pane
+
+All comments made in a page can be seen in the comments pane. To open the pane, click `💬` at the top of your page. There will be a red circle beside it if there are any unread comments. From here:
+
+  -Click on any comment to see where on the page it was made.
+
+  -Reply to, edit, resolve, or delete comments.
+
+  -Filter comments based on person or status (whether the comments are open or resolved). To do this, click on the filter icon at the top of the pane.
+
+Comment threads with the most recent reply will appear at the top of the comment pane. Once you’ve opened the comment pane, we won’t re-sort it with new comments so you can keep working from your current view. If you’re working on a page with lots of active discussion, close and re-open the comment pane to see the latest comments.
+
+Tip:Re-open any resolved comments from the `Updates` menu at the top right of your page, or in `All Updates` under `Mentions` .
+
+#### Comment reactions
+
+Add emoji reactions to a comment to communicate quickly with teammates! Here's how:
+
+  -Hover your cursor over a comment, or tap the comment if you’re on mobile.
+
+  -Click or tap the new 🙂 button at the top right of the comment.
+
+  -Choose the emoji you'd like to use as a reaction.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/5ZmLxqBHuA8YuknNMGfyPo/eb6ee37d32ca102bff2f2ee9de78a789/comment_reactions.mp4)
+
+#### Database comments
+
+Database page comments
+
+There are a few ways to leave a top-level comment on a database page:
+
+  -Open the page and add a top-level page comment there.
+
+  -If the page already has comments, you’ll see `💬` associated with it in your database. Select `💬` to read the existing comments, then add your own. You’ll also be able to do the same from the `Suggested for you` and `Trending` widgets inHome.
+
+    *In a timeline view, you’ll only be able to do this if you’re showing a table next to your timeline. To do this, select `>>` at the left of your timeline.
+
+  -In a table or list view, hover over a database page and select `⋮⋮` → `Comment` to add a comment.
+
+  -In a gallery or board view, hover over a database page and select `•••` → `Comment` to add a comment.
+
+  -In any database viewexcept the timeline view, right-click on a database page and in the menu that appears, select `Comment` . Enter your comment in the window that opens.
+
+Database property comments
+
+You can leave comments directly on database properties when you’re in table view or when you have a database page open. In most cases, you can do this by simply hovering over a property and selecting `💬` . Learn more about commenting on database propertieshere →
+
+### Mentions
+
+#### Mention a person or group
+
+When you want to get other people in your workspace to look at something, you can mention them anywhere inside a page, database, comment, or discussion.
+
+  -Type `@` followed by the person or group's name. A pop up menu will search for them in real-time. Press `enter` to choose the one you want.
+
+Tip:You can hover over an @-mentioned group to get a preview of its members. The preview is limited to 10 members, so if you'd like a complete list:
+
+  -Find `Settings & members` and then `Members` in the sidebar.
+
+  -Select `Groups` at the top and you'll find a list of groups.
+
+  -Click the dropdown of any group to see a complete list of members.
+
+
+
+  -To mention someone in a database, either @-mention them in the body of a page inside the database, or add them to a `Person` property field. They'll receive the same type of notification. This is handy for assigning people things in a tasks database.
+
+#### Mention a page
+
+To reference and add an inline link to another page inside a Notion page, type `@` followed by the page's title. You'll see a menu pop up that'll search for that page in real-time. Find the right one and press `enter` . Now you and others can jump to the linked page directly.
+
+  -If you change the title of a page, the @-mention links that go to it will also reflect that change automatically.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/2QmzV366wZigBJvrZFFGX4/87e3d5b7228d6d7c2fc8dc1b738996d0/Mention_page.mp4)
+
+Tip: Whenever you @-mention a page, a backlink is created automatically!Learn more about backlinks →
+
+#### Mention a date
+
+When you type `@` followed by a date (or the wordstoday, tomorrow,oryesterday), you'll add an inline timestamp to your page. For example, typing `@1/12` automatically adds a timestamp that looks like: January 12, 2021.
+
+Note:The wordstoday, tomorrow,andyesterdayturn into their corresponding numbered dates as time passes.
+
+#### Mention notifications
+
+When someone mentions you in a workspace, you'll see a red badge appear next to `Inbox` in your sidebar with the number of notifications waiting for you.
+
+  -Open `Inbox` to see all the times you've been mentioned organized chronologically.
+
+    *You may also see mobile or desktop push notification depending on the apps you have installed and open.
+
+  -Click on any of these mention updates to jump directly to the line, comment, discussion or database you've been mentioned in on the page.
+
+Note:If you @-mention someone on a page that they don't have access to (like one of your private pages), they will not be notified.
+
+If you were mentioned in a comment, you can reply directly from your `Inbox` by clicking `Reply` .
+
+  -You can also resolve or re-open comments in this window. When you resolve a comment, it will disappear from the page it was made on. If you re-open a comment, it will reappear.
+
+### Reminders
+
+When you add a reminder, Notion will send you a notification to draw your attention back to a particular task, event, or page at the time you specify. This is helpful for setting due dates and making sure you never forget a thing.
+
+  -Inline on a page, type `@remind` followed by a time, date, or both, i.e. `@remind tomorrow` , `@remind 7pm` , or `@remind Wednesday at 1pm` . This will create a blue tag.
+
+  -Clicking this tag opens up a calendar window where you can edit the date and time, change your timezone, and set exactly how you want to be reminded (i.e. 30 minutes beforehand).
+
+  -Inline reminders turn red when they change to @Today or are past due.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/35lJPRZiSYDRXcxBGhqmxD/8a546dba23e0f7311406e84a11cbda62/Reminder_time.mp4)
+
+  -In a database, add a `Date` property. When you click on that property (like on a cell in that column of a table), a calendar window opens where you can select when and how you want to be reminded. You can add a specific time of day as well.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/6IlcCaHHa1VDvpipZFvqlV/0fcfcf4c7b451716be195c438d074ed1/Reminder_DB.mp4)
+
+When you set a reminder, you'll be notified at the chosen time in a few ways:
+
+  -You'll see a red badge pop up next to `Inbox` at the top of your left sidebar.
+
+  -If you have the desktop Notion app, you'll receive a push notification immediately.
+
+  -If you have the mobile Notion app, you'll receive a push notification within 5 minutes.
+
+  -If Notion isn't open at the time of your reminder, you'll get a mobile push notification (if you have the app) and an email.
+
+
+
+### FAQs
+
+Someone @-mentioned me in a page, but I didn't receive an email notification.
+
+If you have Notion open on a mobile device or computer, you won't receive push or email notifications for reminders, you'll only get a red badge notification in `All Updates` .
+
+If Notion is not open on your mobile device or computer at the time of the notification, then you'll receive an email instead of a notification in `All Updates` .
+
+What's the difference between @-mentioning a page, and adding a Link to page block?
+
+`Link to page` works kind of like creating a sub-page. When you reference a Notion page this way, it will show up in your sidebar as a subpage of the page where it was linked.
+
+@-mentioning a page creates something more like a hyperlink. Pages you @-mention won’t show up as subpages of the pages they’ve been mentioned in.
+
+How can I trigger a reminder for someone else on my team?
+
+The best way to do this is to use an @-mention and @-remind on the same line. For example:
+
+" `@Camille Ricketts`  `@remind next Thursday 4pm` to finish proofreading."
+
+Does Notion have recurring reminders? Like "remind me every Monday to water the plants"?
+
+Not at the moment, but recurring tasks and recurring reminders are on the roadmap!
+
+
+
+# Suggested edits
+
+### Collaborate with others by suggesting edits to content that you’re working on together 📝
+
+### Suggest edits
+
+Note:If you’re not able to suggest edits on a page, it may be that the page islocked, or that you don’t have permissions to do so. You must have `Can comment` access and above to suggest edits.
+
+To go into suggesting mode:
+
+  -Select `•••` at the top of a page.
+
+  -Toggle on `Suggest edits` .
+
+Once you’re in suggesting mode, you’ll see `Suggesting` at the top of the page. Type text into the page to suggest adding it, or delete text to suggest removing it.
+
+Your suggestions will appear in the side of the page. You can click on a suggestion and add any more thoughts as comments underneath.
+
+Once you’re done suggesting edits, you can get out of suggesting mode by selecting the `X` next to `Suggesting` at the top of the page. Alternatively, you can select `•••` at the top of a page and toggle off `Suggest edits` .
+
+When you suggest edits on someone’s page, they’ll receive an inbox notification.
+
+Note:
+
+  -At this time, you can only suggest text, to-do list, heading, bulleted list, and numbered list blocks.
+
+  -You can’t make suggestions to inline databases, database properties, or pages that are open in peek view.
+
+
+
+### Respond to suggested edits
+
+If you’d like to keep others from being able to suggest edits on your page,lock the pageby selecting `•••` at the top and toggling on `Lock page` .
+
+Once someone has suggested edits on your page, you can:
+
+  -Hover over a suggestion and select `✔️` to accept the edit. Your page’s contents will update accordingly.
+
+  -Hover over a suggestion and select `❌` to reject the edit. The suggestion will disappear.
+
+  -React to the suggestion with an emoji.
+
+  -Click on the suggestion to reply with a comment.
+
+
+
+
+
+# Page analytics
+
+### Gain insight into how your content is performing by tracking page popularity and views 📜
+
+### Viewing page analytics
+
+To access page analytics:
+
+  -Click on the clock icon on the top right of any page that you are the owner or editor.
+
+  -Select `Analytics` , you’ll see a graph with blue and orange lines.
+
+    *Hover over a specific day on the graph to see specific numbers for total views (every page view) and unique views (one view per person).
+
+You’ll also be able to see who created the page as well as a list of recent viewers and page editors and when they last edited the page.
+
+Note:To learn how to get an overview of content across your workspace, check out theworkspace analyticsarticle.
+
+#### Opting out of page analytics
+
+If you don’t want your account to be recorded in page analytics, you can opt out in general or on any specific page.
+
+To opt out of participating in analytics generally:
+
+  -Click on `Settings & members` in your sidebar.
+
+  -Click on `My settings` .
+
+  -Underneath `Privacy` , find `Show my view history` .
+
+  -Open the drop down menu and make sure `Don't record` is selected.
+
+To opt out of participating in analytics on a specific page:
+
+  -Click `•••` in the top right corner of the page.
+
+  -Click `View analytics` → `Settings` .
+
+  -Open the drop down menu and select `Don't record` .
+
+Alternatively, you can:
+
+  -Click on the clock icon on the top right of any page that you have edit or full access for.
+
+  -Select `Analytics` → `Settings` .
+
+  -Open the drop down menu and select `Don't record` .
+
+
+
+
+
+# Intro to teamspaces
+
+### Teamspaces streamline access to information, creating a dedicated area for every team which can be customized to suit their way of working. This article walks you through the ins & outs of the feature 🐾
+
+### Create a teamspace
+
+#### Create a new teamspace
+
+Each workspace will have at least one teamspace that includes everyone, by default. To create an additional teamspace:
+
+  -Scroll to the Teamspaces label in your sidebar and click the `+` button to the right of the label.
+
+  -Give your teamspace a name, description, and icon.
+
+  -Choose the access settings for your teamspace. There are three options:
+
+    *Open:Anyone can join and view the content inside this teamspace.
+
+    *Closed:Everyone can see that this teamspace exists, but can’t join unless they’re invited by an owner or member.
+
+    *Private (Business and Enterprise Plans only):Only members or owners of this teamspace can invite other people, and it won’t be visible to people who are not added.
+
+  -Once you’ve populated all of these fields, select `Create teamspace` .
+
+#### Turn an existing page into a teamspace
+
+You can turn an existing page into a teamspace if:
+
+  -You have `Full access` to the existing page in question.
+
+  -The page is in a teamspace.
+
+  -The page isnota database page or a subpage within a database.
+
+  -You are a teamspace owner or workspace owner.
+
+Note:Depending on your workspace settings, this action may be restricted to workspace owners only. You can check in Settings & Members → Teamspaces.
+
+To turn an existing page into a teamspace:
+
+  -Hover over the page name and click the `•••` button.
+
+  -Choose the `Turn into teamspace` option.
+
+### Add members to a teamspace
+
+  -Next to the teamspace name in your sidebar, click the `•••` button and then `Add members` .
+
+  -This will bring up a menu. Type an email or name into the text box, and choose whether to add them as teamspace members or teamspace owners.
+
+    *Teamspace ownerswill have full access to all pages within the teamspace by default. They will also have access to teamspace settings.
+
+    *Teamspace memberswill receive access to pages within the teamspace — the level of access will be determined by teamspace owners. They will not have access to teamspace settings.
+
+Toggle on the `Make default teamspace` option if you’d like to add every member of your workspace as teamspace members, all at once.
+
+#### Adding with an invite link
+
+To add many members at once, it might be better to allow and post an invite link.
+
+  -Click the `•••` next to your teamspace and click on `Add members` .
+
+  -Select `Copy invite link` .
+
+If you haven't already, you'll need to enable invite links:
+
+  -Click the `•••` next to your teamspace and click on `Teamspace settings` .
+
+  -Under `Security` , toggle on `Invite Link` .
+
+Tip:Most likely, you’ll only need one default teamspace, and we’d recommend no more than three default, even for large workspaces.
+
+### Add or move pages to a teamspace
+
+To add a new page to a teamspace:
+
+  -Hover over the teamspace name in your sidebar.
+
+  -Click the `+` button to add a new page within the teamspace.
+
+To move an existing page to a teamspace:
+
+  -Click the `•••` at the top right of the page.
+
+  -Click `Move to` , and you’ll see a list of teamspaces that you can choose as destinations. You can also search for a specific teamspace.
+
+### Modify teamspace settings
+
+Each teamspace has its own membership, permissions, & security settings. These can be managed by the owners of a teamspace.
+
+  -In your sidebar, hover over a teamspace name and click `•••` to its right.
+
+  -Click `Teamspace settings` .
+
+In the pop-up menu, you’ll see three tabs: General, Members, and Security. Below, we’ll walk through all the options in each.
+
+#### General
+
+Here, you can modify general teamspace information.
+
+  -Click the icon to change it, or upload your own image.
+
+  -Rename your teamspace.
+
+  -Add a description to your teamspace.
+
+You can also archive your teamspace. This will remove it from the sidebar of every single teamspace member.
+
+Note:Teamspace owners who are also workspace owners will be able to restore archived teamspaces in Settings & members → Teamspaces.
+
+#### Members
+
+In this tab, you can manage the membership of the teamspace.
+
+  -Toggle on the `Make default teamspace` option if you’d like to add every member of your workspace as teamspace members, all at once.
+
+  -Click `Add members` to search for workspace members or groups via name or email, then add them to the teamspace. You can also search via the option on the top right.
+
+  -Current teamspace members and groups will be listed in this tab. Their role (teamspace owner, member) will be shown to the right of their name.
+
+  -Teamspace owners can click any member or group’s role to change it.
+
+If your workspace is on an Enterprise Plan, you’ll see an additional option to set custom permissions on a member or group basis.Learn more about permissions →
+
+#### Permissions
+
+This tab outlines the permission levels of the teamspace and the users within.
+
+  -At the top are the general permissions of the teamspace. There are three options:
+
+    *Open:Anyone can join and view the content inside this teamspace.
+
+    *Closed:Everyone can see that this teamspace exists, but can’t join unless they’re invited by an owner or member.
+
+    *Private (Business and Enterprise Plans only):Only members or owners of this teamspace can invite other people, and it won’t be visible to people who are not added.
+
+  -Under that are permissions levels for this teamspace, split by each role: teamspace owners, teamspace members, and everyone else (including non-teamspace members) within the workspace.
+
+  -For closed or private teamspaces, teamspace owners can choosewho can invite teamspace members: any teamspace member or teamspace owners only.
+
+  -For any teamspace, teamspace owners can choosewho can edit the teamspace sidebar: any teamspace member or teamspace owners only.
+
+#### Security
+
+Note:Some of the following settings are available to Enterprise users only.
+
+This tab shows the security settings for the teamspace. These will automatically inherit from the workspace’s security settings — onlyteamspace owners who are also workspace ownerswill be able to modify them to make their teamspace settings more permissive than the workspace level settings.
+
+Available on all plans
+
+  -Who can invite teamspace members
+
+  -Who can edit teamspace sidebar
+
+  -Invite Link
+
+Available on Enterprise Plans only
+
+  -Disable public page sharing:Don't let members publish pages in this teamspace to the web.
+
+  -Disable guests:Don't let pages in this teamspace be shared with people who don't belong to your workspace.
+
+  -Disable export:Don't let members export pages in this teamspace.
+
+### Browse existing teamspaces
+
+To see all existing teamspaces in your workspace:
+
+  -In your sidebar, you’ll see teamspaces that you are a part of.
+
+  -Click `••• More` at the bottom of the teamspaces section to see all teamspaces in your workspace.
+
+### Leave or archive a teamspace
+
+To leave a teamspace that you are a member of:
+
+  -Hover over the teamspace name in your sidebar.
+
+  -Click the `•••` button and then choose the `Leave teamspace` option.
+
+To archive a teamspace that you are the teamspace owner of:
+
+  -Hover over the teamspace name in your sidebar.
+
+  -Click the `•••` button and then choose the `Archive teamspace` option.
+
+Note:Teamspace owners who are also workspace owners will be able to restore archived teamspaces in Settings & members → Teamspaces.
+
+
+
+
+
+# Manage teamspaces
+
+### Workspace owners can get an overview of all teamspaces in the workspace, modify their settings, and access additional management tools 🪂
+
+### Teamspace settings
+
+Workspace owners will be able to manage settings for all teamspaces in the workspace. To do this:
+
+  -Go to your left sidebar and click `Settings & members` .
+
+  -Navigate to the `Teamspaces` tab.
+
+There are also settings that can be configured at the teamspace level.Some of these settings are available on Enterprise workplaces only.Learn about teamspace-level settingshere →
+
+Note:In addition to these workspace-wide settings, each teamspace also has its own configurable settings. For an overview on those, please refer to ourIntro to Teamspaces article →
+
+### Manage default teamspaces
+
+Workspace owners can designate default teamspaces: all new and current workspace members will automatically join these.
+
+  -Workspace owners can search for and add any teamspaces that they own to the list of defaults. Click `Update` to finalize this action.
+
+Note:Making a teamspace default will automatically add every member of the workspace to the teamspace.
+
+This action isnotreversible: you'll have to manually remove members if you change your mind about the teamspace being default. Please be sure that it's something you'd like to do!
+
+  -Click the ⨉ next to any existing default teamspace to remove it from the default list. Click `Update` to finalize this action.
+
+Tip:Most likely, you’ll only need one default teamspace, and we’d recommend no more than three default, even for large workspaces.
+
+### Manage teamspace creation
+
+Choose who can create teamspaces within your workspace:
+
+  -Toggle onLimit teamspace creation to only workspace ownersto restrict teamspace creation to workspace owners only. You can see a list of workspace owners in the `Members` tab.
+
+  -Toggle offLimit teamspace creation to only workspace ownersto allow any workspace member to create teamspaces.
+
+### Manage existing teamspaces in your workspace
+
+#### View all existing teamspaces
+
+Within the workspace's teamspace settings, you'll see a list of all the teamspaces you have access to, as well as several informational fields:
+
+  -Owners:Owners of that teamspace.
+
+  -Members:Members of that teamspace. Click this to expand the menu and see a full list.
+
+  -Access:This shows who can access the teamspace:
+
+    *Open:Anyone can join and view the content inside this teamspace.
+
+    *Closed:Everyone can see that this teamspace exists, but can’t join unless they’re invited by an owner or member.
+
+    *Private:Only members or owners of this teamspace can invite other people, and it won’t be visible to people who are not added.
+
+  -Updated:When the teamspace was last updated. Click the header to sort the list chronologically.
+
+From this menu, you can also search for and create new teamspaces. You can also filter by status (active or archived), owner and access level.
+
+#### Take ownership of a teamspace
+
+Workspace owners on the Enterprise Plan can take see, join and make themselves owner of any teamspace.
+
+  -Go to your left sidebar and click `Settings & members` .
+
+  -Navigate to the `Teamspaces` tab.
+
+  -Click the `•••` button at right side of a teamspace row to join as a member or owner.
+
+#### Restore archived teamspaces
+
+Workspace owners who are also owners of a teamspace can restore that teamspace if it is archived. Here's how:
+
+  -Go to your left sidebar and click `Settings & members` .
+
+  -Navigate to the `Teamspaces` tab.
+
+  -Use the `Archived` filter button to display all archived teamspaces.
+
+  -Click the `•••` button at the far right and then choose `Restore teamspace` .
+
+The teamspace and all of its content will be re-added to everyone’s sidebars who previously had access to the teamspace.
+
+#### Manage teamspaces without an owner
+
+It's possible that a teamspace does not have an owner. In this case, workspace owners may assign a new teamspace owner.
+
+  -Go to your left sidebar and click `Settings & members` .
+
+  -Navigate to the `Teamspaces` tab.
+
+  -Click the `Owner` filter button and choose to show `Teamspaces with no owners` .
+
+  -Click the `•••` button at the far right and then choose `Restore teamspace` .
+
+
+

@@ -26,24 +26,14 @@ def scrape_article_content(article_url):
 
 
     # More specific search for relevant content containers
-    # content_containers = article_soup.find_all(['div', 'section', 'article'], class_=lambda x: x and ('content' in x or 'rich-text' in x))
     content_containers = article_soup.find_all(['div', 'header'], class_=lambda x: x and ('helpArticle' in x or 'contentfulRichText' in x or 'help-article-header' in x or 'mediaWithCaption_media__TLfag' in x or 'animation--running appear-instantly' in x or 'faqDrawers_questionText__CBY_y' in x))
     # Process each content container
     for container in content_containers:
         for element in container.find_all(['h2', 'h3', 'h4', 'p', 'ul', 'ol', 'img', 'video'], recursive=False):
-            # print(element.name)
-            # Create a more robust unique identifier using the element type, text, and position in the document
-            element_text = element.get_text(strip=True)
-            unique_id = f"{element.name}_{element_text}_{container.name}_{container.get('class')}"
-
             # Process headers
             if element.name in ['h2', 'h3', 'h4']:
                 header_level = '#' * (int(element.name[1]) + 1)
                 content.append(f"{header_level} {element.get_text(strip=True)}\n")
-
-            # # Process lists (handle lists first to avoid double processing)
-            # elif element.name in ['ul', 'ol']:
-            #     process_list(element, content, processed_elements)
 
             # Process paragraphs by checking their parent hierarchy
             elif element.name == 'p':
@@ -68,8 +58,7 @@ def scrape_article_content(article_url):
                     bullet_point= ''
                     
                 formatted_text = f"{'  ' * hierarchy_level}{bullet_point}{paragraph_text.strip()}\n"
-                
-                # Append formatted text to content
+                # Append formatted bulletpoint text to content
                 content.append(formatted_text)
 
             # Process images
@@ -81,7 +70,6 @@ def scrape_article_content(article_url):
             elif element.name == 'video':
                 video_url = element.get('src')
                 content.append(f"[Video]({video_url})\n")
-
 
     return '\n'.join(content)
 

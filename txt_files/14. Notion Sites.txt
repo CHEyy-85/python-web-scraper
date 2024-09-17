@@ -1,0 +1,608 @@
+<14. Notion Sites>
+
+Launch a beautiful website in just minutes with Notion Sites. You can customize your Site's look and feel, connect custom domains, and more.
+
+
+
+# Publish a Notion Site
+
+### Any page you build in Notion can be turned into a beautiful Notion Site with just a click. Publish a blog, resume or portfolio, job listing, landing page — the possibilities are as wide as the web itself 🪄
+
+### What you can do with Notion Sites
+
+With Notion Sites, you can:
+
+  -Publish an unlimited number of pages to the web.
+
+  -Claim one notion.site domain.
+
+  -Turn on search engine indexing for your Sites.
+
+If you’re on a paid plan, you’ll also unlock additionalcustomizationfor your site that includes search engine optimization, themes, integration with Google Analytics, and more. You'll also have the ability to purchase an add-on touse your existing custom domains with Sites, and more.
+
+Learn more about Notion Sites feature availability and pricinghere →
+
+### Publish a Notion Site
+
+To publish a Notion Site:
+
+  -Open the page you want to publish and select `Share` at the top.
+
+  -Open the `Publish` tab.
+
+  -Select `Publish` .
+
+Select `View site` to see your Notion Site live on the web! As you make changes to the content in a published Notion page, the Site will update automatically.
+
+Note: Publishing a Notion page to the web means all of its subpages will be published too. Make sure all your page’s subpages are good to go before you hit publish!
+
+Learn how to build a beautiful, ready-to-publish Notion Sitehere →
+
+### Adjust settings for your Notion Site
+
+Once your Notion Site is published, open the published page in Notion and select `Share` at the top → `Publish` . From this menu, you can:
+
+  -Copy the link to your live Notion Site so you can share it with others.
+
+  -Select `Site customization` to further personalize your Site. Learn more about customizing your site inthis article →
+
+  -Select `Search engine indexing` and toggle on `Discoverable on the web` to make your site searchable on the web. If you’re on a paid plan, you’ll also be able to edit your link title and description for search engine optimization.
+
+  -Open the dropdown next to `Link expiration` to choose when the link to your Notion Site will automatically expire.
+
+  -Manage all of your sites by selecting `All published sites` .
+
+Note:Notion Sites can take up to four weeks to be indexed and appear in search results.
+
+You can also control what actions people can take if they have the link to your published Site. To do this:
+
+  -Open the published page in Notion and select `Share` at the top → `Share` .
+
+  -Open the dropdown next to `Anyone with published link` and choose what actions a visitor can take. If they’re logged into Notion, they can edit the page, comment on it, view it, or remove it from the web.
+
+### How visitors interact with your Notion Site
+
+Note: When you publish a Notion page to the web, the webpage’s metadata may include the names, profile photos, and email addresses associated with any Notion users that have contributed to the page.
+
+When you publish a Notion Site:
+
+  -Anyone on the web can view it.
+
+  -Subpages are also published by default, along with any of their subpages. You can restrict subpage permissions to hide them from public view!
+
+  -If your Notion Site contains a database, viewers can toggle between views and open the pages within.
+
+  -Depending on thesettingsyou’ve toggled on and thecustomizationsyou make, viewers can also edit, duplicate, search, or comment on your Site.
+
+  -As you make changes to the content in your Notion page, the Site will update automatically.
+
+If you’re on a paid plan, you can do even more to tailor the experience for your Site’s visitors! Learn how inthis article →
+
+### Unpublish your Notion Site
+
+To take your Notion Site off the web:
+
+  -Open the page you want to unpublish and select `Share` at the top.
+
+  -Open the `Publish` tab.
+
+  -Select `Unpublish` .
+
+Get inspired by other Notion Sites
+
+  -Animal Crossing Critterpedia
+
+  -Blendle's Employee Handbook
+
+  -Notion Tips and Hacks
+
+  -Recipe Box
+
+  -Design Portfolio
+
+  -Recommended Reading
+
+  -SF Cafes List
+
+  -Video Game List
+
+  -Notion What's New page
+
+
+
+Learn more
+
+  -Edit and customize your Notion Site
+
+  -Manage your Notion Sites
+
+  -Connect a custom domain with Notion Sites
+
+  -Notion Sites availability and pricing
+
+
+
+
+
+### FAQs
+
+Does Notion support custom domains?
+
+Learn how to claim a `notion.site` domain or connect a custom domain to your Notion Sitehere →
+
+Can you link to a specific section of a page?
+
+You can use atable of contentsin your public page to create anchor links to its headings.
+
+If I change my workspace domain name, will my public page URLs still work?
+
+If you change your workspace domain, any existing links starting with the previous domain will no longer work. You'll need to share the new link. To find the new link,open the published page in Notion and select `Share` at the top → `Publish` . Find the URL at the top and select `🔗` next to it to copy it.
+
+I shared my public page URL but it takes people to a page with a "Continue to external site by following the link below" error message. What did I do wrong?
+
+Make sure you’ve shared the link to the published page, and not the version of the page in your Notion workspace! The link should begin with your Notion workspace domain name.To find it, open the published page in Notion and select `Share` at the top → `Publish` . Find the URL at the top and select `🔗` next to it to copy it.
+
+Can I password protect a page?
+
+Unfortunately, not at the moment. If the person you want to share a page with has a Notion account, you can share your page privately by selecting `Invite a person` in the `Share` menu at the top of a page.
+
+
+
+# Edit & customize your Notion Sites
+
+### If you’re on a paid plan, you can customize the look and feel of your Notion Sites, integrate with Google Analytics, and more 🎨
+
+Note:The following is only available on paid plans.
+
+Paid plan users can:
+
+  -Customize their Notion Sites’ favicon and navigation bar.
+
+  -Customize share previews for their Sites.
+
+  -Customize their Sites’ page title and description (which will be used in share previews and for SEO).
+
+If you want to use a custom domain with Notion Sites, you can purchase the custom domain add-on. Learn morehere →
+
+As you customize your Notion Site, you’ll see a preview of it to the left of your screen.
+
+### Customize share previews
+
+You can choose how you want your Notion Site to be previewed when its URL is shared. To do this:
+
+  -Open `Share` at the top of your published Notion page → `Publish` → `Site customization` .
+
+  -Under `Share preview` , you’ll see a preview that uses your Site’s current cover image and title. Hover over the preview and select `Upload image` to use your own image.
+
+  -Select `Publish changes` at the top of the screen.
+
+### Set a theme
+
+To set a theme for your Notion Site:
+
+  -Open `Share` at the top of your published Notion page → `Publish` → `Site customization` .
+
+  -Under `Theme` , select `System` , `Light` , or `Dark` .
+
+  -Select `Publish changes` at the top of the screen.
+
+### Customize your favicon
+
+Note:Custom favicons are not currently supported in the Safari browser.
+
+To customize your Site favicon:
+
+  -Open `Share` at the top of your published Notion page → `Publish` → `Site customization` .
+
+  -Open the dropdown next to `Favicon` and select `Page icon` if you want to use your Notion page’s existing icon, or select `Upload image` to use your own image.
+
+  -You’ll be able to see your custom favicon in the URL bar at the top of your Notion Site preview. Once everything looks good to you, select `Publish changes` at the top of the screen.
+
+### Customize your header
+
+You can customize your Site’s header, which is all of the information displayed at the very top of your Site. To do this:
+
+  -Open `Share` at the top of your published Notion page → `Publish` → `Site customization` .
+
+  -Select `Header` .
+
+  -Toggle the following on or off:
+
+    *`Breadcrumbs` : This is a menu in your header that shows your Site visitors what page they’re on.
+
+    *`Search` : This allows visitors to search your Notion Site.
+
+    *`Duplicate as template` : This allows your site visitors to duplicate your Notion Site as a Notion page in their own workspace.
+
+    *`Notion watermark` : This is the `Built with Notion` watermark. You can only turn this off if your Notion Site is using a custom domain.
+
+  -Under `Navigation` , select `Add page` to help your visitors easily and quickly navigate to another page on your Site.
+
+  -Select `Publish changes` at the top of the screen.
+
+### Connect with Google Analytics
+
+We offer a built-in integration with Google Analytics so you can track and report on visits to your Notion Sites. To connect with Google Analytics:
+
+  -Open `Share` at the top of your published Notion page → `Publish` → `Site customization` .
+
+  -Select `Google Analytics` .
+
+  -Enter yourmeasurement ID.
+
+  -Select `Publish changes` at the top of the screen.
+
+Learn more
+
+  -Publish a Notion Site
+
+  -Manage your Notion Sites
+
+  -Notion Sites availability and pricing
+
+  -Connect a custom domain with Notion Sites
+
+
+
+
+
+
+
+# Manage your Notion Sites
+
+### It's easy to view and manage all of your Notion Sites in one place 🌐
+
+All workspace members can see and manage their workspace’s Notion Sites by going to `Settings & members` in their sidebar → `Sites` .
+
+From here, workspace members can:
+
+  -See domains belonging to the workspace.
+
+  -See Notion Sites that they can access through a teamspace, group, parent page, or a direct invitation.
+
+  -This doesn’t include pages that are available to anyone with a link — you must have direct access to the page in Notion.
+
+  -Go to the published Site, copy its URL, or open up the publishing settings for it.
+
+Workspace owners can do all of the above, as well asrestrict the ability to publish Notion Sitesfor their workspace.
+
+### Manage your domains
+
+#### Create a new notion.site domain
+
+Note:If you’re on a Free plan, you can claim one `notion.site` domain. If you’re on a paid plan, you can claim up to five.
+
+To customize and claima new `notion.site` domain:
+
+  -Go to `Settings & members` in your sidebar → `Sites` .
+
+  -Next to `Domains` , select `New domain` .
+
+  -Select `Notion domain` → `Continue` .
+
+  -Enter your desired domain.
+
+  -Select `Create domain` .
+
+Once you've set your own workspace domain, it will be displayed at the start of any public page URLs, such as `acme.notion.site` . The unique `acme.notion.site` URL isonly used for publicly shared pagesfrom within your workspace. Internally, you will still see the URL as `notion.so/acme` .
+
+Note:
+
+  -Notion reserves the right to reclaim a notion.site domain at any time, at its sole discretion.
+
+  -Once you set a custom notion.site domain, you’ll need to continue to actively use your Notion workspace in order to maintain it. If you don’t, you might lose the domain.
+
+  -If you switch to a new custom notion.site domain, any existing links starting with the previous domain ( `previousdomain.notion.site` ) will no longer work! You'll need to re-share new links containing the new domain.
+
+
+
+#### Connect a custom domain
+
+Note:The following is only available on paid plans.
+
+Workspace owners on paid plans can connect their existing custom domains with Notion Sites by purchasing the custom domain add-on. Notion doesn’t sell custom domains or replace your current domain provider — the add-on allows you to use Notion Sites with a custom domain you already own. Learn more about this featurehere →
+
+When you use a custom domain with Notion Sites, you’ll also have the option to remove any Notion branding for that custom domain. Learn more about customizing your Sites inthis article →
+
+#### Change or assign your domain's Homepage
+
+Note:The following is only available on paid plans.
+
+To update the Homepage for a domain:
+
+  -Go to `Settings & members` in your sidebar → `Sites` .
+
+  -Find the domain whose Homepage you want to update, then under `Homepage` :
+
+    *If you don’t already have a Homepage assigned, select `Select a page` , then search for and select a page. Only pages that have already beenpublishedas a Notion Site under this domain will appear in this search.
+
+    *If you already have a Homepage assigned but want to change it, select the pencil icon, then search for and select a page.
+
+    *If you already have a Homepage assigned but want to clear it, select `X` .
+
+#### Update, validate, or delete a domain
+
+To update, validate, or delete a domain:
+
+  -Go to `Settings & members` in your sidebar → `Sites` .
+
+  -Next to your desired domain, select `•••` .
+
+  -From here, select:
+
+    *`Update` to change your `notion.site` domain name. Any changes will apply to all of your live Notion Sites associated with this domain. Enter a new name and select `Save changes` . If you’re trying to update your custom domain name, you’ll have to delete the existing one and add a custom domain again, using the correct name.
+
+    *`Delete` to remove your domain. If any Notion Sites have been published to the domain you’re trying to delete, you’ll be asked to unpublish those Sites before proceeding.
+
+    *`Validate` to verify your custom domain.
+
+Note:
+
+  -If your domain has a flag next to it in your Sites settings, you won’t be able to delete it. This is because it’s the default domain of your workspace that was created when your workspace was created.
+
+  -When you delete a custom domain, you'll still be able to use it with Notion Sites until the end of your current billing cycle. After that time, you will no longer be charged for that custom domain.
+
+
+
+### Manage your published Sites
+
+Go to `Settings & members` in your sidebar → `Sites` → `All published sites` to see which of your Notion pages have been published as Notion Sites. From here, you can:
+
+  -See the names of your Notion pages, the domain they’re associated with, who published them, and when they were published.
+
+  -Select `•••` next to each published page to view the Site, copy its link, or go into itspublishing settings.
+
+Learn more
+
+  -Publish a Notion Site
+
+  -Connect a custom domain with Notion Sites
+
+  -Edit and customize your Notion Sites
+
+  -Notion Sites availability and pricing
+
+
+
+
+
+
+
+# Connect a custom domain with Notion Sites
+
+### If you already have a custom domain, you can use it with Notion Sites. Learn how to do this, both in Notion and in your DNS provider 🔧
+
+Note:The following is only available on paid plans.
+
+Workspace owners on paid plans can connect their existing custom domains with Notion Sites by purchasing the custom domain add-on.Notion doesn’t sell custom domains or replace your current domain provider— the add-on allows you to use Notion Sites with a custom domain you already own.
+
+### Custom domain add-on pricing and billing
+
+Once a workspace owner on a paid plan connects a custom domain with Sites, they'll be charged an additional $10 per month.Note that with annual billing, you’ll unlock a discounted rate for the custom domain add-onof an additional $8 per month.
+
+For each custom domain you want to use with Notion Sites, you’ll have to purchase a separate custom domain add-on. You can do this for up to 25 custom domains.
+
+Billing for the custom domain add-on must match your billing for Notion — if you pay for Notion annually, you’ll also be billed annually for the custom domain. If you pay for Notion monthly, you’ll also be billed monthly for the custom domain.
+
+If you add a custom domain to your existing paid plan, you’ll pay a prorated amount for the remaining time left on your current billing cycle. On your next billing date, the custom domain add-on charge will be added to your regular billing cadence.
+
+### Connect a custom domain
+
+To connect a custom domain with Notion Sites:
+
+  -Go to `Settings & members` in your sidebar → `Sites` .
+
+  -Next to `Domains` , select `New domain` .
+
+  -Select `Custom domain` → `Continue` .You’ll be prompted to set up a payment method for this add-on if you don’t already have one on file.
+
+  -Enter your custom domain → `Continue` .
+
+  -There are a few important rules to follow when adding your domain to ensure a smooth setup:
+
+    *You must already have purchased your domain from a DNS provider.
+
+    *When entering your domain,you must include a subdomain. This is typically `www` , but any other subdomain works too (ex.: `careers.my-domain.com` or `portfolio.my-domain.com` ).
+
+  -If you want your root domain to point to your Notion Site, we recommend setting up your subdomain to `www` and setting up a redirect with your DNS provider. Here are some instructions from common providers for how to set this up:
+
+    *https://www.namecheap.com/support/knowledgebase/article.aspx/385/2237/how-to-set-up-a-url-redirect-for-a-domain/
+
+    *https://www.godaddy.com/help/forward-my-godaddy-domain-12123
+
+    *https://support.squarespace.com/hc/en-us/articles/214767107-Forwarding-a-Squarespace-domain
+
+  -
+
+  -You’ll be prompted to go to your DNS provider and add a CNAME record for the domain you want to connect. Set the CNAME target to `external.notion.site` .
+
+  -Learn more about domains
+
+    *https://www.godaddy.com/help/what-is-dns-665
+
+    *https://www.godaddy.com/help/manage-dns-records-680
+
+    *https://www.namecheap.com/support/knowledgebase/article.aspx/434/2237/how-do-i-set-up-host-records-for-a-domain/
+
+    *https://www.namecheap.com/support/knowledgebase/article.aspx/9646/2237/how-to-create-a-cname-record-for-your-domain/
+
+    *https://developers.cloudflare.com/dns/zone-setups/partial-setup/setup/
+
+    *https://support.squarespace.com/hc/en-us/articles/360002101888-Adding-custom-DNS-records-to-your-Squarespace-managed-domain
+
+  -
+
+  -Next, add a TXT record for the domain. You can copy the record name and value for easy use.
+
+  -Select `Verify` .
+
+Once you add a custom domain, you’ll see it and its status in your list of domains.
+
+When you use a custom domain with Notion Sites, you’ll also have the option to remove any Notion branding for that custom domain. Learn more about customizing your Sites inthis article →
+
+### Delete a custom domain
+
+  -Go to `Settings & members` in your sidebar → `Sites` .
+
+  -Next to your desired domain, select `•••` .
+
+  -From here, select `Delete` to remove your domain. If any Notion Sites have been published to the domain you’re trying to delete, you’ll be asked to unpublish those Sites before proceeding.
+
+Note:When you delete a custom domain, you'll still be able to use it with Notion Sites until the end of your current billing cycle. After that time, you will no longer be charged for that custom domain.
+
+
+
+### Examples of incorrect DNS configurations
+
+In the setup below, the name of the TXT record is set to `notes` but should instead be `_notion-dcv.notes` . The value of the record is set to `_notion-dcv.notes` but should instead be the unique TXT record code provided in Notion when you’re setting up the custom domain.
+
+In the setup below, the CNAME host is set to `external.notion.site` but should instead be set to your desired subdomain, like `careers.my-domain.com` . The CNAME value is correctly set to `external.notion.site` .
+
+### Setup instructions per DNS provider
+
+Below are instructions for setting up your CNAME and TXT records with some of the most common DNS providers.
+
+Note:
+
+  -The screenshots used below are just examples. Make sure you use your specific values as you follow the steps!
+
+  -For more help setting up, please reach out to your DNS provider.
+
+
+
+#### GoDaddy
+
+  -Find your domain and select `Manage DNS` .
+
+  -Add the CNAME and TXT DNS record. In this example, because we’re setting up the subdomain `www.my-domain.com` , the CNAME will be set to `www` . Make sure to adjust accordingly depending on your chosen subdomain.
+
+  -Select `Save All Records` .
+
+  -Confirm the two records have been successfully added.
+
+#### Namecheap
+
+  -Go to your domain list and find the domain you want to set up with Notion.
+
+  -Open the `Advanced DNS` tab.
+
+  -Add the CNAME and TXT DNS record. In this example, because we’re setting up the subdomain `www.my-domain.com` , the CNAME will be set to `www` . Make sure to adjust accordingly depending on your chosen subdomain.
+
+  -Select `SAVE ALL CHANGES` .
+
+  -Confirm the two records have been successfully added.
+
+#### Squarespace
+
+  -Open the `Domains` tab and select the domain you want to set up with Notion.
+
+  -Open the `DNS Settings` tab.
+
+  -Add the CNAME and TXT DNS record. In this example, because we’re setting up the subdomain `www.my-domain.com` , the CNAME will be set to `www` . Make sure to adjust accordingly depending on your chosen subdomain.
+
+  -Save your changes.
+
+  -Confirm the two records have been successfully added.
+
+#### Cloudflare
+
+  -Find `Websites` and select the domain you want to set up with Notion.
+
+  -Using the left navigation menu, select `DNS` → `Records` .
+
+  -Add the CNAME and TXT DNS record. In this example, because we’re setting up the subdomain `www.my-domain.com` , the CNAME will be set to `www` . Make sure to adjust accordingly depending on your chosen subdomain.
+
+  -Make sure `Proxy status` is toggled off.
+
+  -Add the TXT record.
+
+#### 123-reg
+
+  -Find `My Products` and select the domain you want to set up with Notion.
+
+  -Open the `DNS Records` tab.
+
+  -Add the CNAME and TXT DNS record. In this example, because we’re setting up the subdomain `www.my-domain.co.uk` , the CNAME will be set to `www` . Make sure to adjust accordingly depending on your chosen subdomain.
+
+  -Select `Save` .
+
+  -Add the TXT record.
+
+  -Select `Save` .
+
+  -If you would like to set up your top-level domain (in this case, `my-domain.co.uk` ) to redirect to the domain you have set up with Notion ( `www.my-domain.co.uk` ), open the `Forwarding` tab. Then, select `Set up` and enter your domain.
+
+Note:Your DNS records might display a period at the end of your subdomain. While in general this shouldn’t impact your setup, you can try removing this if you’re having issues connecting your custom domain with Notion Sites.
+
+Learn more
+
+  -Notion Sites availability and pricing
+
+  -Manage your Notion Sites
+
+
+
+
+
+
+
+# Notion Sites availability & pricing
+
+### Every workspace member can publish as many Notion Sites as they want, but depending on your plan, you may also have access to additional features ➕
+
+### Notion Sites features by plan type
+
+#### Free plan
+
+The Free plan includes the ability to:
+
+  -Publish an unlimited number of Notion Sites.
+
+  -Claim one `notion.site` domain.
+
+  -Turn on search engine indexing for your Sites.
+
+#### Paid plans
+
+Paid plans include the ability to:
+
+  -Publish an unlimited number of Notion Sites.
+
+  -Claim up to five `notion.site` domains.
+
+  -Turn on search engine indexing for your Sites.
+
+  -Set a Homepage for your domains.
+
+  -Customize your Notion Sites.
+
+  -Integrate your Notion Sites with Google Analytics.
+
+  -Optionally connect up to 25 existing custom domains with Notion Sites bypurchasing the custom domain add-on.
+
+### Custom domain add-on
+
+Workspace owners on paid plans canconnect their existing custom domains with Notion Sitesby purchasing the custom domain add-on. Notion doesn’t sell custom domains or replace your current domain provider — the add-on allows you to use Notion Sites with a custom domain you already own.
+
+Once a workspace owner on a paid plan connects a custom domain with Sites, they'll be charged an additional $10 per month.Note that with annual billing, you’ll unlock a discounted rate for the custom domain add-onof an additional $8 per month.
+
+For each custom domain you want to use with Notion Sites, you’ll have to purchase a separate custom domain add-on. You can do this for up to 25 custom domains.
+
+Billing for the custom domain add-on must match your billing for Notion — if you pay for Notion annually, you’ll also be billed annually for the custom domain. If you pay for Notion monthly, you’ll also be billed monthly for the custom domain.
+
+If you add a custom domain to your existing paid plan, you’ll pay a prorated amount for the remaining time left on your current billing cycle. On your next billing date, the custom domain add-on charge will be added to your regular billing cadence.
+
+Learn more
+
+  -Publish a Notion Site
+
+  -Edit and customize your Notion Sites
+
+  -Manage your Notion Sites
+
+  -Connect a custom domain with Notion Sites
+
+
+
+
+

@@ -1,0 +1,2594 @@
+<9. Workspace administration>
+
+Notion grows with your team – and some teams need a little bit more power in their feature set! See how you can use Business or Enterprise plan features to better manage your team’s Notion workspace.
+
+
+
+# SAML SSO
+
+### Notion provides Single Sign-On (SSO) functionality for Business and Enterprise customers to access the app through a single authentication source. This allows IT administrators to better manage team access and keeps information more secure 🔐
+
+Notion’s single sign-on (SSO) services are built upon the SAML (Security Assertion Markup Language) 2.0 standard that permits identity managers to safely pass authorization credentials to service providers like Notion and connect your Identity Provider (IdP) and workspace(s) for an easier, more secure login experience.
+
+### What is SAML SSO?
+
+SSO services permit a user to use one set of credentials (for example, a name or email address and password) to access multiple applications. The service authenticates the end user only once for all the applications the user has been given rights to and eliminates further prompts when the user switches applications during the same session.
+
+Note:SAML SSO is available for workspaces on Notion'sBusiness or Enterprise Plans.Contact sales to learn more →
+
+#### Benefits of SSO
+
+  -Streamlines user management across systems for workspace owners.
+
+  -Removes the need for end-users to remember and manage multiple passwords. Simplifies end-users experience by allowing them to sign in at one single access point and enjoy a seamless experience across multiple applications.
+
+Note:Only members can access a workspace via SSO. Guests are not supported.
+
+Learn more about members and guests in a Notion workspace →
+
+### Setting up SAML SSO for your workspace
+
+#### Prerequisites for SSO with Notion
+
+  -Your workspace must be on a Business Plan or Enterprise Plan.
+
+  -Your Identity Provider (IdP) must support the SAML 2.0 standard.
+
+  -Only a workspace owner can configure SAML SSO for a Notion workspace.
+
+  -At least one domain has been verified by a workspace owner.
+
+#### Enable SAML SSO for a single workspace
+
+  -Go to `Settings & members` , then select the `Settings` tab.
+
+  -In the `Allow email domains` section, remove all email domains.
+
+  -Then select the `Identity & provisioning` tab.
+
+  -Verify one or more domains.See instructions for domain verification here →
+
+  -Toggle on `Enable SAML SSO` and the SAML SSO Configuration modal will automatically appear and prompt you to complete the set-up.
+
+  -The SAML SSO Configuration modal is divided into two parts:
+
+    *The `Assertion Consumer Service (ACS) URL` is to be entered in your Identity Provider (IdP) portal
+
+    *The `Identity Provider Details` is a field in which either an IdP URL or IdP metadata XML must be provided to Notion.
+
+For more information on where to enter and obtain this information, please refer to our IdP-specific guides below.
+
+Note:Guests are not supported with SAML SSO on Notion.
+
+### Link additional workspaces to an existing SAML SSO configuration
+
+From the workspace where you have verified your domain and enabled SAML SSO, there is a `Linked workspaces` section listing all of the workspaces associated with your SAML SSO configuration.
+
+Users with a verified email address who have access to the primary workspace or one of the linked workspaces will be able to log in via SAML SSO.Sales-assisted Enterprise customers can add Enterprise workspaces to their SAML SSO configuration or remove them by reaching out to team@makenotion.com.
+
+#### Enforce SAML SSO
+
+Once you have completed your configuration of SAML SSO for a single workspace, users will be able to log in via SAML SSO in addition to other log-in methods such as username/password and Google Authentication.
+
+  -To ensure users can only log in using SAML SSO and no other method, update the `Login method` to `Only SAML SSO` . Once this happens, workspace users will be logged out and required to log back in using SAML SSO.
+
+  -SAML SSO will only be enforced for users who use your verified domain and have access to the primary workspace or a linked workspace.
+
+  -Guests invited to pages in a Notion workspace can’t use SAML SSO to login. Instead, they’ll always use their e-mail and password or log in with Google or Apple.
+
+  -Workspace owners will always have the option to bypass SAML SSO by using their email and password credentials. This is to allow them to access Notion in the event of IdP/SAML failure. They will be able to log in and disable or update their configuration.
+
+### Just-in-Time (JIT) Provisioning
+
+Notion supports Just-in-Time provisioning when using SAML SSO. This allows someone signing in via SAML SSO to join the workspace automatically as a member.
+
+To enable Just-in-Time provisioning:
+
+  -In `Settings & members` → `Identity & provisioning` , make sure that `Automatic account creation` is enabled.
+
+Note:We don’t recommend enabling Just-in Time provisioning if you are using SCIM. Having an “allowed email domain” in place allows users on that domain to join the workspace so there could be a mismatch between membership in their Identity Providers and Notion.
+
+
+
+### Identity Provider (IdP) Setup
+
+These are instructions for setting up Notion SAML SSO with Entra ID (formerly Azure), Google, Okta, and OneLogin. If you use a different Identity Provider and need assistance with configuration, pleasecontact our support team.
+
+#### Entra ID
+
+For additional documentation, you can also reference steps on Entra ID's website here:
+
+  -Entra ID (formerly Azure Active Directory) single sign-on (SSO) integration with Notion
+
+Step 1: Create a new application integration
+
+  -Sign in to the Entra ID portal. On the left navigation pane, select the `Azure Active Directory` service.
+
+  -Navigate to `Enterprise Applications` and then select `All Applications` .
+
+  -To add a new application, select `New application` .
+
+  -In the `Add` from the gallery section, type `Notion` in the search box. Select Notion from results panel and then add the app. Wait a few seconds while the app is added to your tenant.
+
+Step 2:Create SAML Integration
+
+  -In the Azure portal, on the Notion application integration page, find the `Manage` section and select `single sign-on` .
+
+  -On the `Select a single sign-on method` page, select `SAML` .
+
+Step 3: SAML Settings
+
+  -In Notion, go to the `Settings & members` tab, then select the `Settings` tab.
+
+  -In the `Allow email domains` section, remove all email domains.
+
+  -Then select the `Identity & provisioning` tab.
+
+  -Verify one or more domains. See instructions for domain verification here →
+
+  -Verify a domain for your workspace.
+
+  -Toggle on `Enable SAML SSO` and the `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
+
+  -The SAML SSO Configuration modal is divided into two parts — one section is the `Assertion Consumer Service (ACS) URL` to be entered in your Identity Provider (IdP) portal and the second section is `Identity Provider Details` in which either IdP url or IdP metadata XML that must be provided to Notion.
+
+Step 4: Configure Notion app in Entra ID
+
+  -On the Set up single sign-on with SAML page, click the pencil icon for `Basic SAML Configuration` to edit the settings.
+
+  -On the `Basic SAML Configuration` section, if you wish to configure the application in IdP initiated mode, enter the values for the following fields:
+
+    *In the `Identifier (Entity ID)` text box, enter the following URL: `https://www.notion.so/sso/saml` .
+
+    *In the `Reply URL (Assertion Consumer Service URL)` text box, use the ACS URL from Notion, found on the `Identity & provisioning` tab of `Settings & members` in your left-hand sidebar.
+
+    *In the `Sign on URL` text box, enter the following URL: `https://www.notion.so/login` .
+
+  -In the `User attributes & claims` section, ensure the required claim are set to:
+
+    *Unique User Identifier (Name ID): user.userprincipalname [nameid-format:emailAddress]
+
+    *firstName: user.givenname
+
+    *lastName: user.surname
+
+    *email: user.mail
+
+  -On the `Set up single sign-on with SAML` page, in the `SAML Signing Certificate` section, click the copy button next to the `App Federation Metadata URL` .
+
+  -Go to your Notion workspace `Settings & members` → Identity & provisioning, and paste the `App Federation Metadata URL` value you copied into the `IdP metadata URL field` text box. Make sure the radio button `Identity Provider URL` is selected.
+
+Step 5: Assign users to Notion
+
+  -In the Azure portal, select `Enterprise Applications` , and then select `All applications` . In the applications list, select `Notion` .
+
+  -In the app's overview page, find the `Manage` section and select `Users and groups` .
+
+  -Select `Add user` , then select `Users and groups` in the `Add Assignment` dialog.
+
+  -In the `Users and groups dialog` , select from the Users list, then click the `Select` button at the bottom of the screen.
+
+  -If you are expecting a role to be assigned to the users, you can select it from the `Select a role` dropdown. If no role has been set up for this app, you see `Default Access` role selected.
+
+  -In the `Add Assignment` dialog, click the `Assign` button.
+
+#### Google
+
+For additional instructions, you can also reference the documentation in the Google Workspace Admin Help Center:
+
+  -Notion Cloud application
+
+Step 1: Get Google identity provider (IdP) information
+
+  -Make sure you'resigned into an administrator accountto ensure your user account has the appropriate permissions.
+
+  -In the Admin console, go to `Menu` -> `Apps` -> `Web and mobile apps` .
+
+  -Enter Notion in the search field and select the Notion SAML app.
+
+  -On the `Google Identity Provider` details page, download the IdP metadata file.
+
+  -Open the file, `GoogleIDPMetadata.xml` in a compatible editor, then select and copy the contents of the file.
+
+  -Leave the Admin console open, you'll continue with the configuration wizard after performing the next step in the Notion application.
+
+Step 2: Set up Notion as SAML 2.0 service provider
+
+  -In Notion, go to the `Settings and members` tab, then select the `Settings` tab.
+
+  -In the `Allowed email domains` section, remove all email domains.
+
+  -Select the `Identity & provisioning` tab.
+
+  -Add a new domain and verify it. This should be the same as your Google Workspace domain.
+
+  -In `SAML Single sign-on (SSO)` settings, toggle the `Enable SAML SSO` on. This opens the `SAML SSO Configuration` dialog.
+
+  -In the dialog, do the following:
+
+    *Under `Identity Provider Details` , select `IDP metadata XML` .
+
+    *Paste the contents of the GoogleIDPMetadata.xml file, (copied in step 1 above) into the IdP metadata XML text box.
+
+    *Copy and save the Assertion Consumer Service (ACS) URL. You'll need this when you complete the Google-side configuration in Admin console in step 3 below.
+
+    *Click `Save Changes` .
+
+  -Ensure that the remaining options Login method, Automatic account creation and Linked workspacescontain the desired values for your configuration.
+
+Step 3: Finish SSO configuration in Admin Console
+
+  -Return to the Admin console browser tab.
+
+  -On the `Google Identity Provider details` page, click `Continue` .
+
+  -On the `Service provider details` page, replace the ACS URL with the ACS URL you copied from Notion in Step 2 above.
+
+  -Click `Continue` .
+
+  -On the `Attribute Mapping` page, click the `Select field` menu and map the following Google directory attributes to their corresponding Notion attributes. Note that firstName, lastName, and email are required attributes.
+
+  -Note: The profilePhoto attribute can be used to add a user photo in Notion. To use it,create a custom attributeand populate it in the user profile with the URL path to the photo, then map the custom attribute to profilePhoto.
+
+  -Optional:Click `Add Mapping` to add any additional mappings you need.
+
+  -Click `Finish` .
+
+Note:Regardless of how many group names you enter, the SAML response will only include groups that a user is a member of (directly or indirectly). For more information, seeAbout group membership mapping.
+
+Step 4: Enable the Notion app
+
+  -In the Admin console, go to `Menu` → `Apps` → `Web and mobile apps` .
+
+  -Select `Notion` .
+
+  -Click `User access` .
+
+  -To turn a service on or off for everyone in your organization, click `On for everyone` or `Off for everyone` , and then click `Save` .
+
+  -(Optional) To turn a service on or off for an organizational unit:
+
+    *At the left, select the organizational unit.
+
+    *To change the Service status, select `On` or `Off` .
+
+    *Choose one: If the Service status is set to `Inherited` and you want to keep the updated setting, even if the parent setting changes, click `Override` . If the Service status is set to `Overridden` , either click `Inherit` to revert to the same setting as its parent, or click `Save` to keep the new setting, even if the parent setting changes.Note: Learn more aboutorganizational structure.
+
+  -Optional:Turn on the service for a group of users. Useaccess groupsto turn on a service for specific users within or across your organizational units.Learn more.
+
+  -Ensure that your Notion user account email IDs match those in your Google domain.
+
+#### Okta
+
+For additional documentation, you can also reference steps on Okta's website here:
+
+  -How to Configure SAML 2.0 for Notion
+
+Step 1: Add the Notion app from Okta's application directory
+
+  -Log in to Okta as an administrator, and go to the `Okta Admin console` .
+
+  -Go to the `Application` tab, select `Browse App Catalog` and search for "Notion" in the Okta app catalog.
+
+  -Select the Notion app and click `Add integration` .
+
+  -In the `General Settings` view, review the settings and click `Next` .
+
+  -In the `Sign-on Options` view, select the `SAML 2.0` option.
+
+  -Above the `Advanced Sign-on Settings` section,click on the `Identity Provider` metadata.This will open a new browser tab. Copy the link of the URL.
+
+Step 2: Configure SAML settings in Notion
+
+  -In Notion, go to the `Settings & members` tab, then select the `Settings` tab.
+
+  -In the `Allow email domains` section, remove all email domains.
+
+  -Then select the `Identity & provisioning` tab.
+
+  -Verify one or more domains. See instructions for domain verificationhere→
+
+  -Toggle on `Enable SAML SSO` and the `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
+
+  -The SAML SSO Configuration modal is divided into two parts — one section is the `Assertion Consumer Service (ACS) URL` to be entered in your Identity Provider (IdP) portal and the second section is `Identity Provider Details` in which either IdP url or IdP metadata XML that must be provided to Notion.
+
+    *Choose the `Identity Provider URL` , and paste the `Identity Provider metadata` URL you copied in Step 1. Click `Save changes` .
+
+  -In the `Identity & provisioning` tab, scroll down and copy the `Workspace ID` identifier.
+
+  -In `Okta Admin console` → `Advanced Sign-on Settings` section, paste the workspace ID in the `Organization ID` text box.
+
+  -In `Credentials details` ,select `Email` from `Application username format` dropdown, and click `Done` .
+
+  -In `Okta - Assignments` tab, you can now assign users and groups to Notion.
+
+#### OneLogin
+
+For additional documentation, you can also reference steps on OneLogin’s website here:
+
+  -Configure SAML for Notion
+
+Note:If you’re planning to configure provisioning with SCIM, please do that before you configure SAML SSO.Instructions for configuring SCIM provisioning with OneLogin →
+
+Step 1: Create new application integration
+
+  -If you have not already configured provisioning, go to `Administration` → `Applications` → `Applications` , then click the `Add App` button, search for Notion in the search box, and select the SAML 2.0 version of Notion.
+
+  -Click `Save` .
+
+Step 2: Create SAML integration
+
+  -Otherwise, navigate to `Applications` → `Applications` and select the Notion app connector you already added.
+
+  -Navigate to the `SSO` tab and copy the `Issuer URL` value. Paste it somewhere to be retrieved later.
+
+Step 3: SAML settings
+
+  -In Notion, go to the `Settings & members` tab, then select the `Settings` tab.
+
+  -In the `Allow email Domains` section, remove all email domains.
+
+  -Then select the `Identity & provisioning` tab.
+
+  -Verify one or more domains. See instructions for domain verification here →Verify a domain for your workspace.
+
+  -Toggle on `Enable SAML SSO` and the `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
+
+  -The SAML SSO Configuration modal is divided into two parts — one section is the `Assertion Consumer Service (ACS) URL` to be entered in your Identity Provider (IdP) portal and the second section is `Identity Provider Details` in which either IdP url or IdP metadata XML that must be provided to Notion.
+
+Step 4: Configure Notion app in OneLogin
+
+  -Copy `Assertion Consumer Service (ACS) URL` from Notion.
+
+  -Go back to the OneLogin Administration UI.
+
+  -Navigate to the `Configuration` tab of the Notion app connector your just added to your OneLogin account.
+
+  -Paste the `Assertion Consumer Service (ACS) URL` from Notion into the `Consumer URL` textbox.
+
+  -Click `Save` .
+
+  -Go back to the Notion `Edit SAML SSO` configuration settings.
+
+  -Paste the `Issuer URL` you copied from the `SSO` tab in OneLogin URL into the `Identity Provider URL` textbox. Make sure the radio button `Identity Provider URL` is selected.
+
+#### Rippling
+
+For detailed documentation, you can reference Rippling's websitehere→
+
+#### Custom SAML SSO configuration
+
+If you don't use one of Notion’s supported SAML providers, you can also configure your IdP to use SAML with Notion.
+
+Step 1: Set up yourIdP
+
+Your IdP must support the SAML 2.0 spec to be used with Notion.
+
+  -Configure the ACS URL to the value Assertion Consumer Service (ACS) URL from Notion. You can find this in `Settings` → `Identity & Provisioning` → `Edit SAML SSO Configuration` .
+
+  -Configure `NameID` to `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` .
+
+    *Similarly, configure `username` to `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` .
+
+  -Configure `EntityID` tohttps://notion.so/sso/saml. You can find this in `Settings` → the bottom of `Identity & Provisioning` .
+
+  -Configure the following attributes:
+
+    *`emailAddress` : This is a user's email address. Most IdPs set this by default.
+
+    *(Optional) `firstName`
+
+    *(Optional) `lastName`
+
+    *(Optional) `profilePicture`
+
+  -Copy the IdP metadata URL or IdP metadata XML for next steps.
+
+Step 2: Set up SAML in Notion
+
+  -In Notion, click `Settings & members` → `Settings` → `Identity & provisioning` .
+
+  -Add new email domains and follow the prompts to verify them. These must be email domains of your users logging into Notion.
+
+  -In `SAML Single sign-on (SSO)` settings, toggle `Enable SAML SSO` on. This will open the SAML SSO Configurationdialog.
+
+  -Under `Identity Provider Details` , input the IdP metadata URL or IdP metadata XML from your IdP.
+
+  -Make sure you provide your desired inputs for `Login method` , `Automatic account creation` , and `Linked workspaces` .
+
+#### Switching identity providers
+
+To switch identity providers, go to `Settings & members` in your left sidebar → `Identity & provisioning` → `Edit SAML SSO configuration` . Enter your new information, then select `Save changes` .
+
+When switching to a new IdP, we recommend that:
+
+  -SSO not be enforced during the transition, so you can minimize the risk of locking users out.
+
+  -Email addresses for the users under your new IdP match the user’s email in Notion.
+
+Note: Changing identity providers does not end user sessions or deactivate users.
+
+### Troubleshooting
+
+If you encounter errors when setting up SAML SSO, check to make sure your IdP's metadata, SAML requests and responses are valid XML against the SAML XSD schemas. You can do so using this online tool:https://www.samltool.com/validate_xml.php
+
+Note that we do not support the `EntitiesDescriptor` element. If your IdP's metadata contains this element, extract the contained `EntityDescriptor` element and try again.
+
+### FAQs
+
+Why is the current Enable SAML SSO greyed out?
+
+The most common reason is that you have not yet verified ownership of a domain. If this is the case, you will notice that you either don’t have any domains listed in the verify email domain section or the domain is pending verification.
+
+For next steps,refer to our instructions on how to complete domain verification here →
+
+Why can’t I edit the SAML SSO settings?
+
+The most common reason is that you are trying to modify the verified domains or SSO configuration from a linked workspace which is a workspace that is already associated with another SSO configuration.In linked workspaces, all domain management and SSO configuration settings are read-only. To modify the SSO configuration or remove this workspace from the SSO configuration, you must have access to the primary workspace. The name of the primary workspace can be found at the top of theIdentity & Provisioningsettings tab.
+
+Why do I need to verify a domain to enable SSO?
+
+We ask that the email domain ownership is validated to ensure that only the owner of the domain can customize how their users log into Notion.
+
+Having trouble setting up SSO? Here are some common issues:
+
+  -Try using a URL instead of an XML.
+
+  -We recommend testing the setup process with a test account before enforcing it for users.
+
+  -If neither of these options help, reach out to support at
+
+  -team@makenotion.com.
+
+
+
+Why should I remove email domains from the “Allowed Email Domains” setting before configuring SAML SSO for my workspace?
+
+The “Allowed Email Domain” setting allows users with the selected domains to access your workspace without being provisioned via your IdP. To ensure that only users provisioned via your IdP can access your SAML-enabled workspace, disable this feature by removing all email addresses from the “Allowed Email Domain” list.
+
+Can I still log in to Notion if my identity provider is out of service?
+
+Yes, even with SAML enforced, Workspace owners have the option to log in with email. Thereafter, a Workspace owner can change the SAML configuration to disable `Enforce SAML` so users may log in with email again.
+
+Are profile photos transmitted to Notion from the IdP?
+
+Yes, profilePhoto is an optional custom attribute. You may assign this attribute to a corresponding attribute in your IdP, provided the attribute contains the URL to an image. If the profilePhoto field is set, this image will replace the avatar in Notion when the user signs in using SAML SSO.
+
+How do I allow admins of other workspaces in my SAML configuration create new workspaces?
+
+Only the admins of your primary workspace will be able to create new workspaces using your verified domain(s). Please reach out to our support team (team@makenotion.com) to switch your primary SAML workspace to another linked workspace in your SAML configuration.
+
+
+
+# Manage your Enterprise workspace
+
+### This one's for administrators of workspaces on the Enterprise Plan! Find out more about your capabilities in Notion 👤
+
+### Enterprise admin types
+
+Workspaces on the Enterprise Plan have two admin types. Here is an overview of their capabilities within the workspace:
+
+#### Workspace owner
+
+Workspace owners can manage everything in the workspace from settings to security, members to groups — and even delete an entire workspace. They can also approve or rejectrequests to invite gueststo a workspace.
+
+Think of them as the primary administrator of the workspace with the most expansive permissions.
+
+Tip:We recommend you choose at least two workspace owners so there is always a backup!
+
+#### Membership admin
+
+Membership admins are more limited administrators who can manage user membership. They can:
+
+  -Add or remove members from the workspace.
+
+    *Note: Membership admins can add users to the workspace in amember role only. Membership admins cannot add workspace owners or membership admins to the workspace.
+
+  -Add or remove members, membership admins, and workspace owners fromexistinggroups.
+
+Membership admins cannot edit other workspace settings.
+
+
+
+# Domain management
+
+### This article will cover how to verify ownership of a domain and which advanced workspace security settings it will unlock for Enterprise customers 🧷
+
+Domain verification allowsBusiness and Enterprise workspace ownersto claim ownership over an email address domain associated with their workspace. This unlocks domain management settings likeconfiguring SAML SSOfor your workspace, building Notion integrations usinglink previews, andcontrolling who can create workspaces(for Enterprise Plans only).
+
+Domain verification does not impact your billing.
+
+### Verify a domain for your workspace
+
+Note: To do this, you must be a workspace owner on a Business or Enterprise plan.
+
+In `Settings & members` , navigate to the `Identity & provisioning` tab and complete the following steps to verify your domain.
+
+  -Within the `Domain management` section, click theAdd domainbutton.
+
+  -Type in the domain that you wish to verify and click the `Next` button.
+
+    *The domain will be added to the list of your verified domains in a `Pending` verification (designated with the color yellow).
+
+  -Update the DNS record.
+
+  -After updating the DNS record,  Click `Verify` to notify Notion to check your DNS record.
+
+  -Once verification is complete, you’ll receive a confirmation email and the domain will be displayed in green.
+
+Note:
+
+  -Typically, a change in the DNS record takes only minutes to propagate; however, there are cases where it may take up to 72 hours.
+
+  -You must verify a domain within one week of adding the domain. After a week, the verification code will expire and you’ll have to repeat the steps above.
+
+
+
+### Verify a domain for an integration
+
+If you’re building an integration with Notion, like Link Previews, you’ll need to verify your domain in the integration management page (this action will not take place in Notion).
+
+You can find the full instructions in ourDeveloper Guides →
+
+### Workspace creation permissions
+
+Prerequisites for customizing workspace creation permissions
+
+  -Workspace must be on the Enterprise Plan.
+
+  -You must be a workspace owner.
+
+  -You have verified at least one domain.Instructions for domain verification can be found above →
+
+#### Customize permissions for workspace creation using your domain(s)
+
+You can customize permissions for who can create new workspaces using your verified domain(s).
+
+  -In `Settings & members` , go to `Identity & provisioning` and then `Workspace creation` .
+
+  -Select `Anyone` to allow any user with your verified domain to create a new workspace.
+
+  -Select `Workspace owners` to prevent users with your verified domain from creating new workspaces.
+
+Note:The default setting for workspace creation permissions once a domain is verified is workspace owners only.
+
+### Enabling Domain Claim
+
+Once a domain is verified, workspace owners on the Enterprise Plan can transfer, delete, or claim ownership over non-Enterprise workspaces created by users with their verified domain.
+
+Prerequisites for viewing claimable workspaces
+
+  -You must be a workspace owner on the Enterprise Plan.
+
+  -Verified domain is a non-educational domain.
+
+What workspaces are eligible?
+
+  -Single-member workspace
+
+    *The workspace creator’s email belongs to the verified corporate domain.
+
+  -Multi-member workspace
+
+    *The workspace creator’s email belongs to the verified corporate domain (the creator does not need to be a current member of the space).
+
+    *At least one current workspace owner (either the creator or someone else) is using the verified corporate email address.
+
+  -Workspace is not on the Enterprise Plan.
+
+### Notification period
+
+Once a workspace owner verifies a domain, an automated email will be sent to all workspace owners of workspaces created with that domain, notifying them that their workspaces are eligible to be claimed.
+
+During this 14 day notification period, workspace owners can only request ownership transfers on single-member workspaces. They will be unable to delete single-member workspaces or claim multi-member workspaces.
+
+After a domain is verified, users who create new workspaces with a verified domain will be notified upon creation that their workspace is eligible to be claimed.
+
+### View claimable workspaces
+
+Once a domain is verified, Enterprise workspace owners can view all non-enterprise workspaces created by users with their verified domain. This view can be found in your workspace security settings in the `Identity & provisioning` tab under the `Domain management` section.
+
+For each workspace, this view includes:
+
+  -Workspace name
+
+  -Plan type
+
+  -Number of members
+
+  -Workspace owners
+
+  -Created at
+
+  -Created by
+
+Workspace owners can take the following actions on their claimable workspaces:
+
+  -Request ownership change on single-member workspaces.
+
+  -Delete single-member workspaces.
+
+  -Claim multi-member workspaces.
+
+##### Export list of claimable workspaces
+
+Workspace owners can also export the list of claimable workspaces as a CSV.
+
+  -Click on `Settings & members` in your sidebar and go to `Identity & provisioning` .
+
+  -Click on `Browse workspaces` and then `Export to CSV` in the top right.
+
+### Change workspace ownership
+
+With domain management, workspace owners on the Enterprise Plan can request a change in ownership transfer on single-member workspaces using a verified domain to a non-corporate email address. This is especially helpful when users created a workspace using a corporate email address, but use the workspace primarily for personal projects.
+
+Workspace owners need to initiate the change request in the workspace security settings. In the workspace settings, navigate to the `Identity & provisioning` tab and `Browse workspaces` in the `Domain management` section. From the claimable workspace view, complete the following steps:
+
+  -Select the single-member workspace that you would like to change.
+
+  -In the `•••` menu, select `Require account change.`
+
+  -Provide a contact email for questions from users about the request and confirm the action.
+
+In the view, the workspace will enter a `Pending` state.
+
+When the change request is submitted, an email notification will be sent to the workspace owner of the selected workspace and the user will not be able to access their workspace until they have completed the remaining transfer steps as follows:
+
+  -Log into the workspace.
+
+  -Follow the instructions and change email address associated with the account to a non-corporate email address.Note: While a single-member workspace ownership change is requested, the user cannot change the email associated with their user account.
+
+  -A verification code will be sent to the email address to confirm the user’s ownership of the account. Enter this verification code in the workspace.
+
+  -An automated email will be sent once the change is complete.
+
+Prerequisites for changing a workspace ownership
+
+  -You must be a workspace owner on an Enterprise Plan.
+
+  -The workspace to be changed must be on a single-member.
+
+### Delete workspaces
+
+With domain management, Enterprise workspace owners can more easily govern how a verified domain is used and where related projects are stored on Notion. When an employee leaves a company, Enterprise workspace owners can delete their single member workspaces to cleanup old content while remaining compliant.
+
+Prerequisites for deleting a workspace
+
+  -You must be a workspace owner on the Enterprise Plan.
+
+  -The domain was verified at least 14 days ago.
+
+  -Workspace to be deleted must be a single-member workspace that is either free or not delinquent on payments.
+
+Note:Single-member workspaces that are deleted by an Enterprise workspace owner using domain management are not eligible for refunds or credits.
+
+In the workspace settings, navigate to the `Identity & provisioning` tab and select `Browse workspaces` in the `Domain management` section. From the claimable workspace view, complete the following steps:
+
+  -Select the single-member workspace you would like to delete
+
+  -Click the `•••` menu and select `Delete workspace`
+
+  -Provide a contact email for questions from users about the deletion and confirm the action
+
+In the workspace view, a `Recover` button will appear next to the selected workspace. When the deletion is initiated, an email notification will be sent to the workspace owner of the selected workspace. The single member workspace owner will immediately lose access to their workspace.
+
+Note:Enterprise workspace owner will have 30 days to recover the workspace if needed. After 30 days, the workspace will be permanently deleted automatically.
+
+Workspace was deleted by mistake?
+
+If you receive an email notification about a workspace that has been deleted accidentally instead of transferred, please reach out to your respective Enterprise workspace owner provided in the email notification directly.
+
+Note:Only the Enterprise workspace owner who initiated the deletion can recover deleted workspaces. Notion Support cannot override Enterprise workspace owner actions to restore deleted workspaces.
+
+### Recover workspaces
+
+To recover a deleted workspace, the Enterprise workspace owner that initiated the deletion can do this in the workspace settings: navigate to the `Identity & provisioning` tab and select `Browse workspaces` in the `Domain management` section. From the claimable workspace view, complete the following steps:
+
+  -Go to the single-member workspace you would like to recover.
+
+  -Click on the `Recover` button for the workspace and confirm.
+
+  -In the view the workspace will now appear without the recover button.
+
+  -The owner of the single-member workspace will regain access to their workspace and their workspace content will be restored.
+
+The workspace owner of the single-member workspace selected for deletion can request Notion Support extend the recovery timeframe by 30 days from the day they contact Support. After the recovery timeframe expires workspace data will be permanently deleted.
+
+When a workspace is recovered, all page content in the workspace will be restored and the single-member workspace owner will regain access.
+
+The following content cannot be recovered:
+
+  -Favorites
+
+  -Guest access
+
+  -Configured integrations (Bots)
+
+  -Domains (custom Notion domains)
+
+### Claim workspaces
+
+With domain management, workspace owners can establish authorized workspaces for employees to collaborate by claiming ownership over eligible multi-member workspaces.
+
+Note:If you’re on the Enterprise plan with quarterly true-ups, please work with your dedicated Account Management team to claim workspaces and bring them under your Enterprise License.
+
+In the workspace security settings, navigate to the `Identity & provisioning` tab and `Browse workspaces` in the `Domain management` section. From the claimable workspaces view, complete the following steps:
+
+  -Select the multi-member workspace that you would like to claim ownership.
+
+  -Verify payment information (only credit card payments are supported).
+
+  -Review and accept the billing implications of claiming the workspace.
+
+When the claim of ownership is processed:
+
+  -Claimed workspace will be upgraded to the Enterprise Plan.
+
+  -Workspace owner that claimed the workspace will become the only workspace owner.
+
+  -Previous workspace owners are downgraded to members (workspace owners can re-assign roles and permissions as necessary).
+
+Prerequisites for claiming a workspace
+
+  -You must be a workspace owner on the Enterprise Plan.
+
+  -The domain was verified at least 14 days ago.
+
+  -The claimed workspace must be multi-member.
+
+    *The workspace creator’s email belongs to the verified corporate domain (the creator does not need to be a current member of the space).
+
+    *At least one current workspace owner (either the creator or someone else) is using the verified corporate email address.
+
+  -Workspace is not on the Enterprise Plan.
+
+Note:Domain claim actions cannot be undone and are captured by the Audit Log.
+
+Benefits of claiming a workspace
+
+  -Standardize billing across Notion workspaces (all workspaces will be invoiced separately).
+
+  -Configure Enterprise workspace security settings to be in compliance with your company policies.
+
+  -Regulate the roles and responsibilities for the workspace (workspace owner, membership admin, member).
+
+### Consolidate workspaces
+
+The workspace consolidation tool is available to Enterprise customers through their Notion Account Management team. Learn more about workspace consolidation supporthere.
+
+### FAQs
+
+How do I know if domain ownership verification is complete?
+
+If domain ownership verification is complete, the verified domain will appear in a green color scheme.
+
+My domain is displayed in red. What does this mean?
+
+If the domain is displayed in red that means that either the domain ownership has already been verified in another workspace or the Notion-provided verification code has expired (it expires after 1 week).
+
+To verify the domain, please restart the verification process from the beginning.
+
+My domain is displayed in yellow. What does this mean?
+
+If the domain is displayed in yellow, that means it’s pending validation. You need to either complete the instructions to update the DNS record or click `Verify` in the Verification modal.
+
+I verified my domain in the past with the help of the Notion Support team. What will my workspace creation permissions be?
+
+If you verified your domain before the functionality to customize permissions for workspace creation was supported, your setting will remain as `Anyone` can create a workspace using your verified domain(s).
+
+Why would I want to verify more than one domain?
+
+If you own multiple domains – e.g. acme.com and example.com – and you plan to use SAML SSO to manage users from these domains or customize their permissions to create new workspaces, you might want to verify multiple domains.
+
+Who is restricted from creating a workspace when the setting is Only Workspace Owners?
+
+Users from your verified domain will be restricted from creating new workspaces. Only workspace owners of the workspace where the domains have been verified, will be able to create workspaces.
+
+Where can I find a list of workspaces that have already been created using my verified domain?
+
+This view is not yet supported. Stay tuned!
+
+What can workspace owners do with domain management?
+
+Domain management features help Workspace owners better control and secure their workspaces. You canconfigure SAML SSOfor your workspace, build Notion integrations usinglink previews, andcontrol who can create workspaces(for Enterprise plans only).
+
+What is visible to workspace owners with domain management?
+
+Owners of a domain will be able to see a list of workspaces that were created using the corporate domain, including information such as the list of workspace owners, number of members, and created date. They will not be able to see the content within the workspace.
+
+What does it mean when a workspaces is in a pending state?
+
+Once a domain claim request has been submitted, the workspace will remain in the pending state in the workspace view until the claim has been processed.
+
+Why can’t I claim a single-member workspace? I don’t want to delete it or request an account switch.
+
+Consolidating workspaces to your primary workspace is coming soon. In the meantime, you can work with the workspace owner of the single-member workspace to move content in your primary workspace.
+
+Why can’t I delete a multi-member workspace?
+
+Deleting a multi-member workspace is not supported in the domain management workspace view, but once you’ve successfully claimed a multi-member workspace you can follow the instructions to permanently delete the workspace as the new, sole workspace owner.
+
+Why can’t I claim ownership of a workspace when it’s eligible to be claimed?
+
+If your claim request is not getting processed, it’s likely that the workspace you’re trying to claim is either:
+
+  -In a delinquent state on payments
+
+  -In the 14 day waiting period after a domain is newly verified
+
+
+
+Can I merge workspaces?
+
+Consolidating workspaces to your primary workspace is coming soon. In the meantime, you can claim workspaces and manually move content to a primary workspace.
+
+Can I see all workspaces created by someone from my organization?
+
+The workspace view in your domain management settings will only show workspaces that are eligible for domain claim. Workspaces on the Enterprise Plan will not be included.
+
+Why am I unable to delete this single-member workspace?
+
+Workspaces may be ineligible for deletion if:
+
+  -The workspace has an outstanding unpaid invoice.
+
+  -The workspace is on a paid plan.
+
+
+
+What are the single and multi-member tabs in the workspace view?
+
+Domain Management functionality with Notion is based on the number of members in the workspace.
+
+  -Single-member workspaces are eligible to either change ownership to a non-corporate account or delete.
+
+  -Multi-member workspaces are eligible to claim.
+
+
+
+
+
+
+
+# Provision users & groups with SCIM
+
+### You can provision and manage users and groups in your Notion workspace with the System for Cross-domain Identity Management (SCIM) API standard 🔑
+
+### What you can do with Notion's SCIM API
+
+User provisioning and management:
+
+  -Create and remove members in your workspace.
+
+  -Update a member's profile information.
+
+  -Retrieve the members in your workspace.
+
+    *Find members by email or name.
+
+Group provisioning and management:
+
+  -Create and remove groups in your workspace.
+
+  -Add and remove members in a group.
+
+  -Retrieve the groups in your workspace.
+
+    *Find groups by name.
+
+Not supported:
+
+  -Managing workspace guests.
+
+### How to set up provisioning with SCIM
+
+We currently support Okta,OneLogin, Rippling, Gusto and custom SCIM applications. If you use another Identity Provider, please let us know.
+
+#### Prerequisites for SCIM with Notion
+
+  -Your workspace must be on an Enterprise Plan.
+
+  -Your Identity Provider (IdP) must support the SAML 2.0 protocol.
+
+  -Only a workspace owner can configure SCIM for a Notion workspace.
+
+  -If you want to use SCIM to modify a user's name or email address, you must have verified ownership over their email domain.Learn more about domain verification →
+
+#### Generate your SCIM API token
+
+Enterprise Plan workspace owners can generate and view SCIM API tokens by going to `Settings & members` → `Identity & provisioning` → `SCIM provisioning` .
+
+  -To generate a new token, click on the `+ New token` button in the right corner.
+
+  -A unique token is generated for each workspace owner that only they can view.
+
+#### Revoke tokens
+
+When a workspace owner leaves the workspace or their role is changed, their token will be revoked. When this happens, an automated message will be sent to the remaining workspace owners to notify them to replace the revoked token.
+
+In addition, active tokens can be revoked by any of the workspace owners in the workspace. To revoke a token, click the `🗑` alongside the respective token.
+
+#### Replace existing tokens
+
+If a token is revoked, you will need to replace it in any existing integrations.
+
+Any SCIM integration and user provisioning relying on the revoked token will be disabled until it is replaced by an active token.
+
+Note:To avoid breaking existing integrations, make sure to replace any tokens associated with an admin before de-provisioning them.
+
+#### Suppress invite emails
+
+To control whether users will receive invitations to workspaces and groups via email when provisioned by SCIM, Enterprise Plan workspaces owners can go to `Settings & members` → `Identity & provisioning` → `SCIM provisioning` → `Suppress invite emails from SCIM provisioning` . Toggle this setting on if you don’t want to send emails to users.
+
+### Service Provider Configuration
+
+  -`GET /ServiceProviderConfig`
+
+    *`GET <https://api.notion.com/scim/v2/ServiceProviderConfig>`
+
+    *Retrieve a description of the SCIM specification features available.
+
+    *Defined inSection 5 of the SCIM Protocol Specification.
+
+  -`GET /ResourceTypes`
+
+    *`GET <https://api.notion.com/scim/v2/ResourceTypes>`
+
+    *Retrieve a list of the SCIM resource types available.
+
+    *Defined inSection 6 of the SCIM Protocol Specification.
+
+### Identity Provider (IdP) Setup
+
+#### Azure
+
+For additional instructions, you can also reference the documentation in the Azure Active Directory Help Center:
+
+  -Configuring Notion for automatic user provisioning
+
+Notion’s Azure SCIM integration supports the following provisioning features:
+
+  -Create users
+
+  -Remove users
+
+  -Keep user attributes synchronized between Azure AD and Notion.
+
+  -Provision groups and group memberships in Notion.
+
+  -Single sign-onto Notion (recommended).
+
+Note:Please refer to theAzure documentationfor more information on planning your provisioning deployment.
+
+Step 1: Configure Notion to support provisioning with Azure AD
+
+  -Login to your Notion Workspace, open the
+
+  -`Settings & members` → `Identity & provisioning` tab and scroll down to the `SCIM provisioning` section.
+
+  -If a token hasn’t already been generated, click
+
+  -`+ Add token` and copy the token. You’ll enter this token as your Secret Token in step 5.5.
+
+    *Notion’s SCIM tenant URL ishttps://www.notion.so/scim/v2, which you’ll use in step 5.5.
+
+Step 2: Add Notion from the Azure AD application gallery
+
+  -Follow instructions for adding an application from the galleryhere.
+
+The Azure AD provisioning service allows you to scope who will be provisioned based on assignment to the application and or based on attributes of the user/group.
+
+  -If you choose to scope who will be provisioned to your app based on assignment, you can use the followingstepsto assign users and groups to the application.
+
+  -If you choose to scope who will be provisioned based solely on attributes of the user or group, you can use a scoping filter as describedhere.
+
+Step 3: Configure automatic user provisioning to Notion
+
+  -Sign in to theAzure portal. Select `Enterprise Applications` , then select `All applications` .
+
+  -In the applications list, select `Notion` .
+
+  -Select the `Provisioning` tab.
+
+  -Set the `Provisioning Mode` to `Automatic` .
+
+  -Under the `Admin Credentials` section, input your Notion Tenant URL and Secret Token. Click `Test Connection` to ensure Azure AD can connect to Notion. If the connection fails, ensure your Notion account has Admin permissions and try again.
+
+  -Select `Save` .
+
+  -Under the `Mappings` section, select `Synchronize Azure Active Directory Users to Notion` .
+
+    *Review the user attributes that are synchronized from Azure AD to Notion in the `Attribute-Mapping` section. Select the `Save` button to commit any changes.
+
+  -Under the `Mappings` section, select `Synchronize Azure Active Directory Groups to Notion` .
+
+    *Review the group attributes that are synchronized from Azure AD to Notion in the `Attribute-Mapping` section. Select the `Save` button to commit any changes.
+
+  -To enable the Azure AD provisioning service for Notion, change the `Provisioning Status` to `On` in the `Settings` section.
+
+  -Define the users and/or groups that you would like to provision to Notion by choosing the desired values in `Scope` in the `Settings` section.
+
+  -When you're ready to provision, click `Save` .
+
+Note:This operation starts the initial synchronization cycle of all users and groups defined in `Scope` in the `Settings` section.
+
+The initial cycle takes longer to perform than subsequent cycles, which occur approximately every 40 minutes as long as the Azure AD provisioning service is running.
+
+#### Google
+
+For additional instructions, you can also reference the documentation in the Google Workspace Admin Help Center:
+
+  -Configure Notion user provisioning
+
+Notion’s Google SCIM integration supports the following provisioning features:
+
+  -Create users.
+
+  -Update user attributes (if the user has an email domain belonging to your organization).
+
+  -Deactivate users (this removes users from your Notion workspace(s)).
+
+Note:Google’s SCIM integration does not support Group provisioning and de-provisioning.
+
+
+
+Step 1: Enabling user provisioning in Notion
+
+  -Go to the `Settings & members` tab, then select the `Identity & provisioning` tab.
+
+  -Scroll down to the `SCIM provisioning` section (your available SCIM tokens will be listed).
+
+  -In the SCIM tokens table, either click `Copy` next to an existing token OR click `Add token` in the right corner to create a new token.
+
+Step 2: Configuring provisioning in Google
+
+  -Make sure you’resigned into an administrator accountto ensure your user account has the appropriate permissions.
+
+  -Continue the steps shown onGoogle Workspace Admin Helpstarting atSet up auto-provisioning for the Notion application.
+
+#### Gusto
+
+Reference Gusto for more detailed help in the setup process:
+
+  -Gusto integrates with Notion
+
+Step 1: Click Connect and follow the instructions to verify your account credentials
+
+  -In your Notion sidebar, go to `Settings & members` → `Identity & provisioning` .
+
+  -Under SCIM provisioning, click `Add Token` and copy the token.
+
+  -On Gusto, paste the token in the SCIM API key field and enter your Notion account email.
+
+Step 2: Match Notion user accounts with your team members in Gusto
+
+#### Okta
+
+Notion'sOkta Integrationsupports the following provisioning features:
+
+  -Create Users
+
+  -Update User Attributes (if the user has an email domain belonging to your organization)
+
+  -Deactivate Users (this removes users from your Notion workspace)
+
+  -Push Groups
+
+Step 1: Enabling provisioning in Notion
+
+  -Go to `Settings & members` tab, then select the `Identity & provisioning` tab.
+
+  -Scroll down to the `SAML Single sign-on (SSO)` section.
+
+  -Open the `Edit SAML SSO configuration` button
+
+  -Click copy link next to the `Assertion Consumer Service (ACS) URL` . Paste it somewhere to be retrieved later.
+
+  -Go to back to `Settings & members` → `Identity & provisioning` and scroll down to the `SCIM provisioning` section.
+
+  -If a token hasn’t already been generated, click `+ Add token` and copy the token. Paste it somewhere to be retrieved later.
+
+Step 2: Configuring provisioning in Okta
+
+  -Add the Notion app fromOkta's app catalog Directory.
+
+  -In the `Sign-on Options` view, select `Email` for the `Application username` format on the `Sign On application` tab.
+
+  -Under the `Provisioning` tab, select `Configure API integration` , and click on the `Enable API integration` checkbox.
+
+  -Enter the Notion SCIM API token you copied in Step 1 into the `API Token` text box, and select `Save` .
+
+  -Click on the `Edit` button next to Provisioning to App header, and enable your preferred features: Create users, Update user attributes, or Deactivate users. Click `Save` .
+
+  -After setting up the API integration, open the `Push Groups` tab, and add the Okta groups you want to sync with Notion from the `Push Groups` button.
+
+Note:When updating users/groups via an existing SCIM configuration, please do not delete the Notion App from Okta. Doing so will remove all provisioned users from the workspace.
+
+#### OneLogin
+
+For additional documentation, you can also reference steps on OneLogin’s website here:
+
+  -Provisioning Users to Notion
+
+Notion’s OneLogin Integration supports the following provisioning features:
+
+  -Create Users
+
+  -Update User Attributes (if the user has an email domain belonging to your organization)
+
+  -Deactivate Users (this removes users from your Notion workspace)
+
+  -Create Rules to map OneLogin Roles with permission groups in Notion
+
+Note:If you plan to provision users to Notion via OneLogin, it’s important to configure SCIM before configuring SSO.
+
+Step 1: Enabling provisioning in Notion
+
+  -Go to `Settings & members` , then select the `Identity & provisioning` tab.
+
+  -Scroll down to the `SAML Single sign-on (SSO` )section.
+
+  -Open the `Edit SAML SSO configuration` button.
+
+  -Click copy link next to the `Assertion Consumer Service (ACS) URL` . Paste it somewhere to be retrieved later.
+
+  -Go to back to `Settings & members` , then select the `Identity & provisioning` tab and scroll down to the `SCIM provisioning` section.
+
+  -If a token hasn’t already been generated, click `+ Add token` and copy the token. Paste it somewhere to be retrieved later.
+
+Note:Workspace Owners can only copy and use tokens that they themselves have generated. If a token has already been created by another Workspace Owner, you can coordinate to determine if another token is necessary. All tokens will expire once the Workspace Owner that generated the token leaves the workspace or is downgraded to a Member.
+
+Step 2: Configuring provisioning in OneLogin
+
+  -Go to `Administration` → `Applications` → `Applications` .
+
+  -Click the `Add App` button, search for Notion in the search box, and select the SAML 2.0 version of Notion.
+
+  -Click `Save` .
+
+  -Go to the `Configurations` tab.
+
+  -Paste the Assertion Consumer Service (ACL) URL into the `Consumer URL` box.
+
+  -Paste the `SCIM API token` into the `SCIM Bearer Token` box.
+
+  -Click `Enable` .
+
+  -Go to the `Provisioning` tab.
+
+  -Under `Workflow` , check `Enable provisioning` .
+
+  -Click the `Save` button in the upper right corner.
+
+    *(optional) Enable or disable requirement for admin approval when users are created, deleted, or updated under `Require admin approval before this this action is performed` .
+
+    *(optional) Select what happens to a user in Notion when that user is deleted from OneLogin. Choose between Delete (removes the user from the Notion workspace) or Do Nothing.
+
+  -Click the `Save` button in the upper right corner.
+
+#### Rippling
+
+For detailed documentation, you can reference Rippling's website here:
+
+  -Rippling App Shop — Notion
+
+### Users
+
+The table below outlines the mapping between SCIM user attributes and Notion user profile fields. Other user attributes will be ignored.
+
+  -`GET /Users`
+
+    *`GET <https://api.notion.com/scim/v2/Users>`
+
+    *Retrieve a paginated list of workspace members.
+
+    *You can paginate using the `startIndex` and `count` parameters. Note that `startIndex` is 1-indexed.
+
+    *You can filter the results with the `filter` parameter. Valid attributes to filter by are `email` , `given_name` , and `family_name` , e.g. `GET <https://api.notion.com/scim/v2/Users?startIndex=1&count=50&filter=email> eq employee@acmecorp.com`
+
+    *Note that `given_name` and `family_name` are case sensitive. Email is converted to lowercase.
+
+  -`GET /Users/<id>`
+
+    *`GET <https://api.notion.com/scim/v2/Users/><id>`
+
+    *Retrieve a specific workspace member by its Notion user ID. This will be an UUID with 32 characters in the following format: `00000000-0000-0000-0000-000000000000` .
+
+    *Note that `meta.created` and `meta.lastModified` do not reflect meaningful timestamp values.
+
+  -`POST /Users`
+
+    *`POST <https://api.notion.com/scim/v2/Users>`
+
+    *If the user you are adding already has a Notion user account with the same email, then they will be added to your workspace.
+
+    *If the user does not exist, calling this will create a new Notion user and then add that user to your workspace. They will be mapped to the Notion user profile that is created.
+
+  -`PATCH /Users/<id>`
+
+    *`PATCH <https://api.notion.com/scim/v2/Users/><id>`
+
+    *Update through a series of operations, and returns the updated user record.
+
+Note:You can only update a member's profile information if you have verified ownership of the user's email domain (this is typically the same as the email domains you have configured for SAML Single Sign-On with Notion).Verify your domain using the instructionshere→
+
+  -`PUT /Users/<id>`
+
+    *`PUT <https://api.notion.com/scim/v2/Users/><id>`
+
+    *Update, and returns the updated user record.
+
+  -`DELETE /Users/<id>`
+
+    *`DELETE <https://api.notion.com/scim/v2/Users/><id>`
+
+    *Remove a user from your workspace. The user is logged out of all active sessions.
+
+      *The user account cannot be deleted through SCIM. Account deletion must be done manually.
+
+      *Removing a user from your workspace can also be achieved by setting the `active` user attribute to `false` by sending a `PATCH /Users/<id>` or a `PUT /Users/<id>` request.
+
+      *The workspace owner that created the SCIM bot token cannot be removed via the API. When a workspace owner is removed via the SCIM API, any tokens they created will be revoked and any integrations using that bot will be broken.
+
+Note:You can assign workspace levels to `Users` using the `role` attribute, which is an extension of the existing User schema. The format is:
+
+`"urn:ietf:params:scim:schemas:extension:notion:2.0:User": { role: string // "owner" | "membership_admin" | "member" }`
+
+### Groups
+
+  -`GET /Groups`
+
+    *`GET <https://api.notion.com/scim/v2/Groups>`
+
+    *Retrieve a paginated list of workspace groups.
+
+    *You can paginate using the `startIndex` and `count` parameters. Note that `startIndex` is 1-indexed and count has a maximum of 100, e.g. `GET <https://api.notion.com/scim/v2/Groups?startIndex=1&count=5>`
+
+      *If pagination is not used, a maximum of 100 workspace groups will be returned in a request.
+
+    *You can filter the results with the `filter` parameter. Groups can be filtered by their `displayName` attribute, e.g. `GET <https://api.notion.com/scim/v2/Groups?filter=displayName> eq Designers`
+
+  -`GET /Groups/<id>`
+
+    *`GET <https://api.notion.com/scim/v2/Groups/><id>`
+
+    *Retrieve a specific workspace group by its Notion group ID. This will be an UUID with 32 characters in the following format: `00000000-0000-0000-0000-000000000000` .
+
+  -`POST /Groups`
+
+    *`POST <https://api.notion.com/scim/v2/Groups>`
+
+    *Create a new workspace group.
+
+  -`PATCH /Groups/<id>`
+
+    *`PATCH <https://api.notion.com/scim/v2/Groups/><id>`
+
+    *Update a workspace group through a series of operations.
+
+  -`PUT /Groups/<id>`
+
+    *`PUT <https://api.notion.com/scim/v2/Groups/><id>`
+
+    *Update a workspace group.
+
+  -`DELETE /Groups/<id>`
+
+    *`DELETE <https://api.notion.com/scim/v2/Groups/><id>`
+
+    *Delete a workspace group.
+
+Note:Group deletion will be forbidden if it would result in no one having full access to one or more pages.
+
+
+
+
+
+# Content search
+
+### With content search, workspace owners can now get a bird’s eye view of all workspace content and help resolve page access issues more easily 🔎
+
+### Searching content
+
+  -As a workspace owner, you can select `Settings & members` in the sidebar and then scroll to `Content search` .
+
+  -You’ll see a search bar with different filtering options. Search for a page by entering either the it's title, ID, or page content.
+
+You’ll also see:
+
+  -Where a page lives and whether a page isprivate, shared internally, shared externally, or shared to web.
+
+  -The page creator, creation date and a list of people who can access the page.
+
+  -Who last edited the page and when.
+
+Workspace owners can also export this data as a .csv file.
+
+Note:The `Audience` column will always list the most permissive group. If a page is shared with another team member, but also shared externally, the audience will read: `Shared externally` .
+
+### Updating page permissions
+
+There might be some cases where, as an admin, you need un-publish or revoke permissions. Try using the `Audience` or `Shared with` filters to find pages that might be inappropriately shared. As a workspace owner, you can also change access to a restricted page.
+
+  -Click the `•••` menu to the right of any page title, or while on a restricted page.
+
+  -Select `Change permissions` .
+
+  -Change access as needed.
+
+Note:Using this feature may provide workspace owners with access to the personal data of workspace members and guests. Please consult with your own legal counsel to obtain advice regarding privacy and data protection laws.
+
+
+
+
+
+# Transfer content from a deprovisioned user
+
+### This article outlines how a workspace owner can transfer content from a member who has been deprovisioned from an Enterprise Plan workspace 📖
+
+### When can a workspace owner transfer content?
+
+When a user is deleted, deprovisioned, or leaves a workspace, they may leave behind private page content. This feature allows a workspace owner of an Enterprise Plan workspace to transfer this content to another, current user so it is easily recovered.
+
+Note:This process applies on a user’sprivate contentafter they have left a workspace. Content shared with a current workspace member willnotbe transferrable.
+
+A workspace owner is able to reassign the private content of a user who has recently left the workspace if:
+
+  -The user is not currently part of the workspace (they have been deprovisioned).
+
+  -The user had private pages.
+
+  -The user’s private pages were not already reassigned to another user.
+
+  -The user was part of the workspace fewer than 30 days ago.
+
+  -The workspace is on an Enterprise Plan subscription.
+
+### Reassign content
+
+  -Visit your `Settings & members` and click the `Members` section.
+
+  -Navigate to the `Recently left` users tab.
+
+  -For the user who has been deprovisioned (the “recently left user”), select the destination where you would like to send the deprovisioned user’s private pages.
+
+  -You will see a confirmation modal; select `Transfer private pages` to continue the private page transfer process.
+
+  -All of the deprovisioned user's private pages will appear in the destination user’s sidebar, nested under a new top-level private page.
+
+Note:A user who has had all their private pages reassigned will no longer be visible in the `Recently left` list.
+
+### Restore a user's content and access
+
+If a user has left and rejoined a workspace within the last 30 days, workspace owners will be able to restore their private pages, shared pages, group membership, and teamspace membership.
+
+To do this, simply add a member back to your workspace and their content and access will be automatically restored once they rejoin.
+
+
+
+# Audit log
+
+### Audit logs give workspace owners access to detailed information about security and safety-related activity. This can help identify potential security issues, investigate suspicious behavior, and troubleshoot access 🔦
+
+### Access your workspace audit log
+
+  -Open the `Settings & members` menu in your left sidebar.
+
+  -Select `Audit log` .
+
+Note:This feature is only available to admins on an Enterprise plan workspace.Contact sales to learn more about our Enterprise plan →
+
+### Audit log information
+
+The following information is included in each event recorded by the audit log:
+
+  -User:This is the Notion user who performed the event
+
+  -Event:This is the event captured.
+
+  -Date:This is the date the event occurred
+
+Where available, the IP address is also included.
+
+Note:The audit log feature is exclusive to workspaces on the Enterprise Plan. If you upgrade to an Enterprise Plan, audit log events are recorded starting from the time of upgrade. Prior events will not be included in the audit log.
+
+Interested in upgrading to Enterprise?Let us know →
+
+### Filter your audit log
+
+By default, all events are shown in reverse chronological order. You can filter by each category of event information by using the filter buttons at the top.
+
+  -Date:Select the `Date` button and choose the date, date range or time.
+
+  -User:Select the `User` button. Type the name of the user or scroll through the full list to choose the person that you'd like to filter by.
+
+  -Event:Select the `Event` button. In the dropdown, click the checkboxes to filter specific event types. A full list of events can be found below.
+
+### Audit log events
+
+Events are split into four main categories:
+
+  -Page events:This includes events users take on a single Notion page.
+
+  -Teamspace events:This includes events users take on one or more teamspaces.
+
+  -Workspace events:This includes events users take on an entire Notion workspace.
+
+  -Account events:This includes events about accounts of users in the workspace.
+
+#### Page events
+
+  -Page edited:That a user edited the content of a page.
+
+  -Page property edited:That a user edited a page’s property, like a page title or a database property.
+
+  -Page viewed:That a user viewed a page.
+
+  -Page created:That a user created a new page nested under another page.
+
+  -Page moved to trash:That a user moved a page to Trash.
+
+  -Page deleted from trash:That a user deleted a page from Trash.
+
+  -Page restored:That a user restored a formerly deleted page from Trash.
+
+  -Page exported:That a user exported a page.
+
+  -Page moved:That a user moved a page.
+
+  -Page permission update:That a member or guest’s page permissions were updated.
+
+  -Page shared to web:That a user enabled sharing (or disabled sharing) a page to the web.
+
+  -File uploaded:That a user uploaded a file.
+
+  -File downloaded:That a user opened or downloaded `file name` from a certain page.
+
+  -Private content transferred:That the private pages of a user who left the workspace were transferred to a current user. Learn morehere →
+
+  -Automation created:That a user created a new automation.
+
+  -Automation edited:That a user edited an automation.
+
+  -Comment added:That a user added a new comment on a page.
+
+  -Comment updated:That a user edited a comment.
+
+  -Comment deleted:That a user deleted a comment.
+
+  -Page suggestion created:That a user suggested an edit in a page.
+
+  -Page suggestion accepted:That a user accepted a suggested edit in a page.
+
+  -Page suggestion rejected:That a user rejected a suggested edit in a page.
+
+  -Page suggestion comment created:That a user added a comment on a suggested edit in a page.
+
+  -Page suggestion comment updated:That a user updated a comment on a suggested edit in a page.
+
+  -Page suggestion comment deleted:That a user deleted a comment on a suggested edit in a page.
+
+  -Page locked:That a page was locked.
+
+  -Page unlocked:That a page was unlocked.
+
+#### Page event audience
+
+For page events, workspace owners can also view the audience or visibility level of each target page.
+
+To see the audience, hover over the page-related audit log event. The audience captured in the audit log will be one of the following:
+
+  -Private:page is not shared with other users.
+
+  -Shared internally:page is shared with other members of the workspace only.
+
+  -Shared externally:page is shared with one or more guests outside of the workspace and/or with an integration bot.
+
+  -Shared to web:Page ispublished to the web.
+
+Page event audience will also export as a column in CSV exports.
+
+#### Teamspace events
+
+  -Member added to teamspace:That a user added another user to the teamspace. Will specify “as Teamspace owner” if user is invited as a teamspace owner
+
+  -Member removed from teamspace:That a teamspace owner has removed a teamspace member from the teamspace
+
+  -Group added to teamspace:That a user added a permission group to the teamspace
+
+  -Group removed from teamspace:That a teamspace owner has removed a permission group from the teamspace
+
+  -Member joined the teamspace:That a user joined an open teamspace
+
+  -Member left the teamspace:That a user left a teamspace
+
+  -Teamspace created:That a user created the teamspace
+
+  -Teamspace archived:That a teamspace owner archived a teamspace
+
+  -Teamspace restored:That a teamspace owner restored a teamspace
+
+  -Teamspace name changed:That a user updated the teamspace’s name
+
+  -Teamspace description changed:That the teamspace description has been changed
+
+  -Teamspace icon changed:
+
+  -That the teamspace icon has been changed
+
+  -Teamspace privacy type changed:That a teamspace owner has changed the teamspace privacy type
+
+  -Teamspace default toggled:
+
+  -That a user enabled or disabled a teamspace as a default teamspace
+
+  -Teamspace creation setting toggled:That a user has enabled or disabled the ability for everyone in the workspace to create a teamspace
+
+  -Teamspace Members default page permission updated: That the default page permissions of teamspace members have been changed
+
+  -Everyone in workspace default page permission updated: That the default page permissions of everyone at workspace have been changed
+
+  -Member teamspace role updated:That a has updated a teamspace member’s role in the teamspace
+
+  -Custom permissions updated for a member in the teamspace:That a teamspace owner modified access to a teamspace member. Learn morehere
+
+  -Custom permissions updated for a group in the teamspace:That a teamspace owner modified access to a group. Learn morehere
+
+  -Teamspace invite access changed: That a user has updated settings for who can invite teamspace members
+
+  -Teamspace disable guests toggled:That a teamspace owner has enabled or disabled the ability to add guests to a teamspace
+
+  -Export toggled for teamspace:That a teamspace owner has disabled or enabled exporting for a teamspace
+
+  -Public page sharing toggled for teamspace:That a teamspace owner has switched public page sharing on/off for a teamspace
+
+  -Teamspace sidebar editing toggled:That a teamspace owner has enabled or disabled the ability for users to change the teamspace sidebar section
+
+  -Enabled teamspaces:That a user has enabled the teamspaces feature on a workspace
+
+#### Workspace events
+
+  -Member invited:That a Workspace owner or Membership admin invited a user to the workspace.
+
+    *The new user's role will be specified "as Workspace owner” if they are invited as an Workspace owner, or "as Membership admin" if they are invited as a Membership admin.
+
+  -Member joined:That a user has joined the workspace
+
+  -Member role updated:That a Workspace owner has updated a user’s role
+
+  -Member removed:That a Workspace owner or Membership admin has removed a user from the workspace
+
+  -Guest removed:That a guest has been removed from a workspace
+
+  -Invite link toggled:That a user either enabled or disabled the invite link
+
+  -Invite link reset:That a user has reset an invite link
+
+  -Workspace name changed:That a user updated the workspace’s name
+
+  -Workspace icon changed:That the workspace icon has been changed
+
+  -Workspace domain changed:That the domain of a workspace is changed
+
+  -Page access requests toggled:That a user has enabled or disabled page access requests from non-workspace-members
+
+  -Public page sharing toggled:That a Workspace owner has switched public page sharing on/off
+
+  -Workspace sidebar editing toggled:That a Workspace owner has enabled or disabled the ability for users to change the Workspace sidebar
+
+  -Disable guests toggled:That a Workspace owner has enabled or disabled the ability to add guests to a workspace
+
+  -Pages to other workspaces toggled:That a Workspace owner has either disabled or enabled moving pages to other workspaces
+
+  -Export toggled:That a Workspace owner has disabled or enabled exporting
+
+  -Workspace content exported:That a user has exported content from a page or the entire workspace
+
+  -Integration installation toggled:That a Workspace Owner has disabled or enabled integrations restrictions
+
+  -Integration created:That a new integration has been added to a workspace
+
+  -Integration deleted:That an integration has been deleted
+
+  -Integration secret reset:That an integration's secret token has been refreshed
+
+  -Integration settings updated:That an integration's basic settings, like its name or icon, have been changed
+
+  -Integration permission updated:That an integration's capabilities (reading content, inserting a comment, etc.) have been changed
+
+  -Added allowed email domain:That the user added an allowed email domain to the workspace
+
+  -Removed allowed email domain:That the user removed an allowed email domain from a workspace
+
+  -Public home page set:That a Workspace owner has changed public home page
+
+  -Public home page link cleared:That a Workspace owner has cleared public home page
+
+  -SCIM token generated:That a Workspace owner generated a SCIM API token
+
+  -SCIM token revoked:That a Workspace owner revoked a SCIM API token
+
+  -IdP metadata URL updated:That a Workspace owner has set or updated the IdP metadata URL
+
+  -IdP metadata XML updated:That a Workspace owner has updated the IdP metadata XML
+
+  -IdP metadata XMP removed:That a Workspace owner has removed IdP metadata XML
+
+  -SAML enable setting toggled:That a Workspace owner has disabled or enabled SAML
+
+  -SAML enforce setting toggled:That a Workspace owner has disabled or enabled Enforce SAML
+
+  -Auto-create accounts on sign-in toggled:That a Workspace owner has enabled automatically creating accounts on sign-in
+
+  -Workspace creation setting updated: That a Workspace owner has restricted creation of new workspaces by users with the claimed enterprise email domain
+
+  -Member added to group:That a Workspace Owner or Membership Admin has added a user to a group
+
+  -Member removed from group:That a Workspace Owner or Membership Admin has removed a user from a group
+
+  -Claimable workspace transfer status change:That the status of ownership transfer on a claimable workspace has changed
+
+  -Claimable workspace upgrade status change:That the status of a claim and upgrade to Enterprise of a claimable workspace has changed
+
+  -Claimable workspace deletion status change:That the status of workspace deletion of a claimable workspace has changed
+
+  -Membership request toggled:That a user has enabled or disabled new workspace membership requests
+
+  -Membership request resolved:That a user has resolved a workspace membership request
+
+  -Audit Log exported:That the user exported the Audit Log
+
+  -User Analytics exported:The the user exported the User Analytics table ofWorkspace Analytics
+
+  -Content Analytics exported:That the user exported the Content Analytics table ofWorkspace Analytics
+
+  -Workspace analytics tracking toggled:That the user enabled or disabled workspace analytics within the workspace
+
+  -Content search queried: That a Workspace Owner has used thecontent searchfunctionality to find workspace content
+
+  -Content search results exported: That a Workspace Owner has exported the results from acontent searchquery.
+
+  -Notion AI toggled for workspace:That the user has enabled or disabled Notion AI in a workspace
+
+  -Workspace consolidation started:A Notion employee has initiated workspace consolidation from this source or to this target workspace
+
+  -Workspace consolidation completed:The source or target workspace has finished consolidation
+
+  -Workspace consolidation failed:That workspace consolidation has failed for the source or target workspace
+
+  -User suspended:That an admin has suspended a managed user account
+
+  -User unsuspended:That an admin has unsuspended a managed user account
+
+  -Log out all managed users:That an admin has logged out every managed user account
+
+  -Log out one managed user:That an admin has logged out a single managed user account
+
+  -Clear password for all managed users:That an admin has cleared all managed user accounts' passwords
+
+  -Clear password for one managed user:That an admin has cleared a single managed user account's password
+
+  -Integration added to approved connections:That an integration was added to the workspace’s list of approved connections.
+
+  -Integration removed from approved connections:That an integration was removed from the workspace’s list of approved connections.
+
+  -HIPAA compliance enabled:That a workspace owner has enabled HIPAA compliance by accepting Notion’s Business Associate Agreement.
+
+  -HIPAA compliance disabled:That a workspace owner has disabled HIPAA compliance.
+
+#### Account events
+
+  -Login:When and from where a user has logged in
+
+  -Logout:When and from where a user has logged out
+
+  -Password set:That a user created a password
+
+  -Password cleared:That a user cleared their password
+
+  -Password changed:That a user changed their password
+
+  -MFA SMS toggled:That a user updated their MFA via SMS text messages settings. Learn morehere
+
+  -MFA TOTP toggled:That a user updated their MFA via a TOTP (time-sensitive one time passcode) app. Learn morehere
+
+  -MFA backup code toggled:That a user updated their MFA backup code settings
+
+  -Email changed:That the email of a user was changed
+
+  -Picture changed:The the profile photo of the user was changed
+
+  -User deleted:That a specific user account has been deleted
+
+  -Granted support access:That a user’s account was granted Notion support access
+
+  -Revoked support access:That a user’s account was revoked Notion support access
+
+  -Preferred name changed:That a user has updated their account's preferred name
+
+Note:If you are trying to find a deleted user or a user who has changed their name to a new name, the best way to do this is by through an exported audit log. Instructions for exporting your workspace audit log to CSV below.
+
+### Export your audit log
+
+Want to analyze the data in a spreadsheet or import your audit log to external tools? The workspace audit log can be exported in CSV format.
+
+  -Select the blue `Export` button at the top right of the audit log screen.
+
+  -You'll see four different export date range options. You can choose to export up to one year of audit log data.
+
+  -Once you select your preferred date range, you will see a notification letting you know that an email will be sent to you with the audit log file download link.
+
+Note:An exported audit log willshow all applicable events within the chosen date range, up until 2 hours before the export time.
+
+
+
+
+
+# Add security & compliance integrations
+
+### Learn how to add security and compliance integrations to your workspace 🔐
+
+Only Enterprise workspace owners can install workspace-wide security and compliance integrations. To add a security and compliance integration:
+
+  -Go to `Settings & members` → `Connections` .
+
+  -Open the `Workspace` tab.
+
+### Prerequisites for adding security and compliance integrations
+
+  -Your workspace must be on an Enterprise Plan.
+
+  -Only a workspace owner can configure security and compliance integrations for a Notion workspace.
+
+  -You must have admin privileges in the partner tool.
+
+### DLP partner integrations
+
+Integrating with a DLP solution will help detect the use of sensitive data in your workspace and take automated action to remediate data breaches quickly by alerting workspace owners, redacting content, or restricting page access.
+
+#### Supported DLP partners
+
+Nightfall AI
+
+  -In Notion, go to `Settings & members` → `Connections` → open the `Workspace` tab.
+
+  -Select `Connect` on the `Nightfall` tile → `Connect to Nightfall` .
+
+  -Authenticate with your Nightfall credentials.
+
+  -You can find additional instructionshere, and learn more about the integrationhere.
+
+#### Disconnecting by partner
+
+Nightfall AI
+
+  -In Notion, go to `Settings & members` → `Connections` → open the `Workspace` tab.
+
+  -Select `•••` beside the `Nightfall` integration → `Disconnect` .
+
+  -In theNightfall application, select `Notion` in `My Integrations` , and remove the relevant Notion workspace from the `Workspaces` list.
+
+### SIEM partner integrations
+
+Integrating with a SIEM solution will bring your Notion audit log information into a shared platform with the rest of your SaaS app logs in order to:
+
+  -Provide visibility into Notion user and workspace activity in a third-party audit log for better analysis, searches, and correlations.
+
+  -Configure off-the-shelf alerts on unusual user activity in real-time.
+
+  -Provide reports and dashboards to support incident investigation.
+
+Note:On the Notion end, we don’t support connecting to any SIEM partner until the partner instance is ready to handle events.
+
+#### Supported SIEM partners
+
+Datadog
+
+  -In Notion, go to `Settings & members` → `Connections` → open the `Workspace` tab.
+
+  -Select `Connect` on the `Datadog` tile → `Connect to Datadog` .
+
+    *Note:At this time, one Datadog instance can only be connected to one workspace at most.
+
+  -Authenticate with your Datadog credentials by selecting your organization.
+
+  -You can find additional instructionshere.
+
+Panther
+
+  -Log into your Panther console.
+
+  -In the left side navigation of your Panther Console, select `Configure` → `Log Sources` → `Create New` .
+
+  -Search for `Notion` , then select the Notion tile.
+
+  -In the slide-out panel, the `Transport Mechanism` dropdown in the upper right corner will be pre-populated with the HTTP option. Select `Setup` .
+
+  -FollowPanther's instructions for configuring an HTTP Source.
+
+    *Note: You will be required to useHMAC authentication.
+
+  -The `Header Name` associated with your `Secret Key Value` will be locked with a value of `x-notion-signature` .
+
+  -Be sure to securely copy your `Secret Key Value` and store it in a safe location. You'll need this to configure the connection in Notion.
+
+  -You can find additional instructionshere.
+
+Splunk
+
+  -Note:Depending on your Splunk instance type, the `Webhook URL` and `Secret code` may vary. Currently, we support Splunk Cloud or Enterprise licenses (not On-Prem).
+
+  -Retrieve `Webhook URL` (HEC URL).
+
+  -Log into your Splunk instance.
+
+  -Navigate to the `Search & Reporting` app and select `Settings` .
+
+  -Under the `Data` section, click on `HTTP Event Collector` .
+
+  -Locate the desired HEC configuration and select its name, or create a new one.
+
+  -On the configuration page, you'll find the HEC URL. Typically, it begins with https:// followed by the hostname or endpoint provided by Splunk, and ends with the HEC token. For example: `https://<your-splunk-instance>.splunkcloud.com:8088/services/collector/event`
+
+  -Retrieve the `Secret code` (HEC token) and repeat the steps above.
+
+  -On the configuration page, you'll find the HEC token, a long alphanumeric string under the `Token` field.
+
+  -You can find additional instructionshere.
+
+Sumo Logic
+
+  -Log into your Sumo Logic instance.
+
+  -Select `Manage Data` → `Collection` .
+
+  -Navigate to `Setup Wizard` and select `Get started` .
+
+  -When presented with `Data Type` , select `Your Custom App` → `HTTPS Source` .
+
+  -Copy the `HTTP Source URL` into Notion settings.
+
+  -You can find additional instructionshere.
+
+#### Setup tips by partner
+
+To set up most of this integration, you will need to manually provide a webhook URL or token.
+
+  -Datadog: The `Webhook URL` and `Token` are not required.
+
+  -Panther: Enter the HTTP Source URL in the `Webhook URL` field and the HMAC Authentication Secret Key Value in the `Token` field.
+
+  -Splunk: Enter the HTTP Event Collector (HEC) URL in the `Webhook URL` field and the HTTP Event Collector (HEC) token in the `Token` field.
+
+  -Sumo Logic: Enter the HTTP Event Collector (HEC) URL in the `Webhook URL` field. A token is required.
+
+### Available SIEM events
+
+Below is a comprehensive list of webhook events that will be available in your SIEM platform once you set up the Notion SIEM connection. All events available in your SIEM platform will correspond to an audit log event. The glossary will help you understand the specific events that are being tracked and how they relate to your organization's security posture. Use this information to fine-tune your dashboards, alerts, and incident management processes.
+
+#### Event types
+
+Events are split into five main categories:
+
+  -Page events: This includes events users take on a single Notion page.
+
+  -Teamspace events: This includes events users take on one or more teamspaces.
+
+  -Workspace events: This includes events users take on an entire Notion workspace.
+
+  -User events: This includes events about accounts of users in the workspace.
+
+  -Integration events:This includes events about internal integrations associated with the workspace.
+
+#### Page audience
+
+For page events, the page audience describes the visibility level of the target page. The audience captured will be one of the following:
+
+  -Private: The page is not shared with other users.
+
+  -Internal: The page is shared with other members of the workspace only.
+
+  -External: The page is shared with one or more guests outside of the workspace and/or with an integration bot.
+
+  -Public: The page is shared to the web.
+
+#### SIEM event glossary
+
+Workspace
+
+  -workspace.audit_log_exported: A workspace owner exported the workspace’s audit log.
+
+  -workspace.content_analytics_exported: A workspace owner exported workspace content analytics.
+
+  -workspace.content_exported: Workspace content for a page or for the entire workspace was exported by a workspace user.
+
+  -workspace.content_search_exported: The results of acontent searchfor a workspace was exported by a workspace owner.
+
+  -workspace.content_search_queried: A workspace owner used theadmin content searchfunctionality to find workspace content. Content searches can retrieve content from public and private pages.
+
+  -workspace.domain_management.transfer_request_status_updated: A transfer request for a workspace created by a user with a verified domain was updated. (Seethis articlefor more information.)
+
+  -workspace.external_account_connected: A public/external integration was connected to the workspace.
+
+  -workspace.external_account_disconnected: A public/external integration was disconnected from the workspace, or a workspace owner removed access to a public integration for all users in the workspace.
+
+  -workspace.group.permissions.member_added: A workspace owner or membership admin added a new member to a group. A group is a defined collection of workspace members.
+
+  -workspace.group.permissions.member_removed: A workspace owner or membership admin removed a member from a group.
+
+  -workspace.integration_added: An integration was added to the workspace for the first time. (This event will only be emitted the first time an integration is added to a workspace.)
+
+  -workspace.integration_removed: All bots for a specific public integration are removed.
+
+  -workspace.members_exported: A list of workspace members was exported.
+
+  -workspace.membership_request_resolved: A membership request from a member to add a new person to the workspace was resolved, i.e. the workspace owner either approved or denied the request.
+
+  -workspace.permissions.guest_removed: A guest was removed from the workspace by a workspace owner or membership admin.
+
+  -workspace.permissions.member_added: A user accepted an invite to join a new workspace and have been added to the member list.
+
+  -workspace.permissions.member_invited: A user was invited to a workspace by a workspace owner or membership admin.
+
+  -workspace.permissions.member_removed: A member was removed from the workspace by a workspace owner or membership admin.
+
+  -workspace.permissions.member_role_updated: A member’s role in a workspace was updated. Roles include member, membership admin, workspace owner.
+
+  -workspace.private_content_transferred: The private content of a deprovisioned workspace member was transferred to a new location. Enterprise workspace owners cantransfer contentfrom deprovisioned users.
+
+  -workspace.saml_sso_idp_metadata_url_added: The IdP (Identity Provider) metadata URL was added by a workspace owner.
+
+  -workspace.saml_sso_idp_metadata_url_updated: The IdP (Identity Provider) metadata URL was updated by a workspace owner.
+
+  -workspace.saml_sso_idp_metadata_xml_added: The IdP (Identity Provider) metadata XML (Extensible Markup Language) was added by a workspace owner.
+
+  -workspace.saml_sso_idp_metadata_xml_removed: The IdP (Identity Provider) metadata XML (Extensible Markup Language) was removed by a workspace owner.
+
+  -workspace.saml_sso_idp_metadata_xml_updated: The IdP (Identity Provider) metadata XML (Extensible Markup Language) was updated by a workspace owner.
+
+Teamspace
+
+  -teamspace.archived: A teamspace was archived.
+
+  -teamspace.created: A teamspace was created.
+
+  -teamspace.permissions.custom_group_role_added: A teamspace owner added custom permissions for a group that is added to the teamspace.
+
+  -teamspace.permissions.custom_group_role_removed: A teamspace owner removed custom permissions for a group that is added to the teamspace.
+
+  -teamspace.permissions.custom_group_role_updated: A teamspace owner updated custom permissions for a group that is added to the teamspace.
+
+  -teamspace.permissions.custom_member_role_added: A teamspace owner added custom page permissions for a specific teamspace member.
+
+  -teamspace.permissions.custom_member_role_removed: A teamspace owner removed custom page permissions for a specific teamspace member.
+
+  -teamspace.permissions.custom_member_role_updated: A teamspace owner updated custom page permissions for a specific teamspace member.
+
+  -teamspace.permissions.default_member_role_updated: The default teamspace page permissions applied to teamspace members was updated.
+
+  -teamspace.permissions.default_workspace_role_added: A teamspace owner gave page permissions to workspace users in a closed teamspace.
+
+  -teamspace.permissions.default_workspace_role_removed: A teamspace owner removed page permissions from workspace users in a closed teamspace.
+
+  -teamspace.permissions.default_workspace_role_updated: A teamspace owner updated the default page permissions for all workspace users in a teamspace.
+
+  -teamspace.permissions.group_added: A group was added to a teamspace. A group is a defined collection of users.
+
+  -teamspace.permissions.group_removed: A group was removed from the teamspace by a teamspace owner.
+
+  -teamspace.permissions.member_added: A user was added to the teamspace. The user either joined an open teamspace or was added by another member. The event payload will specify “as Teamspace owner” if the user was added with teamspace owner privileges.
+
+  -teamspace.permissions.member_removed: A teamspace member was removed from the teamspace. Removal can be triggered by a member leaving or being removed by a teamspace owner.
+
+  -teamspace.permissions.member_role_updated: A teamspace member’s role was updated. Roles include Teamspace Member and Teamspace Owner.
+
+  -teamspace.restored: A previously archived teamspace was restored.
+
+  -teamspace.settings.allow_content_export_setting_updated: The setting to allow exporting teamspace content was enabled or disabled.
+
+  -teamspace.settings.allow_guests_setting_updated: A teamspace owner enabled or disabled the ability to add guests (non-members) to a specific teamspace.
+
+  -teamspace.settings.allow_public_page_sharing_setting_updated: The setting to allow publicly sharing a teamspace page was enabled or disabled by a workspace owner.
+
+  -teamspace.settings.allow_sidebar_editing_setting_updated: The setting that determines who can edit the sidebar was updated. The setting will indicate if any teamspace member can edit the sidebar or if editing is only available for teamspace owners.
+
+  -teamspace.settings.default_setting_updated: The teamspace’s default permissions settings were updated.
+
+  -teamspace.settings.description_updated: The teamspace description was updated.
+
+  -teamspace.settings.icon_updated: The teamspace icon was updated.
+
+Page
+
+  -page.button_automation_created: A repeatingbuttonautomation was created on a page.
+
+  -page.button_automation_updated: A repeatingbuttonautomation was updated on a page.
+
+  -page.content_edited: The content of an existing page was edited by a user. Page content is also known as ablock. Content edit events are consolidated into one event every minute while edits are occurring.
+
+  -page.created: A new page nested under a parent page was created by a user.
+
+  -page.deleted: A page was deleted by a user. Deleted pages may be restored in the future.
+
+  -page.discussion.comment.created: A comment on a page was created by a user.
+
+  -page.discussion.comment.deleted: A comment on a page was deleted by a user.
+
+  -page.discussion.comment.updated: A comment on a page was edited by a user. Comment edit events are consolidated into one event every minute while edits are occurring.
+
+  -page.exported: A page was exported to a PDF, HTML, or Markdown file by a user.
+
+  -page.file_deleted: A file was deleted from the page by a user.
+
+  -page.file_downloaded: A file in a page was downloaded or opened by a user.
+
+  -page.file_uploaded: A file was uploaded to a page by a user.
+
+  -page.moved: A page was relocated by a user, i.e. the page’s parent page updated.
+
+  -page.permissions.group_role_added: A workspace group’s page permissions were added, which will allow them to access the page.
+
+  -page.permissions.group_role_removed: A group’s page permissions were removed for a page, which will restrict them from having access to the page.
+
+  -page.permissions.group_role_updated: A workspace group’s page permissions were updated, changing their type of access.
+
+  -page.permissions.guest_role_added: A guest’s page permissions were added, which will allow them to access the page.
+
+  -page.permissions.guest_role_removed: A guest’s page permissions were removed, which will restrict them from having access to the page.
+
+  -page.permissions.guest_role_updated: A guest’s page permissions were updated, changing their type of access.
+
+  -page.permissions.integration_role_added: A user added anintegrationto a page. Integrations of any type — internal or public/external — will trigger this event.
+
+  -page.permissions.integration_role_removed: A user removed the page permissions for an integration (or “connection”), which will restrict the integration from having access to the page. Integrations of any type — internal or public/external — will trigger this event.
+
+  -page.permissions.integration_role_updated: A user updated the page permissions of an integration (or “connection”). Integrations of any type — internal or public/external — will trigger this event.
+
+  -page.permissions.member_role_added: A member’s page permissions were added, which will allow them to access the page.
+
+  -page.permissions.member_role_removed: A member’s page permissions were removed, which will restrict them from having access to the page.
+
+  -page.permissions.member_role_updated: A member’s page permissions were updated, changing their type of access.
+
+User and account
+
+  -user.deleted: A user account was deleted. This event will be sent to any workspace with which the account is associated.
+
+  -user.login: A user logged into an account.
+
+  -user.logout: A user logged out of an account.
+
+  -user.settings.analytics_tracking_setting_updated: A user changed the setting to track whether their workspace or page activity is recorded in workspace analytics.
+
+  -user.settings.email_updated: A user updated their email in the account settings.
+
+  -user.settings.login_method.mfa_backup_code_updated: A user updated their MFA (Multi-Factor Authentication) back-up code settings.
+
+  -user.settings.login_method.mfa_sms_updated: A user updated their MFA (Multi-Factor Authentication) SMS (Short Message Service) settings.
+
+  -user.settings.login_method.mfa_totp_updated: A user updated their MFA (Multi-Factor Authentication) TOTP (Time-based One-Time Password) settings.
+
+  -user.settings.login_method.password_added: A user added a password to their account for login purposes.
+
+  -user.settings.login_method.password_removed: A user removed a password from their account.
+
+  -user.settings.login_method.password_updated: A user updated their password.
+
+  -user.settings.preferred_name_updated: A user updated their preferred name in the account settings.
+
+  -user.settings.profile_photo_updated: A user updated their profile photo in the account settings.
+
+  -user.settings.support_access_granted: Notion’s support team was granted temporary access to the user’s account.
+
+  -user.settings.support_access_revoked: Support access to the user’s account was revoked.
+
+Integration
+
+  -integration.created: A developer created an internal integration and associated it with the workspace.
+
+  -integration.deleted: An internal integration associated with the workspace was deleted. Deletions can occur in the My Integrations dashboard, or an admin can remove access to an internal integration for all users.
+
+  -integration.secret_reset: The authentication secret for an internal integration was reset (or “refreshed”).
+
+### Compliance partner integrations
+
+#### Drata
+
+If your policy content lives in Notion, you can connect Notion with Drata to manage that content. Changes you make to policies in Notion will be synced with Drata.
+
+Note:
+
+  -For the best experience, try to avoid using database blocks in Notion pages that you sync with Drata.
+
+  -You can’t sync any private Notion pages to Drata.
+
+  -If a policy stored in Notion is deleted by a user, you’ll be prompted to import a new file in Drata.
+
+
+
+To integrate Notion with Drata:
+
+  -In Notion, go to `Settings & members` → `Connections` → open the `Workspace` tab.
+
+  -Select `Connect` on the `Drata` tile.
+
+  -Give Drata permission to access your Notion workspace, then select `Allow access` .
+
+Learn more about the integrationhere →
+
+### FAQs
+
+I just made updates to a page, but I didn't receive a Slack notification.
+
+There's a five minute delay built in to prevent these notifications from getting too noisy!Let us knowif you still aren't seeing them show up! We'll help out.
+
+I'm trying to enable the integration in Slack's App Directory, but it just takes me to Notion's homepage.
+
+Sorry for the confusion 🙈You can't enable the integration from Slack. You'll need to turn it on inside Notion with the instructions on this page.
+
+What permissions are granted when the Slack integration is enabled?
+
+Notion's integration with Slack operates on a per-page basis. When you enable the Slack integration for a specific page in your Notion workspace, you're granting Notion access to publish updates to the Slack channel of your choosing.
+
+Can I add more than one login for a link preview integration?
+
+You can! You can do so via `Settings & Members` → `My connections` . For the desired integration, select “Connect another account”.
+
+Note: Some applications do not support multi-account login in the browser (e.g. GitHub), so you might need to logout of whichever account is currently logged in on your browser to be prompted to login with a different account.
+
+We’ll determine which of your accounts to use to preview given resources and show an error if none of them are successful.
+
+I’m receiving a general  “Can’t load preview” error in my link preview.
+
+Run through these steps to try to resolve.
+
+  -Confirm you’ve authenticated with the correct account for the resource.
+
+  -Confirm no access restrictions for your organization.
+
+  -Delete your integration in Notion via the `My connection` settings. You may also want to revoke the integration the corresponding platform:GitHub,Jira,Slack,Asana,Trello.
+
+  -Try to unfurl again.
+
+  -Finally, if all else fails, reach out to support! Unfortunately, we cannot help resolve errors related toAccess deniedorContent not found.Please provide the following information when reaching out to support:
+
+    *Integration you’re trying to use
+
+    *Error message and code
+
+    *URL you’re trying to preview (if possible)
+
+
+
+I’m receiving an “Access denied” or “Content not found” error in my link preview.
+
+There are two possible reasons for this:
+
+  -You may not have authenticated with the account that has access. You can connect multiple accounts either through `Settings & Members` → `My connections` , or the error drop down.
+
+  -Your organization may have limited access to content via 3rd party integrations or IP addresses. Please confirm with your workspace or organization administrator and ask to have Notion’s integration approved if this is the case. Here are instructions for specific integrations:GitHub,Jira,Slack,Asana,Trello.
+
+
+
+What do connections have access to in my workspace?
+
+  -SIEM integrations will be authorized to receive event logs on all workspace activity.
+
+  -DLP integrations will be authorized:
+
+    *to receive event logs on all workspace activity.
+
+    *to view content, view comments, edit content, edit comments, and create comments inallpages.
+
+    *to see basic information about all workspace members and guests, including their names, profile images, and email addresses.
+
+
+
+I’m not seeing SIEM events even after connecting. What should I do?
+
+  -Sometimes, the event may appear under a different label or in a different place than where you expect. We recommend triggering a new page event and querying in your SIEM querying language for `type: "page.created"` or `email: "[your email address]"` for all events triggered by you.
+
+  -When a new Pantherinstance is created, it can take up to 10 minutes for it to be fully ready to receive events.
+
+
+
+What happens to my SIEM events if my SIEM provider has an outage?
+
+In the event of an outage, you should reach out to your SIEM provider for more information.
+
+Why can’t I connect more than one instance of the same SIEM provider?
+
+SIEM provider can only be connected to a single Notion workspace at this time.
+
+Having trouble setting up your SIEM connections? Here are some common issues.
+
+  -Incorrect webhook URL
+
+  -Incorrect HMAC or HEC token
+
+  -Do not have admin privileges in your SIEM provider
+
+  -SIEM provider is an on-prem instance
+
+
+
+
+
+# Custom data retention settings
+
+### Enterprise workspace owners have control over when users’ pages are deleted from Trash, and how long they can be retained for afterwards 🗑️
+
+### Page deletion
+
+Users candeleteany pages that they have edit or full access to. They can also restore or remove those pages from Trash.
+
+As an Enterprise workspace owner, you can decide how long a page stays in Trash before it’s permanently deleted and no longer accessible to users. To do this:
+
+  -Go to `Settings & members` in your sidebar.
+
+  -Select `Security & data` .
+
+  -Open the `Data retention` tab.
+
+  -You’ll see the current setting for when pages in Trash will be deleted. By default, this is 30 days. Select `Change` to customize it.
+
+  -Set a custom time period between one day and 10 years. Your time period can be set in days or years.
+
+  -Once you’re done, select `Save` .
+
+When users in your workspace navigate to Trash in the sidebar, they’ll be able to see how long pages have before they’re deleted from Trash.
+
+### Page retention
+
+Only Enterprise workspace owners can view and restore pages after they’ve been permanently deleted from Trash. To set the length of this retention period:
+
+  -Go to `Settings & members` in your sidebar.
+
+  -Select `Security & data` .
+
+  -Open the `Data retention` tab.
+
+  -You’ll see the current setting for how long pages will be retained. By default, this is 30 days. Select `Change` to customize it.
+
+  -Set a custom time period between one day and 10 years. Your time period can be set in days or years.
+
+  -Once you’re done, select `Save` .
+
+Note:Once a page is permanently deleted by you or automatically following the retention period, workspace owners will also be unable to access or restore it.
+
+### Search deleted and retained pages
+
+Enterprise workspace owners can utilizecontent searchto find both pages in Trash as well as pages that have been retained, or in other words have been deleted from Trash but are still retained in accordance with their workspace’s retention settings. To use content search to find deleted and retained pages:
+
+  -Select `Settings & members` in the sidebar → `Content search` .
+
+  -Use the `Page status` filter and select `In Trash` or `Retained pages` . Add any additional filters you’d like; you can learn more about thesehere →
+
+### Restore deleted and retained pages
+
+Enterprise workspace owners can restore deleted and retained pages to their original location. To do this:
+
+  -Select `Settings & members` in the sidebar → `Content search` .
+
+  -Select `•••` next to a page that’s in Trash or retained. Before you restore the page, you can select `View original permissions` to see who will regain access if you choose to put the page back where it used to be. Then, select `Restore to original location` or `Restore to Private pages` .
+
+### Permanently delete pages
+
+If you’d like to permanently remove a deleted or retained page from your workspace:
+
+  -Select `Settings & members` in the sidebar → `Content search` .
+
+  -Select `•••` next to a page that’s in Trash or retained → `Permanently delete` .
+
+
+
+
+
+# Workspace analytics
+
+### Learn how your organization is interacting with content on your workspace 🗃
+
+Workspace analytics is an Enterprise Plan feature that provides a comprehensive overview of how your organization is engaging with content across the workspace.
+
+With insights on adoption, engagement, and search behavior, you'll be able to fine-tune your workspace to better serve the specific needs of your team.
+
+Note:Your workspace analytics data is tracked starting on the day that you sign up for the Enterprise plan— you will not have any analytics from before that day.
+
+### Accessing workspace analytics
+
+To access workspace analytics click on `Settings & members` in your sidebar and click `Analytics` .
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/3BghKmn4vnGsie8awyTvpy/c41c40afc4bd850ae0f5c9d20d8ceea4/open_analytics.mp4)
+
+You’ll see an overview of information regarding content in your workspace, including most active teamspaces, viewers and editors.
+
+Select the `Members` , `Content` or `Search` tabs to get more thorough breakdowns. If you’re not a workspace owner, you’ll only have access to `Content` .
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/7qEZ5WcXnoNnVOMFFWYEkC/5c809df3a135d364627b7bf265116200/analyticstabs.mp4)
+
+#### Member engagement
+
+In the `Members` tab, you can analyze how members are adopting and engaging with workspace content. You’ll see a graph that displays active members over the last 90 days.
+
+There’s also a list of workspace members with their activity. Note that any member who opts out of analytics will appear with a strikeout eye icon.
+
+  -Sort by clicking on any of the column titles.
+
+    *You can sort by `Page views` , `Page edits` , and `Last active` .
+
+#### Content analysis
+
+In the `Content` tab, you can track how members are engaging with workspace content. By analyzing metrics such as the number of views, number of unique viewers, and last edited date, you can quickly determine which content is most popular or outdated.
+
+This information can help you decide which pages to update, revise, or promote more prominently to your team.
+
+To search for pages:
+
+  -Type the page name into the search bar.
+
+  -Filter by `Created on` , `Created by` , or `Teamspace` .
+
+Note:Only pages a member has access to will appear in their Content tab.
+
+#### Search behavior
+
+In the `Search` tab, you can understand what workspace members are searching for, the number of times and the click-through rate of each query. These metrics can help you identify potential gaps in your documentation as well as help you make changes to content to improve discovery.
+
+  -Sort by clicking on any of the column titles.
+
+    *You can sort by `Searches` , `Unique searches` , and `Click-through rate` .
+
+### Analytics glossary
+
+  -`Search query` : a term that has been searched in the workspace.
+
+    *Note: only queries searched bymore than 1 userand searchedmore than oncewill show up in the Search Analytics table.
+
+  -`Page edit` : All changes that an individual user makes to a page within a 1 minute window.
+
+  -`Page views` : every view of a particular page.
+
+    *Includes views by members, guests and anonymous users on public pages.
+
+    *Recording of views could be blocked by adblockers or if a logged in member chose to opt out.
+
+  -`Unique page views` : page views, but with each logged in member and guest only counted once.
+
+    *Anonymous users on public pages with cookies disabled will be counted as unique viewers for each time they view the page.
+
+  -`Active members` : number of unique members who viewed a page in a particular period.
+
+  -`Most active editors` : members ranked by number of total edits.
+
+  -`All Time` : metrics that include "All Time" ranges will go back to your Enterprise Plan start date.
+
+
+
+
+
+# Managed users
+
+### As an enterprise workspace owner, you have many ways you can manage the users within your domain, including a dashboard where you can get information and make changes 👥
+
+Enterprise workspace owners have the ability to manage all the users within their organization. A managed user is any user with an account created with the organization's verified email domain.
+
+Note:In order to use this feature, you will need to be:
+
+  -On an Enterprise Plan
+
+  -A workspace owner
+
+  -Workspace has averified domain
+
+
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/36U4gG33koLYyvmQ9EigQb/9cb590d0d0f103790fe5f5d091913d53/user_management_settings.png)
+
+There are many ways in which workspace owners can manage users with their domain. To access these settings, click on `Settings & members` and navigate to `Identity & provisioning` .
+
+#### Managing user accounts
+
+Workspace owners can use these settings to apply more granularity to how their managed users work in Notion.
+
+  -`Allow users to change account information` : Let users change their
+
+  -preferred name, email address, and profile photo.
+
+  -`External workspace access` : Decide whether managed users can join workspaces that aren't owned by your organization.
+
+  -`Prevent managed users support access` : Control which users can allow Notion support to remote login for troubleshooting. For more information on what Notion support can view, see our terms of service.
+
+  -`Session duration` : Set how long a user can be logged in before they will be required to re-authenticate. This applies to all devices a user is logged in on.
+
+    *For managed users on the Enterprise Plan, Notion has a default session duration of 180 days. However, workspace owners can customize their session duration from 1 hour to 180 days.
+
+  -`Log out all users` : Force all users to log out.
+
+  -`Reset passwords for all users` : Force all users to reset their passwords.
+
+#### Managed users dashboard
+
+Enterprise workspace owners have access to a handy dashboard that gives them an overview of all users in their verified domain.
+
+In this dashboard, workspace owners can:
+
+  -Search and filter all users using the workspace's verified domains
+
+  -Edit managed user's profile information
+
+  -View which external workspaces managed users are a part of
+
+  -Remove managed users from external workspaces
+
+The dashboard displays user details such as name, email address, a list of workspaces they have access to, last active date, and the state of their 2-step authentication.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/59EUrn6uzJCEWuVUtszQqs/e78127a28e3692d105ced53931981622/user_management_dashboard.png)
+
+To access the managed users dashboard:
+
+  -Click on `Settings & members` and navigate to `Identity & provisioning` .
+
+  -Under `User management` , find `Managed users dashboard` and click `View dashboard` .
+
+From this dashboard, workspace owners can search for users by name, email, or ID. Additionally, they can filter by workspace and 2-step verification method.
+
+Note:Suspended users remain as billable seats to whatever workspaces they are a part of.
+
+All of their content and comments continue to show as normal, any integrations they set up continue to work, but their profile photo will appear as a gray crossed out silhouette.
+
+On a specific user's profile, workspace owners can:
+
+  -Suspend the user
+
+  -Delete the user
+
+  -Change the user's name and email address.The new email must belong to the verified domain.
+
+  -Log the user out
+
+  -Reset the user's password
+
+  -Remove the user from external workspaces
+
+
+
+### FAQs
+
+Will changes to managed user accounts made by the workspace admins be tracked?
+
+Yes, all changes made by a workspace owner to a managed user’s account will be logged in the audit log.
+
+If a password is reset or a user is removed from a workspace, they will receive an email notification.
+
+Will users in my workspace know that their account is being managed by the workspace admin?
+
+Yes, users will see a badge in their `My account` settings.
+
+If my workspace is using SCIM, can I still make changes to managed user accounts through Notion?
+
+Updating managed user profile information from this new dashboard isnot recommendedif the Enterprise workspace is using the SCIM API directly or through an Identity Provider (e.g. Okta, Azure AD, Google Workspace) to programmatically manage workspace members.
+
+If the workspace is using SCIM, then changes made from the Notion Settings UI will be replaced when the next SCIM API request syncs up.
+
+My workspace has verified several domains. Will I see all managed users for all of our domains together in the dashboard?
+
+Yes, you will see all your managed users (from multiple verified domains) together in the dashboard.
+
+What happens if a user is suspended?
+
+Suspended users remain as billable seats to whatever workspaces they are a part of.
+
+All of their content and comments continue to show as normal, any integrations they set up continue to work, but their profile photo will appear as a gray crossed out silhouette.
+
+Other users can still share pages with the suspended user, @-mention them, and add them to workspaces or teamspaces. The suspended users won’t be able login, receive any notifications, or access any of these resources. They’ll see them if/when they’re unsuspended.
+
+What happens if a user is deleted?
+
+All public or shared content created by the deleted user remains, but attributions and @-mentions change to `Deleted User` .
+
+Any private or shared pages where no remaining users have full access will be deleted. Deletions are permanent, with a 30-day grace period to cancel and restore.
+
+If the account may be needed in the future, it is recommended to suspend instead of delete. Deleted users do not contribute to the billable seat count of the workspace.
+
+
+
+# Deploy Notion for macOS
+
+### Learn how to install and update Notion for your organization 🚀
+
+Notion's desktop app provides IT administrators with enhanced control over installations and updates. You have the flexibility to select the installation path for Notion and manage update settings. By default, the Notion app is set up in the /Applications folder on your employees’ machines and is configured to update automatically with each new release.
+
+Note:Regular updates are crucial for access to the latest features and ensuring the highest level of security, especially if automatic updates are turned off.
+
+### Installing Notion on shared machines
+
+Notion allows for use on shared machines by multiple users. It can be installed in either the /Applications or ~/Applications folder of a user's machine. The best installation method depends on your organization's specific needs.
+
+/Applications
+
+  -All users on the machine use the same installation of Notion.
+
+  -Updates made to Notion apply to all users on the machine.
+
+  -Users must be administrators to update Notion.
+
+~/Applications
+
+  -Each user on a shared machine has their own installation of Notion.
+
+  -Updates made to one instance of Notion do not affect other instances of Notion for other users on the same machine.
+
+  -Users do not need to be administrators to update Notion.
+
+### Distribute Notion
+
+After deciding on the installation method, download the appropriate Notion desktop app build. There are three builds available:Intel (x64),Apple Silicon (arm64), andUniversal (x64 or arm64). Ensure you distribute the correct build to match your employees' machine types.
+
+Note:The Universal build works on Intel and Apple Silicon machines. Keep in mind the installation file is much larger than the other builds.
+
+### Disable automatic updates
+
+Notion allows you to disable automatic updates for individual users. This feature is useful for when you want to test new Notion app versions before a widespread rollout, or if you prefer to stagger the update process. To keep the app working smoothly and securely, we advise updating Notion with each new version release.
+
+To prevent Notion from automatically checking for updates, run the following terminal command as each user who will be running Notion:
+
+`defaults write notion.id NotionNoAutoUpdates -bool YES`
+
+Use the following command to re-enable automatic updates:
+
+`defaults write notion.id NotionNoAutoUpdates -bool NO`
+
+### Allow users to update Notion
+
+If Notion is installed in the ~/Applications folder, users can update the app independently without needing special permissions. However, if the app is installed in the /Applications folder, update permissions are required.Users must be machine administrators and have write access to /Applications, notion.app, and all its subfiles.
+
+For shared machines, we recommend setting up a permissions group for all Notion users and installing Notion in a subfolder of /Applications. You can grant this group ownership and write access to the subfolder using the terminal command below. Make sure you replacegroupwith your permissions group name andsubfolderwith your subfolder name:
+
+`chown -R :group /Applications/subfolder && chmod -R 775 /Applications/subfolder`
+
+
+
+# Enterprise connection settings
+
+### Enterprise connection settings empower workspace owners with granular control. Manage member access, approve connections, and streamline your Notion workspace's integration ecosystem — all from one centralized dashboard.
+
+If your workspace is using an Enterprise Plan, workspace owners will have access to additional settings for managing connections within the workspace.
+
+### Restrict members from installing connections
+
+  -If you're a workspace owner, go to `Settings & members` → `Connections` .
+
+  -Under the `Member` tab, you'll see the option to `Restrict members from adding connections` . Click the dropdown to the right to access two options:
+
+    *`No restrictions` : All workspace members can install any connection in the workspace.
+
+    *`Only from approved list` : Workspace members can only install connections pre-approved by a workspace owner. If a workspace owner installs an integration that isn’t already on the approved list, it’ll automatically be added to the approved list afterwards.
+
+#### Auto-approve connections built by Notion
+
+  -If `From approved list` is selected, workspace owners will see an additional option to auto-approve connections that are built by Notion.See the full list of these connections here →
+
+#### Approved connections list
+
+  -Click the `+ Add approved connection` button to approve additional connections for members in your workspace.
+
+  -Note:Before you can approve a connection for the rest of your workspace, you or another admin will have to install it first!  Only connections already installed in the workspace will show up in the `+ Approved connection` dropdown.
+
+  -Instructions for installing connections are specifiedbelow.
+
+  -Under the `Approved connections` heading, workspace owners will see a full list of connections that have been approved and installed in the workspace.
+
+  -To the right of each connection's name, the name(s) of the users who have installed the connection in the workspace are listed.
+
+  -Click the `•••` menu to:
+
+    *Filter by user.
+
+    *Revoke specific users' access to a connection.
+
+    *Disconnect all users.
+
+    *Remove the connection from the approved list.
+
+
+

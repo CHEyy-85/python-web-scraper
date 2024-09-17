@@ -1,0 +1,900 @@
+<12. Notion AI>
+
+Elevate your workflows with Notion AI. See how Notion AI can help you get more done in your day-to-day.
+
+
+
+# Notion AI
+
+### Notion AI is a suite of features that can help you get more done in your day to day 🤖
+
+By adding Notion AI to your Notion plan, you and everyone in your workspace can work faster and write better. Notion certainly isn’t the only AI-powered tool out there. But here’s what makes Notion AI special:
+
+  -Artificial intelligence becomes more useful when it’s integrated across the place where you’re already doing your work, storing notes and docs, and collaborating with others. No need to switch back and forth between your notes and a separate AI-powered tool.
+
+  -Compared to other tools, Notion has a unique and highly flexible drag-and-drop text editor, where any AI-generated content can be easily rearranged and transformed. Over time, Notion AI will be able to take advantage of even more Notion features.
+
+  -Today, Notion AI has many uses across your notes and docs. But Notion can do a lot more than just notes — we’ll continue to expand Notion AI’s capabilities to help with project management and your team knowledge base in the future. This is just the beginning!
+
+### Notion AI features
+
+Currently, we offer these features as part of Notion AI:
+
+  -Writer and Autofill: You can use Notion AI to create and edit content.
+
+  -Q&A: You can get quick answers to your questions based on information across your workspace.
+
+### Pricing
+
+  -At this time, you can’t purchase Notion AI for only part of your team. If you add Notion AI to your workspace, every member of the workspace will be able to use AI features, including workspace owners, membership admins, and members.
+
+    *Guests will not be able to use AI features in your workspace.
+
+  -If you have a Free Plan workspace, or if you have a Plus, Business, or Enterprise subscription with monthly billing, you can add Notion AI to your plan for $10 per member per month.
+
+  -Regardless of what plan you're on, you can get a20% discount with annual billing.
+
+### Billing
+
+  -If you pay for Notion annually, you’ll also be billed annually for Notion AI. If you are on a Free Plan or paying for Notion monthly, you’ll also be billed monthly for Notion AI.
+
+  -If you add Notion AI to a Free Plan, your billing interval will begin on the day you sign up for Notion AI. You’ll be charged monthly on that date.
+
+  -If you add Notion AI to your existing paid plan, you’ll pay a prorated amount for the remaining time left on your current billing cycle. On your next billing date, the AI add-on charge will be added to your regular billing cadence.
+
+### AI usage limits
+
+To ensure optimal performance and fair use across all Notion AI users, your access to AI features can be reduced depending on your usage.
+
+### Complimentary AI responses
+
+Everyone can try Notion AI for free before purchasing the add-on subscription. The more members you have, the more complimentary AI responses you may get, with the maximum being 500 responses across your entire workspace. To see how many free AI responses are remaining, workspace owners can go to `Settings & members` on desktop.
+
+Once you've used all your complimentary AI responses, you will see a message that a Notion AI add-on subscription is necessary to continue using AI features. You’ll need to be a workspace owner, and on desktop, to add Notion AI to your plan.
+
+Note:The AI add-on is not available for users on the iOS Personal Pro Plan. To purchase Notion AI, you'll need to cancel your in-app subscription and choose a new Notion plan. We recommend thePlusPlan, which allows for unlimited blocks for teams, 30-day page history, and up to 100 guests.Notion is not able to provide a refund for the remaining time on your in-app subscription, but you can reach out to Apple for assistance — just follow the instructionshere.
+
+#### What counts as an AI response?
+
+Every time you take an AI action (including creating new content, editing existing content, using AI blocks, adding an autofill property, asking a question, etc.) and receive a response from Notion AI, that counts as an AI response.
+
+Anytime you click `Try again` , that counts as an additional AI response.
+
+#### How do I know if Writer's responses are accurate?
+
+Writer is most effective for streamlining your workflows. For example, it can summarize meeting notes or help you brainstorm for a project. We recommend that you always check the accuracy of content from Notion AI before relying on it for critical content.
+
+### Data
+
+Keeping your data safe is important to us.Learn more about Notion AI security practices here →
+
+Learn more
+
+  -Introducing Notion AI
+
+  -Writer and Autofill
+
+  -Q&A
+
+  -Manage your Notion AI subscription
+
+  -Notion AI security practices
+
+
+
+
+
+
+
+# Writer and Autofill
+
+### You can use Notion AI Writer and Autofill to create new content, draft writing, edit existing content, and generate additional content 🦿
+
+Notion AI can be helpful in various parts of your workflow. By creating new content, summarizing meeting notes or finding action items, AI can fit perfectly into any process.
+
+Get more out of Notion AI
+
+  -Get answers to questions with Q&A
+
+  -Use Notion AI to write better, more efficient notes and docs
+
+  -Using Notion AI to extend your impact
+
+
+
+### Writer
+
+#### Start a new page
+
+When you’re starting a new page, you’ll have the option to `Start writing with AI...`
+
+  -You can select options like:
+
+    *`Brainstorm ideas…` .
+
+    *`Outline…` .
+
+    *`Social media post…` .
+
+  -Select an option, fill out the prompt, and hit `Enter` .
+
+    *The output will start writing directly on your page. You can click `Try again` or `Stop` while it’s writing.
+
+  -Once finished you can add a follow up with an additional prompt or click `Done` , `Continue writing` , `Make longer` , `Close` , or `Try again` — which will generate a new output.
+
+#### Draft new writing
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/TIB9E5H9DrxJRUDlXdVE5/56d0850b59630ab06d794f5a25382794/draft_with_ai-75.mp4)
+
+There are several types of content you can easily create with AI. Enter a prompt and AI can get your first draft started instantly.
+
+  -Press `Space` and under `Draft with AI` you’ll find multiple options including:
+
+    *`Press release…` .
+
+    *`To-do list…` .
+
+    *`Blog post…` .
+
+  -Select an option, fill out the prompt, and hit `Enter` .
+
+    *The output will start writing directly on your page. You can click `Try again` or `Stop` while it’s writing.
+
+  -Once finished you can add a follow up with an additional prompt or click `Done` , `Continue writing` , `Make longer` , `Close` , or `Try again` — which will generate a new output.
+
+#### Edit existing content
+
+Notion AI can be used to quickly improve your writing by finding typos, simplifying language, and more.
+
+  -Highlight text in a Notion page.
+
+  -Click on `Ask AI` in the menu bar and under `Edit or review selection` , select one of the options like:
+
+    *`Improve writing` .
+
+    *`Fix spelling & grammar` .
+
+    *`Make shorter` .
+
+    *`Clean up formatting` .
+
+  -The output will start writing directly on your page. You can click `Try again` or `Stop` while it’s writing.
+
+  -Once finished you can add a follow up with an additional prompt or click `Done` , `Continue writing` , `Make longer` , `Close` , or `Try again` — which will generate a new output.
+
+You can favorite AI prompts that you want to use again later.
+
+  -After you run an AI prompt, click `Add to favorites` .
+
+  -When you start another AI block, you'll see your favorites at the top.
+
+  -To delete a favorite, click the pen icon next to it and click `Delete` .
+
+
+
+#### Generate additional content
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/4rdsoVmoEjbNBlSCo5A5Jj/116cc1e5ad39df05804ebeb9adeaee15/ai_create_table-80.mp4)
+
+Notion AI can generate additional content from your existing text. Have AI sift through your messy notes, so you don’t have to.
+
+  -Highlight text in a Notion page.
+
+  -Click on `Ask AI` in the menu bar and under `Generate from selection` , select one of the options like:
+
+    *`Summarize` .
+
+    *`Translate` .
+
+    *`Explain this` .
+
+    *`Find action items` .
+
+  -The output will start writing directly on your page. You can click `Try again` or `Stop` while it’s writing.
+
+  -Once finished you can add a follow up with an additional prompt or click `Done` , `Continue writing` , `Make longer` , `Close` , or `Try again` — which will generate a new output.
+
+#### AI content blocks
+
+You can also include unique AI blocks to any page. These blocks will stay in the doc and can be generated repeatedly to update.
+
+  -Press `/` and search for one of the following:
+
+    *`Summary` .
+
+    *`Action items` .
+
+    *`Custom` .
+
+  -Click `Generate` .
+
+  -After updating the document, click `Update` again to keep the block fresh.
+
+### Autofill
+
+Using a database to store a large collection of meeting notes, tasks, or projects? Try using AI on a database property to generate summaries, extract action items, and more.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/1tYJhmTsxFkIFx4JxBjaUU/025d04e69e69f1af54e46d5a905b3282/ai_autofill_marketing-75.mp4)
+
+#### Text property
+
+  -Select `+` at the top right side of a database to add a new property.
+
+  -Select `Text` and select `Fill with AI` .
+
+  -Choose one of the prompts:
+
+    *`AI summary` :AI summarizes the content of the page.
+
+    *`AI key info` : AI grabs specific information, like people mentioned on the page.
+
+    *`AI custom autofill` : AI answers a custom prompt given by the user.
+
+    *`AI translation` : AI translates desired content into different languages.
+
+#### Select and multi-select property
+
+You can let AI Autofill assign certain categories or keywords to items in your database. For example, you could have a shopping list where AI marks items as groceries, home goods, or something else.
+
+  -Select `+` at the top right side of a database to add a new property.
+
+  -Add a `Select` or `Multi-select` property, then toggle on `AI Autofill` .
+
+  -You can also edit your select or multi-select property to toggle on `Allow new select options` . When this is turned on, AI will generate new options to apply to any new database entries.
+
+If your plan includes the AI add-on, you can also enable:
+
+  -`Auto-update on page edits` : This means your property will update five minutes after changes are made to the page. You can also manually trigger AI to fill or update by hovering over a value and clicking the wand button that appears.
+
+  -`Update all pages` : This is a one-time manual update to all pages in the database.
+
+Tip:If you want your entire database to have AI summaries, try using both `Auto-update` and `Update all pages` .
+
+Since `Auto-update` only triggers when page edits are made, nothing will happen until a page is changed. `Update all pages` can help jumpstart that process.
+
+
+
+Learn more
+
+  -Notion AI
+
+  -Q&A
+
+  -Manage your Notion AI subscription
+
+
+
+
+
+### FAQs
+
+How do I know if Notion AI’s responses are accurate?
+
+Writer is most effective for streamlining your workflows. For example, it can summarize meeting notes or help you brainstorm for a project. We recommend that you always check the accuracy of content from Notion AI before relying on it for critical content.
+
+Does Notion AI have access to all the data in my workspace? How does Notion AI use my data?
+
+Keeping your data safe is important to us.Learn more about Notion AI security practices here →
+
+
+
+# Q&A
+
+### Q&A quickly gives you the information you need to unblock your work. It can answer questions about specific teams, projects, and more by searching across the workspace pages you have access to ❓
+
+Note:Q&A is in beta, which means it’s still a work in progress and may not be available to you yet.Learn more about Q&A beta below →
+
+### How Q&A works
+
+  -Whenever someone uses Q&A,Q&A only looks at the pages that they have access to in their workspaceto answer their question. Q&A will never use information from pages that someone doesn’t have access to.
+
+    *Q&A will only reference pages that you have created or been invited to, or pages whose privacy settings are set toEveryone at {your workspace}.
+
+  -Q&A’s responses to your questions depend on the content in your workspace. The more content there is, the better — we recommend having at least 100 pages in your workspace to make the most of this feature. If you don’t have enough content, we might ask you toimport contentinto your workspace before you use Q&A.
+
+  -It can take around an hour before new content you’ve created is referenced by Q&A.
+
+  -If Q&A can’t answer a question based on the information in your workspace, it will let you know instead of giving you an inaccurate answer. This can also help you identify and close gaps in your documentation, and make Q&A work even better for your team.
+
+#### What Q&A does
+
+  -Perform quick skills, like creating a new page or adding a diagram to a page.
+
+  -Search across thousands of pages in your workspace to find the answer to your question, in just a few seconds.
+
+  -Answer questions about specific pages, people, and databases. You can use @-mentions when you ask Q&A a question.
+
+  -Synthesize information from databases and database properties.
+
+  -Know what page you’re on.
+
+  -Answer questions using GPT-4’s general knowledge of the world.
+
+  -Cite specific blocks in Notion pages when it answers a question.
+
+#### What Q&A doesn't do
+
+  -Answer questions using content that’s in an embed, like a video or a PDF.
+
+  -Edit existing content in a page.
+
+  -Filter or perform aggregations on databases, such as counting the number of rows in a view.
+
+Here are some examples ofgood questions to askQ&A:
+
+  -What are the key themes from last week’s marketing team standup meeting?
+
+  -What’s the process for onboarding a new contractor?
+
+  -What has my team been working on this week?
+
+  -Can you create an itinerary for a trip to Tokyo?
+
+Here are some examples ofquestions that Q&A might have trouble answering:
+
+  -Can you add a simple table to this page with 3 columns and 5 rows?
+
+  -Can you file a task in this database?
+
+Learn more about the best way to use Q&A here →
+
+### How to use Q&A
+
+Q&A is available on web, desktop, and mobile. There are a few ways to open Q&A.
+
+On web or desktop, you can either:
+
+  -Go to `Notion AI` in the sidebar. This will open up Q&A in full screen!
+
+  -Select `✨` in the bottom right corner of Notion so you can use Q&A while you’re working in a page.
+
+  -Use the keyboard shortcut `cmd/ctrl` + `shift` + `J` .
+
+On mobile, you can either:
+
+  -Tap the `Ask AI anything...` bar at the bottom of your screen.
+
+  -Open search and select `Ask AI anything in [workspace]` .
+
+Once you have Q&A open:
+
+  -Enter your question.
+
+  -Q&A will give you an answer and show you what pages it referenced to find it.
+
+  -Select `Try again` to get a different answer to your question, or `Copy answer` if you want to save it. One question that you ask Q&A counts as one Notion AI response.
+
+  -Did you know you can connect Slack to Notion AI so that it can answer questions based on the messages in your Slack workspace? Learn more inthis article →
+
+  -If you’re searching a page using `cmd/ctrl` + `F` and you’re not seeing your desired results, you can send your query to Q&A by typing it and then using the shortcut `cmd/ctrl` + `enter` .
+
+
+
+#### App shortcut on iOS
+
+You can create a shortcut on your iOS device to quickly access Q&A. There are several ways to get to Q&A on your device:
+
+  -Tell Siri to open Notion AI.
+
+  -Search for Notion inSpotlight.
+
+  -Open the `Shortcuts` app on your device. Look for `Notion` and tap `AI` to ask your question. If you want to save the Notion AI shortcut to your home screen, hold down on `AI` , then tap `Add to Home Screen` .
+
+  -If you have the iPhone 15 Pro, customize theaction buttonso that it opens Notion AI.
+
+#### Command Search
+
+On desktop, you can use search and Q&A even when you’re outside of the Notion app. Trigger Command Search with a customizable keyboard shortcut, your menu bar on Mac, or your task bar on Windows so you can ask Q&A without switching between windows or bringing the Notion desktop app to the foreground. To make it easier to access Notion this way, a few things will happen by default:
+
+  -Command Search will be turned on. To turn this off, go to `Settings & members` → `My settings` → toggle off `Enable Command Search` . You can also turn off `Show Notion in Menu Bar` or customize your `Command Search shortcut` .
+
+  -Notion will be set to open at login. To turn this off:
+
+    *On Mac: Right-click on the Notion icon in the dock → select `Options` → `Open at Login` to remove the check mark beside it.
+
+    *On Windows: Right-click on the Notion icon in the task bar → select `Launch Preferences` → `Open Notion at Login` to remove the check mark beside it.
+
+### Languages Q&A can be used in
+
+Q&A can be enabled for any Notion workspace, regardless of which language you’ve selected in your settings. Please note that Q&A response quality is highest in English, but the Notion team is working on improving the quality for other languages throughout the beta period.
+
+### Who can use Q&A
+
+If your workspace had the Notion AI Add-On enabled before November 6, 2023, the feature should be rolling out to your workspace in the coming days.
+
+#### Join the waitlist
+
+Anyone else canjoin the waitlistto try Q&A. You can also skip to the front of the line bypurchasing the Notion AI add-on.
+
+You’ll receive an email from Notion if your workspace receives access. We’ll ensure that your workspace can test Q&A before purchasing the Notion AI add-on, even if your workspace ran out ofcomplimentary AI responsesbefore you joined the waitlist.
+
+Note:Do you have feedback about a response Q&A shared? Use the thumbs up and thumbs down in Q&A to help improve it.
+
+### What it means for Q&A to be in beta
+
+Today, Q&A is only available to a subset of Notion users. Over time, the Notion team will improve the quality of Q&A’s responses, add new features and functionality, and make Q&A more widely available.
+
+The terms foundhereapply to your use of Notion AI Q&A while it is in beta and provide protections that are in line with the terms for generally available Notion features, which include a commitment that we do not train machine learning models on your data.
+
+We take the same precautions with your data for Q&A as we do with the rest of Notion. You can find more about how we handle your data for Q&Ahere.
+
+Learn more
+
+  -Get answers about content faster with Q&A
+
+  -Unearth fresh insights from your personal knowledge library using Q&A
+
+  -Notion AI
+
+  -Manage your Notion AI subscription
+
+  -Notion AI security practices
+
+
+
+
+
+
+
+# Manage your Notion AI subscription
+
+### One subscription to Notion AI allows access to all AI features. To add it to your plan, you must be a workspace owner, and you can even get a discount with annual billing  💾
+
+Looking for information on Notion AI payments and billing?Read this article →
+
+### Add Notion AI to your plan
+
+Notion AI is available as an add-on to Notion plans, including Free Plans, for $10 per member, per month. This gives you access toall AI featuresin Notion.A 20% discount is available to all workspaces on any plan with annual billing.
+
+To add Notion AI to your plan, you’ll need to be a workspace owner, and on desktop.
+
+  -Click on `Settings & members` in your sidebar.
+
+  -Click on `Explore plans` .
+
+  -Under `Notion AI` , click `Add to plan` .
+
+### Cancel your Notion AI subscription
+
+Note: If you remove Notion AI from your plan, you will have access for the rest of your current billing cycle, and usage will be discontinued at the start of the next cycle.
+
+To cancel your subscription to Notion AI, you must be a workspace owner.
+
+  -Go to `Settings & members` → `Billing` . Under `Additional features` , find `Notion AI` and select `Remove from plan` .
+
+Learn more
+
+  -Notion AI
+
+  -Introducing Notion AI
+
+  -Billing & payment information
+
+
+
+
+
+
+
+# Notion AI security & privacy practices
+
+### At Notion, we want to be transparent with our customers about our products and how we use AI to enhance our users’ experience. Below is an overview of Notion’s AI functionality and related security and privacy practices 🔒
+
+### What is Notion AI?
+
+Notion AI is a collection of AI products and features, which currently includes*:
+
+  -AI assistant:Boost your productivity with instant answers to your questions as well as help with generating written content and brainstorming, all by using information from across your Notion workspace and the web.
+
+  -Autofill:Generate text across many pages in a database simultaneously by writing a custom prompt or selecting a pre-configured prompt.
+
+Notion AI features appear seamlessly in your workspace but leverage technology from several AI Subprocessors to provide you with the service. Check out ourSubprocessor pagefor a complete list of our current Subprocessors, and learn more about how Notion uses AI inthis article.
+
+*Notion AI will continue expanding to include more features over time.
+
+### How does Notion AI work?
+
+#### Who are Notion’s Large Language Model Providers?
+
+Notion currently utilizes various large language models (LLMs) hosted by Notion as well as by organizations such as Anthropic and OpenAI. We continuously evaluate LLM providers and their models to provide the highest quality experience to our Notion AI users. Any third parties that process Customer Data will be published in ourSubprocessor page.
+
+How do I subscribe to new Subprocessor notifications?
+
+Customers may sign up to receive notification of new Subprocessors by e-mailingteam@makenotion.comwith the subject “Subscribe to New Subprocessors.” Once a customer has signed up to receive new Subprocessor notifications, Notion will provide that customer with notice of any new Subprocessors before authorizing the new Subprocessor to process Customer Data. For additional information, please see ourData Processing Addendum.
+
+#### How does Autofill work?
+
+When you interact with the Notion AI to set up an autofill property, several steps occur in the background:
+
+  -Notion receives a prompt from a user.
+
+  -Data relevant to the prompt is sent to an AI LLM Subprocessor, which produces an output to send back to Notion.
+
+  -Notion then processes the LLM’s output so that it adheres to the right format and language and displays the output to the user.
+
+How is my data protected?
+
+  -When sending data to our AI LLM Subprocessors, the data is encrypted in transit using TLS 1.2 or greater, and no Customer Data is used to train the model.
+
+  -All our AI LLM Subprocessors retain data for only 30 days or fewer before deletion.
+
+  -Only data the user has access to on the specific page where Autofill is used will be sent to AI LLM Subprocessors to generate the output, meaning that the generated outputs provided to the user will not incorporate any data to which the user did not already have access.
+
+#### How does AI assistant work?
+
+Notion AI is a personalized assistant powered by GPT-4. It can search across your workspace, create and edit content, and chat with you about any topic.
+
+The AI assistant works in two key phases:
+
+  -Creating embeddings.
+
+  -Generating responses.
+
+What are embeddings?
+
+Embeddings are numerical representations of text or documents. These representations capture the meaning and context of the text in a multidimensional space, where similar topics have similar numerical representations. By using embeddings, vector search algorithms can efficiently compare and find similarities between different pieces of text or documents. In the case of Notion’s AI assistant feature, embeddings are created from workspace content to enable the system to provide accurate and relevant responses to user questions.
+
+Here is an example of an embedding fromOpenAI:
+
+`[-0.02541878,-0.0104167685,-0.0015037002,...,-0.004155378,-0.00043069973,-0.01679479]`
+
+How are embeddings created?
+
+  -For each page in your workspace, we generate an embedding by using an OpenAI zero-retention embeddings API.
+
+  -Notion receives an embedding for each Notion page and stores it in a vector database (e.g., Pinecone), which ultimately is used to find that original block when it is relevant to providing a response to the user.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/2SOfqkDtBRVcafv6dNUqKb/03fceea03d6a0cd0359da297ed608b45/B_cream_background.png)
+
+How are embeddings used to generate responses?
+
+  -Notion receives a question from a user.
+
+  -The request is passed to an LLM Subprocessor. If the request does not require searching the Notion workspace, the LLM will generate a response at this point and skip the rest of the process. If the user’s request requires searching their workspace, the LLM generates a search query most relevant for the user request.
+
+  -The query is passed to a vector database, where a list pages is found based on relevance to the query.
+
+  -Notion sends the query — and the pages identified by the vector database — to a Notion-hosted LLM where the pages are refined and ranked by relevance to the query.
+
+  -The query, refined list of pages, and ranking of pages are processed by our LLM Subprocessors to generate a response that fulfills the user’s request.
+
+  -Notion processes the output to adhere to the right format and language and displays the output to the user.
+
+How are embeddings protected?
+
+Despite embeddings only being a numerical representation of Customer Data, Notion still treats embeddings with the same level of security and privacy considerations as Customer Data. All our Customer Data commitments outlined in our Master Service Agreement (MSA) and Data Processing Agreements (DPA) apply to embeddings. View ourTerms and Privacy Pagefor more information.
+
+We store embeddings with vector databases like Pinecone. These vector databases have been vetted by our security team as well as an external auditor to obtain their SOC2 Type II certification.
+
+### How is my data protected?
+
+#### Does Notion AI respect existing permissions?
+
+Yes, Notion AI honors existing permissions. The LLM used to generate AI responses for a user cannot see or use any information to which that user does not already have access.
+
+#### How is Customer Data protected when sent to AI Subprocessors?
+
+Notion AI is designed to protect your Customer Data and prevent information leaks to other users of the service.
+
+Prior to engaging any third-party Subprocessor or vendor, Notion evaluates their privacy, security, and confidentiality practices, and executes an agreement implementing its applicable security, privacy, and legal obligations. All Subprocessors are monitored and reviewed at least annually to ensure continued compliance with Notion’s security and privacy expectations. This includes reviewing documents such as attestation reports, penetration tests, and other artifacts based on the Subprocessor’s criticality and other risk factors. As part of the onboarding and ongoing reviews, technology security questionnaires are distributed to vendors and are required to be completed. Significant public security events are also assessed to protect the supply chain attack surface.
+
+When we send your Customer Data to third parties, it is encrypted in-transit using TLS 1.2 or greater.
+
+For more information about how Notion processes your data, please refer to ourData Processing Addendum.
+
+#### Will my data be used to train any models?
+
+By default, Notion and its AI Subprocessors do not use Customer Data to train any models. We specifically have contractual agreements in place with our AI Subprocessors that prohibit the use of Customer Data to train their models.
+
+Your use of Notion AI does not grant Notion any right or license to your Customer Data to train our machine learning models.
+
+#### How is Customer Data segregated?
+
+Individual customer accounts are kept separate in our production environment. We do not mix or process data from different customers together during AI processing. This means we do not expose your data to other Notion customers.
+
+#### What are the data retention obligations of third-party AI providers?
+
+Notion AISubprocessorshave data retention policies that allow Notion to meetour obligations to customers for the processing of data.
+
+When using Notion AI assistant and Autofill, our LLM providers utilize zero data retention for Enterprise plan workspaces, so no data is stored with LLM providers. For all non-Enterprise plan workspaces, LLM providers only retain Customer Data for 30 days or fewer before deletion.Notion's AI assistant is additionally powered by OpenAI's embeddings. OpenAI does not retain any Customer Data through their embeddings service.
+
+Embeddings stored in vector databases are deleted within 60 days from when the page or workspace is deleted.
+
+If a user deletes a Notion page or Notion workspace, we can restore the content within 30 days. After 30 days, the data is deleted and unrecoverable. This includes any AI-generated data and embeddings. For more information about deleting or restoring your data, please refer tothis article.
+
+#### What compliance standards does Notion AI meet?
+
+Notion AI is included in the scope of Notion’s SOC 2 Type 2 report and ISO 27001 certification, demonstrating our commitment to various regulatory and industry standards.
+
+Notion AI enables HIPAA compliance by utilizing LLM providers' zero-retention APIs and allows for the processing of protected health information (PHI).
+
+### What controls can be added?
+
+#### Can data loss prevention (DLP) be configured to alert for data being used by Notion AI?
+
+Customers can trigger data loss prevention (DLP) alerts for sensitive content in their Notion workspace using third-party integration partners on our Enterprise plan. That will include content in an AI prompt and the content generated by AI. Learn more about our DLP integrationshere.
+
+### What are the legal considerations?
+
+#### Are there rules against what I can do with Notion AI?
+
+TheNotion AI Supplementary Termsapply to your usage of Notion AI. In addition, Notion’sContent & Use Policyapplies to any content on Notion, including content generated by Notion AI. Violating these terms can result in removal of your content or suspension of access to your workspace.
+
+#### Who owns the rights to content generated by Notion AI?
+
+Notion does not claim ownership of your input or the generated output. This is addressed in theNotion AI Supplementary Termsin the "Input and Output" section:
+
+You may provide input to be processed by Notion AI (“Input”), and receive output generated and returned by Notion AI based on the Input (“Output”). When you use Notion AI, Input and Output are your Customer Data.
+
+You can also reference our standarddata protection practices.
+
+
+
+# Notion AI connectors beta
+
+### With Notion AI connectors, you can use Notion as a single place to find the information you need — even if it lives outside your workspace 👣
+
+### What are Notion AI connectors?
+
+Today, Notion AI enables you to ask any questions about the content in your Notion workspace. With Notion AI connectors, when you ask a question, Notion AI will also surface relevant information from your connected apps, citing specific sources it referenced. Notion AI connectors are currently in beta and subject to the beta provisions in your agreement, if any.
+
+To start, we’re integrating Notion AI withSlackandGoogle Drive, with other apps coming soon.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/1hQT28p9NPPPmBPS3hapwN/898b99a2e69fb39b0bbed1013be92769/slack-qa.png)
+
+Try asking Notion AI "How do I run a hot fix?" or "Can you find me the action items from this thread?” with a link to a particular Slack conversation.
+
+While Notion AI connectors are available at no additional cost to existing Q&A users on paid plans at this time, pricing is subject to change.
+
+### FAQs
+
+Why connect third-party apps with Notion AI?
+
+Notion AI enables you to ask any questions about the content in your Notion workspace. When you choose to connect third-party apps like Slack, Notion AI will also surface relevant information from those third-party data sources you enable, citing the specific messages it referenced.
+
+Notion’s collection of AI products and features like third-party connections to Notion AI appear seamlessly in your workspace but leverage technology from several AI Subprocessors. Notion AI connectors are currently in beta and subject to the beta provisions of your agreement. Read ourNotion AI security and privacy practicesfor more information, as well as ourlist of subprocessors. Our goal is to protect your data and workspaces while allowing you to be more effective in your organizations.
+
+Will my data be used to train Notion’s models?
+
+No. We only process your Customer Data to provide the functionality. We do not process your Customer Data to train our models and do not allow our sub-processors to process your Customer Data to train their models. View ourterms and privacy pagesfor more information.
+
+Are existing permissions respected when using Notion AI connectors beta?
+
+Users will only be able to access third-party content that they had access to in the third-party service. Notion AI will not be able to answer users’ questions based on data and content to which they do not have access. Notion AI manages third-party content (e.g., Slack) with security in mind, adhering to user permissions based both on the third-party application as well as in Notion AI.
+
+Learn more
+
+  -Notion AI connectors for Slack
+
+  -Notion AI connectors for Google Drive
+
+
+
+
+
+
+
+# Notion AI connectors for Slack
+
+### Learn how to connect your Slack workspace to your Notion workspace so that you can find quick answers in Notion using information from your Slack conversations 💬
+
+### How do I connect my Slack workspace?
+
+Note:You must be a Notion workspace ownerandSlack workspace admin (or approved Slack member) to connect Slack to Notion AI.
+
+If you’re a Notion workspace owner but not also approved to connect external apps to Slack, you’ll need approval from someone who has the appropriate Slack permissions to complete the connection.
+
+There are lots of other ways to use Slack and Notion together. Learn more about our Slack integrationhere →
+
+  -In Notion, open Notion AI at the bottom of your screen and click on `•••` .
+
+  -`Click Connect Slack → Public conversations.`
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/7aHLY9rvq1YEpjFE87PNu8/0ff33265a531711ac9b494e59a2195c8/Untitled__1___1_.png)
+
+  -If you’re a Slack workspace admin, you’ll be able to select the Slack workspace and channels you want to connect. You can select `All public channels` or specific public channels. You also have the option to include public channels created in the future. This won’t include public channels containing external users, like Slack Connect channels. You also won’t be able to connect any private channels or private DMs.
+
+    *If you’re not a Slack workspace admin, you can request this integration. Your Slack workspace admin or approved Slack members will be notified. Once your request is approved, you can choose the Slack channels you want to connect.Make sure you’re requesting the integration for the right Notion workspace!
+
+  -Once Notion AI has joined those public channels, a message will be sent in those public channels to say Notion AI has joined them and will join all future public channels.This message won’t show up in Slack channels with external users.
+
+Once the integration is set up, it will be able to find messages going back a year from when the setup is complete. For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will be able to find information from messages in Slack sent on June 1, 2023 and later. This process can take up to 36 hours. You’ll see this communicated in your Notion AI chat, and the message will disappear when the integration is complete.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/5cXTQGHADiazvNwxLr6WXX/a96dd246795f62fb9839be404d63c20e/Untitled__2___1_.png)
+
+### Which Slack channels can be connected to Notion AI?
+
+When you connect Slack to Notion AI, you have the option to select specific public Slack channels you’d like to connect. Alternatively, you can choose to connect all public channels, including ones that are created in the future.
+
+These public channels will not include any Slack Connect channels that you use to communicate with external partners.
+
+At this time, you also can’t connect private Slack DMs and private Slack channels to Notion AI.
+
+### FAQs
+
+How long does it take for the integration to complete for public channels?
+
+Once the integration is set up, it will be able to find messages going back a year from when the setup is complete. For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will be able to find information from messages in Slack sent on June 1, 2023 and later. Depending on the amount of content shared in your public channels during this time frame, this process can take up to 36 hours.
+
+How long does it take for Notion AI to read new Slack messages?
+
+New messages in public channels may take 30 minutes to be searchable by Notion AI.
+
+Can I limit the scope of my search to only Slack or only Notion?
+
+Yes! In the Notion AI entry point, click `Find in` to toggle between `Everything you can access` , `Notion` , and `Slack` .
+
+If I connect Slack to Notion AI, does Notion AI automatically begin searching all of my Slack channels?
+
+No. Notion AI only searches public Slack channels, and during initial setup, our configuration options allow you to choose either a discrete set of public channels or all public channels in your workspace to be included. Additionally, you have the option to continuously include all public channels that are created after initial setup. This configuration requires approvals via the Notion workspace owner and the Slack admin.
+
+Who can access Slack content using Notion AI?
+
+Individuals who are both a Slack and a Notion workspace member can use this integration. Notion AI maps Slack members to Notion members, so individuals must be authenticated at the user level for its use. Through account mapping and real-time event subscriptions, Notion conducts ongoing checks for changes to permissions and access levels that would impact the Slack content surfaced in Notion AI for each individual.This integration is not available for guests in your Notion workspace, or guests in your Slack workspace (like people external to your organization that you may communicate with using Slack Connect).
+
+Here are a few examples of permissions-related scenarios that Notion proactively checks and updates for:
+
+  -When users edit or delete a message in Slack, Notion AI monitors for modified or deleted content via webhooks and will reflect these updates in near real-time.
+
+  -Slack or Notion guest users are not allowed to leverage Notion AI at all. In the case where a guest user is given full Slack workspace member and full Notion workspace member permissions, Notion AI monitor for membership changes and updates those permissions changes in near-real time.
+
+  -When a user is deactivated in Slack, Notion AI monitors permissions and updates that permission change within approximately 30 minutes.
+
+I have Slack Connect channels set up with external users. Will these channels be indexed?
+
+No. All external messages and channels will be excluded.
+
+How does Notion store or reference my Slack data in its systems?
+
+Slack content is stored as embeddings using vector databases like Pinecone. These embeddings allow for efficient searches and comparisons across different pieces of text to provide accurate and relevant responses to your questions.
+
+Notion’s vector databases have been vetted by our Security team as well as by an external auditor to obtain their SOC2 Type II certification. Seethis articlefor more information.
+
+How much of my Slack data will be ingested for Notion AI?
+
+Once the integration is set up, it will be able to find messages going back a year from when the setup is complete. For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will be able to find information from messages in Slack sent on June 1, 2023 and later. The feature will also continue to ingest any new messages added to your Slack environment (in either your selected channels or all public channels) after initial configuration to be used for responses to search queries.
+
+I connected the wrong Notion workspace. How can I disconnect my Slack workspace from Notion?
+
+To disconnect your Slack workspace, open Notion AI at the bottom of your screen and click on `•••` → `Connect Slack` → `Settings` → `Disconnect` .
+
+What happens to my Slack data if I connect to Notion AI and then decide to disconnect?
+
+Notion treats your Slack content with the privacy principle of data minimization in mind. If you decide to disconnect your Slack environment from Notion AI, your Slack content will immediately become unsearchable, and your Slack data used for Notion AI will be deleted in less than one day from when the request is made.
+
+Learn more
+
+  -Notion AI connectors beta
+
+  -Notion AI connectors for Google Drive
+
+
+
+
+
+
+
+# Notion AI connectors for Google Drive
+
+### Get answers from your Google Docs, Sheets, and Slides without having to leave Notion 📂
+
+### How do I connect my Google Drive?
+
+Note:
+
+  -You must be a Notion workspace ownerandGoogle Drive admin to connect Google Drive to Notion AI.
+
+  -The Notion AI connectors for Google Drive supports Google Docs, Sheets, and Slides.
+
+
+
+  -From the pop-up that appears in Notion, click `Continue` . You'll be taken to the Google Marketplace.Don't close Notion during the setup process!
+
+  -
+
+    *If you don't see this pop-up,open Notion AI at the bottom of your screen and click on `•••` → `Connect Google Drive` → `Continue` .
+
+  -Click `Install` → `All users in their organization` .We recommend this setting since groups that aren't selected won't be able to use the Notion AI connector feature in Notion for Google Drive, and files owned by them won't be available via Notion AI.
+
+  -Once the installation is complete, return to Notion. You'll see this on your screen.
+
+  -
+
+  -Click `Confirm connection` .
+
+The connection can take up to 36 hours to complete.
+
+You can manage the connection by opening Notion AI at the bottom of your screen and clicking on `•••` → `Connect Google Drive` → `Settings` .
+
+### Troubleshooting
+
+If you've installed the Notion AI app in your Google Workspace but can't complete the setup in Notion, this may be due to the following:
+
+  -You forgot to select yourself in Google Workspace while installing the app.
+
+  -Your Google Workspace admin is a user who doesn't exist in Notion. If this is the case, you can try again by installing the app under a user who is both in your Google Workspace and Notion workspace.
+
+### FAQs
+
+What does Notion AI have access to?
+
+Notion AI will only have access to a file if both conditions are satisfied:
+
+  -The file is owned by a user that was selected in the user group or organizational unit in the Google Workspace. If the file is owned by a shared drive, the user selected in the user group must be either a contributor, manager, or content manager.
+
+  -The shared drive is selected in Notion AI (this is true by default).
+
+Can I limit what Notion AI has access to?
+
+Yes, you can limit what Notion AI has access to by either selecting shared drives or user groups and organizational units.
+
+  -Shared drives: In Notion, an admin will have the option to omit specific shared drives in Settings.
+
+  -User groups and organizational units: For granular permissions, the admin has the option to select specific user groups or organizational units in the Google Admin workspace. For any user groups or organizational units that are deselected, Notion will not ingest any files that are owned by this audience and this audience will not be able to use the feature in Notion.
+
+I connected the wrong Notion workspace. How can I disconnect my Google Drive workspace from my Notion workspace?
+
+You can edit your connection by opening Notion AI at the bottom of your screen and clicking on `•••` → `Connect Google Drive` → `Settings` .
+
+How do the permission settings work?
+
+All permissions in a Google document will be respected for individual users and general access types listed below:
+
+  -Restricted: Only users who have been directly added to the document will have access
+
+  -{Company Name}: Anyone in the company can access the document as long as any user in the workspace has visited the page.
+
+  -Anyone with link: Anyone in the company can access the documentif they have visited the document at least once. In the document, the access level should be set to
+
+  -`Can find in search results` and not `Must have link to access` , which is the default setting.
+
+Note:Target audiencesare not supported(for example, 20 individual users added to a target audience named `Sales team` ).
+
+How long does it take for the integration to complete?
+
+Upon initial connection, it will take the integration approximately 36 hours to sync. Once the integration syncs, you can expect real-time updates to your Google Drive to be reflected in Notion AI on an ongoing basis.
+
+How long does it take for new content to appear?
+
+New content added to Google documents will update every hour and will be available in searches then in Notion AI.
+
+Will all future content or shared/user drives be available?
+
+Yes. Anytime your organization sets up up a new shared or user-level drive, it will be synced to Notion AI. You can edit this option in your settings.
+
+Can I edit the connection after set up?
+
+You can edit your connection by opening Notion AI at the bottom of your screen and clicking on `•••` → `Connect Google Drive` → `Settings` .
+
+Can I add connect multiple Notion workspaces to my Google Workspace?
+
+Not at this time. The workspace admin will only be able to connect one Notion Workspace to one Google Workspace.
+
+Does Notion AI respect Google Drive permissions?
+
+Absolutely. Notion AI will honor existing permissions according to our existingNotion AI Security Practices. Users will not be able to generate content or receive Q&A responses based on resources they do not have access to. Specific to third party content, Notion AI is handling both private and public content with security in mind, only ingesting content according to the permissions mapping between what Google Drive and Notion users.
+
+How do shared drives work?
+
+If a shared drive lives outside your Google Workspace, Notion AI will not be able to access or retrieve the information in it.
+
+If a shared drive is in your connected Google Workspace, we will respect the permission settings of the Drive (if the shared drive was directly shared with you) or the file  (the file has been shared directly with you or with a group that you are a part of).
+
+How does Notion store or reference my Google Drive data in its systems?
+
+Similar to our core Notion AI Q&A product, we store create and store embeddings in a vector database hosted by Pinecone, which powers the ability to provide responses to questions that leverage third party content (like in Google Drive). Pinecone has been vetted by our security team as well as an external auditor to obtain their SOC2 Type II certification.Learn more about Pinecone’s security here →
+
+Which account should I use to initiate the connection for Google Drive in Notion?
+
+Whichever account is used to initiate connection will be stored in the Notion system as a customer admin email, and we will use this admin email for future updates, so it's important for customers to provide an email that won't change in terms of permissions or active status so that service isn't impacted when, for example, an admin leaves the company. You can use any service email that has admin privileges to your Google workspace and will remain the same, like `admin-svc@company.com` .
+
+Learn more
+
+  -Notion AI connectors beta
+
+  -Notion AI connectors for Slack
+
+
+
+
+

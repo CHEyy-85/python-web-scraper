@@ -1,0 +1,1048 @@
+<2. Workspace & sidebar>
+
+Your Notion workspace is the home for all your content. You can work in your workspace alone or share your workspace with collaborators — it's up to you! Here, we'll teach you how to create, join, and use workspaces.
+
+
+
+# Intro to workspaces
+
+### Everything you do in Notion takes place in a workspace. It's your virtual home to organize information and create exactly the way you want — as just one person, together as a team, or across a whole company. Expand, edit, and mold it to fit your needs 🏠
+
+### Workspace basics
+
+Your Notion app interface is split into two sections: the sidebar and the editor.
+
+#### Sidebar
+
+  -Notion's expandable sidebar is your navigation system.
+
+  -All the pages and databases you create will appear here.
+
+  -The sidebar contains several sections, which you can reorder and customize.
+
+  -You can nest pages inside each other for infinite levels of organization.
+
+  -It's also home to your settings, trash, and other tools.
+
+Learn more about your sidebar inthis article →
+
+#### Editor
+
+  -This is where all the content you create lives.
+
+  -Control menus are at the top (we'll go through those in more detail), but otherwise, Notion's editor is a blank canvas for you to write, plan, brainstorm, etc.
+
+  -You'll notice that as soon as you start typing in this space, those top menus fade into the background, leaving you with your thoughts in a spacious zone of focus.
+
+### Sidebar tools
+
+#### Control panel
+
+The control panel at the top of your sidebar contains several key features:
+
+  -Workspace switcher:Click on your current workspace's name to switch between the workspaces you belong to, create a new one, join another one, or log out.Learn more about switching workspaces here →
+
+  -Search:Click to open Notion's search window, where you can either type in what you're looking for or quickly jump to a recently visited page.Learn more about Search here →
+
+  -Home:Click to see the pages and tasks that need your attention.Learn more about Home here →
+
+  -Inbox:Click to see all your notifications in one place. This menu combines revisions that were made on pages you follow, mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications.Learn more about inbox here →
+
+#### Sidebar sections
+
+Your sidebar contains various sections to keep your workspace’s content organized:
+
+  -Teamspace:This section is accessible for users on paid plans to manage the various teams or groups that may be working in Notion. Learn more about teamspaceshere →
+
+  -Shared:This section contains pages that you and select others in your workspace have access to.
+
+  -Private:This section is home to pages that only you have access to.
+
+  -Favorites:This section houses pages that you’ve favorited so you can reference them easily.
+
+You can rearrange and customize your sidebar sections.Learn how in this article →
+
+Tip:
+
+  -Click on the name of a sidebar section — `Teamspaces` , `Shared` , or `Private` — to collapse it and keep your sidebar nice and clean.
+
+  -Click and drag your sidebar sections to rearrange them.
+
+
+
+Note:If you drag a page into `Private` in your sidebar, everyone but you will lose access.
+
+#### Templates and trash
+
+  -`Templates` opens our template picker, where you can create a new page using starter content to help you accomplish any one of 50+ jobs.
+
+  -`Trash` contains all the pages you delete. You can drag and drop them in here. You can also click on trash to search, view and restore these pages.
+
+#### Favorites
+
+`Favorites` is where you can easily access all of the pages most important to you. This section will appear in your sidebar once you favorite your first page.
+
+To add a page to your favorites, navigate to it, then click ⭐ at the top of it. You'll see it appear under `Favorites` in your sidebar.
+
+To remove a page from your favorites, open it and unclick ⭐ at the top. You can also hover over the page in your sidebar and click `•••` . You'll see the option to `Remove from Favorites` .
+
+Tip:Favorites are helpful for stashing pages relevant to your current projects. You can easily add or remove them as your workflow and priorities change.
+
+
+
+#### Create a new page
+
+There are a few ways to add a new page in Notion.
+
+  -Click `📝` at the top of your left sidebar.
+
+  -If you’re on the desktop app, use the shortcut `cmd/ctrl` + `N` .
+
+  -If you’re on mobile, tap `📝` at the bottom of your screen.
+
+#### Hover options
+
+  -When you hover over a page in your sidebar, you'll see both a `+` button to add a page nested inside it, and a `•••` icon, which opens a menu of actions you can apply to the page: `Delete` , `Duplicate` , `Copy link` , `Rename` , and `Move to` .
+
+### Editor tools
+
+#### Breadcrumb navigation
+
+  -Always know where you are in respect to your page structure. See how the page you're currently looking at fits into other pages.
+
+  -You can click on any page in this breadcrumb to immediately jump to it. Sometimes this will be abridged with a `...` — click to view all the pages in between.
+
+#### Collaborators
+
+  -You can see the profile photos of everyone else who has access to the page you're on. If you hover over any of them, you can see the full list, their names, and email addresses.
+
+  -Greyed out avatars are people who are not currently viewing the page but have access to it.
+
+  -When you collaborate in real-time on the same content, you can see people's photos moving around, corresponding to the block they're reading or editing.
+
+#### Share menu
+
+  -Each row in this menu represents a different person or group of people you can share the page with. The dropdown menus on the right let you set their level of access.Learn more about permissions here →
+
+  -`Copy link` copies the page's unique URL to your clipboard so you can share it with whoever you want. Still, only people with access to the page can see it.
+
+  -`Invite` lets you add people both inside or outside your workspace to a page using their email address.Learn more about sharing here →
+
+#### Updates menu
+
+  -Click the `🕘` clock icon to get an overview of all the revisions and comments made on the current page.
+
+  -Under `Page notification settings` you can change when you'd like to be notified.
+
+  -You'll see all notifications aggregated across all the pages you follow in the `Inbox` menu in your sidebar.
+
+#### ••• menu
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/2d9udvYZX4oMuy6IFfATHF/ca32c1639a869e0ac22001c1810d8082/Group_18__1_.png)
+
+This menu contains many options, including:
+
+  -`Lock page` : Turn this on to prevent any edits from being made. This is good for preventing accidental edits on very important pages.
+
+  -`Lock database` : This option is only available for full page databases. When you turn this on, people can still enter data, but they can’t change views or properties.
+
+  -`Customize page` : Toggle the visibility of backlink and page comment sections.
+
+  -`Move to` : This opens up a menu where you can choose any other workspace or page to move the current page into.
+
+  -`View edit history` : View past versions of the page going back several days, depending on what plan you're on.
+
+  -`Recover pages` : Opens up `Trash` so you can restore or permanently remove sub-pages you've deleted.
+
+  -`Import or sync from` : You can add documents and data from a number of other apps (Evernote, Trello, Google Docs, etc.) to the page.
+
+  -`Export` : Download the page as a file to your computer. Databases get saved as CSV files, while non-database pages get saved as Markdown files. You can also export your page or database as PDF or HTML.
+
+#### Help & support
+
+  -Click the `✨` at the bottom right of Notion → `•••` → `Get Notion help` .
+
+  -`Help & documentation` : Will take you to the Help Center you're reading right now 🤓
+
+  -`Message support` : Lets you send a message directly to our support team from the app.
+
+  -`Contact sales` : Ready to upgrade to Plus, Business, or Enterprise? Let us know!
+
+  -`Keyboard shortcuts` : A shortcut to seeing all our keyboard and Markdown shortcuts.
+
+  -`What's new?` : Release notes for features we've launched, and a peek at upcoming features.
+
+  -`Join us` : Job openings at Notion —we're always hiring!
+
+### Team vs. personal workspaces
+
+One last reminder that a workspace operates slightly differently if you're using it with a team than if you're using it on your own:
+
+  -Personal workspaces default to keeping pages private unless they're explicitly shared.
+
+  -Sidebar organization under a `teamspace` is also viewable by all members. The page arrangement will look the same to everyone, although individuals can toggle different pages open or closed without affecting everyone's view.
+
+  -On Notion's Plus, Business, or Enterprise Plan, there are members and admins with different levels of permission.Learn more about sharing and permissions here →
+
+
+
+### FAQs
+
+Can I switch between workspaces that are associated with different email addresses?
+
+To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account.More on this here →
+
+
+
+I clicked the Create or Join Workspace button, but it will only let me create a workspace. How do I join a workspace?
+
+You can only join a workspace via the `Create or Join Workspace` button if that workspace has the `Allowed Email Domains` setting enabled, which lets users with your email domain join the workspace automatically.
+
+To join a workspace, you'll need to ask an admin from that workspace to send you an invite.
+
+To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account.More on this here →
+
+
+
+My sidebar doesn't have any sections. How do I turn those on?
+
+The sidebar sections reflect the sharing settings of your account. If you have more than one person in your workspace, a `Teamspaces` section appears in the sidebar for your collaborative work with that person, and the `Private` section is there for your personal pages that are only visible to you.
+
+
+
+When I subscribe to a Plus Plan, does it cover all my workspaces?
+
+Paid plans only apply to one workspace, and don't cover the whole account. Workspaces are completely separate, so you won't be able to link any content between them.
+
+We recommend using the least number of workspaces possible, and taking advantage of top-level pages in your sidebar to stay organized.
+
+How can I migrate all my Notion content to a different workspace?
+
+Note:Any migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information,click here.
+
+To move your content from one workspace to another associated with the same account, click `•••` next to each of the top-level pages in your sidebar (or right click) and select `Move to` .At the bottom of the move menu, you’ll see a drop down to select a different workspace.
+
+When you move top-level pages, all their sub-pages go with them. They'll appear in the `Private` section but can be moved wherever you want to put them.
+
+
+
+What if I accidentally deleted something permanently? Any way to get it back?
+
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom left on desktop (or in your sidebar on mobile). Or email us atteam@makenotion.com.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
+
+How do I log out of my Notion account?
+
+Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.
+
+
+
+
+
+# Navigate with the sidebar
+
+### Notion's left-hand sidebar makes it easy to structure all the content in your workspace. Here's everything you need to know on how to organize, rearrange, and find your pages within the sidebar 🧭
+
+### Sidebar basics
+
+The Notion sidebar allows you to:
+
+  -Organize your work on infinite levels — you can nest pages inside other pages with no limit.
+
+  -See where everything is and how it’s organized with toggles you can open and close.
+
+  -Drag and drop pages to reorganize them.
+
+Tip:Open and close your sidebar by clicking the `>>` and `<<` buttons. Or, use the keyboard shortcut `cmd` / `ctrl` + `\` !
+
+At the top of your sidebar, you'll see several features and menu options. Here's an overview of each of these.
+
+  -Workspace switcher:Click on your current workspace's name to switch between the workspaces you belong to, create a new one, add another account, or log out.
+
+  -Search:Click to open Notion's search window, where you can either type what you're looking for or jump to a recently visited page. The shortcut `cmd/ctrl` + `K` also brings it up.
+
+  -Home:Click to see the pages and tasks that need your attention.Learn more about Home here →
+
+  -Inbox:Click to see all your notifications in one place. This menu combines revisions that were made on pages you have created, new mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications.
+
+### Sidebar sections
+
+Tip:
+
+  -Click on the name of a sidebar section — `Teamspaces` , `Shared` , or `Private` — to collapse it and keep your sidebar nice and clean.
+
+  -Click and drag your sidebar sections to rearrange them.
+
+
+
+#### Private pages
+
+Every user's workspace comes with a `Private` section. Anything you add here is only visible to you, and can't be seen by the people in your workspace. This section is where you might store your own tasks or notes, or pages you want to work on individually before sharing with others.
+
+You can customize this section of your sidebar to display your pages in specific ways. To customize the private section of your sidebar:
+
+  -Hover over `Private` in your sidebar and select `•••` .
+
+  -Select `Sort` , then `Manual` or `Last edited` . A `Manual` sort will allow you to manually drag your private pages to order them, while a `Last edited` sort will order your private pages based on how recently you edited them.
+
+  -Select `Show` to choose how many pages you want displayed in the sidebar, ranging from 5 pages to all of your pages. Let’s say you choose to show `10 items` — if you have more than 10 total private pages, you can click on `More` at the bottom of your private section to see all of your private pages.
+
+  -Select `Move section` , then `Move up` or `Move down` if you want your private pages to sit higher or lower in your sidebar.
+
+Private pane
+
+If you’ve chosen not to display all your private pages in your sidebar, you’ll be able to select `More` at the bottom of your last displayed private page to open up a pane that will show you all of your private pages. From here, you can:
+
+  -Search for a page.
+
+  -Select `⇅` at the top to change how the pages are sorted. This will also change how the pages are displayed in your sidebar.
+
+  -Select `>>` , which will appear on hover at the top to keep the private pane open.
+
+  -Select the new page icon at the top to create a new private page.
+
+Note:If you drag a page from `Workspace` into `Private` in your sidebar, everyone else will lose access.
+
+#### Shared pages
+
+Any pages that you've shared with select individuals in your workspace will appear under your sidebar's `Shared` section. You'll see this category in your sidebar as soon as you invite someone to a shared page.
+
+Other members of your workspace who haven't been invited can't view these pages. This section might store one-on-one meeting notes or pages where you’re brainstorming with a couple of other people.
+
+You can customize this section of your sidebar to display your pages in specific ways. To customize the shared section of your sidebar:
+
+  -Hover over `Shared` in your sidebar and select `•••` .
+
+  -Select `Sort` , then `Manual` or `Last edited` . A `Manual` sort will allow you to manually drag your shared pages to order them, while a `Last edited` sort will order your shared pages based on how recently you edited them.
+
+  -Select `Show` to choose how many pages you want displayed in the sidebar, ranging from 5 pages to all of your pages. Let’s say you choose to show `10 items` — if you have more than 10 total shared pages, you can click on `More` at the bottom of your shared section to see all of your shared pages.
+
+  -Select `Move section` , then `Move up` or `Move down` if you want your shared pages to sit higher or lower in your sidebar.
+
+Shared pane
+
+If you’ve chosen not to display all your shared pages in your sidebar, you’ll be able to select More at the bottom of your last displayed shared page to open up a pane that will show you all of your shared pages. From here, you can:
+
+  -Search for a page.
+
+  -Select `⇅` at the top to change how the pages are sorted. This will also change how the pages are displayed in your sidebar.
+
+  -Select `>>` at the top to keep the shared pane open.
+
+#### Teamspace pages
+
+If you're on a Plus, Business, or Enterprise Plan, you'll see a sidebar section called `Teamspaces` . Teamspaces can be used by and tailored for every team within your organization or company.Learn more about teamspaces →
+
+Every workspace has at least one default teamspace, which all members will see in their sidebar. Any of the pages in default teamspaces in your sidebar can be seen and shared by the other members of the workspace.
+
+In the `Teamspaces` section, you'll also see any other teamspaces that you are a member of. Click the name of any teamspace to reveal or hide its nested pages.
+
+Keep your sidebar clean by leaving any teamspaces you don't need to access. Hover over the teamspace name and click `•••` → `Leave teamspace` .
+
+#### Favorites
+
+`Favorites` is where you can easily access all of the pages most important to you. This section will appear in your sidebar once you favorite your first page.
+
+To add a page to your favorites, navigate to it, then click `⭐` at the top of it. You'll see it appear under `Favorites` in your sidebar.
+
+To remove a page from your favorites, open it and unclick `⭐` at the top. You can also hover over the page in your sidebar and click `•••` . You'll see the option to `Remove from Favorites` .
+
+### Nested pages
+
+You can open up each toggle in your sidebar to reveal pages nested inside other pages. All pages have the same functionality, even if they're nested as sub-pages.
+
+For database pages, you can open the toggle to see all the different views you've created of that database. These are represented with a `•` next to them.
+
+### Templates and trash
+
+At the bottom of the sidebar, there are a couple more workspace essentials.
+
+  -Templates:This opens our template picker, where you can create a new page using starter content to help you accomplish any one of 50+ jobs.
+
+  -Trash:The `Trash` contains all the pages you delete. You can drag and drop them in here. You can also click on trash to search, view and restore these pages.Note that you won’t be able to edit a page that’s in the trash unless you restore it.
+
+Note:By default, pages will remain in Trash for 30 days before they are automatically removed from Trash. Enterprise plan workspace owners may customize these settings.Learn more here →
+
+### Create pages in your sidebar
+
+There are several ways to create new pages using Notion's sidebar:
+
+  -On hover, you'll see a `+` sign appear next to every teamspace name.
+
+    *Click to add a page within that teamspace.
+
+    *If you don't see this, then a teamspace owner has disabled editing of the teamspace sidebar. You'll need to contact that teamspace owner to change this setting.
+
+  -You'll also see a `+` sign next to the `Private` section. Click to add a new page that only you can access.
+
+  -There's also a `📝` button at the top of your sidebar.
+
+    *This creates a new page in preview mode, letting you start a new page and then choose where to put it in your workspace (or one of your other workspaces) using a dropdown menu. If you don't choose, it will default to your `Private` section.
+
+  -Lastly, if you hover over any existing page in your sidebar, you'll see a `+` appear. Click that to add a page nested inside that page.
+
+### Edit your sidebar
+
+It doesn't take much to move pages around your sidebar. Just drag and drop!
+
+A few things we'll point out:
+
+  -Nest pages by dragging one into another. You'll see the selected page highlight blue.
+
+  -You can also drag pages out of pages they were once nested inside.
+
+  -We'll say it one more time here: If you drag a page from a shared section ( `Teamspaces` or `Shared` ) into `Private` , other folks will lose access. So make sure that's what you want to do.
+
+### Resize or hide your sidebar
+
+Your sidebar is elastic — configure it however is most helpful for you.
+
+  -Just click and drag the right edge to resize it.
+
+  -Click the `<<` that appears on hover to collapse your sidebar completely. It'll slide back out when you hover over the left-hand edge of the window.
+
+  -You can reopen it by clicking the `☰` button at the top left.
+
+  -You can also collapse or hide the `Favorites` , `Workspace` , `Shared` , or `Private` sections of your sidebar. Just click on those headings to hide or reveal them.
+
+### Delete pages
+
+There are two ways to delete pages from your sidebar:
+
+  -Click on the `•••` icon that appears when you hover over a page and select `Delete` .
+
+  -Drag a page from your workspace into the `Trash` . This will delete all the sub-pages nested within that page, including database items.
+
+
+
+### FAQs
+
+How do I log out of my Notion account?
+
+Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.
+
+
+
+My sidebar doesn't have any sections. How do I turn those on?
+
+The sidebar sections reflect the sharing settings of your account. If you have more than one person in your workspace, a `Teamspaces` section appears in the sidebar for your collaborative work with that person, and the `Private` section is there for your personal pages that are only visible to you.
+
+
+
+Can I rename the sidebar sections or add my own custom sections?
+
+Not at the moment, unfortunately 😓 If your sidebar is feeling cluttered, you can always consolidate some of your pages under more top-level pages.
+
+
+
+# Create & manage workspaces
+
+### When you're brand new to Notion, it's best to keep it simple and start with just one workspace. But as you start using Notion for more things, and with more groups of people, you can keep different kinds of content separate by using multiple workspaces 🏘
+
+### Create a new workspace
+
+By default, your workspace switcher will display all the workspaces associated with your email address. To create another workspace:
+
+  -Open the workspace switcher at the top left of your Notion window.
+
+  -Choose which email account you'd like the new workspace to be associated with, and click the `•••` to the right of that email address.
+
+  -Click `Join or create workspace` .
+
+  -If you're using your work email, you may see a list of workspaces that you can auto-join. We'll cover that just below!
+
+  -If you want to create a brand new workspace, scroll past the list of existing workspaces and click `Create workspace` .
+
+  -Follow the steps to set up your new workspace and you're on your way!
+
+Tip: Multiple workspaces come in handy to separate different kinds of work. For example, you could have one workspace for personal stuff, one for school notes, and one for keeping track of freelance projects.
+
+### Join an existing workspace
+
+There are a couple ways to join a workspace someone else has made:
+
+  -An admin from that workspace adds you as a member, and you receive an email with a link to join. You'll be prompted to sign in with your email, and you'll be placed into the workspace as a paid member.
+
+  -If your email domain (e.g. name@domain.com) has auto-join enabled, you can use the `Join or create workspace` button in the workspace switcher, and you'll see a list of workspaces you can join.
+
+Note:If you're using Notion with a personal email address such as gmail.com or outlook.com, or a school email address such as nyu.edu, you won't be able to auto-join other workspaces.
+
+To join a workspace from another email account, use the `Add another account` button in the workspace switcher.
+
+
+
+### Switch between workspaces
+
+Throughout the day, you might need to hop between different workspaces to get things done. Just click on the name of your current workspace and select the one you want to jump to from the dropdown menu. That's it!
+
+Tip:On desktop, you can use the shortcut `ctrl` + `shift` + `#` to switch workspaces, in which `#` corresponds to the placement of each workspace in the dropdown workspace switcher menu.
+
+You'll see the shortcuts in the menu, next to each workspace name!
+
+### Leave a workspace
+
+  -Click on `Settings & members` in your left sidebar. Then click on the `Settings` tab.
+
+  -Scroll down to the headingDanger zone. Click `Leave workspace` .
+
+  -It'll be removed from your workspace switcher and you'll lose access to all that content.
+
+  -You can always ask an admin in a workspace you've left to re-add you.
+
+### Delete a workspace
+
+  -Click on `Settings & members` in your left sidebar. Then click on the `Settings` tab.
+
+  -Scroll down to `Danger zone` . Click `Delete entire workspace` . You'll be asked to type the name of your workspace just to double check that this is what you want to do.
+
+  -All of that content will be deleted and you'll be returned to another workspace you belong to, or the sign up page for Notion if you don't belong to any others.
+
+### Add another email account
+
+By default, your workspace switcher will display all the workspaces associated with your email address. But you may prefer to use your personal email with your personal workspaces, and your work email with your team workspaces.
+
+To enable you to view all of your workspaces at once, we support logging in with multiple accounts at the same time!
+
+  -To add workspaces from another Notion account, open the workspace switcher at the top left of your Notion window, and click `Add another account` .
+
+  -Follow the steps to login to your other account, and you'll be taken straight to that workspace. You can also create a new account at this step.
+
+  -The next time you open the workspace switcher, you'll see the new account and all of its workspaces added to the dropdown.
+
+Tip: By adding more accounts to your workspace switcher, there's no need to log out of one account in order to log into another! This lets you keep work and life separate, while making sure that you can access any of your content across any account, on any device, completely seamlessly.
+
+### Log out of an account
+
+You can log out of individual accounts, or log out of all your accounts at once.
+
+  -Open the workspace switcher at the top left of your Notion window.
+
+  -To log out of one account but stay logged into others, use the `•••` button to the right of the account you want to log out of. Then, click `Log out` .
+
+  -To log out of all your accounts at once, use the `Log out all` button at the bottom of the workspace switcher.
+
+Note: Login tokens expire after 90 days. When you're logged out of your accounts due to token expiration, you will need to re-add any additional accounts by using the `Add another account` button in the workspace switcher.
+
+
+
+### FAQs
+
+How can I migrate all my Notion content to a different workspace?
+
+Note:Any migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information,click here.
+
+To move your content from one workspace to another associated with the same account, click `•••` next to each of the top-level pages in your sidebar (or right click) and select `Move to` .At the bottom of the move menu, you’ll see a drop down to select a different workspace.
+
+When you move top-level pages, all their sub-pages go with them. They'll appear in the `Private` section but can be moved wherever you want to put them.
+
+
+
+I clicked the Join or create workspace button, but it will only let me create a workspace. How do I join a workspace?
+
+You can only join a workspace via the `Join or create workspace` button if that workspace has the `Allowed Email Domains` setting enabled to allow users with your email domain join the workspace automatically.
+
+Otherwise, you'll need to ask an admin from the workspace to send you an invite.
+
+When I subscribe to a paid plan, does it cover all of my workspaces?
+
+Paid plans only apply to one workspace and don't cover the whole account. Workspaces are completely separate silos, so you won't be able to link any content between them.
+
+We recommend using the least number of workspaces possible, and taking advantage of top-level pages in your sidebar to stay organized.
+
+How can I switch between workspaces that are under different email addresses?
+
+To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account.
+
+Is there a limit to the number of accounts I can be signed into?
+
+There is currently no limit, although you may experience slower performance if you're logged into 10+ accounts at once.
+
+I forgot to log out of my account on a public computer, or my device was stolen.
+
+So sorry for the trouble 😓 If you're still logged in on a device you have access to,  navigate to `Settings & Members` and then `My account` . Scroll down to the "Log out of all devices" section and click the arrow.
+
+If you no longer have access to your account, please send us a quick message to team@makenotion.com, or use the ? button at the bottom right of the app. We can log you out remotely!
+
+
+
+# Create & navigate teamspaces
+
+### Teamspaces help keep your content organized into specific areas. Keep your sidebar tidy by joining just the ones you need to access! Here's how 📚
+
+### Browse teamspaces
+
+When you join a workspace on the Plus, Business, or Enterprise Plan, you'll automatically be added to any teamspaces that have been set as default. To see all other existing teamspaces in your workspace:
+
+  -In your left sidebar, click `••• More` .
+
+  -At the top, you’ll see teamspaces that you are a part of.
+
+  -Below that, you’ll see all open and closed teamspaces in the workspace.
+
+Note:Workspaces on the Business Plan or Enterprise Plan have access to the private teamspace feature. Only members or owners of a private teamspace can invite other people, and it won’t be visible to people who are not added.
+
+
+
+### Join or leave teamspaces
+
+When browsing all teamspaces, you'll see a list of open and closed teamspaces in the workspace.
+
+  -Open teamspaces can be joined directly from this menu.
+
+  -Closed teamspaces will say close. Click `Request` next to a closed teamspace to request access.
+
+To leave a teamspace that you are currently a member of:
+
+  -Hover over the teamspace name in your sidebar.
+
+  -Click the `•••` button and then choose the `Leave teamspace` option.
+
+### Create a teamspace & become a teamspace owner
+
+When setting up your workspace, you may want to create an additional teamspace.
+
+  -Scroll to the `Teamspaces` label in your sidebar and click the `+` button to the right of the label.
+
+  -To duplicate an existing teamspace, click the `•••` next to a teamspace and click `Duplicate teamspace` .
+
+Note:Depending on your workspace settings, this action may be restricted to workspace owners only. You can check in Settings & Members → Teamspaces.
+
+By default, you will become the owner of this teamspace. You can add additional members and owners within the teamspace's settings:
+
+  -Hover over the teamspace name in your sidebar.
+
+  -Click the `•••` button and then choose the `Teamspace settings` option.
+
+  -Click `Add members` or search for another user to add them to the teamspace.
+
+  -Customize their role by clicking the dropdown to the right of their name.
+
+
+
+
+
+# Search in your workspace
+
+### Notion is designed for you to add as many layers of information as you and your team need to solve any problem. Search ensures that Notion is an easily navigable archive of information 🔍
+
+### Use search
+
+When you want to find something specific, like a page or a piece of content on a page:
+
+  -Click `Search` at the top of your left-hand sidebar.
+
+    *You can also open search with shortcut `cmd/ctrl` + `P` , or `cmd/ctrl` + `K` if your cursor is not focused on a block.
+
+  -Type your search term at the top of the search window. You'll also see your recently viewed pages listed below so you can click to jump to one of them right away.
+
+    *To help you find information more quickly, labels like `Most viewed` or `Popular this week` will appear next to certain results.
+
+    *You can also hover over search results to preview them.
+
+Tip:
+
+  -Hold `cmd/ctrl` while clicking any of these results to open in a new tab (web app) or a new window (desktop app)!
+
+  -The search window can also help you quickly jump to parts of Notion that you might frequently visit. Try typing `home` to jump to Home or `settings` to go to your settings.
+
+
+
+### Use Command Search
+
+Download Notion for desktop to use Command Search →
+
+On desktop, you can use search andQ&Aeven when you’re outside of the Notion app. Trigger Command Search with a customizable keyboard shortcut, your menu bar on Mac, or your task bar on Windows so you can search or ask Q&A without switching between windows or bringing the Notion desktop app to the foreground. To make it easier to access Notion this way, a few things will happen by default:
+
+Command Search will be turned on. To turn Command Search off:
+
+  -Go to `Settings & members` → `My settings`
+
+  -Toggle off `Enable Command Search` .
+
+    *You can also turn off `Show Notion in Menu Bar` or customize your `Command Search shortcut` .
+
+Notion will be set to open at login. To turn this off:
+
+  -On Mac: Right-click on the Notion icon in the dock → select `Options` → `Open at Login` to remove the check mark beside it.
+
+  -On Windows: Right-click on the Notion icon in the task bar → select `Launch Preferences` → `Open Notion at Login` to remove the check mark beside it.
+
+Tip:In Command Search, hover over a search result with your keyboard or mouse and use `cmd` + `L` or `cmd` + `shift` + `C` to quickly copy its link.
+
+### Use Q&A
+
+If you join theQ&Abeta, you’ll see an `Ask AI in [Workspace]` button appear at the top of your search window. It provides instant answers to your questions, using information from the pages you have access to in the workspace.
+
+### Refine your search results
+
+When you search for something, you'll see the option to sort and filter from inside the search window so you can quickly find what you’re looking for.
+
+You can sort by:
+
+  -`Best Matches` (default): Shows the most relevant results. Pages that have been recently edited show up higher on the list, and page titles are more likely to show up than page contents.
+
+  -`Last Edited: Newest First` : Shows content in order of how recently it was edited by you or someone else in your workspace.
+
+  -`Last Edited: Oldest First` : Shows content in order of how long it has gone without an edit by you or someone else in your workspace.
+
+  -`Created: Newest First` : Shows content in order of how recently it was created.
+
+  -`Created: Oldest First` : Shows content in order of how long it has been since it was created.
+
+You can filter by:
+
+  -`Title only` : Shows results where your search term matches the title of a page. Any content inside of a page won't be considered.
+
+  -`Created by` : Shows content created by one or more people in your workspace.
+
+  -`Teamspace` : This filter is visible in Plus, Business or Enterprise Plan workspaces and shows results based on teamspaces that you have access to.Learn more about teamspaces here →
+
+  -`In page` : Shows content included in the pages you select. Subpages contained within your chosen pages will also be included.
+
+  -`Date` : Shows content that was created or edited within a chosen date range. To set a range, click `Date` , then select `Today` , `Last 7 days` , `Last 30 days` , or pick dates manually by selecting a start and end date on the calendar that’s shown.
+
+### Recent pages
+
+When you first open the search window, you'll see a list of pages from your workspace that you've visited lately and when.
+
+### Use database search
+
+  -When you search for something in the database search bar, it will surface database entries that contain your search term in the page title or property values (but not the page contents).
+
+  -For example, if you search for "Urgent," your database will quickly filter to only display entries that contain "Urgent" in the title or property values:
+
+#### Database search vs. workspace search
+
+  -Database search searches property values such as `Status` = `In Progress` or the names of database entries.
+
+  -Workspace search searches content inside database pages.
+
+
+
+### FAQs
+
+Are there any limitations to the type of content that search looks at?
+
+There's a few content types that search won't surface, unfortunately. We're always working on improvements, but here's a current list of limitations:
+
+  -Date mentions such as `@Today` or `@last Tuesday` will be included in search results, but other @mentions of pages and people such as `@Doug` or `@Roadmap` won't be included in search results.
+
+  -Comments and discussions are not included in search results.
+
+  -Property values such as select and multi-select tags are not included in search results. You can use database search for this though!
+
+
+
+What about Chinese, Japanese, and Korean characters?
+
+You can use queries with CJK characters in search! This is an experience we are continuing to improve💪 Please feel free to share any search feedback with team@makenotion.com, or click `?` at the bottom right of Notion to send us a message.
+
+Is there a way to customize the preset filters, recent pages, or recent searches?
+
+Unfortunately, not at the moment. If you’d like, you can create your own list of frequently visited pages by selecting `⭐` at the top right of any page. This will pin the page to the top of your sidebar for quick access.
+
+
+
+# Home & My tasks
+
+### Home gives you a view of all of the docs, tasks, and events that need your attention 🏡
+
+### What is Home?
+
+Note:
+
+  -Home is currently only available on Notion for desktop and web.
+
+  -Guests in your workspace won’t have access to Home.
+
+
+
+Your workspace home shows you important content from across your workspace in one place. To access Home, go to the left sidebar in Notion and select `Home` .
+
+### Recently visited
+
+View your 20 most recently visited pages. Scroll to the left to see more.
+
+### Upcoming events
+
+If you useNotion Calendar, you can see your schedule, join meetings, and access meeting docs and links using the Upcoming events widget in Home. If you haven’t already used Notion Calendar with Notion, you’re logged out of Notion Calendar, or you’re using the widget in a new or different Notion workspace, you can select `Connect to Google Calendar` in the widget to set up your calendar.
+
+Note:If you’re using Notion for desktop, you may be prompted to sign into your Notion account on the web to set up the Upcoming events widget.
+
+#### Customize your Upcoming events widget
+
+To change what’s displayed in the Upcoming events widget, select `•••` in your Upcoming events widget. From here, you can select:
+
+  -`Calendars` : Choose which calendars you want reflected in the widget. You can also have the widget reflect your Notion Calendar app.
+
+  -`Include events` : Choose how many days’ worth of events you want displayed. This can span from `Today` (1 day) to `1 week` .
+
+  -`All-day events` : Toggle this on or off depending on whether you want all-day events to show in the widget.
+
+  -`Events without participants` : Toggle this on or off depending on whether you want events without participants, like a focus event or an out of office event, to show in the widget.
+
+  -`Events without conferencing/location` : Toggle this on or off depending on whether you want events that don’t have a conferencing link or a location to show in the widget.
+
+Note:
+
+  -You can connect multiple Notion Calendar accounts to the Upcoming events widget in Home.
+
+  -If you’re in multiple Notion workspaces, don’t worry — you can adjust your Upcoming events widget differently for each!
+
+
+
+### My tasks
+
+My tasks shows all tasks assigned to you from all of the Task databases in your Notion workspace.
+
+#### Set up Task databases
+
+To see your assigned tasks in My tasks, you need to make sure that the databases containing those tasks are Notion Task databases.A task database in Notion is a type of database that requires a status, assignee, and due date property to help you track the work that you need to get done.Learn how to create a task database or turn an existing database into a task database here →
+
+#### Customize My tasks
+
+You can adjust what tasks you see in the My tasks widget by hovering over the widget and selecting `•••` . You can choose your preferred layout, filter and sort your tasks, or adjust which task properties you want the widget to show.
+
+#### Create a task from My tasks
+
+You can add a new task to any of your existing Task databases directly from the My tasks widget in Home. To do this, select `+` at the top right of the widget. To change the destination task database, open the dropdown at the top left of the new task, where it says `Add to {database name}` . Find and select your desired database, then fill in the information for your task.
+
+#### Hide My tasks from Home
+
+If you don’t want to see My tasks in Home, hover over the My tasks widget in Home and select `•••` → `Hide from home` .
+
+#### Open My tasks as a full page
+
+Hover over the My tasks widget in Home and select `Open as full page` to dive deeper into your tasks. From here, you can favorite the page, adjust the layout of your tasks, create a new task, and more.
+
+#### Undo a Task database
+
+Note:Once you undo a Task database, anyone assigned to tasks from that database won’t be able to see those tasks in My tasks.
+
+To undo a Task database:
+
+  -Select `•••` at the top right of the database.
+
+  -Select `•••` next to `This is a task database` → `Undo task database` → `Remove` .
+
+Learn how My tasks can help solve everyday problems →
+
+### Database views
+
+You can pin a database of your choice to Home for easy access. To do this:
+
+  -In `Home` , find the database view widget and select `Select database` .
+
+  -Search for and select your desired database.
+
+#### Customize your database views widget
+
+By default, the database will populate in Home with a list view. To change this, select `•••` on your custom database widget → `Layout` and pick the layout you want.
+
+You can filter and sort your database items directly from inside the widget. You also have the ability to create a new view of that database by opening the dropdown next to the current view and selecting `Add view` . From there, you can select the same database or select a new one.
+
+#### Change your database
+
+If you want to change the database displayed in Home:
+
+  -Select `•••` in your database views widget → `Source` .
+
+  -Search for and select your new database.
+
+### Suggested for you
+
+This section suggests pages based on your recent page visits. It updates in real time — to see the latest suggestions, refresh Notion.
+
+### Trending
+
+See your workspace’s most-visited pages from the past week. If you’d like to see trending pages from a specific teamspace instead, select the dropdown next to your workspace name in the Trending widget, then select the teamspace you want.
+
+### Featured templates
+
+The featured templates section spotlights templates that can inspire your workspace setup. This widget won’t appear in Home by default, but you can choose to show the widget in Home settings. See instructions for doing this below.
+
+### Customize Home
+
+#### Change your nickname
+
+To change the nickname that is shown in the greeting at the top of Home, click your name and enter a new one. Hit `enter` or click out of the text field to set your new nickname.
+
+#### Change default start page
+
+Adjust which page you want to see when you start Notion. Select `•••` at the top right of Home → `Change default start page` . Then choose `Home` , `Last visited page` , or `Top page in sidebar` .
+
+#### Show or hide widgets
+
+Select `•••` at the top right of Home → `Show/hide widgets` . Then, select or unselect a widget.
+
+### Set Home as your default new tab in Notion for desktop
+
+If you want new tabs in yourdesktop appto open Home:
+
+  -Go to `Settings & members` → `My settings` .
+
+  -Open the dropdown next to `Open on start` and make sure `Home` is selected.
+
+  -Toggle off `New Tab Search` . Once this setting is turned off, the desktop app will open new tabs with the default page specified in your `Open on start` setting.
+
+
+
+
+
+# Workspaces on mobile
+
+### We've built Notion on mobile to replicate as much desktop functionality as possible. That said, there are a number of interactions that work differently by default. This is a quick tour of how Notion workspaces look and operate on your phone or tablet 📱
+
+### Navigating Notion for mobile
+
+At the bottom of Notion for mobile, you'll see a navigation bar that is always present.
+
+  -Tap `🏠` on the bottom of any page to go to your sidebar and expose all your top-level pages.
+
+    *You will see familiar sections like `Shared` , `Private` , `Favorites` that match the desktop experience.
+
+  -Tap `🔍` to search your workspace.
+
+  -Tap `📥` to check your `Inbox` .
+
+  -Tap `📝` to create a new page.
+
+#### Teamspaces
+
+If you are part of multi-member workspace, you'll see a sidebar section called `Teamspaces` .
+
+Teamspaces are a dedicated area for every team within your organization or company, and can be customized on an individual basis.Learn more about teamspaces →
+
+#### Nested pages
+
+  -Tap on the toggle next to any page in your sidebar to reveal pages nested pages.
+
+    *For database pages, you can toggle to see the different views of that database.
+
+#### Workspace switcher
+
+  -Tap on your current workspace's name to switch between the workspaces you belong to, create a new one, join another one, or log out.
+
+#### Updates menu
+
+Tap the `🔔` at the bottom to open this menu, which shows you notifications and changes that are relevant to you on Notion.
+
+  -Tap `Inbox` to see all revisions on pages you follow, and all mentions of you in the workspace.
+
+  -Tap `Followed` just to see edits made on pages you follow.
+
+  -Tap `All` to see all edits made by all users across the entire workspace.
+
+  -Tap `This page` to see changes, comments and mentions relevant only to the page you're currently looking at. You can also choose to follow the page here. Click on the clock icon to the right of any revision to go to that version (or restore it) in `Page history` .
+
+### Creating on Notion for mobile
+
+#### Editor tools
+
+While in a page, a toolbar appears above your keyboard. It contains all the options you need to add content to your page.
+
+  -Tap the `+` to see a full menu of other content block types you can add to your page. This replaces the `/` command functionality on desktop.
+
+  -From this toolbar, you can also @-mention a person or page, add a comment, insert an image, delete content, indent, select text color and highlight, and delete and duplicate a content block. Scroll horizontally to see all these options.
+
+#### ••• menu
+
+The `•••` menu contains additional options, including but not limited to:
+
+  -Choose from three different typography choices to format your page.
+
+  -`Customize page` : Toggle the visibility of backlink and page comment sections.
+
+  -`Lock page` :Turn this on to prevent edits from being made.
+
+    *`Lock views:` Turn this on to prevent others from changing properties and views.
+
+  -`Page history` :View past versions of the page going back 7 days (extended for paid plans).
+
+  -`Show deleted pages` :Opens up `Trash` so you can restore or permanently remove pages you've deleted.
+
+  -`Export` :Download the page as a file. Databases get saved as CSV files, while non-database pages get saved in Markdown. You can also export either as PDF or HTML.
+
+  -`Move to` :This opens up a menu where you can choose any other workspace or page to move the current page into.
+
+#### Share menu
+
+Tap the share icon (square with upward arrow) to open this menu. From there, you can share the current page with others in a number of ways:
+
+  -Share page link:Tap this button at the top to open your mobile device's share sheet. You can copy the page link or directly share the URL.
+
+  -Share to web:Turn this on to publish your page to the web so anyone with the link can see it. Tap the dropdown menu that says `Show link options` for more control over permissions, duplication, and search engine indexing.
+
+  -Add people, groups, or emails:Tap this to invite other Notion users to the page.
+
+    *Everyone:Turn this on to give every member in your workspace the ability to see the page. Tap the dropdown menu to the right and choose from `Full access` , `Can edit` , `Can comment` , `Can view` or `No access` to assign a level of access for people in your workspace.
+
+    *Groups:You may also see groups that have been created in your workspace that you can assign different access levels to.
+
+    *Guests:You can also add users outside of your workspace directly via email. They'll join as aguest.
+
+### Settings on mobile
+
+#### Notifications
+
+Many more Notion settings are available on desktop. We've slimmed these down for mobile to include only:
+
+  -Notifications options for email and mobile push.
+
+  -The option to set, change, and remove a permanent password.
+
+  -The option to change your app appearance.
+
+  -The option to start calendar weeks on Monday instead of Sunday.
+
+#### Trash
+
+  -Tap to see deleted pages split into two categories: all deleted pages, and sub-pages deleted off the current page you're looking at.
+
+  -Tap the trash icon to delete a page forever.
+
+  -Tap the arced arrow icon to restore a page to your workspace.
+
+
+
+### FAQs
+
+Can I switch between workspaces that are associated with different email addresses?
+
+To add your workspaces from another email account, use the Add another account button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account.More on this here →
+
+My sidebar doesn't have any sections. How do I turn those on?
+
+The sidebar sections reflect the sharing settings of your account. If you have more than one person in your workspace, a `Teamspaces` section appears in the sidebar for your collaborative work with that person, and the `Private` section is there for your personal pages that are only visible to you.
+
+
+
+When I subscribe to a Plus Plan, does it cover all my workspaces?
+
+Paid plans only apply to one workspace, and don't cover the whole account. Workspaces are completely separate, so you won't be able to link any content between them.
+
+We recommend using the least number of workspaces possible, and taking advantage of top-level pages in your sidebar to stay organized.
+
+How can I migrate all my Notion content to a different workspace?
+
+Note:Any migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information,click here.
+
+To move your content from one workspace to another associated with the same account, click `•••` next to each of the top-level pages in your sidebar (or right click) and select `Move to` .At the bottom of the move menu, you’ll see a drop down to select a different workspace.
+
+When you move top-level pages, all their sub-pages go with them. They'll appear in the `Private` section but can be moved wherever you want to put them.
+
+
+
+What if I accidentally deleted something permanently? Any way to get it back?
+
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom left on desktop (or in your sidebar on mobile). Or email us atteam@makenotion.com.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
+
+How do I log out of my Notion account?
+
+Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.
+
+
+

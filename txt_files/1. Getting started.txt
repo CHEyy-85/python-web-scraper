@@ -1,0 +1,436 @@
+<1. Getting started>
+
+Welcome to the connected workspace where better, faster work happens. Let’s cover all the things you need to know to begin exploring Notion.
+
+
+
+# Start here
+
+### Curious about what Notion is? We'll show you right here, and in the articles to come. Let's go! 📍
+
+We like to describe Notion as a set of building blocks for creating things you love to use on your computer, such as:
+
+  -Documents
+
+  -Databases
+
+  -Public websites
+
+  -Knowledge bases
+
+  -Project management systems
+
+  -The world's most beautiful notes... 😉
+
+Notion is different from other software in a few ways. And once you master these basics, you can pretty much build whatever you want.
+
+Most importantly, don't worry about not knowing everything you can do right away. We'll discover it together. Click below to dive right in!
+
+
+
+
+
+# What is a block?
+
+### Think of Notion as a bottomless bin of building blocks. Build whatever you want, however you want! Every page you create in Notion will be composed of many "blocks," in the same way a LEGO castle is composed of many LEGO bricks 🧱
+
+### Everything in Notion is a "block"
+
+When you create your first page in Notion and begin typing, you've started with a text block. But Notion pages can contain a lot more than plain text!
+
+Imagine every piece of content you add to a page — whether it's text, an image, or a table — as a single building block. Every page is a stack of blocks combined however you want.
+
+Here's just one example page with different block types pointed out:
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/63ECPZnP3YOcia7Jcc5Rnf/072c2e871e851151f25b9e5201a24623/whatisablock1.png)
+
+Tip:Hit the `/` key on your keyboard (or tap the `+` button above your keyboard if you're on mobile) to see all the different types of content you can add.
+
+
+
+### Blocks can transform
+
+Any block in Notion can be turned into any other type of block in order to use, view, or deepen that information in a new way.
+
+Try this out by clicking the `⋮⋮` symbol and choosing `Turn into` to convert your block to something else!
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/2DiOYKAi904jz53tJvfVwx/70d03b5f1e0ab12a69aab54b796cfc92/whatisablock2.mp4)
+
+### Blocks can be rearranged
+
+The `⋮⋮` button can be used to drag and drop existing blocks. This makes it simple to rearrange, reorder, and reshape your thoughts with one motion.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/7Frnrb6PPUqSvJkCFFo0uP/b5e06e56509feaae28d4e4a000676512/whatisablock3__1_.mp4)
+
+
+
+
+
+# Create a page
+
+### Every page you create in Notion is a fresh canvas where you can add whatever content you want. Follow these steps to create your first one 📄
+
+### Create a page
+
+There are a few ways to add a new page in Notion.
+
+  -Click `📝` at the top of your left sidebar.
+
+  -If you’re on the desktop app, use the shortcut `cmd/ctrl` + `N` .
+
+  -If you’re on mobile, tap `📝` at the bottom of your screen.
+
+### Start writing
+
+Once your new page opens, you can give your page a title and start jotting down your thoughts.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/8OWBURBJcbGefqCwFRnda/f3cc98db66b50601f4736e9c875bc2d7/new_createyourfirstpage2.mp4)
+
+Need some inspiration or structure? On desktop or web, select any of the options at the bottom of the page to get started. You can import from an app or file, use a template, create a table, and more — select an option you like, and your page will be formatted accordingly!
+
+As you write, highlight any text on your page to bring up a menu of options. You can change the color or style of your text, add a comment or hyperlink, and more.Learn more about writing and editing basics here →
+
+### Try a slash command
+
+The `/` command will quickly become your best friend in Notion.
+
+  -Typing `/` brings up a comprehensive menu of block types - all of your content options. Experiment with different block types - you'll find your own personal favorite combinations!
+
+  -Add any type of block by typing `/` and scrolling to the one you want or typing its name. For instance, `/h1` creates a large heading, and `/todo` creates a checkbox.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/3HVip8XgcEoqQcYZrraMRN/82b86f85e85e0196be660f116ec1fe82/slash_command.mp4)
+
+
+
+
+
+# Create a subpage
+
+### There are no folders in Notion. Instead, you can organize pages inside pages... inside pages. Here, we'll show you how to create a page within another page, which we call a subpage 📑
+
+### Create a subpage
+
+A subpage is a page inside a page. You can create any number of subpages for a page.
+
+There are multiple ways to create a subpage:
+
+  -Open a page (this will be the subpage’s parent page) and use the slash command `/page` .
+
+  -Find your desired parent page in your sidebar and select `+` next to it. This will create a subpage in that page. When you return to the parent page, you’ll see the subpage there.
+
+Once your new page opens, you can give your page a title and start jotting down your thoughts.
+
+Need some inspiration or structure? On desktop or web, select any of the options at the bottom of the page to get started. You can import from an app or file, use a template, create a table, and more — select an option you like, and your page will be formatted accordingly!
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/3WXrgzszWHqiuAt5RJxDzi/f100f224300341be5597aba1d18caea2/new_createasubpage1.mp4)
+
+### Navigate with your sidebar and breadcrumbs
+
+When you open the toggle for the parent page in your sidebar, you’ll see its subpages there.
+
+Additionally, at the top of your page, you’ll see breadcrumbs that show you what page you’re in, and where that page lives.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/6VB1Qri8AWKvMNd7aTP5BE/47542e746787b73adad5436f4f36cef5/new_createasubpage2.mp4)
+
+### Rearrange your page structure
+
+The pages in your workspace can be easily rearranged.
+
+  -To take a subpage out of its parent page, click on it in the sidebar and drag it out of the parent page's toggle.
+
+  -To make a page a subpage, click on it in the sidebar and drag it into another page.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/2UK1LnwlcFC2sztqXHgdPZ/e5e759884b5e8654ce6119baebb03be5/new_createasubpage4.mp4)
+
+
+
+
+
+# What is a database?
+
+### Databases are a core feature in Notion that help you manage and organize your pages. Let's explain what they are and how they can help you level up your workspace 🗄
+
+### Databases are collections of pages
+
+Think of Notion databases as filing cabinets or notebooks. Each database serves as a container, letting you easily organize multiple Notion pages in a single structure. In the screenshot below, every row of the table is a page within the database "Docs."
+
+This gives you a birds' eye view of an entire collection of pages at once. When you need to dive deeper, each page in a database can be opened, revealing its detailed contents.
+
+### Databases are pages themselves
+
+But wait - each database is also a page itself! This is powerful, because it allows you to move and nest databases alongside other content, just like any other page.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/3QZJh2b6yNQGIpy2DdqeRN/c6a29d21a881dddab368cd495f75e604/new_whatisadatabase3.mp4)
+
+### Databases have properties
+
+To help you organize all of the pages within a database, properties can be added to contextualize, label, and augment each individual item.
+
+You can then search, filter, and sort by these property values.
+
+### Database views display the same content in different ways
+
+Databases in Notion are not static. The set of pages within each database can be displayed in many different forms, or what we call views.
+
+In addition to table view, the contents of a database can be visualized as a list, board, calendar, gallery, or timeline - whatever makes the information the most useful.
+
+
+
+
+
+# Create a database
+
+### Now we'll create a database and use it to show off essential database actions and features. You'll get to play with database properties, views, filters, and sorts - let's get into it 📈
+
+### Create a new table
+
+  -Add a new page and under `Get started with` and select `Table.`
+
+  -The first column is where you enter the name of your database pages. Each column in a Notion table corresponds to a property that gives your item context.
+
+  -Click a property heading, then `Edit property` and `Type` to see all of your property choices.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/40BE2Sw1gbfABgvimhHuHR/8e5cc3757d81c4461702c862e79d4dc7/new_createadatabase1.mp4)
+
+### Add data to your table
+
+For this example, we'll create a task database.
+
+  -Add some tasks you're working on in the `Name` column.
+
+  -Now add some values to the `Tags` column using the multi-select property. The options could be something like `P1` , `P2` , and `P3` to indicate the priority of a task.
+
+  -Add a new property using the `+` button to the right of the `Tags` heading.
+
+  -Change its name to `Due Date` . Click the property heading, then `Edit property` and `Type` and select `Date` . Now when you click on a cell under `Due Date` , you'll see the date picker.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/hSvk3IL5t1WEzruyDCD7Z/0607ac124a44ee42502bc3a7fb614926/createadatabase4.mp4)
+
+### Open a row as a page
+
+Every item in a Notion database is also a whole page of its own! You can add any content you want inside, including other databases.
+
+  -To open a row as a page, hover over a cell in the `Name` column and click `OPEN` .
+
+  -You can add or edit any properties.
+
+    *You can also add additional content into the body of the page.
+
+### Create new database views
+
+You can create different views of the same data. Put it into a board, a calendar, a list, a gallery, or a timeline — depending on your needs. Let's try one.
+
+  -Click `+` at the top of your table. Depending on your screen size, you may have to open the dropdown next to your current view and select `Add view` .
+
+  -Give your new view a name and choose `Board` from the right-side menu.
+
+  -This displays rows from your table into cards on a board, grouped by tag. Clicking on a card still opens it as a page. It's all the same content, just visualized in a different way!
+
+Learn more about views here →
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/7fEXn8aF3uQVfMWeBz5y3r/31bb3e9f3144843ba5b61714ada2cef7/createadatabase7.mp4)
+
+Tip:Different views are good for different things, and you can have as many as you need!
+
+  -Gallery view is great if you're storing images in your database.
+
+  -Lists are helpful for minimalist storage of documentation.
+
+  -Calendar view displays your pages by an assigned date property.
+
+  -Timelines are useful for visualizing project dates and length.
+
+
+
+### Filter and sort your data
+
+Filter by property to focus on specific parts of your database.
+
+  -Click the filter icon at the top of your table, then select one of the default options or `+ Add advanced filter.`
+
+  -Then select the criteria that needs to be met. The middle dropdown will give you different options depending on the property.
+
+  -In this case, let's choose `Tags` as the property, and say it must contain `P1` .
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/5HmfNS3K8g9PViDapl6H92/95a72baddd71ff447be71c3cad3c1d3c/new_createadatabase8.mp4)
+
+Add sorts to reorder your database depending on property values. Sorts are helpful for quickly ordering your data by priority, date, tags, etc.
+
+  -Click `⇅` at the top of your table, then select the property you'd like to sort by.
+
+    *For example, choose `Due Date` and then `Ascending` . This reorders tasks from closest to furthest due date.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/7guHNuEzDmq2xIP5GtgDUZ/e4705a6faa15999dee4363ca80217de0/new_createadatabase9.mp4)
+
+You'll see your database change in real time based on your filter and sort criteria. You can add as many filters and sorts as you want, and each view has its own filter and sorts.
+
+
+
+# Start with a template
+
+### To help you take on a variety of challenges with Notion, we've created lots of templates that you can adopt and customize as your own — including 5 "starter templates" already in your workspace! Here's how to use them 💾
+
+### Starter templates
+
+When you first sign up for Notion, you'll see a collection of 5 templates in your sidebar. These have been selected for you based on what you told us during onboarding. You can choose to add them to your workspace so you can edit them however you want, or remove them.
+
+To delete a template:
+
+  -Click the `•••` to the right of the page name.
+
+  -Then click `Delete` .
+
+### Find & use in-app templates
+
+You can access our full collection of in-app templates at any time. Look for `Templates` in your sidebar.
+
+  -Click `Get template` to actually add one to your workspace.
+
+  -Instructions are included inside each template in two ways:
+
+    *For databases, they are at the top and can be hidden by hovering over the top of the page and clicking `Hide description` .
+
+    *For pages, instructions are scattered throughout in callout boxes that you can delete just like you'd delete any other content block.
+
+### Duplicate community-made templates
+
+In addition to in-app templates, you can duplicate a public page into your own workspace as template.Learn more about public pages here →
+
+The Notion Template Gallery includes thousands of templates built for many purposes by Notion users around the world, which you can use as a starting point (or inspiration ✨)! Once you've duplicated a public template page into your own workspace, tweak it to match your workflow perfectly.
+
+Browse our Template Gallery:notion.so/templates →
+
+
+
+### FAQs
+
+Can I make my page a template to use elsewhere in my workspace?
+
+There isn't a way to customize the template picker, unfortunately. The best way to do this is:
+
+  -Keep an empty version of your template page in your left-hand sidebar.
+
+  -Click the `•••` next to that page's name in your sidebar, and then `Duplicate` whenever you need a new copy.
+
+Depending on your use case, you might find these options useful!
+
+  -You can quickly duplicate chunks of content with a template button. Great for journaling!More on that here →
+
+  -In databases, you can create new database entries with the properties & page contents already populated by using database templates.More on that here →
+
+
+
+Do you have templates made by the Notion community anywhere?
+
+Yes! Indeed we do. Go to our Template Gallery atnotion.so/templatesto see creations across categories like work, media, personal productivity and more made by our community.
+
+Can I request a template for something?
+
+Yes! We'd love your ideas. Please tweet them to us at@NotionHQ(with the hashtag #template) or send them to our team at team@makenotion.com.
+
+
+
+
+
+# Share your work
+
+### Share any Notion page you create with select people, your whole team, or the entire web. It's up to you. Here's a quick overview of how to share 🗣
+
+### Share with one person
+
+You can invite people inside or outside your workspace to share a Notion page with you.
+
+  -Start with your page in `Private` in your sidebar.
+
+  -On the page, go to `Share` at the top right.
+
+  -Enter the person's name or email address in the space provided, choose a level of access, and click `Invite` .
+
+  -If the person is outside your workspace, they'll join the page as a guest.
+
+  -If the person is already a member of your workspace, you'll see their profile photo pop up in the invite menu, and the page will show up under `Shared` in your sidebar, as seen above.
+
+### Share with your team
+
+If you have multiple people working with you in Notion, you can quickly share any page with all of them. There are several ways to do this:
+
+  -Share with everyone in your workspace.Click `Share` at the top right of the page, and grant access to `Everyone at [workspace name]` . You can also assign everyone in your workspace a particular access level from the dropdown. For example, everyone `Can view` instead of being able to edit.
+
+  -Create a page in any default teamspace in your sidebar.Everyone in your workspace is a member of default teamspaces and will automatically have access to pages in them.Learn more about teamspaces →
+
+  -Drag a private page to a default teamspace in your sidebar.This automatically shares it with everyone.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/4zepk1JHjOYlHN03NB5UKx/e28672ffcc77886df33b4413a06bf681/new_shareyourwork2.mp4)
+
+  -Share a page's URL.Every page in Notion has its own unique URL you can use to share it on Slack or elsewhere. Go to `Share` at the top right and click `Copy link` . Only people who have access to the page can see it.
+
+### Share with the web
+
+You can easily turn your Notion page into a beautiful website with Notion Sites. Learn more about how to share your page with the webhere →
+
+
+
+
+
+# Collaborate with people
+
+### Notion has several features designed to improve and increase the velocity of communication with your team — whether you're all editing the same page or working across time zones 🤝
+
+### Work together in real-time
+
+You can edit the same page at the same time with an unlimited number of people.
+
+  -Their profile photos will show you where they're looking or working on the page.
+
+  -Edits and comments made by everyone will appear to you instantly.
+
+  -Click `🕘` at the top of the page to see who made what changes and when.
+
+    *Content added is highlighted in blue.
+
+    *Gray strikethrough shows what's been removed.
+
+    *You can also see where people have left comments.
+
+### Start a conversation
+
+There are several ways to communicate with your teammates inside Notion — hopefully helping you cut down on meetings and status checks.
+
+#### Mention a teammate
+
+Want to get someone's attention on a page?
+
+  -Mention them by typing `@` followed by their name anywhere on a page.
+
+  -You'll see a menu pop up that will search for the person in real time. Press `enter` .
+
+    *They'll be notified of your mention with a link directly to it in their `Inbox` (or with a push notification if they are on the desktop or mobile app).
+
+#### Leave a comment
+
+Comments let you attach your thoughts, questions, or opinions to specific content on a page.
+
+  -To leave a comment on a page, click the `Add comment` right above its title.
+
+  -To leave a comment on text, highlight it, and click `Comment` in the menu that pops up.
+
+  -To leave a comment on an image, embed, or other type of block, you can click the `•••` that appears at the top right or the `⋮⋮` icon that appears to the left on hover. Choose `Comment` from the menu that pops up. (You can also right click to bring it up!)
+
+  -You can @-mention your colleagues in comments to get their attention.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/56eQgv5hzINGKYcQcVcQGu/d939f050786902cbb824ed6ad8c0c13a/collaboratewithpeople4.mp4)
+
+### Never miss a thing
+
+Notion is built for asynchronous communication. You'll be notified if someone needs you or if a page you care about has been changed.
+
+  -Click on `Inbox` at the top of your left sidebar. This is where we collect all notifications concerning you.
+
+    *All updates will appear with a grey badge. If you've been mentioned, you'll see a red badge with the number of mentions waiting for you next to `Inbox` .
+
+  -Click on any of these updates to go directly to the comment, mention, or edit in question.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/5dwgBkFR9rR9SjEWEWCDd1/504eb55a88c79b1a20474fd4a5a3c0d3/new_collaboratewithpeople5.mp4)
+
+
+

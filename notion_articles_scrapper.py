@@ -1,11 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-base_url = 'https://www.notion.so'
-reference_url = 'https://www.notion.so/help/reference'
-
-
-def scrape_chapters():
+def scrape_chapters(base_url, reference_url):
     """
     Scrape all chapters links from the Notion help reference page.
 
@@ -23,7 +19,7 @@ def scrape_chapters():
     return chapters
 
 
-def scrape_articles(chapter_name, chapter_url):
+def scrape_articles(base_url, chapter_name, chapter_url):
     """
     Scrape intro to chapter and all article links from a given chapter page.
 
@@ -60,12 +56,15 @@ def scrape_articles(chapter_name, chapter_url):
 
 if __name__ == "__main__":
     # Use the functions to scrape chapters and articles
-    chapters = scrape_chapters()
+    base_url = 'https://www.notion.so'
+    reference_url = 'https://www.notion.so/help/reference'
+
+    chapters = scrape_chapters(base_url=base_url, reference_url=reference_url)
     print("Chapters found:", chapters)
 
     articles = {}
     chapter_intros = {}
     for chapter_name, chapter_url in chapters.items():
-        chapter_intros[chapter_name], articles[chapter_name] = scrape_articles(chapter_name, chapter_url)
+        chapter_intros[chapter_name], articles[chapter_name] = scrape_articles(base_url, chapter_name, chapter_url)
 
     print(articles[chapter_name])

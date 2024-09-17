@@ -1,0 +1,504 @@
+<11. Security & privacy>
+
+Your security and privacy are crucial. Read on to learn more about how we keep you and your data safe.
+
+
+
+# Security practices
+
+### We know you've entrusted us with valuable data, and we take its security very seriously. We've provided a deep dive into our security practices 🔒
+
+### Data security
+
+  -Access monitoring:Notion has enabled logging on all critical systems. Logs include failed/successful logs, application access, administrator changes, and system changes. Logs are ingested by our observability and security incident event management (SIEM) solution for log ingestion and automated logging/alerting capabilities.
+
+  -Backups enabled: Notion is hosted by AWS and stores customer data using a combination of databases. By default, AWS provides durable infrastructure to store important data and is designed for durability of 99.9% of objects. Automated backups of all customer and system data is enabled, and data is backed up daily at minimum. The backups are encrypted in the same way as live production data, and are monitored and alerted.
+
+  -Data erasure:Notion customers are Controllers of their data. Each customer is responsible for the information they create, use, store, process and destroy. Notion customers have the ability to request data deletion or self-serve their own deletion, when data is not subject to regulatory or legal retention periodicity requirements. Please refer to ourPrivacy PolicyandData Processing Addendumfor more information.
+
+  -Encryption at rest:Customer data is encrypted at rest using AES-256. Customer data is encrypted when on Notion’s internal networks, at rest in Cloud storage, database tables, and backups.
+
+  -Encryption in transit:Data sent in-transit is encrypted using TLS 1.2 or greater.
+
+  -Physical security:Notion leverages Amazon Web Services (AWS) to host our application, and defers all data center physical security controls to them. Please refer toAWS’s physical security controls here.
+
+### Application security
+
+  -Responsible disclosure:Notion maintains a bug bounty program. Please refer to ourResponsible Disclosure Policy.
+
+  -Code analysis:Notion security and development teams conduct threat modeling and secure design reviews for new releases and updates. After code completion for significant feature launches, we perform code audits, code reviews, and conduct security scans for our codebase.
+
+  -Software Development Lifecycle (SDLC):Notion uses a defined SDLC to ensure that code is written securely. During the design phase, security threat modeling and secure design reviews are performed for new releases and updates. After code completion for significant feature launches, we perform code audits, work with vendor companies or drive an internal penetration test, and conduct security scans for our codebase. After launch, we host bug bounties and have a vulnerability management program to address severe security issues.
+
+  -Credential management:Notion uses a third party Key Management Services (KMS) that automatically manages key generation, access control, secure storage, backup, and rotation of keys. Cryptographic keys are assigned to specific roles based on least privilege access and keys are automatically rotated yearly. Usage of keys is monitored and logged.
+
+  -Vulnerability & patch management:Notion performs vulnerability scanning and package monitoring on all infrastructure related hosts, and the company product continuously.  Externally and internally-facing services are patched on a regular schedule. Any issues that are discovered are triaged and resolved according to the severity within Notion’s environment.
+
+  -Web Application Firewall (WAF):All public endpoints leverage a managed Web Application Firewall to deter attempts to exploit common vulnerabilities.
+
+### Security profile
+
+  -Data Access Level:Internal (i.e. Notion employees will only ever access your data for the purposes of troubleshooting problems or recovering content on your behalf.)
+
+  -Third Party Dependence:Yes - please refer to our list of subprocessorshere.
+
+  -Hosting:Notion is hosted on one Amazon Web Services (AWS), one of the major cloud service providers.
+
+  -Recovery Time Objective:Estimated at 2 hours
+
+  -Recovery Point Objective:Estimated at 24 hours
+
+### Corporate security
+
+  -Employee training:Security training is required during the employee onboarding process, and annually thereafter. Employees also must read and acknowledge Notion’s Code of Conduct and the Security policy. Developer training is also conducted on at least an annual basis.
+
+  -HR security:Notion performs background checks on employees when they are hired in accordance with local laws and regulations.
+
+  -Incident response:Notion has an incident management plan which contains steps for preparation, identification, containment, investigation, eradication, recovery, and follow-up/postmortem that is reviewed and tested annually at least.
+
+  -Internal assessments:Internal security audits are performed at least annually at Notion.
+
+  -Internal SSO:Multi-factor authentication (MFA) is required for all Notion employees to log into Notion’s identity provider.
+
+### Access control
+
+  -Data access:Notion internally leverages the principle of Least Privilege for access. Access is granted based on job function, business requirements, and a need to know basis. Access reviews are conducted on a set frequency to ensure continued access to critical systems are still required.
+
+  -Logging:Notion leverages a SIEM solution for log ingestion and automated logging/alerting capabilities. Logs are ingested from critical systems and alerting rules are utilized to ensure security event alerts are generated where/when necessary.
+
+  -Password Security:Notion requires MFA to be enabled for any and all systems that provide the option for MFA). When such delegation is not possible, Notion maintains a stringent internal password management policy including complexity, and length.
+
+### Infrastructure
+
+  -Anti-DDoS:Notion leverages third party applications for DDoS protection.
+
+  -Data Center:Notion is hosted on AWS, who handles physical security to data centers. Please refer to AWS’s security documentationhere.
+
+  -Infrastructure Security:Notion’s infrastructure is hosted in a fully redundant, secured environment. Notion’s customer data is hosted by AWS. AWS maintains a list of reports, certifications, and third party assessments to ensure best security practices. For more information on AWS compliance, please seehere.AWS infrastructure is housed in an Amazon controlled data centers throughout the world, and the data centers themselves are secured with a variety of physical controls to prevent unauthorized access. More information on AWS data centers and their security controls can be foundhere.
+
+  -Separate Production Environment:Customer data is never stored in non-production environments. Customer accounts are logically separated in our production environment. We have separate development, testing and production environments.
+
+### Endpoint security
+
+  -Disk Encryption:Employee laptops have disk encryption enabled for protection
+
+  -Endpoint Detection & Response:All endpoints have detection software installed. Additionally, Notion has implemented multiple security controls to ensure the security of customer data and solutions. These controls ensure we have ongoing visibility of what our end point is doing, that we can detect and react quickly to any tampering or threats as well as, logging and enforcement controls.
+
+  -Mobile Device Management:Employee devices and their software configuration are managed remotely by members of the IT and security team via MDM software.
+
+  -Threat Detection:Notion utilizes a third party endpoint protection software for dedicated threat detection. The endpoint software detects intrusions, malware, and malicious activities on endpoints and assists in rapid response to eliminate and mitigate the threats.
+
+### Network security
+
+  -Firewall:Notion office networks are configured with a network firewall. WAN-accessible network services are not to be hosted within the office environment.
+
+  -IDS/IPS:Notion utilizes a mix of both network and host-based IDS/IPS type systems part of a broader defense-in-depth approach to securing the organization. This includes monitoring for suspicious activity through a combination of signature-based and anomaly-based detections.
+
+  -Security Information and Event Management (SIEM):Notion utilizes a SIEM solution for incident and event management. Event notifications are communicated to our security staff in real-time.
+
+  -Wireless Security:Notion offices use strong encryption for office wireless networks. Notion does not maintain any wireless networks with impacts on customer data or production systems.
+
+### Product security features
+
+  -Domain Management: Domain refers to the email address domain associated with a Notion account. Domain verification allows workspace owners to claim ownership over a domain, which will unlock domain management settings.
+
+  -SAML Single Sign-On (SSO): Notion provides Single Sign-On (SSO) functionality for Business and Enterprise customers to access the app through a single authentication source.
+
+  -SCIM Provisioning and Revoking: Notion workspace with the System for Cross-domain Identity Management (SCIM) API standard.
+
+  -Audit Log: Notion gives Workspace owners access to detailed information about security and safety-related activity. This can include identifying potential security issues, investigating suspicious behavior, and troubleshooting access.
+
+  -2FA (MFA): Notion provides 2-step verification to add an extra layer of protection to your Notion account. This feature is available to all plan types and can be set up easily in your account settings.
+
+  -Manage Permissions: Notion allows owners to control their permission levels to ensure that users are viewing and interacting with your content exactly the way you want them to.
+
+  -Manage Teamspaces: Workspace owners can get an overview of all teamspaces in the workspace, modify their settings, and access additional management tools.
+
+  -SIEM and DLP Integrations:Notion can integrate with your DLP or SIEM of choice to detect events.
+
+
+
+### FAQs
+
+What data do we process?
+
+Notion is committed to your safety and privacy. For detailed information on the data we process, please refer to ourData Processing Addendum.
+
+If we decide to leave Notion, what happens to our data?
+
+You can delete your data through two methods:
+
+  -Use the instructions on thishelp page.
+
+  -Sending an email toteam@makenotion.com.
+
+If you accidentally deleted your data, please contactteam@makenotion.com.
+
+For information around how long Notion will maintain data, please refer to theData Processing Addendum.
+
+
+
+If there was a disaster with Notions Systems and my Notion Instance was impacted, how does Notion restore itself?
+
+Notion performs daily automated backups of all customer and system data to protect against loss due to unforeseen events across separate availability zones in AWS US West-2 andAWS US East-2.
+
+We have a dedicated Business Continuity Plan and Disaster Recovery Plan for these circumstances, and our Disaster Recovery Plan is tested at least annually to ensure Notion will recover from a disruption resulting from a disaster.
+
+Can Notion employees access our information?
+
+Notion employees will only ever access your data for the purposes of troubleshooting problems or recovering content on your behalf. Please refer to ourData Access Consentfor further information.
+
+Will other people be able to see my pages?
+
+Your data is safe in Notion! If someone tries to navigate to your workspace without having access, they’ll see a page that lets them know that they do not have the correct permission state to access that content.
+
+If you enable `Share to web` in the `Share` menu at the top right of a page, it will publish that page to the web so that anyone with the link can access it. This is always turned off by default.
+
+If you’re sharing a workspace with others, some pages will be visible to everyone in the workspace, or specific groups of people — this is based on the permissions you see in the `Share` menu at the top right of the page.
+
+Please note, if you are using an account in an enterprise workspace, your content may be accessed by the workspace’s workspace owner. Learn more inour Personal Use Terms of Service.
+
+Can I opt out of Notion's tracking/analytics?
+
+Yes you can! This will also disablein-app message support, but you can still reach out to us for help atteam@makenotion.com.
+
+Just send a message to our support team at that address and we'll opt you out.
+
+My browser alerted me that Notion is using trackers. What do these trackers do?
+
+We use tracking code in order to effectively run ads (for example, tracking a visit to our marketing site). We isolate this to a sandboxed iframe on a subdomain (aif.notion.so) — it's never activated on user pages.
+
+No user content is exposed to any third-party service.
+
+
+
+# Privacy practices
+
+### Privacy is important to us — learn about how we handle privacy at Notion 🗝️
+
+Notion maintains a comprehensive privacy compliance program and is committed to partnering with its customers and vendors on privacy compliance efforts. This page highlights some of the key aspects of our program.
+
+### How we handle your data
+
+At Notion,our team is dedicated to developing and implementing data privacy processes and safeguards that meet industry standards and best practices. We conduct ongoing training for our teams to ensure that they are up to speed with developments in legislation and essential privacy and security practices.
+
+Every Notion employee and contractor signs up to non-disclosure terms to maintain the confidentiality and security of your data. Notion also holds any vendors that handle personal data to the same data management, security, and privacy practices and standards to which we hold ourselves.
+
+#### What is Customer Data?
+
+Notion defines Customer Data as any data that a customer stores in the Notion services. This can include personal information.
+
+Customer data does not include analytics data or Account Information, which we describe below. The terms of the NotionMSAand NotionDPAapply to your Customer Data.
+
+#### What is Account Information?
+
+Account information is the information that our customers provide to us so that we can create and administer their customer accounts.
+
+For example, account information includes names, usernames, passwords, phone numbers, email addresses, Workspace metadata, support communications, billing information, and usage information associated with your Notion account.
+
+The terms of the NotionPrivacy Policyapply to any personal information included in Account Information.
+
+#### Who owns and controls Customer Data?
+
+You own your Customer Data, including any content you submit or upload to the Notion Service.
+
+You control your Customer Data. You determine what content and data will be uploaded to  Notion. Once Customer Data is uploaded you manage access to your workspace by allocating user logins to individuals.
+
+You also control the administration of the Customer Data by managing you groups, permissions and the user credentials that are under your control.
+
+#### How does Notion use my Account Information?
+
+The NotionPrivacy Policydescribes in detail how Notion collects and uses your account information.
+
+#### Who should I contact if I have any questions about Notion’s data protection practices?
+
+If you have any questions about our privacy practices, please contact us at:
+
+Notion Labs, Inc. 2300 Harrison Street San Francisco, CA 94110 United Statesprivacy@makenotion.com
+
+### GDPR
+
+The General Data Protection Regulation (GDPR) is a comprehensive data protection law that governs the collection of and use of personal data of EU residents, and that allows data subjects to exercise control over their data.
+
+As the GDPR is widely considered to be the most stringent global privacy standard, we have mapped our privacy program to the GDPR and other global privacy regulations.
+
+#### Notion as Processor and Controller
+
+The GDPR and other data protection legislation have two primary classifications related to the collection and processing of personal data: data controller and data processor.
+
+A data controller determines the means and purposes for processing personal data, while a data processor is a party that processes data on behalf of the data controller.
+
+Where our customer is a data controller or data processor, Notion is the data processor of personal data that our customer and their users upload to the Notion service. We process any such personal data at our customer’s direction and on our customer’s behalf. We conduct this processing in accordance with Notion’sData Processing Addendum.
+
+#### Cross Border Transfers - Standard Contractual Clauses
+
+We understand and adhere to the rules for international transfers of personal data outside of the European Economic Area and UK.
+
+In order for our customers to be confident of Notion’s data transfer processes ourData Processing Addendumincorporates both the EU and UK Standard Contractual Clauses (SCCs). In response to the Schrems II ruling, our DPA lists the technical and organisational measures we employ to ensure appropriate safeguards are in place when we transfer personal data to countries outside of the EEA and UK.
+
+For more information about our technical security measures, please see oursecurity page.
+
+#### Transfer Impact Assessment
+
+Notion understands and appreciates the importance of maintaining transfer impact assessments (TIA) as a supplementary measure and as a critical piece of your privacy compliance program.
+
+To assist our customers in completing these assessments,we maintainTransfer Impact Assessment pagethat includes all of the information about Notion that you need to complete your TIA.
+
+#### Subprocessor List
+
+We work with certain companies and tool systems to provide our services to you. All of these companies have been carefully vetted for best-in-class security and data privacy practices. For more information,please see ourlist of subprocessors.
+
+### Data Governance
+
+Data governance relates to the policies and procedures that dictate how data is procured and used throughout its life cycle. From creation and collection to processing, distribution, storage and deletion.
+
+Notion’s commitment to data governance is key to keeping our users data secure, private, accurate, and accessible.
+
+#### Privacy by Design
+
+At Notion, we believe in privacy by design, which means that privacy considerations are built into every aspect of our products and services from the outset. This includes the development of new products, features, and the selection of vendors.
+
+Notion conducts regular training with our personnel to reinforce the concept that Notion needs to think of user privacy at all stages of the development lifecycle.
+
+#### Data Export
+
+Companies generally have a duty to back up their information in multiple places. To help with this Notion offers the option to save any Notion page, database, and non-database page to your computer in various formats. This way our customers can further protect themselves by backing up their information at any time.
+
+#### Data Import
+
+Notion’s data import function lets you upload information from external sources and combine it with the data already held in your workspace.
+
+Like most people, you probably have data, documents, and notes scattered across many files and apps. You can centralize your information in one place by moving it all into Notion.
+
+#### Data Deletion
+
+The workspace owner controls the workspace’s Customer Data. This includes all of the content submitted by customers and their users. When users leave a workspace, they may have the right to request that their data is deleted by the workspace owner. When customers terminate their subscription they also have the right to request that their data be deleted by Notion.
+
+Notion allows forAccount DeletionandWorkspace Deletion.
+
+When you delete an account, Notion will:
+
+  -Delete the account associated with that email address
+
+  -Delete anyprivate workspace(s)in which you are theonly member
+
+  -Delete anyshared workspace(s)in which you are theonly admin
+
+  -Remove you from any shared workspace(s) in which you are a member or one of multiple admins
+
+To delete a workspace, you must be a workspace owner of that workspace. When you delete a workspace, Notion will:
+
+  -Delete all content in that workspace
+
+  -Return you to another workspace you belong to, or the sign up page for Notion if you don't belong to any others
+
+To learn more about how to delete your Notion account please see ourDelete Your Accountpage. If you are a Customer and would like to terminate your contract, please see ourMSA.
+
+#### Data Access
+
+Notion provides an advanced set of access functionality to help customers effectively protect their information. Notion also uses encryption to protect Customer Data from outside access.To learn more about how data access works at Notion please see ourData Access Consentpage.
+
+#### Data Backup
+
+All Customer Data is stored in the cloud, and we keep per-minute backups of your page content on our server. That said, your data belongs to you, so we've made it easy to create your own backups and keep your information portable. To learn more about this please see Notion’sBack up your Datapage.
+
+### Agreements
+
+At Notion we strive to keep all of our agreements up to date with the latest regulations and industry standards. OurMaster Subscription AgreementandData Processing Addendumdescribe in detail Notion’s data privacy processes, standards, safeguards and our compliance with data protection legislation.
+
+To ensure that our terms track with the GDPR, CCPA and other global privacy standards we continually have our terms assessed by leading privacy experts in multiple jurisdictions.
+
+### Policies
+
+At Notion we want to be as transparent as possible with our customers about how we collect, process, store, and use their personal data. In order to achieve this Notion maintains comprehensive and detailed policies regarding how we handle your personal information. These policies describe in detail how our users can exercise their rights with regard to their data. To learn more about the policies, please click on the links below.
+
+  -Privacy Policy
+
+  -California Privacy Notice
+
+  -Cookie Notice
+
+
+
+
+
+# GDPR at Notion
+
+### At Notion, we're committed to the success of our customers and the protection of their data through complying with the General Data Protection Regulation (GDPR) and other privacy-related regulations 🇪🇺
+
+The General Data Protection Regulation (GDPR) is a comprehensive data protection law that regulates the use of EU residents’ personal data, providing individuals rights to exercise control over their data and requiring organizations that process personal data to meet certain obligations.
+
+### Data Processing Addendum
+
+The terms of the data processing addendum ("Notion DPA") available below are hereby incorporated by reference and shall apply to the extent Notion processes any Personal Data (as defined in the Notion DPA) that is subject to the GDPR on Customer’s behalf.
+
+Data Processing Addendum
+
+### Data portability & management tools
+
+  -Import:We currently provide tools to import from text & markdown files, CSV, Microsoft Word, HTML, Trello, Asana, Google Docs, Dropbox Paper, Quip, Evernote, and Workflowy. We plan to add more import options in the future, based on user feedback.
+
+  -Export:Notion supports exporting in two ways. It is possible to export an entire workspace from the workspace settings menu. This will create a folder containing all documents in markdown format. Additionally, pages can be exported individually by navigating to them and selecting the export option from the page menu.
+
+  -Workspace deletion:A workspace can be deleted at any time from the workspace settings menu. Upon requesting to delete a workspace, all content will immediately become inaccessible. After 30 days, the content will be deleted from our servers and can no longer be recovered.
+
+  -Workspace settings:We provide tools to manage other workspace settings, such as name, members, and allowed email domains from our workspace settings menu.
+
+### Data transfers
+
+In light of the recent Schrems II ruling, we rely on standard contractual clauses (SCCs) to ensure appropriate safeguards for personal data transfers from the EU to countries outside of the EU.  For more information about our technical security measures, please see ourSecurity and Privacy Page.
+
+### Subprocessors
+
+We work with certain companies and tool systems to provide our services to you. They've been carefully vetted for best-in-class security practices. For more information, see ourList of Subprocessors.
+
+This page is for informational purposes only. Notion may update or change this page at any time.
+
+
+
+# Data accessible by your workspace owner
+
+### Learn more about what data your workspace owner can access ☎️
+
+If you are accessing any Notion workspace using an email address or account assigned to you by your employer or other organization (for example, you use your work email to access a workspace administered by your employer), it is important to note that the workspace owner could have access to the data you store in that Notion workspace, including any private pages in that workspace. Additionally, the workspace owner can turn off Notion services or restrict your ability to move data to or from the organizational workspace. Please read ourTerms of Servicefor more information.
+
+If you access Notion with an email address or account assigned to you by your employer or other organization, your agreement or legal relationship with that workspace owner might affect:
+
+  -Who owns the data or content that you submit or upload through your account
+
+  -The conditions under which you may access your account or when your account may be disable.
+
+  -Who may access or delete the data in your account.
+
+Please note, whenever you access anEnterprisePlan workspace (as a member or a guest), the workspace owners will have access to the data you store in that Notion workspace.
+
+Visit `Settings & members` in your workspace to view the workspace owners of your account.
+
+You can also access Notion for free, for personal use outside of your managed account, by signing up with your personal email here:https://www.notion.so/signup.
+
+
+
+# Report inappropriate content
+
+### To ensure the trust and safety of everyone who interacts with Notion public pages, we prohibit them from containing content that violates our terms of service. Anyone viewing public pages can report inappropriate content 🚨
+
+### Our content & use policy
+
+Under our terms of service, the following types of content and activities are not allowed on Notion pages:
+
+  -Illegal activities:You cannot encourage, promote, facilitate or instruct others to break the law.
+
+  -Graphic and harmful content:You may not use Notion to post, upload, share, store, or otherwise distribute content that is graphically violent or obscene, sexually explicit, promotes self-harm, promotes terrorist activity, promotes misinformation, or otherwise poses a threat to the public.
+
+  -Child exploitation:You may not use Notion to post, upload, share, or store content that exploits or abuses children, including but not limited to images or depictions of child abuse or sexual abuse, or that present children in a sexual manner.
+
+  -Harassment, bullying, defamation and threats:You may not use Notion to facilitate abusive, harassing, or bullying behavior.
+
+  -Hateful content:You may not use Notion to promote, encourage, support or facilitate hate speech, violence, or discrimination based on race, color, sexual orientation, marital status, gender or identity expression, parental status, religion or creed, national origin or ancestry, sex, age, physical or mental disability, veteran status, genetic information, citizenship and/or any other characteristic protected by law.Organizations or individuals who do any of the above either through their own content or through the distribution of user generated content (whether intentionally distributed or distributed due to the failure to reasonably moderate such content) are prohibited from using Notion.
+
+  -Intellectual property infringement:You may not use Notion to misappropriate or infringe upon anyone’s intellectual property rights.
+
+  -Malicious and deceptive practices:You may not use Notion to post, upload, share, or store malicious software, malware, viruses or other harmful code.You may not use Notion in any way that facilitates "spoofing" or "phishing" or is deceptive, false, misleading or fraudulent, including impersonating other individuals or organizations or otherwise attempting to mislead others as to the identity of the originator of content or a communication.
+
+  -Personal and confidential information:You may not post, upload, share, or store content, or otherwise use Notion in a manner that is invasive of another's privacy or otherwise violates or compromises another person’s legal rights - such as rights of privacy and publicity, including sharing another’s personally identifiable information, sensitive personal information, or confidential information without the appropriate consent (proof of which may be requested).
+
+  -Interference with Notion's operations:You may not use Notion to interfere with or otherwise negatively impact any aspect of how we operate or how any third-party products or services that are integrated or connected to Notion operate.
+
+  -Content subject to additional scrutiny:Our goal is to ensure the availability and reliability of Notion's service. We have determined that content related to certain industries may have higher abuse rates that may jeopardize our availability for a broad range of Notion users.We reserve the right to provide additional scrutiny on, suspend the use of and/or discontinue access to Notion for individuals and organizations who use the product related to industries like gambling and multi-level marketing.
+
+Our full content & use policy can be found here →
+
+### How to report a page
+
+While we have systems that help us quickly identify and remove offending content, we also want viewers of Notion pages to have the ability to report content that violates our terms.
+
+Anyone viewing a publicly shared Notion page on the web has the option to report it. Here's how:
+
+  -Select `•••` at the top of the page.
+
+  -In the dropdown menu, select `Report page` .
+
+  -You'll see a pop-up asking you to identify why you're reporting the page. Select `Phishing or spam` , `Inappropriate content` , `DMCA takedown request` , or `Other` .
+
+    *Selecting `DMCA takedown request` will direct you to ourDMCA policy pagefor further instructions.
+
+  -Provide more context or details about why the page violates Notion’s policy by entering additional information in the text field.
+
+  -Select `Report` .
+
+Any page you report will be added to our customer experience team's queue for review. We'll investigate whether the page violates our terms.
+
+#### Request a DMCA takedown
+
+In cases where public page content misappropriates or infringes on intellectual property or copyrighted material, users may also request for this content to be taken down by submitting aDMCA notice.
+
+
+
+# Restrictions for customers based in Russia
+
+The U.S. government hasintroduced restrictionsprohibiting access to certain software products and services to any person in Russia. Due to these restrictions,on September 9, 2024, Notion will no longer provide users located in Russia access to the platform. This includes:
+
+  -Preventing users from accessing Notion’s services while in Russia.Users in workspaces that have never had billing associated with Russia will be able to regain access to Notion once outside Russia.
+
+  -If any billing information connected with the workspace is currently or was previously associated with Russia, theworkspace will be terminated. This is necessary for compliance with sanctions, and updating an account’s billing information will not change the restriction.
+
+  -Terminating subscription paymentsfor all plans identified as having any billing information associated with Russia, historical or current.
+
+Impacted users will be able to access their workspaces through September 8, 2024. On September 9, 2024, the workspaces will no longer be accessible and users located in Russia will no longer be able to access Notion’s services.
+
+Impacted users who are no longer in Russia and no longer using billing information associated with Russia may be able to create a new account. Those users will also be able to access other Notion workspaces which do not have billing information associated with Russia. We recommend exporting your data as a precaution.
+
+We understand this change may be disruptive. To export your content from your workspace prior to September 9th, 2024, follow the instructionshere.To move or duplicate your content, follow the instructionshere.
+
+### FAQs
+
+Is Notion the only company impacted by these restrictions?
+
+No. The restrictions apply to a broad range of US enterprise software products including product management, product lifecycle management, business intelligence, and customer relationship management.
+
+My workspace was not created in Russia, but some users are located there. What will happen to the workspace and its users in Russia?
+
+On and after September 9, 2024, users located in Russia will not be able to access Notion's services. Workspaces whose billing information has been associated with Russia will be terminated to comply with U.S. sanctions. If the workspace has never had billing information associated with Russia, the workspace will not be impacted, but any members located in Russia will not be able to access the workspace. Content shared with these users will not be deleted.
+
+I’m traveling in Russia, but I’ll be leaving the country soon. Will I regain access to Notion?
+
+On and after September 9, 2024 users located in Russia will not be able to access Notion's services. As long as your billing information has never been associated with Russia, you will regain access to Notion once you leave the country.If you believe your workspace is at risk or you received an email from Notion informing you of your workspace's upcoming termination, we recommend exporting your information usingthese instructionsto prevent information loss.
+
+My workspace was created in Russia, but I’m no longer based there. What will happen to my account?
+
+On and after September 9, 2024, workspaces whose billing information has been associated with Russia will be terminated to comply with U.S. sanctions. If the workspace has never had billing information associated with Russia, it will not be terminated.If you believe your workspace is at risk or you received an email from Notion informing you of your workspace's upcoming termination, we recommend exporting your information usingthese instructionsto prevent information loss.
+
+Can I use a VPN to access Notion while in Russia?
+
+No, impacted users will not be able to access Notion using a VPN.
+
+
+
+# How to protect yourself from malvertising
+
+### Malvertising is a cyber threat that puts your data at risk using malicious software. Make sure to download Notion only from trusted sources, and read on to learn how you can stay safe from malvertising 🛡️
+
+At Notion, we prioritize the safety and trust of our users. As part of this commitment, we share tips on online safety. One key area of focus is combating "Malvertising", a common cyber threat where online ads are used to distribute malicious software.
+
+Malvertising is a method where cybercriminals misuse online advertising platforms to distribute malware. They accomplish this by creating ads that mimic trusted brands, such as Notion, and deceiving users into downloading their malicious software.
+
+### How does malvertising affect you?
+
+If you accidentally download and install malware thinking it's the official Notion app, your device and personal data may be at risk. This could lead to your account being compromised, personal information getting exposed, and potential data loss.
+
+### Protect yourself from malvertising
+
+  -Download apps from trusted sources:Only download the Notion app from theApp Store,Google Play Store, orNotion’s website. Avoid third-party app stores or ad links.
+
+  -Exercise caution with online ads:Avoid clicking on ads that seem suspicious or overly enticing. It's safer to ignore ads that are unfamiliar or seem unusual.
+
+  -Keep your software up-to-date:Regularly update your device's operating system and apps. These updates often include security enhancements that guard against known vulnerabilities, which could be exploited by malware.
+
+  -Use security software:Install trusted security software on your device. Ensure it's always up-to-date and perform regular malware scans.
+
+  -Stay informed:Keep up-to-date with the latest cyber threats and effective protection strategies. Knowledge is your strongest defense in cybersecurity. There are various ways to keep yourself informed. Here’s alistof some excellent sources.
+
+Remember, if you land on a Notion download page, verify it isnotion.so/download. If you encounter any activity that seems suspicious and involves Notion, please report it to us viasecurity@makenotion.com.
+
+Your safety and trust are our top priorities. We continually strive to protect our brand and users from threats. By staying alert and following these steps, you can contribute to this protective effort.
+

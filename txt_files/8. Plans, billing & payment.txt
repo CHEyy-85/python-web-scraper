@@ -1,0 +1,908 @@
+<8. Plans, billing & payment>
+
+Notion offers a number of plans tailored to a wide variety of needs. Learn how to change your plan and how Notion billing works.
+
+
+
+# Change your plan
+
+### We offer four different pricing plans for every type of user and team. Here, we'll walk through each one and what it means to upgrade or downgrade your workspace 💸
+
+Note:Plans apply and are billed at the workspace level. You can have multiple workspaces per account, and each of your workspaces can be on a different plan.
+
+For an in-depth guide to billing and payment, readthis article →
+
+### Notion plans
+
+Depending on how you use Notion, you can choose from our Free Plan or our several paid plans. You can see a comprehensive comparison of all of our plans atnotion.so/pricing. You can also get more information by going to `Settings & members` in your Notion sidebar → `Plans` .
+
+#### Free Plan
+
+For organizing every corner of your work and life. With this plan, you can:
+
+  -Add as many pages and as much content as you like!
+
+  -Upload files up to 5MB each.
+
+  -Seamlessly sync all your data across unlimited devices: web, mobile, tablet, and desktop.
+
+  -Invite up to 10 guests.
+
+  -Add additional members for free! Note there is a limited block trial on your Free Plan workspace when there are two or more members in the workspace.
+
+  -Use permission controls to assign members different levels of access (comment-only, read-only, edit-only, etc.) as needed, and to control who can share content.
+
+  -Create teamspaces to organize your content.
+
+  -Access API.
+
+#### Plus Plan
+
+A place for small groups to plan and get organized. Includes everything in the Free Plan, including unlimited storage and API access. You'll also be able to:
+
+  -Invite as many members as you want (billed per member).
+
+  -Invite up to 100 guests.
+
+  -Upload files larger than 5MB. No limit on file uploads.
+
+  -Access admin settings to configure your workspace in ways other members can't edit.
+
+  -Export all of your Notion content at once as Markdown or HTML, but not PDF.
+
+  -Access edit history of any page for up to 30 days.
+
+Note:Individual university students and teachers who associate their accounts with their school email addresses can get ourPlus Plan for free. You’ll have access to all Plus Plan features, with the exception of adding workspace members.
+
+Student organizations at select accredited higher institutions across the globe can apply to receive our Plus Planand add members for free. Applyhere→
+
+#### Business Plan
+
+For companies using Notion to connect several teams and tools. Includes everything in the Plus Plan. In addition, you can:
+
+  -Invite up to 250 guests.
+
+  -Manage employee access at scale with SAML SSO.
+
+  -Create private teamspaces to add additional permissions and security for limited projects or groups.
+
+  -Export all of your Notion content at once as Markdown, HTML, or PDF (helpful for legal or compliance backups).
+
+  -Access edit history of any page for up to 90 days.
+
+#### Enterprise Plan
+
+Advanced controls and support to run your entire organization. You get everything in the Business Plan, plus you can:
+
+  -Invite up to 250 guests (you can customize this limit via a sales contract).
+
+  -Access user provisioning via SCIM.
+
+  -Get advanced security settings at theworkspaceandteamspacelevels.
+
+  -Get an overview of workspace activity with an audit log.
+
+  -Access unlimited edit history of any page indefinitely.
+
+Organizations with fewer than 100 employees canupgrade to Enterprise from their Notion settings. Organizations with more than 100 employees cancontact our sales teamfor more information.
+
+Note:If you're interested in learning more about our Enterprise Plan, you can contact us by filling outthis form. We will get back to you as soon as possible!
+
+### Notion AI add-on
+
+You can add Notion AI onto any plan, free or paid.Learn more here →
+
+### Custom domain add-on
+
+If you’re on a paid plan, you’ll have the ability to purchase the Notion Sites custom domain add-on.Learn more here →
+
+### Upgrade your plan
+
+You can upgrade your plan using Notion for desktop or web. To upgrade:
+
+  -In your sidebar, click `Settings & members` → `Upgrade plan` or `Explore plans` (depending on your plan).
+
+  -Select the plan you want to change to, then click `Upgrade` .
+
+  -You’ll see the order summary for your upgrade. Click `Confirm changes` if everything looks good.
+
+If you upgrade your plan in the middle of a billing interval:
+
+  -The new plan will take effect immediately and start a new billing period.
+
+  -You will be charged immediately for the new plan. The amount due will be reduced by a prorated amount based on the time remaining in your previous billing period for your current plan.
+
+Note:
+
+  -You save when you choose to be billed yearly.Learn more about how billing works here →
+
+  -You can pay for your plan with a debit or credit card, Apple Pay, or Google Pay. Notion usesStripeto process payments.
+
+
+
+### Downgrade your plan
+
+To downgrade your plan:
+
+  -In your sidebar, click `Settings & members` → `Billing` → `Change plan` .
+
+  -Select the plan you want to change to, then click `Continue` .
+
+  -Provide some feedback for us, then click `Downgrade` .
+
+  -You’ll receive confirmation of your downgrade, and see when your current plan ends.
+
+Note:If you want to downgrade your plan and purchase the Notion AI add-on at the same time:
+
+  -You’ll be billed for Notion AI at a prorated cost for the remainder of your current billing period.
+
+  -Your plan downgrade will go into effect after your current billing period ends.
+
+
+
+
+
+### FAQs
+
+How is the Free Plan different from the Plus Plan?
+
+The Plus Plan supports additional members, so multiple people can share a collaborative workspace together. It also includes some extra features like more version history, larger file uploads and more guests.
+
+
+
+What is a block?
+
+A block is any single piece of content you add to your page, like a paragraph of text, a to-do item, an image, a code block, an embedded file, etc. Think of your page as being made up of these building blocks.
+
+Can I use Notion for free?
+
+Absolutely! The Free Plan is completely free for individual use.
+
+If you add additional members to the Free Plan, you can collaborate with with a limit block trial, which provides more than enough to try out Notion with your team before upgrading to the Plus Plan.
+
+Do you offer student discounts?
+
+The Plus Plan (with a 1-member limit) is free for students and educators. Compared to the Free Plan, you’ll be able to add more guests, have access to more version history, and upload larger files.
+
+Just sign up with your school email address and you’ll immediately gain access to these features. Thousands of school email domains are eligible, not just .edu!
+
+For more info & FAQs,visit the Notion for Education page.
+
+What are the admin tools in the Plus Plan and Enterprise Plan?
+
+On the Plus Plan and Enterprise Plan, the admin tools let you limit Workspace owner rights to specific people only, so that only Workspace owners can change billing information, add more teammates, or change important workspace settings.
+
+Admin tools are not available on the Free Plan, where every member is an admin by default.
+
+How is pricing calculated for the paid plans?
+
+If you upgrade your workspace to one of the paid plans, you will be charged a fee per member.
+
+Guests are free of charge – but they can only access individual pages they are invited to. In other words, guests won’t be able to see all the team pages under the `Teamspaces` section in the left sidebar.
+
+Do you have monthly and yearly billing options?
+
+Yes! We offer both monthly and yearly billing options, but you save more with yearly billing.Find more information on monthly and yearly pricing for our plans here →
+
+How does adding and removing members work?
+
+Whether you're on a monthly or yearly billing schedule, your account may be charged on a monthly basis if you make changes in membership. If you added members, your account will be charged a prorated amount based on the percentage of the billing cycle left when a user was added. If you removed members, you will not receive credit but instead will still have use of that seat for a different user for the remainder of the billing period.
+
+What happens when I change plans?
+
+  -Upgrading your plan:Your account will be upgraded and charged immediately. The amount due will be reduced based on the percentage of the billing cycle left at the time the plan was changed.
+
+  -Downgrading your plan:Your account will be downgraded at the end of your billing cycle.
+
+
+
+How do I cancel my paid plan?
+
+Your Notion subscription, annual or monthly, will automatically renew until you cancel it. You can cancel your subscription by going to "Settings & members" in the left-hand sidebar on a desktop computer, then selecting "Billing," then "Change plan." After you cancel, you’ll still have access to all the paid features until the end of your billing cycle.
+
+More on billing & payment here
+
+What happens if my payment fails? Like if my credit card expires?
+
+Your account email will be notified after each failed payment. Payments may be retried up to 8 times within the next month.
+
+After this, if the payment did not succeed, your workspace will get restricted to view-only for a period of time before being downgraded to the Free plan.
+
+
+
+Can I change my payment method?
+
+You can change your payment method at any time in your billing settings.
+
+How do refunds work?
+
+Our refund policy is simple. If you believe you've made a mistake signing up for a paid Notion subscription online or in-app, please contact us inside the app or emailteam@makenotion.com. We'll be happy to refund you the full amount (not pro-rated) if you downgrade your subscription within 72 hours of signing up for monthly billing, or within 30 days of signing up for annual billing.
+
+If you have accidentally added members to your workspace, you can remove those members at any time. If you’ve been charged for members who were accidentally added, we're happy to provide a refund of the prorated charges if you reach out within 72 hours of the invoice date (please make sure the additional members have been removed from your workspace when writing in).
+
+And if for any reason you're unhappy with Notion, please let us know atteam@makenotion.com— we'd love to hear your feedback, and will be happy to work with you to create the best experience possible.
+
+Do you have a Service-Level Agreement (SLA)?
+
+We do not offer a standard SLA. For teams with greater than 100 members, we can offer a custom SLA.
+
+Contact salesto learn more
+
+How is my payment being processed?
+
+We use Stripe to process your payment. It’s the same payment provider used by products such as Twitter, Pinterest, and Lyft. We do not handle your credit card information directly.
+
+Can I belong to multiple teams on Notion?
+
+Yes! You can use the same email address to create and join multiple teams. However, each one of these workspaces is on its own plan and needs to be upgraded individually.
+
+Can I change my plan settings on mobile?
+
+No, you can only make modifications to your Notion plan on desktop or web.
+
+
+
+# Billing, payments & refunds
+
+### Learn how you're billed for Notion, how you can set up and change payment, and how to request a refund 💳
+
+  -Seeing something unexpected in your invoice? Seebelowfor some common scenarios.
+
+  -Be mindful of who you add to your workspace and what kind of role they have. Visitthis articleandour pricing pageto understand how we bill you depending on the users in your workspace and the plan you're on.
+
+
+
+Note:Only workspace owners can view and manage plans and billing.
+
+### Notion billing basics
+
+#### You're billed per member
+
+Notion uses a billing model that charges you based on the number of seats, or licenses, you are using in your workspace. One seat is assigned to each member (not guest) in your workspace. This billing model gives you the flexibility to change which specific people join your Notion workspace as a member, without accruing new charges every time you add a new user.
+
+Here’s an example:
+
+  -Your team is working with three contractors, who have been added as members to your Notion instance. When their contracts are finished, you remove them from your Notion workspace.
+
+  -Until the end of your billing period (monthly or annual), you will still have three paid seats in Notion that you can instead fill with new contractors, new hires, interns, or anyone else who you might want to add to your workspace as a member.
+
+Learn more about workspace members and how to manage themhere →
+
+When youaddmembers to your workspace:
+
+  -Regardless of whether you're paying yearly or monthly, our system reviews how many members you've added and issues invoices on a monthly basis.
+
+  -You only pay for the fraction of the billing interval that a member belonged to your workspace.
+
+  -Because you pay at the beginning of every billing interval, these charges for changes made in the middle of a billing interval are added retroactively to your next invoice.
+
+  -On a monthly plan,this means you get your regular monthly invoice billing you for the month ahead (including new members), but the invoice will also include retroactive prorated charges for the members you added during your last billing interval.
+
+  -On a yearly plan, this means you'll receive an invoice at thenext monthmark (on the same calendar date you bought your plan) that will include two things:
+
+    *The amount due for each new member for the remainder of your year-long plan.
+
+    *Retroactive charges for those new members prorated based on the amount of time they've belonged to your workspace.
+
+When youremovemembers from your workspace:
+
+  -After removing members,you will still have access to any existing paid seats until the end of your billing interval. You can add new members to fill these seats at no additional charge.
+
+  -When your billing interval ends, we will recalculate the total number of paid seats in use in your workspace and bill you accordingly.
+
+#### We bill you upfront
+
+You always pay for Notion at the start of your billing interval. If you make changes in the middle of a billing interval, we'll prorate how much you're charged, so that you only pay for what you actually used. These prorations will be applied at the start of the next billing interval.
+
+#### Every workspace is billed separately
+
+You can create multiple workspaces per account (in other words, per email address you signed up with), in which case you'd receive multiple bills. This is why you might see multiple charges for Notion even if you have only one account.
+
+  -If you have multiple workspaces, you'll be billed based on how many members you have in each (on a Plus, Business, or Enterprise Plan).
+
+  -Even if the same people are in multiple workspaces, you'll be charged for them in each one.
+
+#### Your billing interval is set at the workspace level
+
+You could have one workspace billed annually and one billed monthly. You pay less when you choose annual billing. Everyone who joins your workspace will add an additional charge based on the interval of that workspace.
+
+### Yearly vs. monthly billing
+
+You can choose to pay for Notion on a yearly or monthly basis. This impacts both how much you pay and when you pay.
+
+  -Yearly billing costs less.
+
+  -Your plan renews automatically either once a year or once a month.
+
+    *If you pay yearly, your plan will renew on the same calendar day you first purchased it for all following years.
+
+    *If you pay monthly, the same is true of each following month.
+
+    *For example, a yearly plan bought on May 3 will renew May 3 the next year, and a monthly plan renews June 3.
+
+  -Your bill adjusts for your paid seat count either once a year or once a month.
+
+    *If you pay yearly, the number of licenses you are paying for will be recalculated and reflected in your billingonce a year, on the same calendar date as when you first purchased Notion.
+
+    *This is the only time during the year when your billing will change to reflect any paid seats that have been removed from your workspace.
+
+    *If you pay monthly, this recalculation will occuronce a monthon the same calendar date. Your billing will reflect any paid seats that have been removed from your workspace.
+
+    *When your plan renews, you will only be billed for the number of members currently in the workspace. This means your bill will go down if you have removed members since your last bill, and it will go up if you have added members since your last bill.
+
+If you expect your team size to fluctuate often, or you’d like more control over your budget, we recommend a monthly billing interval.
+
+### See your plan and billing details
+
+To view the details of your plan and your billing information:
+
+  -Go to `Settings & members` at the top of your left-hand sidebar.
+
+  -Click `Billing` in the sidebar of the pop-up window.
+
+  -At the top, you'll see which plan you're on (Free, Plus, Business, or Enterprise), how much you're paying for it either yearly or monthly, and the date it will renew.
+
+Note:You're charged per member, and also charged separately for each workspace on your plan. So if you have 2 workspaces with 10 people each, even if some belong to both workspaces, you'll still be charged for 20 members.
+
+### Changing your billing interval
+
+To change your billing interval:
+
+  -Go to `Settings & members` at the top of your left-hand sidebar.
+
+  -Click `Billing` in the sidebar of the window that pops up.
+
+  -Click `Update` next to your current billing interval and choose what you want.
+
+#### Change from monthly to yearly
+
+When you change from monthly to yearly, you'll establish a new billing cycle, with your plan automatically renewing on the calendar day you made this change the next year.
+
+Whatever amount of time is left on your already paid monthly cycle will be subtracted from your annual payment.
+
+For example:
+
+  -Let's say you’re on the Plus Plan, billed monthly.
+
+  -By April 15, you love Notion so much that you switch to a yearly billing interval.
+
+  -You already paid for part of the month, so we prorate the price of your yearly plan.
+
+  -Since half the month went by, we remove the unused time (the latter half of the month) from your yearly price.
+
+Note:Here's an example to show how changing your plan would impact your invoice!
+
+  -Let's say you bought a Plus Plan on a monthly basis.
+
+  -By April 15, you love Notion so much that you want to buy a yearly plan.
+
+  -But you already paid for part of the month, so we prorate the price of your yearly plan.
+
+  -Since half the month went by, we credit the unused time (the latter half of the month) from your yearly price.
+
+
+
+#### Change from yearly to monthly
+
+When you change from yearly to monthly, the new monthly billing cycle will take effect the day your annual cycle ends. Your plan will automatically renew each month on the same calendar day going forward.
+
+### View your upcoming invoice
+
+To view your upcoming invoice:
+
+  -Go to `Settings & members` in your sidebar.
+
+  -Select `Billing` .
+
+  -Under `Invoices` , select `View invoice` .
+
+### Understanding your invoice
+
+Your invoice might look different from what you expect, and this could be for several reasons:
+
+  -You've added or subtracted members from your workspace during the billing interval. Note that when you add new members to your yearly Plus, Business, or Enterprise Plan, you'll be charged foran entire yearof Notion for each of them.
+
+  -You changed your billing interval from monthly to yearly, or vice versa.
+
+  -You upgraded your plan during a billing interval. In this case, we charge you your previous rate for the time you had that plan, and your new rate for the time you had your upgraded plan. It's a blend of both!
+
+  -You've applied credits to your balance due.
+
+### Payment methods
+
+On Notion for web, you can pay for your plan with a debit or credit card, or Apple Pay. If you're in Europe, we also accept payment through SEPA direct debit (not credit transfer). You can also useStripe Linkto pay with a saved card or save your card for future use on any Stripe checkout. Notion usesStripeto process payments.
+
+On an iOS device, you can pay with Apple Pay. Unfortunately, you can't make payments in the Android app at this time.
+
+If you pay with debit or credit card, you're charged upfront for the month or year you're about to spend on Notion. If you pay with SEPA direct debit, you’ll receive a debit notification email. If you have been approved to pay via ACH or bank transfer, you'll receive an emailed invoice on the first day of your billing interval.
+
+Note:All valid billing credits will expire six months from the date they are generated. Once credits have expired, they can’t be reinstated.
+
+#### Update your payment method & billing information
+
+  -Go to `Settings & members` in your sidebar.
+
+  -Click `Billing` in the sidebar of the window that pops up.
+
+  -Click `Edit method` next to your payment method.
+
+  -Enter the information for your payment method.
+
+  -When you’re done, click `Update` .
+
+#### SEPA
+
+If you’re using SEPA for the first time to pay for your Notion plan, note that payment must fully process before you can make any changes to your plan, add or remove AI, or update your payment method. We also won’t be able to assist with refunds while your payment is processing.
+
+You can, however, add or remove members from your workspace during this time. These changes will be reflected in your next invoice.
+
+### Refunds
+
+Our refund policy is simple. If you believe you've made a mistake signing up for a paid Notion subscription online or in-app, please contact us inside the app or emailteam@makenotion.com. We'll be happy to refund you the full amount if you downgrade your subscription within 72 hours of signing up for monthly billing, or within 30 days of signing up for annual billing.
+
+If you were invoiced for members accidentally added to your workspace, we're happy to provide a refund of the prorated charges if you reach out within 72 hours of the invoice date. Please make sure the additional members have been removed from your workspace before writing in.
+
+Learn more
+
+  -Upgrade or downgrade your plan
+
+  -Add members, admins, guests & groups
+
+
+
+
+
+### FAQs
+
+Why aren't I getting emailed invoices?
+
+We don't currently have a way to send email invoices automatically, but you can download a PDF version manually via the Billing tab of Settings & Members.
+
+Does Notion offer startup discounts?
+
+Yes! Startups can apply to get up to 6 months free, including unlimited AI.Learn more and apply here!
+
+Can I pay with PayPal or Alipay?
+
+At this time, we don't support payments using PayPal or Alipay.
+
+My paid workspace just got downgraded to a free plan. What happened?
+
+You may have an unpaid invoice on your account — our system will automatically downgrade a paid account after several attempts are made to collect payment.
+
+That said, you can re-upgrade via the `Upgrade` tab in `Settings & Members` and settle your unpaid invoices from there. Send us a message if you need help!
+
+I just upgraded to a paid plan, but one of my workspaces still says it's on a free plan.
+
+Plans only apply to a single workspace and don't cover your whole account. We recommend using the fewest workspaces possible, and taking advantage of top-level pages in your sidebar to stay organized.More on that here.
+
+How can I avoid needing multiple workspaces?
+
+We've seen people create multiple workspace instead of groups to set granular permissions. For instance, they create separate workspaces for Design, Marketing, their executive team, etc. so they can't access, edit, or get distracted by each other's work. You don't need to do this. Instead:
+
+  -Disable `Workspace Access` . That way pages won't show for people and groups who aren't specifically granted access.
+
+  -On every page,grant different levels of access per group. Those access levels will hold true for all the sub-pages on that page.
+
+  -So, for example, you could have a section of your workspace just for the engineering team. Create a group of all your engineers, then on the top-level page for that team, turn on `Full Access` for only that group. Nest pages inside that page, and only the engineering team can access them, too!
+
+
+
+How can I update my invoices to include my billing address and/or VAT number?
+
+We can update this info for you! Just message us in the app by clicking ? at the bottom right on the desktop app (or in your sidebar on mobile). Or email us atteam@makenotion.com.
+
+
+
+# Paid plan trials
+
+### Learn how you can trial Notion's paid plans ⏳
+
+We offer teams getting started on Notion unlimited access to premium features for up to 30 days. New teams signing up for Notion can access a Plus Plan trial bysigning up for a Notion workspace.
+
+### What trials does Notion offer?
+
+Notion offers a trial of the Plus Plan for all teams starting out on Notion. To try out the Business or Enterprise Plan, pleasereach out to our sales team. For more information on what plans Notion offers, please visitnotion.so/pricing.
+
+### What is the Plus Plan trial?
+
+The Notion Plus Plan includes an unlimited number of blocks, charts, file uploads, and more — making it easier than ever for teams to collaborate on Notion. The Plus Plan trial allows teams to try these features out for free for up to 30 days.
+
+### Is my team eligible?
+
+When you sign up to use Notion with your team, you’ll be eligible to try the Plus Plan for free for a limited time. Teams must sign up for Notion on desktop to receive the trial offer. You will not receive the offer if you sign up for Notion on a mobile device.
+
+### What if I want to cancel my trial?
+
+You are able to cancel your trial at any point. If you cancel, you will be placed onto our Free Plan at the end of your trial period. You will be able to retain all content, aside fromcharts, that you created during your trial. Access to premium features will be restricted once your trial period is complete.
+
+### How can I cancel my trial?
+
+Go to `Settings & members` in your sidebar and select `Explore plans` to cancel your trial.
+
+### What happens at the end of my trial?
+
+If you have shared payment details with Notion, your payment method will be charged for the next billing period and you’ll be able to continue using Notion’s Plus Plan. If you decide not to upgrade to the Plus Plan, you’ll be placed onto our Free Plan and subject to the block limit, if applicable. You’ll be able to retain all content, aside fromcharts, that you created during your trial.
+
+
+
+# Sales tax
+
+### Get more information about how taxes are applied to your Notion bill in your region 🧮
+
+### The basics
+
+  -To determine which tax and tax rate is applied to your Notion bill, we use your address. Notion's policy by jurisdiction is outlined in the Jurisdictions section below. If you are located in a jurisdiction not listed below, Notion will not charge you tax unless there is a change to tax law or other requirements that obligates us to do so.
+
+  -Notion uses your Tax Registration Number (TRN) to determine if our customer is a business or a consumer. In certain jurisdictions, businesses are tax-exempt. If Notion accepts your TRN and your address provided is in a jurisdiction where businesses are tax-exempt, we will not charge you tax unless there is a change to tax law or other requirements that obligates us to do so.
+
+### Tax Registration Numbers
+
+Notion collects Tax Registration Numbers (TRNs) associated with Value Added Tax (VAT) or Goods & Services Tax (GST) in certain countries to determine your status as a business or a consumer.
+
+The TRN is also known as the Tax Identification Number (TIN), VAT Number, VAT ID, GST, or VAT Registration Number — the format and name depends on the country.
+
+Depending on your jurisdiction, if your TRN is accepted by Notion you may be exempt from your local tax.
+
+### Exemptions
+
+Notion manages tax exemptions on a case by case basis. Please send your tax exemption request with your valid tax exemption certificate for the state(s) where you are located toteam@makenotion.com.
+
+### Jurisdictions
+
+#### Australia (GST)
+
+Notion is required to charge Australian Goods and Services Tax (GST) on services provided to consumers. If you're using Notion for business purposes and provide a valid Australian Business Number (ABN)here, you will not be charged GST on subsequent invoices.
+
+#### Canada (GST, QST, HST, PST)
+
+Notion is required to charge Goods and Services Tax (GST), Québec Sales Tax (QST), Harmonized Sales Tax (HST), and Provincial Sales Tax (PST) on services provided to consumers and businesses, depending on the Canadian Province.
+
+  -British Columbia
+
+  -Notion is required to charge GST/HST (effective July 1, 2021) or BC PST on services provided to consumers. If you are using Notion for business purposes and provide a Canadian Business Numberhere, you will not be charged GST/HST on subsequent invoices; however, you will still be assessed BC PST.
+
+  -Quebec
+
+  -Notion is required to charge GST/HST or QST on services provided to consumers. If you are using Notion for business purposes and provide a QST Number and Canadian Business Numberhere, you will not be charged GST/HST or QST on subsequent invoices.
+
+  -Ontario
+
+  -Effective July 1, 2021, Notion is required to charge GST/HST on services provided to consumers. If you are using Notion for business purposes and provide a Canadian Business Numberhere, you will not be charged GST/HST on subsequent invoices.
+
+  -All other Canadian Provinces
+
+  -Effective July 1, 2021, Notion is required to charge GST/HST on services provided to consumers. If you are using Notion for business purposes and provide a Canadian Business Numberhere, you will not be charged GST/HST on subsequent invoices.
+
+#### EU (VAT)
+
+Notion is required to charge EU Value-added tax (VAT) on services provided to consumers in the EU. If you're using Notion for business purposes and provide a valid VAT Numberhere, you will not be charged VAT on subsequent invoices.
+
+#### India(GST)
+
+Notion is required to charge Goods and Services Tax (GST) on services provided to consumers in India. If you're using Notion for business purposes and provide a valid GST Numberhere, you will not be charged GST on subsequent invoices.
+
+#### Japan (JCT)
+
+Notion is required to charge Japanese Consumption Tax (JCT) on services provided to consumers and businesses in Japan. If you're using Notion for business purposes and do not have JCT charged on your invoice, you are responsible for self-assessing and reporting JCT under the reverse charge mechanism. Customers can provide their JCT Numberhereto ensure your VAT number is included on your invoices.
+
+#### Republic of Korea (VAT)
+
+Notion is required to charge Value-added tax (VAT) on services provided to consumers in the Republic of Korea. If you're using Notion for business purposes and provide a valid Business Registration Numberhere, you will not be charged VAT on subsequent invoices.
+
+#### New Zealand (GST)
+
+Notion is required to charge Goods and Services Tax (GST) on services provided to consumers in New Zealand. If you're using Notion for business purposes and provide a valid GST Numberhere, you will not be charged GST on subsequent invoices.
+
+#### Norway (VAT)
+
+Notion is required to charge Value-added tax (VAT) on services provided to consumers in the Norway. If you're using Notion for business purposes and provide a valid VAT Numberhere, you will not be charged VAT on subsequent invoices.
+
+#### Singapore (GST)
+
+Notion is required to charge Goods and Services Tax (GST) on services provided to consumers in Singapore. If you're using Notion for business purposes and provide a valid GST Numberhere, you will not be charged GST on subsequent invoices.
+
+#### Switzerland (VAT)
+
+Notion is required to charge Value-added tax (VAT) on services provided to consumers and businesses in Switzerland. Customers can provide their VAT Numberhereto ensure your VAT number is included on your invoices.
+
+#### Ukraine (VAT)
+
+Notion is required to charge Value-added tax (VAT) on services provided to consumers in the Ukraine. If you're using Notion for business purposes and provide a valid VAT Numberhere, you will not be charged VAT on subsequent invoices
+
+#### United Kingdom (VAT)
+
+Notion is required to charge Value-added tax (VAT) on services provided to consumers in the United Kingdom. If you're using Notion for business purposes and provide a valid VAT Numberhere, you will not be charged VAT on subsequent invoices.
+
+#### United States (U.S. Sales Tax)
+
+Notion is required to charge sales or other transaction taxes on services provided to consumers and businesses in the following locations.
+
+  -Alaska
+
+  -Arizona
+
+  -Colorado
+
+  -Connecticut
+
+  -District of Columbia
+
+  -Georgia
+
+  -Hawaii
+
+  -Iowa
+
+  -Kentucky
+
+  -Louisiana
+
+  -Maryland
+
+  -Massachusetts
+
+  -New Mexico
+
+  -New York
+
+  -Ohio
+
+  -Pennsylvania
+
+  -Puerto Rico
+
+  -Rhode Island
+
+  -South Carolina
+
+  -South Dakota
+
+  -Tennessee
+
+  -Texas
+
+  -Utah
+
+  -Washington
+
+  -West Virginia
+
+
+
+
+
+# Notion for education
+
+### Whether you’re a student or a teacher, Notion is here to help balance your many responsibilities with its all-in-one workspace 🍎
+
+Notion supports students and teachers in a couple of ways:
+
+  -Individual university students and teachers whose Notion accounts are tied to a school email address can upgrade to the Plus Plan for free.
+
+  -Student organizations at select higher education institutions across the globe can apply to upgrade to our Plus Planand add membersfor free.
+
+### What's included in the Plus Plan for education
+
+Students and educators who upgrade to the free Plus Plan can enjoy:
+
+  -Unlimited uploads! Stash as many big files in Notion as you want.
+
+  -Up to 100 guests.Learn more about guests here →
+
+  -Edit history for any page going back 30 days.Learn more about edit history here →
+
+Note:The free Plus plan for individual students and educators can only have one member.
+
+### Upgrade to the Plus Plan for education
+
+#### Individual students and teachers
+
+Individual students and teachers at accredited colleges and universities can upgrade to the Plus Plan for free at any time. Before you upgrade, make sure of the following:
+
+  -You have an educational email address associated with your Notion account. If you’re using a personal email address with your Notion account, you can change it to your educational email address following the instructionshere →
+
+  -You’re on the Free plan. If you’re currently paying for the Plus Plan, you can still take advantage of this offer. Downgrade to the Free plan first by going to `Settings & members` in your sidebar → `Billing` → `Change plan` .
+
+Once you’ve met the above requirements, follow these steps to upgrade to the free Plus Plan:
+
+  -Go to `Settings & members` in your sidebar.
+
+  -Select `Upgrade plan` .
+
+  -Select `Get the education plan` . If your school is recognized by our system, you’ll be upgraded automatically!
+
+Note:Unfortunately, you must have a valid educational email address to upgrade to the Plus plan. We don’t accept student IDs or other documentation to verify a student or educator status at this time. Thank you for your understanding!
+
+#### Student organizations
+
+If you want to upgrade to the Plus Plan for your student organization’s workspace, you can find more information and applyhere. To be eligible for the upgrade:
+
+  -You must be a student representing a student organization at a verified higher education institution.
+
+  -The person applying must be the student organization workspace’s admin. Only one application per organization will be approved.
+
+  -Your email must be a valid educational email address.
+
+  -All members in your student organization’s workspace must also have the same domain as your valid educational email address.
+
+  -Your organization must be recognized by your institution.
+
+Once you’ve applied, our team will reach out to let you know if you’ve been approved.
+
+### Troubleshooting
+
+If you’re not able to upgrade to the Plus Plan for education:
+
+  -You might be subscribed to a paid plan already. If you are, you’ll want todowngradeto the Free Plan first to see the option to upgrade.
+
+  -Your account might not be tied to a valid educational email address. Make sure youchange your account emailto your educational email.
+
+  -Your workspace might have multiple admins or members. The Plus Plan for individual students and educators can only contain one member. Remove any additional admins or members and try again.
+
+  -Your educational institution may not be recognized by our system. Our team can help — email us atteam@makenotion.com.
+
+### Work with a group or team
+
+As a reminder:
+
+  -Individual students and teachers can upgrade to the Plus Plan for free, and can work with up to 100 guests in their workspace.
+
+  -Approved student organizations can upgrade to the Plus Plan for free, and can invite guestsand membersto their workspace for free.
+
+Learn more about working with others in your workspace
+
+  -Add members, admins, guests & groups
+
+  -Sharing & permissions
+
+
+
+### Set up your workspace
+
+If you’re brand new to Notion, check out the articleshereto learn the basics.
+
+You can also use our templates to build a foundation for your education workspace! To find our templates for students and teachers:
+
+  -Go to `Templates` in your sidebar.
+
+  -In the dropdown, select `School` . You can also use the search bar to look for a more specific template.
+
+  -Select a template to see what it looks like.
+
+  -When you’re ready to use the template in your own workspace, select `Get template` .
+
+Learn more about Notion for education
+
+  -Setting up Notion for school
+
+  -Get organized for a new semester with Notion
+
+
+
+
+
+### FAQs
+
+Are there any discounts for students?
+
+Yes! Students can get the Plus plan for free by signing up for our Education plan with your school email address.With the Plus plan, students can organize plans, tasks and notes across school and life with unlimited pages & blocks, file uploads, more features to customize and publish your site, and 30-day version history.Just sign in with your school email address, by scrolling down the Billing in-product page andselecting Get free Education plan. No credit card required.
+
+How do I sign up for the free Education plan?
+
+You’re eligible for the free Plus plan if:
+
+  -You’re a student or educator at an accredited college or university.
+
+  -You have a school email address. We don’t accept student IDs or other documentation to verify at this time.
+
+You’re not eligible if:
+
+  -You’re a K-12 student or K-12 educator. But you can still use our Free Plan with unlimited storage for free! Learn more on ourpricing page.
+
+  -Your Notion account is associated with a personal email address, such as a gmail.com or  email address.
+
+
+
+What's Notion's student organization plan?
+
+Yes! Student-led organizations at select verified higher education institutions around the globe can get access to our Plus plan and add all of their org members to collaborate entirely for free.With the Plus plan, student orgs can upload unlimited blocks & file, add members their workspace, 30 day page history, up to 100 guests, and more — free of charge.Sign your org up for the free offer here.
+
+Note: This discount is only eligible for workspaces for volunteer student organizations. Workspaces that are not designated for student organizations with will not qualify for the discount.
+
+What happens when I graduate or leave my educational institution?
+
+You can continue using your free Plus plan for education as long as it continues to be associated with your educational email address. We hope you’ll stick with us 🤞
+
+I’m a student who loves Notion. How can I get more involved?
+
+Amazing! Thanks for being part of our community. TheNotion Campus Leaders Programenables students around the world to share and teach Notion at their universities, while building strong Notion communities on campus. We encourage you toattend an upcoming CL eventon your campus — or, if you’re feeling extra passionate, you canapplyto become a Campus Leader yourself!
+
+
+
+# Notion for startups
+
+### Eligible startups can get 3 or 6 months free of Notion Plus, including unlimited AI. To qualify, you must be a new Notion customer and meet our program requirements. Learn more below 🚀
+
+### How to apply
+
+Notion helps startups extend their runway by consolidating multiple tools in one: docs, wiki, project management, and now AI. OurNotion for Startups programoffers eligible startups up to 6 months free of Notion Plus, including unlimited AI.Terms and Conditionsapply.
+
+  -If you are affiliated with one of our partners, you can receive 6 months free and Unlimited AI towards Plus Plans. To redeem this offer, reach out to your partner directly for their code to include in the form. Apply and see a full list of partnershere.
+
+  -If you are a startup that's not affiliated with one of our partners, we still offer 3 months free + Unlimited AI towards a new Plus Plan! Applyhere.
+
+### How to use the offer
+
+If approved, our team will send you a confirmation email that the free Plus Plan and Notion AI add-on has been applied to your account. Both the Plus Plan and Notion AI add-on will be added to your workspace, ready to be used immediately!
+
+### FAQs
+
+Which offer can I receive?
+
+If you are affiliated with one of our partners and meet the program requirements you are able to receive 6 months free towards Plus plans, including unlimited AI. If you are not affiliated with a partner but still meet the program requirements, you can still receive 3 months free of Plus, including unlimited AI. Fill out ourformto check!
+
+What are the program requirements?
+
+If youdowork with one of our partners, you will need to meet the following requirements:
+
+  -Have avalid Notion domain.You need a publicly available company website and a unique company email domain. Generic email domains and stealth websites will not be accepted.
+
+  -Havefewer than 50employees.
+
+  -Must be anew,non-payingNotion customer.
+
+  -Receivedunder $10Mfunding from accredited investor.
+
+
+
+
+
+Where can I get my partner’s key to redeem the 6 months?
+
+If you are a startup working with one of our partners, please reach out to your partner directly for their unique code and fill out thisform.
+
+If you are still having issues locating the partner’s key, please reach out tostartups-help@makenotion.com.
+
+If I work with more than one partner, can I redeem multiple offers?
+
+No, you can only redeem a Notion offer one time, even if you work with more than one of our partners. Startup offers may only be applied once and may not be used not in combination with any other offers or codes.
+
+Please visit ourTerms and Conditionsfor more information.
+
+I submitted the form, but I haven't heard back yet.
+
+Please allow up to 3-5 business days for us to get back to you with an update! If you are working with one of our partners, reach out to them directly for their unique code.
+
+I'm already paying for a Plus Plan and eligible for the discount. Can I get a refund?
+
+If you are already paying for a Plus Plan, we won't be able to issue a refund for your previous invoices. The offer is only available to non-paying Notion customers.
+
+Can I apply my startup offer to a Business or Enterprise Plan?
+
+No, the startup offer is only applicable to net new Plus Plans, meaning you weren’t on a paid plan when granted the credit.
+
+What are your terms and conditions for redeeming startup offer?
+
+Our terms and conditions can be foundhere.
+
+How do I become a partner of Notion for Startups program?
+
+We work with more than a thousand VCs/accelerators, communities, and tech platforms around the world like AWS Activate, Stripe Atlas, Hubspot, Slack, Shopify, JP Morgan, and more. We offer their portfolio 6 months free + Unlimited AI towards Plus plans.
+
+If interested, please fill out thisformto apply as a partner.Once applied, our team will reach out to you within 2-5 business days if your company is a good fit for our program.
+
+Feel free to check outnotion.so/startupsfor more info.
+
+Where can I find startup-related templates or resources?
+
+To get started, here are customized resources for startups:
+
+  -Startup in a box: Real Notion pages made by startups for startups. It’s organized by stages of a company so you can quickly reference what’s most relevant for you.
+
+  -Notion Champions: Learn and swap best practices from the community as you implement Notion for your team, get early access to beta features, and more.
+
+  -Notion Academy: Watch video-based tutorials on how to custom build workflows for your team.
+
+
+

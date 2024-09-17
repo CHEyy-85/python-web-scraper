@@ -1,0 +1,1988 @@
+<6. Data & integrations>
+
+Notion makes it easy to connect and move content to and from other tools you use. Integrate Notion with other apps natively, or build your own integrations with our API!
+
+
+
+# Import data into Notion
+
+### Like most people, you probably have data, documents, and notes scattered across many files and apps. You can centralize your information in one place by moving it all into Notion 🚚
+
+### How to import
+
+Note:You can only import content on desktop or web, not on mobile.
+
+  -Notion lets you directly import the following file types:
+
+    *Plaintext (.txt)
+
+    *Markdown (.md or .markdown)
+
+    *Microsoft Word (.docx)
+
+    *CSV (.csv)
+
+    *HTML (.html)
+
+    *PDF (.pdf)
+
+  -You can also import data from a number of apps like Confluence, Asana, Evernote, and Trello, among others.
+
+There are a few ways you can import data:
+
+  -Type `/` and type the content you want to import – like `csv` or `Trello` .
+
+  -Go to `Settings & members` in your sidebar, then select `Import` . This will bring up a window where you can choose which app or file type to import from.
+
+Some integrations have their own pages:
+
+  -For Confluence, clickthis article →
+
+  -For Asana, clickthis article →
+
+  -For Monday.com, clickthis article →
+
+
+
+### Evernote
+
+You can import all of your Evernote data into Notion in one go, and retain its organization.
+
+  -Go to `Settings & members` and then `Import` . Then, choose `Evernote` .
+
+  -Sign into your Evernote account.
+
+  -Authorize Evernote to connect to Notion.
+
+  -Once your Evernote account is linked, check the boxes next to the notebooks you'd like to move and click `Import` .
+
+  -Your Evernote notebooks will appear as pages in Notion's sidebar. Inside, you'll find your notes as items in a list database.
+
+  -Each note can be dragged and dropped anywhere else within Notion.
+
+### Trello
+
+You can move your Trello data into your workspace — all from inside Notion.
+
+  -Type `/Trello` and hit enter.
+
+  -Log in to your Trello account.
+
+  -Grant access to Notion so you can import your Trello boards.
+
+  -Once you've linked your Trello account, select the boards you'd like to migrate from the dropdown menu.
+
+### Google Docs
+
+Note:At this time, you can only import one Google Doc at a time. Thanks for your patience as we work to improve this experience.
+
+You can import a Google Doc to Notion in several ways:
+
+  -Paste a Google Doc link into Notion → select `Import from Google Drive` .
+
+  -Enter the command `/Google Docs` .
+
+  -Go to `Settings & members` → `Import` → `Google Docs` .
+
+In the menu that appears afterwards:
+
+  -Select `Connect Google account` and sign in with your Google account.
+
+  -Select the Google Doc you’d like to import. When you’re done, click `Select` .
+
+Note:You can also embed Google Docs in Notion.Learn more about embeds here →
+
+### Quip
+
+Unfortunately, Quip doesn't let you export more than one page at a time. You can, however, move individual pages to Notion.
+
+  -In Quip, click the document icon at the top left of any page and choose `Export` .
+
+  -Export as Markdown or HTML.
+
+  -In Notion, go to `Settings & members` in your sidebar → `Import` .
+
+  -Upload the file you exported from Quip.
+
+### Dropbox Paper
+
+In Dropbox Paper, you can export files individually or all at once.
+
+To migrate individual files:
+
+  -In Dropbox Paper, choose `Download` from the menu at the top right of your screen.
+
+  -Download the page as `Word` .
+
+  -In Notion, go to `Settings & members` in your sidebar → `Import` → `Word` .
+
+  -Upload the `.docx` file you downloaded.
+
+To migrate all your documents at once:
+
+  -In Dropbox paper, choose `Download docs you created` from the menu at the bottom left of your screen.
+
+  -Choose to download as `Word` . This will download a zip file to your computer.
+
+  -Unzip the file.
+
+  -In Notion, go to `Settings & members` in your sidebar → `Import` → `Word` .
+
+  -Upload the `.docx` files.
+
+### Hackpad
+
+You can export all your files from Hackpad at once!
+
+  -Select `Export` on the right of your Hackpad feed.
+
+  -Choose to export as Markdown. You'll download a zip file.
+
+  -Unzip the downloaded file.
+
+  -In Notion, go to `Settings & members` in your sidebar → `Import` → `Text & Markdown` .
+
+  -Upload the Markdown files you exported from Hackpad.
+
+### Microsoft Word
+
+  -Go to `Settings & members` in your sidebar → `Import` → `Word` .
+
+  -Upload whatever `.docx` files you want to import from your computer.
+
+### Microsoft Excel
+
+  -In Microsoft Excel, export your content as `.csv`
+
+  -In Notion, go to `Settings & members` in your sidebar → `Import` → `CSV` .
+
+  -Upload the exported `.csv` files you want to import from your computer.
+
+### WorkFlowy
+
+You can export all your files from WorkFlowy at once!
+
+  -Click the dropdown arrow to the right of `Help` .
+
+  -Select `Plain text` and click to download.
+
+  -In Notion, go to `Settings & members` in your sidebar → `Import` → `Text & Markdown` .
+
+  -Upload the files you exported from WorkFlowy.
+
+### CSV
+
+  -In Notion, go to `Settings & members` in your sidebar → `Import` → `CSV` .
+
+  -Upload whatever `.csv` files you want to import from your computer.
+
+  -Alternatively, you can use the `Merge with CSV` button in the `•••` menu at the top of a database to import your CSV into it.
+
+Note:For the best experience uploading your CSV into Notion:
+
+  -Make sure the first row of your CSV is the header row.
+
+  -Make sure CSV files are in UTF-8 format to allow for better parsing.
+
+  -Dates will be imported into Notion in MM/DD/YYYY format.
+
+  -If any column contains mixed data types, Notion will default to string to avoid data loss.
+
+  -The first column of the CSV is set as the primary key for the database, so reorder accordingly.
+
+  -If you’re looking to import a CSV into an existing database, make sure that the first row in your CSV has the exact same names as the properties in the database you’re looking to upload into.
+
+
+
+### PDF
+
+Note:This feature is in beta, which means it’s still a work in progress. Thank you for your patience!
+
+There are several ways to import a PDF into Notion:
+
+  -Use the slash command `/import` and select `PDF` .
+
+  -Use the slash command `/pdf` and select `PDF` — make sure you’re importing, not embedding!
+
+  -Open `Settings & members` and select `Import` → `PDF` .
+
+Note:When your PDF’s contents are converted to a Notion page, it’s possible that some formatting elements of your PDF may not be preserved. For example:
+
+  -Tables will be converted to simple tables instead of databases.
+
+    *Images, attachments, bullet lists, and numbered lists in simple tables aren’t supported.
+
+  -Headings, equations, and quotes may appear as plain text.
+
+  -Toggles, to-dos, code, callouts, and dividers may not appear as originally formatted.
+
+  -Font and background colors aren't supported.
+
+The PDF importer is optimized to convert text for better search and accessibility via Notion AI. You may need to make slight adjustments to your Notion page to get it to look just the way you want.
+
+
+
+Once your PDF is imported, its contents will be accessible via Notion search and Notion AI!
+
+### FAQs
+
+Which versions of Confluence are supported?
+
+We officially support importing from Confluence Cloud, in pages created using the new editor that Confluence introduced in late 2018.
+
+Due to insufficient data in its index export, we do not support importing from Confluence Server.
+
+For help importing an entire workspace from the legacy editor, please contact support atteam@makenotion.com.
+
+Do imported blocks count towards the storage limit for Free Plan workspaces with multiple members?
+
+No, imported blocks will not count towards the limit. However, any blocks subsequently created inside imported pages will count towards the limit as usual.
+
+
+
+Is there a maximum import size for Confluence imports?
+
+Confluence imports are limited to 5GB for zip-file imports and 30 GB for API imports.
+
+If you run into the limit, you can try using theCustom Exportoption to select pages for export, omitting attachment-heavy pages.
+
+When I try to import from Confluence, I can't choose my file in the file upload window.
+
+Please make sure to upload a `.zip` file created by the Confluence space export functionality. Word documents and standalone HTML files will not work, since Notion relies on the whole import to preserve structure and links between pages.
+
+I can't find the option to export my Confluence workspace.
+
+If the "Export" tab does not appear in the Content Tools section of a workspace's settings, you may not have the appropriate permissions to export pages. Ask the workspace administrator for permission.
+
+I can't seem to import from Evernote China/Evernote Business.
+
+Unfortunately, our importer only supports the standard edition of Evernote at the moment. We're working on it!
+
+
+
+# Export your content
+
+### Need to share your content in PDF, CSV, or HTML format? We got you covered! You can export a Notion page, database, or entire workspace at any time 📤
+
+### Export as PDF
+
+You can save any Notion page or database to your computer as a PDF file. This is one way to back up your information if you want to keep it in some form on your hard drive.
+
+#### On desktop
+
+  -Click the `•••` icon at the upper right corner of any Notion page.
+
+  -Choose `Export` from the dropdown menu.
+
+  -A window will pop up in the center of your screen asking which format you want to download the page in. Select `PDF` from the dropdown menu.
+
+  -In the `Include content` dropdown, specify if you'd like to export everything, or exclude files and images.
+
+  -Choose the `Page format` (i.e. paper size) you want.
+
+  -If needed, adjust the scale using the `Scale percent` field.
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/wSK6Wy3jq1qdD7rTbHAnK/676dc354b8a094db0209ae37c4955cc7/Export_PDF.png)
+
+  -Click `Export` . You'll be asked where you want to save the file and it will download as a PDF.
+
+  -If you're on a Business Plan or Enterprise Plan, you can switch on the `Include subpages` option. This will generate a zip file containing all the pages nested inside the current page as PDF files. Notion will send you an email with a link to download this file.
+
+  -The zip file will also include folders of images and other assets contained in these pages.
+
+Note:If a PDF export fails, Notion will instead export as HTML.
+
+#### On mobile
+
+You can export Notion pages as PDF from your phone with these steps:
+
+  -Tap the `•••` icon in the upper right corner of any page. Scroll down and select `Export` .
+
+  -Customize the `Export format` and `Page format` any way you want.
+
+  -Tap `Export` and the share menu on your phone will pop up. From there:
+
+    *You can send the PDF to a computer via AirDrop on Mac.
+
+    *You can copy and paste the download link into your mobile browser to start the download.
+
+    *You can paste the download link into your notes for later.
+
+  -You'll also receive an email with a link to download the file.
+
+  -If you're on an Enterprise or Business Plan, you can turn on `Include subpages` to export all of the pages contained within the current page as separate PDF files. In this case, your download will be a zip file containing multiple PDFs and image/asset files.
+
+### Export as HTML
+
+Note:When you export as HTML, you can also export comments at both the page and block levels. This includes resolved and unresolved comments and any files, pages, or users mentioned in them.
+
+#### On desktop
+
+Any Notion page or database can be exported as an HTML file. Here's how:
+
+  -Click on the `•••` icon at the top right of any Notion page you want to export. Click `Export` .
+
+  -A window will pop up at the center of your screen asking what format you want to download and whether to include sub-pages.
+
+  -Choose `HTML` from the dropdown. Switch on `Include subpages` if you want to download the pages contained inside the page as separate files.
+
+  -Click `Export` to download a zip file containing an HTML version of your Notion page(s).
+
+  -If you export with sub-pages included, you'll see them neatly organized in their own folders when you unzip the file. These folders will also contain the images and other assets on your pages saved separately.
+
+#### On mobile
+
+  -Tap the `•••` icon at the upper right of your screen.Scroll down and tap `Export` .
+
+  -Choose `HTML` from the menu labeled `Export format` .
+
+  -If you want separate HTML files for the pages contained in the page, turn on `Include subpages` .
+
+  -Tap `Export` and the share menu on your device will pop up, from which:
+
+    *You can send the file to a nearby computer via AirDrop on Mac.
+
+    *You can copy and paste the download link into your mobile browser to start the download.
+
+    *You can paste the download link into your notes for later.
+
+  -You'll also receive an email from Notion with the link to download the file.
+
+### Export as Markdown & CSV
+
+Any non-database Notion page can be exported as a Markdown file. Full page databases will be exports as a CSV file, with Markdown files for each subpage.
+
+#### On desktop
+
+  -Click on the `•••` icon at the top right of any Notion page you want to export. Click `Export` .
+
+  -A window will pop up at the center of your screen asking what format you want to download and whether to include sub-pages.
+
+  -Choose `Markdown & CSV` from the dropdown. Switch on `Include subpages` if you want to download pages contained within the page as separate files.
+
+  -Click `Export` to download a zip file to your hard drive containing your CSV files and Markdown versions of your Notion page(s).
+
+  -Name the file and choose where you want to save it.
+
+  -You can open the CSV files corresponding to your databases in Excel, Numbers, etc. to view your data.
+
+  -You can open the Markdown files as plain text with Markdown syntax.
+
+#### On mobile
+
+  -Tap the `•••` icon at the upper right of your screen.
+
+  -Scroll down and tap `Export` .
+
+  -Choose `Markdown & CSV` from the menu labeled `Export format` .
+
+  -Tap `Export` and the share menu on your device will pop up, from which:
+
+    *You can send the file to a nearby computer via AirDrop on Mac.
+
+    *You can copy and paste the download link into your mobile browser to start the download.
+
+    *You can paste the download link into your notes for later.
+
+  -You'll also receive an email from Notion with a link to download the file.
+
+
+
+### Print a Notion page
+
+#### On your browser
+
+  -Go to `File` → `Print` .
+
+  -Select the printer you'd like to use. Or choose `Save as PDF` .
+
+  -The latter will download a PDF file of the Notion page to your computer.
+
+Note:You cannot print a full-page database this way. You'll need to export it as a PDF first and then print the PDF file.
+
+#### On the desktop app
+
+  -There is no way to print directly from the Notion desktop app.
+
+  -You'll need to export your page or database as a PDF first and then print that file.
+
+  -Full instructions on exporting to PDF can be found above.
+
+### Export your entire workspace
+
+Note:You must be a workspace admin to do this.
+
+Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
+
+If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
+
+Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
+
+A sitemap (index.html) is included the export to help you navigate the exported workspace. The list items in the sitemap are locally linked to the exported pages in HTML and Markdown formats.
+
+To export your workspace content:
+
+  -Go to `Settings & members` in your sidebar → `Settings` .
+
+  -Find and select `Export all workspace content` .
+
+  -You'll receive an email from Notion with a link to download your files. This link will expire after 7 days.
+
+Note:
+
+  -You can only export your entire workspace on desktop or web.
+
+  -You can’t instantly recreate your workspace by reuploading your exported workspace content.
+
+
+
+
+
+### FAQs
+
+I'm not seeing an export option in my ••• menu. What's the deal?
+
+If you're a member of an Enterprise plan workspace, exports might be disabled for your workspace. Workspace owners can turn off this option in the `Security & identity` tab of `Settings & Members` to keep workspace data internal.
+
+If you're a guest of the workspace, you need to have full access to see and use the export option.
+
+Why don't I see my export downloading right away?
+
+If a file is very large (depending on the number of sub-pages included), we may send you an email with a download link rather than automatically starting a download. This is not always the case. No email will be sent if you were able to download the file right away.
+
+
+
+# Back up your data
+
+### Your data is safe in Notion. Everything is stored in the cloud, and we keep per-minute backups of your page content on our server. That said, your data belongs to you, so we've made it easy to create your own backups and keep your information portable 💿
+
+Learn more about ourprivacy policyandsecurity practices.
+
+### Export your entire workspace
+
+Note:You must be a workspace admin to do this.
+
+Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
+
+If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
+
+Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
+
+A sitemap (index.html) is included the export to help you navigate the exported workspace. The list items in the sitemap are locally linked to the exported pages in HTML and Markdown formats.
+
+To export your workspace content:
+
+  -Go to `Settings & members` in your sidebar → `Settings` .
+
+  -Find and select `Export all workspace content` .
+
+  -You'll receive an email from Notion with a link to download your files. This link will expire after 7 days.
+
+Note:
+
+  -You can only export your entire workspace on desktop or web.
+
+  -You can’t instantly recreate your workspace by reuploading your exported workspace content.
+
+
+
+### Restore from trash
+
+Note:By default, pages will remain in Trash for 30 days before they are automatically removed from Trash. Enterprise plan workspace owners may customize these settings.Learn more here →
+
+To restore pages, go to `Trash` , find the page you're looking for, and click on the curved arrow icon next to it. Your page will return to where it was last in your workspace.
+
+### Restore from edit history
+
+You can view and restore past versions of any Notion page going back several days, depending on what plan you're on.Learn more about edit history here →
+
+### Accidental deletions
+
+Accidents happen! If you accidentally delete a page, a workspace, or even your entire account, we can help. We keep backups of our database, which allows us to restore a snapshot of any page in the past 30 days if you need it.
+
+Send us a message in Notion by clicking `?` at the bottom right on desktop (or in your sidebar on mobile), or email us atteam@makenotion.com.
+
+
+
+### FAQs
+
+I tried clicking the Export all workspace content button but received an error message.
+
+Oof, so sorry about this 😓 For particularly large workspaces, the `Export all workspace content` function may have some trouble completing the export. We're investigating this issue and hope to have a resolution soon.
+
+As a temporary workaround for this issue, you can export in smaller batches:
+
+  -Navigate to a top-level page in your workspace
+
+  -Click the `•••` button at the top right of the page, then click `Export` (you may not see this option if you're not an admin in the workspace)
+
+  -Choose `Markdown & CSV` or `HTML` as the export format, and turn on the `Include subpages` toggle
+
+  -Repeat for any other important top-level pages in the workspace that you'd like to have a backup of
+
+Please note that we keep per-minute backups on our servers, and can help with data recovery at any time at team@makenotion.com. Thanks for your patience while we work on fixing this issue!
+
+
+
+Is there a way to schedule automatic backups?
+
+Not at the moment, but we're continuing to update our API, which may help to enable automatic backups in the future through integrations ⚙️ Learn more about our APIhere →
+
+
+
+How can I migrate all my Notion content to a different account?
+
+Note:Any migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information,click here.
+
+  -Log into the account that has the workspace.
+
+  -Consolidate all of your pages under one top-level page there.
+
+  -Share this page with full access to the email address of the destination account.
+
+  -Log into the destination account and navigate to the workspace switcher.
+
+  -Access that shared top-level page.
+
+  -Select all the sub-pages, click the `⋮⋮` icon and select `Move To` . (Note:you can only move sub-pages, you will not be able to move the top-level page.)
+
+  -Select the destination workspace.
+
+  -Voila! Your content has a new home ✨
+
+
+
+How can I empty my trash?
+
+There isn’t a way to empty your trash all at once. You can go in and delete individual pages from the trash — otherwise, pages in the trash will be automatically and permanently deleted after 30 days.
+
+Enterprise plan workspace owners may customize these settings.Learn more here →
+
+
+
+
+
+# Embeds, bookmarks, and link mentions
+
+### You can embed virtually any online content within Notion pages — from video and audio players to Tweets, Loom videos, Invision mockups, and entire Miro boards. Enrich your Notion pages with other apps, PDFs, forms, and interactive maps 🦾
+
+### Insert an embed
+
+  -Click the `+` that appears to the left when you hover over a new line. Choose `Embed` or one of the common embed types listed above. Press `enter` .
+
+  -In the menu that appears, paste the content's URL or embed link.
+
+    *You can also use `/embed` to upload and display your own image, audio, video, or file. Just select `Upload` and choose the file from your computer.
+
+Note:Some websites prohibit their content from being embedded elsewhere. If you receive a `Failed to Load` error, that's why.
+
+### Embeds in Notion
+
+Notion allows you to embed external content from over 1,900 domains via theIframelyservice. This enables you to bring videos, screencasts, slide decks, images, audio, code repositories, and more into your Notion pages, so that you can keep all context in one place. As needed to display embedded content, Iframely and the embedded app may receive the IP address of the content's viewers.
+
+Here is a selection of some of the commonly used apps that you can embed into your Notion pages:
+
+Abstract
+
+Canva
+
+CodePen
+
+Excalidraw
+
+Facebook
+
+Flocus
+
+Framer
+
+Indify
+
+Instagram
+
+Invision
+
+GitHub Gist
+
+GIPHY
+
+Google Maps
+
+LinkedIn
+
+Loom
+
+Miro
+
+Mixpanel
+
+Pinterest
+
+Reddit
+
+Replit
+
+Sketch
+
+Streamlit
+
+Slideshare
+
+Spotify
+
+Tableau
+
+Tally
+
+TikTok
+
+Twitter
+
+Typeform
+
+Vimeo
+
+Widgetbox
+
+YouTube
+
+While pretty much any online content can be embedded on a page, Notion also has preconfigured embed blocks for some of the commonly used media types (e.g., File, Image, PDF, Video) and apps (CodePen, Loom, Miro, Tweet).
+
+These can be added specifically from the `/` menu or by clicking `+` in the left margin that appears when you hover over a new line. Try it out by typing `/tweet` to embed a Tweet, or `/maps` to embed an interactive Google Map.
+
+Note:Embeds that require login to an external site will not work on Notion's desktop app or mobile apps.
+
+#### Supported file types
+
+In Notion, you can embed:
+
+  -HTML files
+
+  -PDF files
+
+  -Audio
+
+  -Video
+
+  -Images
+
+### Embed actions and options
+
+#### Turn a URL into an embed
+
+In most cases, Notion will recognize an embeddable URL when you paste it into your page. You can also paste copied images.
+
+  -Paste the embed URL provided by the content's source.
+
+  -In the menu that appears, select `Paste as bookmark` .
+
+#### Resize and arrange embeds
+
+Most embeds can be resized to suit their content and the format of your page.
+
+  -Hover your mouse over your embed, then drag the black bars that appear on the sides.
+
+  -Use drag-and-drop to move embeds around your page. Hover over the embed in question, then use the `⋮⋮` icon that appears as a handle to drag it.
+
+  -You can also drag and drop embeds into columns.
+
+#### Go to an embed's source
+
+It's easy to link back to where the embed came from.
+
+  -Hover over your embed and click `Original` . Your browser will take you to its source.
+
+  -You can also hover over the embed and click `⋮⋮` on the left or `•••` at its top right corner.
+
+  -Select `View Original` and your browser will open to the source page.
+
+#### Replace embedded content
+
+As your project evolves, you'll likely need to update embedded content. You can replace both content you've embedded from elsewhere online, or content you've uploaded in order to embed and display it on your page.
+
+  -Hover over the embed and click `⋮⋮` on the left or `•••` at its top right. Choose `Replace` .
+
+  -When prompted, choose `Embed link` or `Upload` .
+
+  -Paste the new URL from the online service, or select the new file.
+
+Note:If the source of your embed changes in any way, that change will appear in Notion too.
+
+### Web bookmarks
+
+Bookmarks are one way to incorporate web links into your Notion page. They appear like distinct blocks with the page title, description and URL displayed.
+
+  -Copy and paste the URL.
+
+  -In the menu that appears, select `Paste as bookmark` .
+
+### Link mentions
+
+Link mentions are another way to incorporate links into your Notion page. They appear inline, similar to text, and are more subtle than bookmarks.
+
+  -Copy and paste the URL.
+
+  -In the menu that appears, select `Paste as mention` .
+
+### Connect other apps
+
+Note:On Enterprise Plans, the following can be restricted to workspace owners:
+
+  -The ability toadd connections
+
+  -The ability toinstall workspace-wide security and compliance integrations
+
+
+
+#### Integrate with Zoom
+
+We now support Zoom meeting link previews in Notion and managing weekly Zoom meetings in calendar view. For projects with recurring Zoom invites, you can preview meeting URL information and join meetings straight from Notion.
+
+  -Paste a Zoom meeting link URL into a Notion page.
+
+  -Similarly to other link previews, you'll have to authenticate the app the very first time you paste a corresponding link in Notion. Click the `Connect to Zoom to update` button to open the authentication window and grant the necessary permissions.
+
+  -You’ll have the option to `Paste as mention` or `Paste as preview` .
+
+At any time, you can uninstall the Zoom app by navigating to `Settings & members` and then `My Connections` and pressing the `Delete` button.
+
+#### Embed from Google Drive
+
+You can search your Google Drive from inside Notion and embed content without having to navigate away from the app. Here's how:
+
+  -Click the `+` that appears to the left when you hover over a new line. Scroll and choose `Google Drive` from the menu.
+
+  -You can also type `/drive` and press `enter` .
+
+  -A block will appear with a pop-up menu where you can either paste the URL to the Google Doc or Sheet you want to embed, or you can click `Browse Google Drive` to search your Drive for the right file.
+
+  -You can connect multiple Google accounts to embed files from multiple Google Drives.
+
+#### Embed a Google Calendar
+
+You can embed a view-only Google Calendar into Notion if the Gmail address you use for your calendar is the same one you use for Notion.
+
+  -Under `My calendars` , click on the `⋮` next to the calendar you'd like to embed and choose `Settings and sharing` .
+
+  -Under `Access permissions` check `Make available to public` with `See all event details` selected.
+
+  -If you're using a work email, you may see `Make available to team` as an option. This works too!
+
+  -Under `Integrate calendar` , copy the URL in the box labeled `Public URL to this calendar` :
+
+  -Paste that URL into Notion and select `Create Embed` from the menu that appears.
+
+#### Integrate Slack
+
+Looking for our Slack integration?Click here!
+
+### Manage your connected apps
+
+#### Manage connected apps for individual users
+
+As an individual user, you can manage your account authentications for connected apps at any time.
+
+  -Navigate to the `Settings & members` menu in the sidebar. Then, click `My connections` . Here, you'll see all of the apps you've authenticated for link previews or embeds, as well as other apps that you haven't connected yet!
+
+  -Click `Show all` at the top right to see additional app options.
+
+  -For each app, you'll see several options: You can `Connect` the app for the first time. This redirects you to the app, where you'll be able to authenticate the connection to Notion.
+
+  -Once you've connected an account, it will show up below the app icon and name. Now, you can `Connect another account` or `Disconnect` an existing account.
+
+#### Manage connected apps for an entire workspace
+
+To manage app connection settings on a workspace level, Workspace owners will need to restrict permissions directly with each platform's settings. Below, we've linked documentation for each of our current connected apps:
+
+  -GitHub
+
+  -Jira
+
+  -Slack
+
+  -Asana
+
+  -Trello
+
+  -Datadog
+
+  -Panther
+
+  -Splunk
+
+  -Sumo Logic
+
+Note:All third-party embeds and connected apps adhere to our privacy policy, which can be foundhere →
+
+
+
+
+
+# Add and manage integrations
+
+### You can connect other software to Notion, automate actions within your workspace, and access connections built by our partners 🤖
+
+Note:On Enterprise Plans, the following can be restricted to workspace owners:
+
+  -The ability toadd connections
+
+  -The ability toinstall workspace-wide security and compliance integrations
+
+
+
+### Add connections in your workspace
+
+Members can add connections to a workspace in `Settings & members` → `My connections` . Workspace owners can add connections to a workspace in `Settings & members` → `Connections` . Once a connection is added, it can be added to more pages.
+
+### Add connections to pages
+
+Connections built with the API follow a similar permission system to the sharing permissions for Notion users. In order to use a connection in your workspace, you'll need to add it to the specific page where it will be active.
+
+  -Navigate to a page and select `•••` at the top right.
+
+  -At the bottom of the pop-up, click `Add connections` .
+
+  -In the resulting pop-up, search for and select the connection you would like to add to this page. You'll only see connections that have been created for and associated with this workspace.
+
+  -The connection will now appear in the `•••` menu for the page.
+
+  -If you want to remove a connection from a page, hover over its name and then press `Disconnect` .
+
+### Manage connections in your workspace
+
+Note:Workspace owners manage all connections in a workspace. For more info,click here.
+
+  -In your left sidebar, navigate to `Settings & members` and then the `Connections` tab.
+
+  -Here, you'll see two tabs, `Members` and `Workspaces` .
+
+    *From the `Members` tab, you can manage the integrations that members can access in the workspace. Specifically, you can limit integration access to an approved list of integrations, view who is using an internal integration and disconnect the use of any integration in the workspace.
+
+      *Note: Only Enterprise Workspace Owners can limit integration access to an approved list of integrations.
+
+    *From the `Workspaces` tab, you can install and manage Security & Compliance integrations for their entire Enterprise workspace.
+
+  -Click the `•••` next to an connection to see additional options:
+
+    *Retrieve an internal API token
+
+    *Visit the developer's website or contact their support
+
+    *View users with access to the connection
+
+    *Disconnect the connection
+
+### Install from a developer
+
+#### Check out our integration gallery →
+
+#### Install directly from a partner platform via OAuth
+
+Notion has partnered directly with several services (such asZapierandTypeform). You can add our partners' public connections to your workspace directly through their sites via OAuth.
+
+  -Search for `Notion` in the partner platform's app menu and add it.
+
+  -In the resulting authentication menu, you'll be asked by the partner connection to allow access your workspace. The access levels required by the connection will be specified.
+
+  -Connections are workspace-specific! Click the workspace name at the top right to switch to another workspace if needed. Then, press `Select pages` .
+
+  -Now, you'll see a list of all of the pages in the selected workspace. Choose the pages you would like the connection to be able to access, and then press `Allow access` .
+
+  -Once you've completed the authentication, you'll see this connection in your workspace's `Settings & members` menu → `Connections` .
+
+  -Click the `•••` menu next to the connection name to visit the developer's website, contact the developer's support team, or disconnect the connection from your workspace.
+
+Tip:Want to see some partner integrations in action?Check out this guide →
+
+#### Install via internal integration token
+
+Some partner platforms require an internal integration token in order to link to your workspace.
+
+  -In this case, first follow these instructions to create a corresponding internal integration for your workspace.
+
+  -Once you've created the internal integration, navigate to `Settings & members` in your sidebar and then the `Connections` tab.
+
+  -Click the `•••` menu next to the existing connection that you'd like to link to a partner platform, and press `Copy internal integration token` .
+
+  -Paste this internal integration token into the corresponding field on the partner platform's set up form.
+
+Note:Notion does not support troubleshooting for partner integrations. Please direct any feedback and questions to the respective partner's support team.
+
+
+
+
+
+
+
+# Notion API integrations
+
+### With Notion's API, you'll be able to create custom internal integrations. Some of our partners may also require an internal integration token in order to link their platform to your Notion workspace - below, we'll walk you through how to set this up 🏗️
+
+Visit ourdeveloper hubfor documentation, resources, and integration management tools.
+
+Note:Workspace owners manage all connections in a workspace. For more info,click here.
+
+### Create an internal integration
+
+  -In your left sidebar, navigate to `Settings & members` and then the `Integrations` tab.
+
+  -Only Workspace owners will be able to access the `Integrations` tab and create integrations. If you are not an admin, please contact your Workspace admin or use a different workspace.
+
+  -Click the `Develop your own integrations` link at the bottom.
+
+  -My integrationswill open in your default browser. Click the `+ New integration` button.
+
+  -Note:Make sure you're logged into Notion on your web session with the same account that you used on desktop. Otherwise, you will not see the correct account and workspaces!
+
+  -Provide a `Name` for your integration. Optionally, you can also upload an image to use as a `Logo` .
+
+  -Use the dropdown menu to specify which `Associated workspace` you would like to use this integration with.
+
+  -Note:Make sure you're logged into Notion on your web session with the same account that you used on desktop. Otherwise, you will not see the correct account and workspaces!
+
+  -Your internal integration has been added successfully! You'll now be able to see it in your workspace, in the `Settings & members` menu → `My integrations` .
+
+  -Click the `•••` next to the internal integration to retrieve the internal integration token. You'll need this token for any API-based automations or workflows your team creates, or to link your workspace to some partner platforms.
+
+Note:Internal integrations are workspace-specific, so to change the associated workspace, you'll have to create a new integration.
+
+### Create a public integration
+
+All newly added integrations are internal initially. If you're a developer working on a public integration, first use the above instructions to create an internal integration.
+
+Then, follow the instructions in ourdeveloper guideto convert it to a public integration.
+
+### Granular integration permissions
+
+During the app setup process, developers will be able to choose the access level required from the user.
+
+  -Content capabilities:
+
+    *Read content only
+
+    *Write content only
+
+    *Insert content
+
+  -User capabilities
+
+    *No user information
+
+    *Read user info (not including user's email address)
+
+    *Read user info (including email)
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/4WIemLpzP6uADZdktNCUNU/19fd1eb50d6ed462607cb011991a3f9d/integration_granular_permissions.mp4)
+
+When users install integrations, this access level will be displayed. It will also show in the `Share` menu of any pages that the integration that has been added to.Learn more about installing integrations in a workspace →
+
+
+
+# Link previews
+
+### See live, synced visualizations of links from popular platforms right in your workspace — no need to switch between apps or lose context.
+
+Link previews allow you to see live, synced visualizations of links directly in Notion.This is currently supported for several platforms:
+
+GitHub
+
+Jira
+
+Slack
+
+Asana
+
+Trello
+
+Linear
+
+Zoom
+
+Figma
+
+Adobe XD
+
+Dropbox
+
+OneDrive & Sharepoint
+
+Pitch
+
+Amplitude
+
+Hex
+
+GRID
+
+GitLab
+
+Box
+
+Lucid (Lucidspark and Lucidchart)
+
+Whimsical
+
+ClickUp
+
+Zendesk
+
+
+
+### Pasting a link as a preview
+
+  -Copy a link from any of the supported platforms. Paste it into Notion and select `Paste as: Preview` .
+
+  -The first time that you paste a link from one of these platforms, you'll see a button that asks you to connect to the app.
+
+  -Once you click the button to connect, you'll be redirected to a browser window. Here, the app will ask for authentication and permission to display content in Notion.
+
+  -When you've authenticated with the app, you'll see a detailed preview of the linked content. This preview updates as changes are made to any relevant fields.
+
+Note:Once you've authenticated a connected app, anyone who can view your Notion page will be able to see corresponding content that you've pasted as a link preview.
+
+In some cases, information will be abstracted (e.g., channel names from Slack private channels and DMs).
+
+### Pasting a link as a mention
+
+In addition to previews, you can also paste links from these platforms as mentions. These provide a more condensed visualization of the content in the link.
+
+  -Copy a link from any of the supported platforms. Paste it into Notion and you'll see the option to `Paste as: Mention` .
+
+  -Similarly to previews, you'll have to authenticate the app the very first time you paste a corresponding link in Notion. Click the button to open the authentication window and grant the necessary permissions. Afterward, you'll see the link mention pop up!
+
+Tip:You can paste links as mentions directly inline, next to other text!
+
+
+
+### FAQs
+
+I’m receiving an “Access denied” or “Content not found” error in my link preview.
+
+There are two possible reasons for this:
+
+  -You may not have authenticated with the account that has access. You can connect multiple accounts either through `Settings & Members` → `My connections` , or the error drop down.
+
+  -Your organization may have limited access to content via 3rd party integrations or IP addresses. Please confirm with your workspace or organization administrator and ask to have Notion’s integration approved if this is the case. Here are instructions for specific integrations:GitHub,Jira,Slack,Asana,Trello.
+
+
+
+Can I add more than one login for a link preview integration?
+
+You can! You can do so via `Settings & Members` → `My connections` . For the desired integration, select “Connect another account”.
+
+Note: Some applications do not support multi-account login in the browser (e.g. GitHub), so you might need to logout of whichever account is currently logged in on your browser to be prompted to login with a different account.
+
+We’ll determine which of your accounts to use to preview given resources and show an error if none of them are successful.
+
+I’m receiving a general  “Can’t load preview” error in my link preview.
+
+Run through these steps to try to resolve.
+
+  -Confirm you’ve authenticated with the correct account for the resource.
+
+  -Confirm no access restrictions for your organization.
+
+  -Delete your integration in Notion via the `My connection` settings. You may also want to revoke the integration the corresponding platform:GitHub,Jira,Slack,Asana,Trello.
+
+  -Try to unfurl again.
+
+  -Finally, if all else fails, reach out to support! Unfortunately, we cannot help resolve errors related toAccess deniedorContent not found.Please provide the following information when reaching out to support:
+
+    *Integration you’re trying to use
+
+    *Error message and code
+
+    *URL you’re trying to preview (if possible)
+
+
+
+
+
+# Connected properties
+
+### Integrate your favorite tools directly into your Notion databases with Connected properties. Link files from Google Drive, designs from Figma, tickets from Zendesk, and pull requests from GitHub — all without leaving your Notion workspace.
+
+You can bring all your important documents, like Google Drive or Figma, into your Notion database with connected properties!
+
+### Connect Google Drive files
+
+  -In a Notion database, click the `+` at the far right to add a new property.
+
+  -Search for and click `Google Drive File` .
+
+  -Click on an empty cell and click `Connect to Google Drive` . Go through the authentication flow. You will be redirected to the database when you're finished.
+
+  -Paste a Google Drive file link into the cell, or select the empty cell to choose a file from your Drive.
+
+### Connect Figma files
+
+  -In a Notion database, click the `+` at the far right to add a new property.
+
+  -Search for and click `Figma File` .
+
+  -Click on an empty cell and click `Connect to Figma` . Go through the authentication flow. You will be redirected to the database when you're finished.
+
+  -Paste a Figma link into the cell to connect it.
+
+### Connect Zendesk tickets
+
+  -In a Notion database, click the `+` at the far right to add a new property.
+
+  -Search for and click `Zendesk Ticket` .
+
+  -Click on an empty cell and click `Connect to Zendesk` . Go through the authentication flow. You will be redirected to the database when you're finished.
+
+  -Paste a Zendesk link into the cell to connect it.
+
+### Connect GitHub pull requests
+
+  -In a Notion database, click `+` to add a new property.
+
+  -Search for and click `GitHub Pull Requests` to add this property to your database.
+
+  -The Unique ID property will be added to your database if it doesn’t already have one.
+
+  -To use the GitHub Pull Request property, make sure you’ve connected your GitHub account with Notion. Then, either add the Unique ID of the Notion task to the pull request, or paste the GitHub pull request URL into the property.
+
+Learn more about the GitHub integration here →
+
+
+
+# Import from Asana
+
+### Easily import all of your Asana projects and tasks directly into Notion 📥
+
+Importing from Asana allows you to move your organization’s teams, projects, and tasks in Asana into Notion. Any member on any plan can take advantage of the Asana importer.
+
+Importing from Asana vs. syncing Asana with Notion
+
+Importing your Asana data into Notion is best if you want to move from Asana and use Notion as the primary tool for your work. The data will be duplicated into Notion, but not synchronized with Asana.
+
+Synced databasesallow you to connect Asana to Notion without importing any data. You might prefer to use synced databases if you use both Asana and Notion for your work. Synced databases only go one direction, meaning that changes will need to happen in Asana in order for updates to reflect in Notion.
+
+To add a synced database from Asana, simply paste a project link right into a Notion page.Learn more about synced databases here →
+
+Learn more about importing projects from Asana
+
+  -Import projects from Asana for a connected work experience
+
+
+
+
+
+### Import from Asana into Notion
+
+Note:
+
+  -To import your Asana projects to Notion, you must be associated with a team in Asana, even if you're the only person on that team.
+
+  -You can only import one Asana workspace into Notion at a time.
+
+  -Each Asana team will be imported into one Notion teamspace.
+
+  -Multiple projects imported into one teamspace will go into the same Projects and Tasks databases. If you'd like to import into multiple databases, try importing in batches.
+
+  -In the import process, there will be some default properties that you’ll be required to import into Notion from Asana.
+
+
+
+To import from Asana into Notion:
+
+  -Go to `Settings & members` in your sidebar → `Import` → `Asana` . Alternatively, use the `/` command `/asana` in a page and select the option under `Import` .
+
+  -Sign into Asana and grant the requested permissions.
+
+  -Under `Choose Asana workspace` , select the Asana workspace you want to import.
+
+  -Select the projects you’d like to import.
+
+  -Select the Notion teamspace your projects should be imported into. Each Asana team will be imported into one Notion teamspace.
+
+  -You can check the box next to your workspace name to `Exclude completed projects` or `Select all projects` .
+
+  -Select `Next` .
+
+  -By default, all Asana task properties will be imported into Notion, but you can customize this per teamspace. Choose to `Select all properties` (the default setting) or `Customize properties` . Note that there are default properties that must be imported.
+
+  -Choose whether the `Status` property in Notion should be mapped to your `Section` or `Completed` property in Asana.
+
+  -Select `Import` .
+
+### How importing from Asana works
+
+Your selected Asana projects and properties will be imported along with the tasks associated with those selected projects. Asana projects and tasks will be imported into Projects and Tasks databases in Notion, respectively. The Notion Projects and Tasks databases are related to each other, in line with ourProjects & Tasks template.
+
+Your Projects and Tasks databases come with several views to help you see and track your work more easily. Visit the links below to learn about:
+
+  -Databases
+
+  -Views, filters, and sorts
+
+  -Table view, which is theequivalent of Asana’s list view
+
+  -List view
+
+  -Timeline view
+
+  -Board view
+
+  -Calendar view
+
+
+
+#### How Asana maps to Notion
+
+  -Asana projects will become Notion projects.
+
+  -Asana tasks will become Notion tasks.
+
+  -Asana teams will become Notion teamspaces.
+
+  -Asana organizations or workspaces will become Notion workspaces.
+
+### Projects database
+
+Your Asana projects will be imported into a Projects database in Notion. The Asana importer will pre-populate default database views for ease of use. You can add or delete views and properties as needed.
+
+These default database views include:
+
+  -Active (table view): This view shows the projects you’ve imported whose status is to-do or in progress. In other words, this view doesn’t show projects that have already been completed. There are also preset filters for owner and date to make searching easier.
+
+  -Timeline view: This view displays project name, status, owner, and completion rate. There are also preset filters for status, owner, and date to make searching easier.
+
+  -Board view: This view shows your projects grouped by status ( `Planning` , `Backlog` , `On Track` ). You can customize the statuses that show in the view in the `•••` menu. Projects are sorted by descending priority.
+
+  -All (table view): This view displays all of your imported projects. There are preset filters for status, owner, and date to make searching easier.
+
+View project details
+
+  -In each project page, you can find the project description from Asana in the toggle at the top.
+
+  -Below the project description, you’ll see multiple views of the tasks related to that project. All views are filtered by the project you’re in.
+
+    *Board view: This view is grouped by status and sorted by descending priority.
+
+    *Task (table view): This view is grouped by status (if the status group is empty, it will be hidden).
+
+    *Timeline view: This view displays task name, assignee, and status.
+
+    *Calendar view: This view shows your tasks by date and displays assignee and status.
+
+### Tasks database
+
+Your Asana tasks will be imported into a Tasks database in Notion. As with the projects database, the Asana importer will pre-populate database views for ease of use. You can add or delete views and properties as needed.
+
+These default database views include:
+
+  -By Project (table view): This view shows all tasks, grouped by project.
+
+  -Board view: This view displays your tasks, grouped by status and sorted by descending priority. There are pre-set filters for assignee and due date.
+
+  -All tasks (table view): This view shows you all of your imported tasks.
+
+  -Mine (table view): This view is filtered to only show tasks that are assigned to you.
+
+  -Calendar view: This view shows your tasks by date and displays assignee and status.
+
+### Import logs
+
+When your import completes, you will receive an import log in the private section of your sidebar. In this log you will find a summary of your import, including the Notion teamspace that your Asana projects and tasks were imported into.
+
+### FAQs
+
+How are the Task assignees imported if that assignee is not present in Notion?
+
+If the Tasks assignees imported do not have a Notion, the user would be added as a placeholder to the workspace.
+
+These placeholder accounts will attribute comments and mentions. If and when these users sign up, they will be mapped to the corresponding placeholder account, and comments and mentions will be attributed to the correct user.
+
+
+
+How long does it take for the Asana Importer tool to import a large number of tasks?
+
+Import times may range from a few minutes to several hours depending up on the size of the import. You will receive an email notification once the import is complete.
+
+Is there a limit to the number of tasks that can be imported at once?
+
+There are no hard limits on number of tasks that can be imported, but we recommend limiting imports to 20K tasks per teamspace.
+
+How are subtasks imported?
+
+They are imported as subtasks (along with dependencies) that are within the same  database.
+
+Do updates I make in my Asana account automatically get updated in Notion?
+
+No, the import is a one-time action.
+
+We do not maintain a connection with your Asana account and any changes you make in your Asana account after the importwill notautomatically update in Notion.
+
+Is there a way to preview the import before they are added? Can I undo an import?
+
+There is no way to preview or undo, but during the process you will select which specific projects you wish to import.
+
+In addition you can easily delete specific projects or tasks within Notion. You can even delete the entire database and start over.
+
+
+
+# Import from Confluence
+
+### Import your Confluence data right into Notion 📥
+
+It's important to have all your data in one spot. Here's a helpful tutorial for importing your Confluence space into Notion.
+
+Depending on your needs, there are two ways you can import from Confluence into Notion.
+
+Zip-file importer
+
+  -Can be used to import only part of your workspace if you prefer
+
+  -Can only import smaller workspaces of up to 5GB (or 15GB upon request)
+
+API importer
+
+  -Can only import the entire workspace
+
+  -Can import workspaces of up to 30 GB
+
+  -Retains comments and user-mapping
+
+
+
+### Import with .zip files
+
+#### Export your Confluence space to HTML
+
+  -From your Confluence workspace, go to `Space Settings` in the top-right sidebar.
+
+  -Select `Content Tools` in the top toolbar, then `Export` in the toolbar below. If you don't see either of these options, you may need to request permission to export from a Workspace admin.
+
+  -Select `HTML` from the list of formats.
+
+  -Select `Custom Export` and uncheck the `Include comments` box.
+
+  -Select which pages you want to export — please note that pages containing large attachments can significantly increase the export size and complexity!
+
+  -Allow your export to finish processing — this can take a while if you have a large workspace.
+
+  -Once the export is complete, click `Download` here to save the export to your computer.
+
+  -You should have a file titled something like `Confluence-space-export-XXXXXX.html.zip` , where `XXXXXX` is a sequence of digits.
+
+#### Import
+
+  -Start by navigating to the Notion workspace that you'd like to import your Confluence content into.
+
+  -Go to `Settings & members` in your sidebar → `Import` → `Confluence` .
+
+  -Navigate to the `.zip` file exported from Confluence in the previous step, and select it for upload. You do not need to unzip the file! Just upload the entire archive.
+
+  -You should see an "Uploading..." message as the browser uploads your file, then a status message as the import progresses.
+
+  -When your import completes, it should take you to your newly imported content!
+
+### Import with Confluence API
+
+#### Connect Confluence and Notion
+
+  -Go to `Settings & members` in your sidebar → `Import` → `Confluence` .
+
+  -Choose `Import via API` .
+
+  -For authentication, select your Confluence instance type: cloud or server. To find your instance type, open Confluence, click `Help` → `?` next your profile → `About Confluence` . This tells you if your instance is cloud, server, or datacenter. Notion only supports cloud and server instances.
+
+#### Authenticate with Confluence Cloud
+
+  -Enter your Confluence email and site.
+
+  -Create an API token from your Atlassian account and enter it into the field.Read moreabout creating tokens in Confluence.
+
+  -Click `Authenticate` .
+
+#### Authenticate with Confluence Server
+
+  -Find and select your Confluenceversion.
+
+  -Enter your Confluence email and site.
+
+  -If you're running Confluence 7.9 or later, create a `Personal Access Token` and paste it. If you're using a version prior to Confluence 7.9, enter your Confluence username and password.
+
+  -Click `Authenticate` .
+
+#### Import
+
+  -To begin importing, click on `Confluence` from the Import menu.
+
+  -On the following screen, you can monitor the progress of your import. This step may take several hours, depending on the size of the space.
+
+    *Once you see the message `Importing pages…` , you can safely close your browser window. We will send you an email once the import is complete.
+
+  -Repeat this section if you want to import more than one Confluence space.
+
+Note:When you import into Notion using Confluence API, page permissions are also carried over. For the best experience, make sure:
+
+  -All users and user groups from your Confluence workspace are set up in Notion.
+
+  -The preferred name in Notion is an exact match with the display name in Confluence. This will be necessary in case Notion can’t retrieve users’ emails from Confluence.
+
+
+
+
+
+
+
+# Import from Monday.com
+
+### Easily import your data from Monday into Notion 📥
+
+TheMonday.comimporter helps you bring your Monday.com boards and all the data within them into Notion.
+
+Note:At this time, ourMonday.comimporter only supports Projects and Tasks type boards. Check or change your board type in Monday.com by following the instructions to customize item terminology inthis article.
+
+### How importing from Monday.com works
+
+#### How Monday.com maps to Notion
+
+  -If you import a task board and related projects, we’ll import the tasks into the task database and create a project in the project database using the task board’s name.
+
+  -If you import a task board without any related projects, we’ll important the tasks into the task database and create a project in the project database using the task board’s name.
+
+  -Every teamspace in Notion gets one project and one task database per import, so if you have multiple projects within one teamspace, all of those projects will go into the same database, unless imported in batches. As a workaround, you can import any additional projects into a separate teamspace and move them manually afterwards, or import your account in batches so that you can bring more projects and task databases to the same teamspaces each time.
+
+  -The importer will also import all information about task owners and due dates into your Notion database.
+
+  -Note that an assignee inMonday.commust be named `Owner` , `Assignee` , or `Person` in order for that information to properly appear in Notion as an assignee. Any project or task board should only have one column to indicate an assignee.
+
+#### Import duration and size
+
+  -Imports can take anywhere from a few minutes to several hours depending on size. You’ll receive an email notification once your import is complete.
+
+  -There’s no limit to how many tasks you can import, but for the best experience, we recommend importing 10,000 tasks per teamspace, per import.
+
+#### Limitations
+
+  -The importer won’t import documents. Instead, we’ll display the correspondingMonday.comdocument link in Notion.
+
+  -You can import tasks from multiple workspaces, but you’re limited to importing one workspace at a time.
+
+  -The import is a one-time event; any future changes you make inMonday.comwon’t automatically reflect in Notion.
+
+  -At this time, you can’t preview an import beforehand.
+
+### Import from Monday.com into Notion
+
+  -Go to `Settings & members` in your sidebar → `Import` → `Monday.com` .
+
+  -Enter your email and API token, which you can find using the instructionshere. Select `Authenticate` when you’re done.
+
+  -Select yourMonday.comworkspace in the dropdown that appears.You can only import one workspace at a time.
+
+  -Select the folders and boards you want to import from your designatedMonday.comworkspace into Notion. You can also select the teamspace you want to send your imports to.
+
+  -Start the import by selecting `Next` .
+
+  -Once the import is complete, select `Done` .
+
+
+
+
+
+# Integrate GitHub
+
+### Connect Notion and GitHub so you can keep your workflows in sync 🧮
+
+Notion's integration with GitHub allows you to seamlessly connect your development workflows. You can link GitHub content directly in Notion pages and sync pull requests with Notion tasks to keep your team informed of project statuses. Read on to learn about the different features of the integration and how you can set them up.
+
+### Set up GitHub integration
+
+You will need to be both a Notion workspace owner and a GitHub org admin to connect Notion and the GitHub workspace app.
+
+  -Go to `Settings & members` in the sidebar.
+
+  -Click on `My connections` and find `GitHub (Workspace)` .
+
+  -Click `Connect` and go through the authentication flow.
+
+### Create GitHub code previews
+
+Link to a file or specific lines from a file directly in Notion. You can even link from a specific commit or branch if you want the code you’re referencing to be up-to-date.
+
+  -Copy thepermalinkfor your desired lines from GitHub.
+
+  -Paste it into a Notion page and select `Paste as preview` to embed the code into your page.
+
+### Link GitHub PRs to Notion
+
+To link PRs from GitHub to a Notion, you'll need a prefixed unique ID property in your database.
+
+Learn more about unique IDs here!
+
+The GitHub Pull Request property inside your Notion database will automatically keep your cross-functional teams informed of task statuses. It also has many attributes that you can use in rollups, formulas, and filters.
+
+  -In a Notion database, click `+` to add a new property.
+
+  -Search for and click `GitHub Pull Requests` to add this property to your database.
+
+  -Make sure your database has aUnique ID property. This property will be added to your database if it doesn’t already have one.
+
+  -To use the GitHub Pull Request property, make sure you’ve connected your GitHub account with Notion. Then, either add the Unique ID of the Notion task to the pull request, or paste the GitHub pull request URL into the property.
+
+By default, Notion enables backlinks on Notion tasks to GitHub. If you want to turn this off, click on the GitHub Pull Request property in your database → `Edit property` . Toggle off `Linkbacks in GitHub` .
+
+#### Automate task status updates
+
+You can use the GitHub Pull Requests property to automatically update the status of your tasks in Notion.
+
+  -Select the title of your `GitHub Pull Requests` property and click `Edit property` .
+
+  -Find the `Auto-update` section and select the status property you want to update from the drop down menu.
+
+  -Select the task status to be set when the GitHub PR is Opened, Review Requested, Approved, and Merged.
+
+  -Now when the PR progresses in GitHub, your task status in Notion will be updated automatically based on your settings.
+
+You can also show GitHub activity in the linked Notion task. To do this, click on the GitHub property in your database → `Edit property` . Turn on `Activity Comments` .
+
+#### Use magic words to link GitHub PRs to Notion tasks
+
+If you want to link a GitHub PR to one or more Notion tasks, simply enter a magic word and the Notion tasks’unique IDin your PR’s description.
+
+Magic words are key words that help establish relationships between Notion tasks and GitHub PRs. You can use any of the following words:
+
+  -close, closes, closed
+
+  -fix, fixes, fixed
+
+  -resolve, resolves, resolved
+
+  -complete, completes, completed, completing
+
+  -ref, references
+
+  -part of
+
+  -related to
+
+  -contributes to
+
+  -towards
+
+For example, your PR could have the description “fixes CTT-13”. Once that description is set, your Notion task with the ID CTT-13 will be linked with that PR.
+
+If your PR description uses magic words associated with closing or finishing a task, the Notion task will be marked as done when the PR is merged.
+
+If your PR description uses magic words associated with referring to or relating to a task, the Notion task will not be marked as done when the PR is merged.
+
+You can link Notion tasks as reference-only, so that those tasks won’t be marked as done.
+
+
+
+# Integrate Slack
+
+### Bring Notion and Slack together so your team can work better from anywhere 💬
+
+Notion's integration with Slack enables seamless communication between the two platforms. You can send Slack messages to Notion databases and receive Slack notifications for Notion activities. Read on to learn about the different features of the integration and how you can set them up.
+
+### Set up Slack integration
+
+You can set up the Notion integration with Slack in a few ways:
+
+For notifications in Slack:
+
+  -Go to `Settings & members` in the sidebar.
+
+  -Click on `My notifications` and find `Slack notifications` .
+
+  -Click `Add new account` and go through the authentication flow.
+
+For database notifications:
+
+  -From a database in Notion: Select `•••` at the top of the database.
+
+  -Select `Automations` and `Add trigger` .
+
+  -Then choose `Page added` or `Property edited` → `Send Slack notification to...`
+
+  -Select a Slack channel.
+
+    *If you haven't already, you'll be asked to asked to connect your Slack account.
+
+Notion AI can find answers to your questions based on information from your Slack conversations. Learn more about this featurehere →
+
+### Send a Slack message to a Notion database
+
+When Slack messages turn into an action item or a new idea, send them right to a Notion database so they don't get lost. Here's how:
+
+  -Enter the command `/notion create` into Slack, or click `⋮` next to any Slack message → `Send to Notion` . You may need to select `More message shortcuts...` to find this option.
+
+  -Search for the database where you'd like this new page to live or paste the link to the database. Then give the page a title.
+
+  -Select `Add property` to add more information to your new page based on the database’s existing properties.
+
+  -Check the box next to `Confirm page creation publicly` if you’d like others in your Slack discussion to be notified of the new database item you’ve created.
+
+  -Click `Save` .
+
+Note:The `/notion create` command only works at the Slack channel level, and not inside of Slack threads.
+
+### File a Notion task in Slack
+
+To create a Notion task directly from Slack:
+
+  -Enter the command `/notion task` into Slack, or click `⋮` next to any Slack message → `Create task in Notion` . You may need to select `More message shortcuts...` to find this option.
+
+  -Search for the project where you'd like this new task to live or paste the link to the Notion project. You can give the task a name, an assignee, status, due date, and description.
+
+  -Check the box next to `Confirm page creation publicly` if you’d like others in your Slack discussion to be notified of the new task you’ve created.
+
+  -Click `Save` .
+
+Note:The `/notion task` command only works at the Slack channel level, and not inside of Slack threads.
+
+### Get notifications in Slack
+
+Get Slack notifications when certain things happen in Notion. There are two ways you can set up these notifications:
+
+  -You can choose to only be notified when you’re mentioned in a page, a comment, or a person property in a database.
+
+  -You can choose to be notified when all of the above happens, as well as when:
+
+    *You get a comment on a page you own, or a comment is added to a comment thread you’re already a part of.
+
+    *A property is changed in a database that you’veset up notificationsfor.
+
+    *You’re invited to a page.
+
+    *Someone has requested access to a page that you own.
+
+To set this up:
+
+  -Go to `Settings & members` in your sidebar.
+
+  -Select `My notifications` .
+
+  -Open the dropdown next to Slack notifications and select the name of your Slack workspace. You can also select `Add new account` if you don't see your Slack workspace listed.
+
+  -Toggle on `Activity in your workspace` to be notified of all of the above. This will automatically also toggle on `Only user or group mentions` . If you only want to receive Slack notifications when you’re mentioned in your workspace, toggle off `Activity in your workspace` .
+
+#### Button notifications
+
+When you create a button in your page, you can set it to send a Slack notification to a specific Slack channel. To do this:
+
+  -Insert a button in a page.
+
+  -Under `Do this` , select `Add action` → `Send Slack notification to...` .
+
+  -Select the Slack channel you want the notification to be sent to. At this time, you can't select private DMs.
+
+Whenever that button is clicked in the future, a Slack notification will be sent. Learn more about buttons and how to set them uphere →
+
+#### Database notifications
+
+You can receive a message in Slack anytime someone adds or makes a change to a page in a database.
+
+  -Click `•••` at the top right of any Notion database.
+
+  -Select `Automations` .
+
+  -Select `New automation` .
+
+  -Name the notification and select `Add trigger` to choose what action will trigger the automation, such as `Page added` or `Any property` edited.
+
+  -Add additional triggers if necessary by selecting `+` .
+
+  -Select `Add action` → `Send Slack notification to...` .
+
+  -Choose a destination channel for the notification. At this time, you can't select private DMs.
+
+#### Database button notifications
+
+When you add a button property to your database, you can set it to send a Slack notification to a specific Slack channel. To do this:
+
+  -Add a new property in a database.
+
+  -Under `Type` , select `Button` .
+
+  -Under `Do this` , select `Add action` → `Send Slack notification to...` .
+
+  -Select the Slack channel you want the notification to be sent to. At this time, you can't select private DMs.
+
+Whenever that button is clicked in the future, a Slack notification will be sent. Learn more about database buttonshere →
+
+#### Turn Slack notifications off
+
+To stop receiving notifications in Slack:
+
+  -Go to `Settings & members` in your sidebar.
+
+  -Select `My notifications` .
+
+  -Open the dropdown next to `Slack notifications` and select `Off` .
+
+### Preview Slack messages in Notion
+
+  -Copy a link from Slack and paste it into Notion.
+
+  -In the menu that appears, select `Paste as preview` .
+
+You’ll see a preview of the message as well as when it was sent, what channel it was sent to, and how many replies it has. This information will update as it changes; you can also select `•••` → `Reload preview` to see the latest.
+
+### Share Notion links in Slack
+
+When you paste a Notion link in Slack, it’ll unfurl to provide useful information about your page. For database pages with theAI summary property, Slack will automatically unfurl the AI summary.
+
+You can also grant access permissions to the unfurled Notion page directly from inside Slack.
+
+### Invite a Slack contact to a Notion page
+
+  -On a Notion page, click `Share` .
+
+  -Click into the search bar.
+
+  -Select `Add contacts from Slack` .
+
+  -Search for the person you want to invite, then select `Invite` .
+
+
+
+### FAQs
+
+Can I choose to use just one part of the integration?
+
+Unfortunately, this is not possible today. When you install Notion’s Slack integration you’ll have the full functionality/all features of the Slack integration.
+
+However, since only users with edit access to a page can set up Notion notifications to Slack, you can control parts of the integration by restricting permissions.
+
+What permission level is required to create a database notification?
+
+A user needs `Full Access` to a Notion database to be able to set up database notifications.
+
+Anyone with at least `View` access to a database can see all the existing Slack notifications that have been set up. However, they can’t edit or create any themselves.
+
+How do permissions work when I share a Notion page in a Slack channel?
+
+The user that shares the pagewill get a prompt informing them some people in the channeldon't have access to the doc. The user is then able to decide if they want to share the page with the people that don't have access. They also have the option to delete the page preview in Slack.
+
+Can admins control who can connect Slack to a Notion workspace?
+
+As an admin in Slack you can manage settings that give you approval rights for any Slack integration. The same settings will apply to Notion if you choose to turn them on.
+
+On Enterprise plans, Notion admins can also restrict members from installing the Slack integration using their admin permissions to manage connections.
+
+Where can you view and manage the Slack notifications you've set up in your Notion workspace?
+
+Database notifications can be managed and edited in the the individual database they’ve been created in. There is currently no way to see all database notification workflows in your workspace from one central place.
+
+Personal @-mention notifications can be managed from `Settings and members` → `My notifications & settings`
+
+When one person connects Notion to Slack, does that turn it on for everyone?
+
+No, when one user sets up the integration all Slack users will be able to see an unfurled Notion page link or a Slack link preview in Notion.
+
+But to use the functionality themselves, other users have to connect Slack individually.
+
+How do I send Slack messages to a specific database view?
+
+The easiest way to send a Slack message to a specific database view (e.g. you might have a view for only your team’s tasks), is to copy the link to the database view and paste that link into the send to Notion prompt in Slack.
+
+When you send a Slack message to a specific database view, the properties are auto-filled for you. No need to update them yourself manually!
+
+Does the @-mentioned notification in Slack work when a user is mentioned as part of a group @-mention in Notion?
+
+Yes. A group mention in Notion will trigger the @mention notification in Slack to all members of the Notion group that have the Slack @mention turned on.
+
+Are there other 3rd party integrations providers and can I continue to use them (e.g. Zapier)?
+
+Yes those integrations will continue to work as before
+
+Will this new integration impact how I currently use Slack link previews?
+
+Slack link previews will continue to exist and work normally.
+
+If you'd like to use the new features (send messages to Notion, notifications in Slack, and expandable links) you'll need to re-install the Slack integrationhere
+
+
+
+# Integrate Jira
+
+### Connect Jira with Notion for a seamless experience that keeps you and your team up to date 🔗
+
+Notion’s integration with Jira allows you to do a few different things. You can insert Jira links into Notion pages to quickly access or preview them, or you can sync your Jira projects and issues to Notion databases so you can track all of your work in one place. Read on to learn about the different forms of the integration and how you can set them up.
+
+### Set up Jira integration
+
+  -Go to `Settings & members` on the top of the sidebar.
+
+  -Click on `Import` and find `Jira` (for link previews and link mentions).
+
+    *The `Jira` integration is used for link previews and link mentions.
+
+    *You can also select `Jira Sync` , another integration which syncs Jira projects and issues in Notion.Click herefor more info about Jira Sync.
+
+  -Click `Connect` and go through the authentication flow.
+
+### Create link previews
+
+Note:Link previews only work with Jira Software.
+
+  -Paste a Jira link into Notion.
+
+  -Select Preview in the menu that appears to see a live preview of the project or issue.
+
+    *If you haven’t already connected Jira with Notion, you’ll be prompted to when you paste your Jira link into Notion. Learn more about link previews inthis article →
+
+### Create link mentions
+
+Note:Link mentions work with all Jira Cloud products.
+
+  -Paste a Jira link into Notion.
+
+  -Select Mention in the menu that appears to easily reference a project or issue in your documents.
+
+    *If you haven’t already connected Jira with Notion, you’ll be prompted to when you paste your Jira link into Notion. Learn more about link mentions inthis article →
+
+### Jira Sync
+
+The Jira Sync integration connects Jira projects with Notion through the use of an Admin API token (instead of a user token), allowing for a more unified experience.
+
+Now you can take full advantage of Notion's features includingautomations,rollups, and Notion AI. UseNotion Q&Ato quickly answer questions about your Jira projects.
+
+Note:
+
+  -A workspace owner must set up Jira Sync first, then all members can use it.
+
+  -You can create a Jira service account to set up Jira Sync — just make sure the service account has access to any projects you want to sync into Notion beforehand.
+
+  -Synced databases work with Jira Cloud products (Jira Software, Jira Product Discovery, Jira Work Management, and Jira Service Management), with support for Jira Server coming soon!
+
+
+
+Jira Sync displays your Jira projects and issues as Notion projects and issues databases. This setup allows you to see and track multiple projects using a variety of helpfulviews, filters, and sorts.
+
+You can even use identity mapping to connect Jira identities to Notion profiles so that you can see who’s responsible for what in synced Notion databases.
+
+🟡 Note:Onlyworkspace owners can set up Jira Sync, by using aJira Admin token. After that, any member can utilize the connection.
+
+#### Set up Jira Sync
+
+Although any member can create syncs, you'll need to be aworkspace ownerto set up Jira Sync initially.
+
+  -Go to `Settings & members` in your sidebar → `Import` → `Jira Sync` .
+
+    *You can also paste in a Jira database link or use the slash command `/jira sync` .
+
+    *If you’ve previously created a Jira synced database in Notion, open that database and select `Improve your Jira sync` at the top.
+
+  -In the window that appears, select `Get started` .
+
+  -Enter your Jira admin email, Jira site URL, andAPI token, then select `Next` .
+
+#### Add a new sync
+
+Note:Members need to authenticate their Jira toadd or remove projects. They can only add projects they have access to in Jira.
+
+  -Go to `Settings & members` in your sidebar → `Import` → `Jira Sync` .
+
+    *You can also paste in a Jira database link or use the slash command `/jira sync` .
+
+  -In the window that appears, select `Get started` .
+
+  -Select the Jira site you want to sync from.
+
+  -Select `Create a new sync` or select any existing sync you might already have in the dropdown menu. If you choose an existing sync, your projects will be added to your existing synced projects and issues databases.
+
+  -In the database that opens, you’ll need to connect your Jira account (unless you’re the workspace owner who set up the integration). From here, select the data you want to sync into Notion. First `Select projects to sync` , then `Select properties to sync` .
+
+Repeat the steps above if you’d like to set up another Jira sync for another site, teamspace, or workspace. Comments and attachments (up to five files per issue, no larger than 1MB) will also be synced.
+
+You canapply permissionsto the database page to make the synced databases accessible to your collaborators.
+
+Note:Jira synced databases will inherit Notion permissions.Members can access synced databases on any pages they have permission to view.
+
+If a member adds a private Jira project to a Notion page, anyone with Notion page access will see it.
+
+#### People property in your synced database
+
+Synced databases will include people properties! Now, you can use identity mapping to connect third party JIRA identities to your team's Notion profiles. To do this:
+
+  -Confirm you have implemented Jira Cloud.
+
+  -If you’re an admin, go to Jira, click on `Jira System settings,` and change the user email visibility from `Hidden` to `Public` inside your organization. If you're an individual user, you’ll need to manually change their settings by changing the email visibility option. Follow the instructionshere →
+
+#### Edit or delete your synced database
+
+To edit the Jira projects and issue properties that have been synced to your Notion database, select `•••` at the top of your synced database → `Source` .
+
+To delete a Jira synced database, select `•••` at the top of your synced database → `Delete Table` .
+
+### How Jira Sync works
+
+#### Projects database
+
+Your Jira projects will be synced into a Notion projects database. Your projects will be intelligently mapped to their corresponding Jira issues in a related, synced issues database in Notion. This database will come with pre-populated default database views to help you get started more quickly:
+
+  -Active (table view): This view shows the projects you’ve synced whose status is in progress. In other words, this view doesn’t show projects that have already been completed. There are also preset filters for owner and date to make searching easier.
+
+  -Timeline view: This view displays project name, status, owner, and completion rate. There are also preset filters for status, owner, and date to make searching easier.
+
+  -Board view: This view shows your projects grouped by status ( `Planning` , `In Progress` ). You can customize the statuses that show in the view in the `•••` menu. Projects are sorted by descending priority.
+
+  -All (table view): This view displays all of your synced projects. There are preset filters for status, owner, and date to make searching easier.
+
+#### Issues database
+
+Your Jira issues (epic, bug, task, subtask, story) will be synced into a Notion issues database, the equivalent of a Notiontasks database. As with the synced projects database, there will be default database views created for you to help you get started more quickly:
+
+  -By Project (table view): This view shows all tasks, grouped by project. There are pre-set filters for status, assignee, date, and project to make searching easier.
+
+  -By Epic (table view): This view shows your Jira stories, tasks, and bugs grouped by Epic.
+
+  -Board view: This view is grouped by status and sorted by descending priority. The pre-set properties that will be displayed are assignee, project, priority, and sub-tasks,
+
+  -All tasks (table view): This view displays all your synced tasks. The pre-set properties that will be displayed are task name, status, assignee, date, priority, tags, and project
+
+  -Mine (table view): This view is filtered to only show tasks that are assigned to you. There are pre-set filters for status, date, and project.
+
+### Sync duration and limitations
+
+  -It should only take a few minutes for the initial sync to complete, but depending on the size of your Jira projects and issues, this could take up to a few hours.
+
+  -Some issue fields or properties may not sync, such as rich text in property and nested multi-selects.
+
+  -Once the initial sync has been set up, updates to properties should be reflected in Notion in real time. If you create new properties, it could take up to 12 hours for those changes to sync.
+
+  -You can’t manually sync Jira with Notion — syncs happen in response to updates made in Jira.
+
+  -At this time, updates from Jira will sync to your Notion database in real time — not the other way around. Any changes you make in your Notion database won’t sync to Jira.
+
+  -You’ll be able to see when Notion last `Synced with Jira` with Notion, in abluebadge at the very top of a database. If instead you see ayellow `Sync failed` or `Sync stopped` , you may have to followthe steps belowto reconnect Jira.
+
+  -Make sure you have edit access or full access to a synced database if you want to add or remove projects or properties.
+
+  -If you’re not seeing updates on the Notion side, try refreshing the page.
+
+  -The `Watcher` property can take up to 12 hours to sync properly.
+
+Note:If you delete a property in Jira, the associated database item in your synced database will be deleted too.
+
+### Reconnect your synced database
+
+If your webhook registration has failed, or your project sync has failed, you’ll see `Sync failed` at the top of the database. To solve this issue, try the sync again with a different set of projects. You can also ensure that your projects don’t have any issues in Jira.
+
+If your Jira token is no longer valid or someone has disconnected Jira from Notion, you’ll see `Sync stopped` at the top of the database. To solve this issue, select `Re-authenticate` next to `Sync stopped` . You must be a workspace owner to complete this process.
+
+Once your Jira instance is reconnected with Notion, your projects and issues databases won’t be recreated; instead, you’ll continue to use the projects and issues databases you had before.
+
+### Disconnect Jira
+
+If you want to completely disconnect Jira from Notion:
+
+  -Go to `Settings & members` in your sidebar and then `Import` .
+
+  -Select select `•••` next to Jira and `Remove` .
+
+### Legacy synced databases
+
+Legacy synced databases look something like this. If you do have a legacy synced database, you can followthe steps aboveto recreate your projects and issues databases in Notion using the new and improved Jira Sync.
+
+
+

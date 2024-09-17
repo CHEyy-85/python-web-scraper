@@ -1,0 +1,334 @@
+<15. Template gallery>
+
+Notion’s template gallery makes it easy for users everywhere to build anything. Here, you can learn how to use or create a template.
+
+
+
+# Duplicate public pages
+
+### You can duplicate public Notion pages to add them to your own workspace. From there, you can customize them however you want 👯
+
+We've made a huge update to templates! Learn more here:
+
+  -The ultimate guide to Notion templates
+
+
+
+### Duplicate a page
+
+Let's say you come across a Notion page you love on the web and want to make it your own.
+
+  -Log into Notion on your browser.
+
+  -Navigate to the public page and click `Duplicate` in its upper right corner.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/6xAdDunrpdVviEtLz4UZ0A/93448609bf9425ef73be1e4ede80aab7/Duplicate_public_page.mp4)
+
+  -Choose the workspace you'd like to duplicate the page into from the dropdown.
+
+  -Your browser will take you to that page, now duplicated into the `Private` section of your sidebar. It will include all the sub-pages contained in the original page.
+
+  -You can edit this page and its sub-pages just like you would any other.
+
+### Prevent duplication
+
+If you have a public page that you don't want duplicated, you can turn that option off.
+
+  -Go to the page in Notion and click `Share` .
+
+  -Underneath `Share to the web` , switch off the toggle labeled `Allow duplicate as template` (it's on by default).
+
+
+
+
+
+# How to submit a template
+
+### Our template gallery showcases Notion setups made by hundreds of people around the world, and we're always looking for new submissions! Learn how to share templates below. For any questions, reach out to templates@makenotion.com ✨
+
+### Submit a template
+
+We recommend giving ourtemplate gallery guidelines and termsa read before you submit your creations.
+
+  -Make sure your template is a single Notion page that is publicly viewable.
+
+    *To turn on public sharing, go to the `Share` menu at the top right of your template.
+
+    *Toggle on `Share to web` .
+
+    *Make sure the `Allow duplicate as template` option is switched on.
+
+Note:At the moment, we only support templates in English, Korean, Japanese, French, German, Spanish (Spain), Spanish (Latin America), and Portuguese (Brazil).
+
+  -Click on the submission link above and follow the steps in the form.
+
+  -You'll be asked for:
+
+    *Contact information so we can get in touch with you.
+
+    *The language your template is in.
+
+    *Whether you're offering your template for free or on a paid site.
+
+    *What your template does and how to use it.
+
+  -If your template is selected, the Notion team will add it to the gallery and follow up with a link you can review and share.
+
+### Selection criteria
+
+We receive hundreds of templates from our community every month. We review them in the order they're submitted, so it can take some time for them to post. We also want to make sure every template we display is great at both solving the problem it's tackling and teaching people how to use it.Learn more about how we feature templates here →
+
+Learn more
+
+  -Getting featured in the Notion template gallery
+
+  -Notion template creator tools
+
+  -The ultimate guide to Notion templates
+
+
+
+
+
+
+
+# Getting featured in the Notion template gallery
+
+### We’re constantly on the lookout for truly exceptional creators and templates to highlight to the Notion community. Learn how we choose which templates are featured in our template gallery 🌟
+
+The Notion template gallery is where top Notion builders, makers, and creators from around the world come to showcase the possibilities of Notion. We highlight everything from intricate travel plans and extensive project management tools to job boards and household finance planners.
+
+### How we choose submissions for the template gallery
+
+Value
+
+  -Is this template delivering on what it promises in the title and descriptions?
+
+  -How does it compare to the state-of-the-art templates in this category?
+
+  -Does this template meet a specific need, or is it too generic to be valuable?
+
+Build quality
+
+  -Does it take advantage of lots of Notion’s features and capabilities (databases, buttons, AI, embeds, etc.) instead of just text and tables?
+
+  -Does it have some well-written example data?
+
+  -Does it have instructions where necessary?
+
+Popularity
+
+  -How many visits and duplications does this template have?
+
+Price
+
+  -Is the template free or paid?
+
+  -Is it fairly priced for the value it offers?
+
+Novelty
+
+  -Is this use case novel? Is this something that we have never seen somebody build before on Notion?
+
+  -Does the template utilize new features in a way that showcases their power or in a way we have not seen before?
+
+  -Does the template incorporate useful integrations or embeds?
+
+Visual design
+
+  -Is the template particularly visually pleasing? Does it feel clean and polished with attention to detail?
+
+  -Is the structure simple and intuitive instead of unnecessarily complex?
+
+Thumbnail
+
+  -Is the homepage thumbnail showcasing the template at its best?
+
+Seasonality
+
+  -Is the template relevant to this time of the year? For example, travel-relevant templates may be useful during summer or study-relevant templates might line up well with the start of the academic year.
+
+### Featured templates and creators
+
+Notion has a dedicated editorial team responsible for the curation of what we consider the top templates. These are templates that show Notion at its best.
+
+We want to enhance the discoverability of these exceptional templates by giving them more exposure. We do this in a number of ways:
+
+  -Featured templatesin gallery home
+
+  -Featured collections, curated lists of the best templates for a specific use-case like academic research, freelancer stack, traveling
+
+  -Social postsof featured templates
+
+  -Priority ranked native language templates; for example, in the French gallery, French templates will rank higher then English ones by default.
+
+We also promote top creators using:
+
+  -Featured creatorsin gallery home
+
+  -Recommended Creator Badges
+
+Featured templates and creators get refreshed for every language at varying timeframes, from weekly to monthly. We only take new submissions into account for each refresh.
+
+We announce featured templates and creators in our Notion Community onCircle.
+
+#### How we choose Featured templates
+
+Selections for Featured templates are at Notion's discretion. We also aim to amplify as many community creations in this section as possible. Featured templates are chosen based on:
+
+  -Timing:Major themes in the news, upcoming holidays, trends
+
+  -Quality:Design excellence, good instructions, clarity of purpose
+
+  -Use case:Strong, rare, or specific use cases that have a lot of relevance
+
+  -Popularity:The template is finding a wide audience or trending
+
+  -Audience targeting:The template solves a core use case for teams, companies, or an important subset of users
+
+### Nominate a template or creator
+
+Usethis formto nominate a template or creator for our editorial team's consideration. While our editors won't be able to respond directly to any nominations, they will read and consider all submissions.
+
+Learn more
+
+  -How to submit a template
+
+  -Template gallery guidelines and terms
+
+  -Notion template creator tools
+
+
+
+
+
+
+
+# Notion template creator tools
+
+### Are you a Notion template creator? We want to make it easier for you to build your brand on Notion’s template gallery. Read on to learn how to manage your templates and your creator profile 🧑🏼‍🎨
+
+To access these features to manage your templates, go tohttps://notion.so/profile/templates.
+
+### Template management
+
+The `Templates` dashboard gives you more control over your creations. From here, you can:
+
+  -See which templates are in draft mode and which are published
+
+  -See the status of templates you’ve submitted to Notion (draft, in review, live)
+
+  -Create a template. To do this, select `Start a New Template` .
+
+  -Edit a template, even after you’ve submitted it. To do this, hover over a draft template and select `Edit Template` .
+
+  -Set and update a price for your template (currently in USD only)
+
+  -Delete a template
+
+### Template page customization
+
+When you create a new template, you have the ability to:
+
+  -Create and upload screenshots and videos (via a YouTube or Vimeo link) up to 60 seconds long
+
+  -Add descriptions
+
+  -Select a category, language, price, and custom URL
+
+### Profile management
+
+Your creator profile is a place where you can share more information about yourself. This information is separate from your Notion profile. You can:
+
+  -Pin or rearrange templates
+
+  -Categorize templates so people can more easily find them
+
+  -Add a cover image
+
+  -Upload an avatar
+
+  -Change your display name
+
+  -Change your creator handle
+
+  -Let people email you
+
+  -Add a description about yourself
+
+  -Show up to five links where you can be reached or others can learn more about you
+
+Learn more
+
+  -How to submit a template
+
+  -Getting featured in the Notion template gallery
+
+
+
+
+
+
+
+# Template gallery guidelines & terms
+
+### Read the terms and guidelines for using the Notion template gallery 🖼️
+
+The Template Gallery is a place to share your own work with other Notion users. Use of the template gallery is subject to Notion'sMaster Subscription AgreementandPersonal Use Terms of Services(as applicable),Privacy Policy, andContent and Use Policy. By Using the Template Gallery you also agree to abide by and follow these Template Gallery Guidelines and Terms ("Gallery Guidelines"). Any terms used below shall have the same meaning as defined in these agreements.
+
+### Ownership and Intellectual Property Rights
+
+If you are a creator of a template, you own and retain ownership rights to any User Content or Customer Data (as applicable) included in the templates you make available; provided that at all times Notion shall retain full ownership of the Services and any and all functionality that you use to generate such template. As between Users of Notion that download templates from the Template Gallery and Notion, templates are Non-Notion Applications.
+
+Please respect the intellectual property rights of others and do not post anything that you don’t have the rights to post. By making a template available in the Notion Template Gallery, you represent and warrant that you have the rights and/or permission to make such template available to others. You hereby grant Notion a license to access, use, modify, market (through any channel), and distribute your template and the creator profile information you submit to Notion.  You hereby grant Users that duplicate your template a non-exclusive license to access, modify, and use such template for so long as they retain an active Subscription to the Services. Reposting of templates purchased from other creators is strictly prohibited.
+
+### Inappropriate content
+
+We are building a welcoming and inclusive community. Notion retains full discretion to not publish any content that is not appropriate.
+
+We don’t allow any of the following in the Template Gallery:
+
+  -Pornography or sexually explicit or obscene material
+
+  -Depictions of minors in a sexual manner
+
+  -Hate speech or highly offensive language
+
+  -Harassment or threats
+
+  -Graphic violence
+
+  -Illegal activities or goods or promotion of illegal activities or goods
+
+  -Self-harm or the promotion of self-harm
+
+  -Promotion of terrorism or violent extremism
+
+### Spam
+
+  -Do not post advertisements; and
+
+  -Do not link to spammy websites
+
+### Privacy
+
+Unless you have appropriate consent, please ensure that your template and creator profile do not contain personal information or sensitive data such as:
+
+  -Phone numbers
+
+  -Private email addresses
+
+  -Physical addresses
+
+  -Credit card, bank account, or social security information
+
+  -Passwords
+
+### Template Gallery Listing
+
+Notion has the sole discretion whether to list or remove a template from the Notion Template Gallery and to stop providing the Notion Template Gallery in its entirety. You acknowledge and agree that Notion reserves the right to not list, revoke, or otherwise remove your templates and access to and use of the Notion Template Gallery for any or no reason.
+
+### Modifications
+
+We reserve the right, at our sole discretion, to modify or replace these Gallery Guidelines at any time. By continuing to access or use the Template Gallery after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use the Template Gallery.
+

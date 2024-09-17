@@ -1,0 +1,3322 @@
+<4. Databases>
+
+Databases are collections of Notion pages that help you organize information in a variety of ways. With multiple database views to choose from, you control how to display and search your content.
+
+
+
+# Intro to databases
+
+### Databases in Notion are collections of pages. Here, we'll introduce you to the general structure of a database, walk you through the different menus and options, and deep dive into how to open and edit pages within a database. 🗃
+
+There are three things that make Notion databases unique:
+
+  -Every item is its own page:Every item you enter into your database is a Notion page. Open a database item to add more information in the form of text, images, and more, as you would with any other Notion page!
+
+  -You can customize properties:Add properties to contextualize, label, and augment any database item with things like dates, status, and links.Learn more about database properties here →
+
+  -You can toggle between multiple views:Your data isn't limited to a table. Visualize the information in a database as a list, calendar, chart, and more— whatever makes the information most useful.Learn more about views, filters, and sorts here →
+
+### A tour of databases
+
+Every full page database has the same menus and sets of options. Here's a quick walkthrough.
+
+  -Views: Edit and switch between all the differentviewsof your database. Depending on your screen size, you may have to open the dropdown next to your current view to see your other views.
+
+  -Add a new view: Add a new view to your database, with its own layout, filters and sorts. Depending on your screen size, you may have to open the dropdown next to your current view and select `Add view` .
+
+  -Filter menu:Apply filters based on property values. When you apply a filter to a database, only you can see it to start, but you can save them to the view for your entire shared team if you prefer!
+
+  -Sort menu:Sort your data by a property. Like filters, sorts are only visible to you by default, but you can make them visible to your whole team as well.
+
+  -Database search:Type in any word, whether it's in the name of a database item or in a property, and your database will only show items that fit that search query.
+
+  -••• menu:Located at the top right of your database, this allows you to edit your view layout, grouping, properties, and more.
+
+  -Create a new database page:Click this to add a new page to your database. Depending on your screen size, this may appear as `+` or `New` . Open the dropdown next to this button to access and edit any database templates you've configured.
+
+### Create a database
+
+To create a database in Notion, open a new or existing Notion page and type `/` followed by thetype of database viewyou’d like to start with, like `table` or `board` .
+
+When you create a database, you can start from scratch or pull in data from another part of your workspace.
+
+  -If you want to use the same properties or an existing view of a database, we suggest selecting an existing data source. Search for an existing database and then choose the one you'd like to use.
+
+  -If the information you're adding to the database doesn’t exist anywhere else in your workspace, we suggest creating a new data source.
+
+#### Full page vs. inline databases
+
+Full page databases
+
+  -Full page databases appear just like any other page in your sidebar.
+
+  -You can lock a full page database so that other people can't change properties and value options by selecting `•••` at the top of your database → `Lock database` .
+
+  -To turn a full page database into an inline database, drag the database into another page in the sidebar, which will turn it into a subpage. Then navigate into the page, and select `⋮⋮` → `Turn into inline` .
+
+Inline databases
+
+  -Controls and menus for your inline database are hidden until you hover over it.
+
+  -You can expand an inline database to a full page database by selecting `⤡` at the top.
+
+  -You can turn an inline database into a full page database by clicking `⋮⋮` and dragging it into the sidebar as a top-level page.
+
+  -You can `Delete` , `Duplicate` , move, or copy the link to your inline database by selecting⋮⋮, which will appear on hover to the side.
+
+  -In your sidebar, your inline database will appear as a subpage of the page it's in.
+
+### Duplicate a database
+
+You can make a copy of a database.
+
+For inline databases:
+
+  -Hover over the database, then select `⋮⋮` .
+
+  -Select `Duplicate` . You can choose to `Duplicate with content` or, if you want to use the same database setup to organize other pages, `Duplicate without content` .
+
+For full pages:
+
+  -Click the `•••` button in the top right.
+
+  -Select `Duplicate` . You can choose to `Duplicate with content` or, if you want to use the same database setup to organize other pages, `Duplicate without content` .
+
+### Add and open database pages
+
+Every item in your database, whether it's a row in a table or a card on a board or calendar, is its own Notion page that you can build, format, and nest content in like any other page.
+
+To add database items:
+
+  -For all databases: Click the blue `New` button at the top right.
+
+  -For a `table` , `list` or `board` : Click `+ New` at the bottom to add a new item.
+
+  -For a `calendar` : Click the `+` icon that appears when you hover over any day. This creates a new event on that day.
+
+  -For a `gallery` : Click the `+ New` button in the empty card at the bottom of your gallery to add a new image frame right there.
+
+To open database items as pages:
+
+  -In `tables` , hover over your first column and click the `OPEN` button that appears.
+
+  -In `lists` , just click on the title of the item.
+
+  -In `boards` , `calendars` , and `galleries` , click anywhere on the card.
+
+  -Pages will always open in a peek preview. Click `⤡` at the top left to view in full page mode.
+
+  -In this page, you'll see all your database properties at the top. Each row is one property, with a name, type, and a value. Click on the value to edit.
+
+    *Click the `⋮⋮` that appears to the left of each property on hover in order to: drag it up or down, change the `Property type` , rename it, `Duplicate` or `Delete` it.
+
+  -Underneath your properties is free page space, where you can add any type of content block, including sub-pages or an inline database.
+
+  -Because database items are pages, any other type of content you drag into a database (like bullets or to-do items), will automatically turn into pages.
+
+#### Item options
+
+Right click on an item to reveal a list of actions. Those actions include:
+
+  -`Delete` : Deletes the item from your database.
+
+  -`Duplicate` : Creates an exact copy of the item.
+
+  -`Copy link` : Copies an anchor link to that specific item to your clipboard.
+
+  -`Rename` : Lets you rename the page in your row without opening it.
+
+  -`Move to` : Lets you move the row to another workspace or page (where it will show up as a subpage).
+
+  -`Edit property` : Brings up a menu with all your table's properties. Click the one you want and then click the new value for it.
+
+#### Customize database pages
+
+The top section of any page in a Notion database can include several things:
+
+  -Propertiesprovide data about the page you're looking at, like project owner, due date, tags, and more.
+
+  -Commentscapture conversation between you and your teammates. You can use them to tag each other, ask questions, provide feedback and more.
+
+  -Backlinksindicate all the pages that link to the current page so you can easily navigate between them.
+
+As with everything in Notion, you can customize the look and feel of these components. To access these options:
+
+  -Click the `•••` at the top right of any Notion page in a database and select `Customize page` .
+
+Forproperties, you can use this menu to choose which property fields you want to show at the top of the page, and how. For each one, select from:
+
+  -Always show:Nothing changes, you continue to see the property field.
+
+  -Hide when empty:The property field will disappear from the top of your page if it has no value in it.
+
+  -Always hide:The property field will not show up at the top of your page.
+
+You can also access the `Customize page` menu by clicking the `⋮⋮` icon next to any property in the list at the top of your database page. This `⋮⋮` icon can also be clicked and dragged up or down to reorder how properties are displayed on your page.
+
+Tip:If you have a database with dozens of properties, hiding some properties is a great way to keep your pages clear.
+
+Note:When you hide properties, they get aggregated in a single menu item at the bottom of the list. You can click this to easily show any hidden properties.
+
+Forbacklinks, you can choose:
+
+  -Expanded:See all the pages that link to the current page listed in full.
+
+  -Show in popover:In case you don't want to see all the pages, you can choose to see just the number of backlinks. Click to open a popup displaying all the pages.
+
+  -Off:Just hide all backlinks entirely.
+
+Forcomments, you can choose to show them:
+
+  -Expanded:Show the full conversation at the top of the page.
+
+  -Off:Hide comments on the page for a minimalist view.
+
+### Collaborating in a database
+
+When using a database in a shared workspace, Notion has features in place to prevent accidental edits that could impact other teammates.
+
+#### "Can edit content" permission level
+
+Click `Share` at the top of a database to see and manage all users' permission levels.Learn more about sharing and permissions here →
+
+The `Can edit content` permission level is only found on database pages, and allows users to:
+
+  -Create, edit, and delete pages within the database.
+
+  -Edit property values for those pages.
+
+Users with `Can edit content` permissions in a database willnotbe able to:
+
+  -Add, edit, or remove database properties or views.
+
+  -Change filters or sorts.
+
+  -Lock or unlock the database.
+
+Note:Users with `Can edit content` access will still be able to create linked databases and edit views, sorts, and filters in that linked database.Learn more about linked databases →
+
+#### Lock views
+
+Find this option in the `•••` menu at the very top right of the Notion window. Switch it on to prevent anyone from changing properties and views in your database. They'll still be able to edit the data it contains.
+
+Note that anyone with editing access can toggle this lock on or off at any time. This is helpful as a quick safeguard against accidental edits in a database that you'd like many people to be able to change structurally.
+
+Learn more about how to optimize your databases' performance and load timeshere →
+
+
+
+
+
+# Views, filters & sorts
+
+### You can view the same database in multiple ways, and switch back and forth between them depending on your needs. Within a view, you can add filters and sorts to easily categorize your content 📁
+
+### Types of database views
+
+There are six different ways to visualize your content within a database. Here's a high level overview of each layout:
+
+  -Table:Tables allow you to see your database pages as rows, with every property represented by a column.
+
+  -Board:This view groups your items by property. For example, you could use it as a Kanban board to move tasks from one status to another as you make progress on them.
+
+  -Timeline:Use your database to plot project milestones on a timeline so you can see when they’re happening and how long they’ll take to complete.
+
+  -Calendar:Calendar view displays your items based on their `Date` property.
+
+  -List:Lists are a very clean, minimal layout of your database items.
+
+  -Gallery:This view is useful for highlighting images. You can edit your gallery to show images contained in the `Files & media` property — otherwise, the gallery will show any content that the database page contains.
+
+  -Chart:This view visualizes your database items in a bar, line, or donut chart so you can easily analyze and report on the data.
+
+### Create and switch between views
+
+When you first create a database, you'll need to choose the layout of the default view. After this, you can create a new view by selecting `+` next to your existing views. Depending on your screen size, you may have to open the dropdown next to your current view and select `Add view` .
+
+You can also provide others with information by giving your view a description. To do this:
+
+  -Select a view → `Edit view` .
+
+  -Select `ⓘ` next to your view’s name, then enter your description.
+
+  -When you hover over a view, you will see its description.
+
+You can reorder your views by dragging them. If you have a lot of views, you can select `{#} more...` next to your views to do this.
+
+In your sidebar, views show up as nested items inside any full page database. You can tell they are views because they'll have a `•` to their left. Click on any view in your sidebar to jump right to it.
+
+### Customize your database views
+
+When you’re in a given view, click its name to rename, duplicate, delete, copy its link, or edit its components. You can also edit view components by clicking the `•••` at the top right of the database.
+
+Each view of the database has several components that you can customize:
+
+  -Layout:Choose how you want your database to be visually organized.
+
+  -Properties:Show or hide database properties for each view.
+
+  -Filters:Add criteria based on property values to show or hide data.
+
+  -Sorts:Sort by a property to change the order that pages are displayed in.
+
+  -Groups:Group your data by the values in a property.
+
+#### Link to your database view
+
+You can copy an anchor link to this specific view of your database so you can share it elsewhere.
+
+  -Click the `•••` icon at the top right of your table.
+
+  -Click `Copy link to {view}` and the URL will copy to your clipboard so you can paste it.
+
+### Open pages as
+
+Within each view, you can choose how you'd like database pages to open. There are three options:
+
+  -Side peek:Open pages on the right side of the database. The rest of the database view continues to be interactive on the left.
+
+  -Center peek:Open pages in a focused, center modal.
+
+  -Full page:Open pages as full pages directly.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/1U3qn4wE50xoqmgA0E7jIw/014646ba17cd4aeeed4510d4ab065c00/side_peek_v2.mp4)
+
+  -To change the setting per view, click the ••• at the top right of your database, and open the Layout menu.
+
+  -Scroll down and change the `Open pages in` setting.
+
+Note:Table, Board, List & Timeline layouts will open pages in side peek by default. Gallery & Calendar layouts will open pages in center peek by default.
+
+
+
+### Filters
+
+Notion makes it easy to filter your database so it only displays the items that meet specified criteria, i.e. have (or don't have) certain properties. These filters can be as simple or complex as you like!
+
+#### Add a filter
+
+To filter the entries you see in a database view:
+
+  -Click `Filter` at the top of your database.
+
+  -In the dropdown that appears, choose the property you'd like to filter by.
+
+  -This filter will now show up at the top of your database. Click the filter icon to see and edit all of the filters that have been applied to your database.
+
+  -Add another filter by clicking the filter icon. You can have as many filters as you'd like!
+
+Note:In a shared database, any changes you make to filters and sorts in views won’t affect other people on the team until you click `Save for everyone` .
+
+#### Add an advanced filter
+
+You can create more specific database views and combine `AND` and `OR` logic by using filter groups. These can be nested up to three layers deep! Here's how:
+
+  -Click the filter icon at the top of your database → `Add advanced filter` .
+
+  -A new menu will pop up. Here, you can choose the properties that you'd like to filter by, and customize the `AND` and `OR` logic of the advanced filter.
+
+  -In the example below, we're filtering the table view of our Roadmap so that all the entries have to meet the criteria that include both `AND` and `OR` logic.
+
+Tip: You can quickly turn a filter into a filter group by clicking the `•••` to the right of the filter, and selecting `Add to advanced filter` .
+
+### Sorts
+
+You can sort your database so that items are displayed based on properties appearing in ascending or descending order.
+
+For example, you can order them based on priority, or last edited, or alphabetically.
+
+  -Click `⇅` at the top of your database.
+
+  -In the dropdown that appears, choose the property you'd like to sort by.
+
+  -This sort will now show up at the top of your database. Click to edit it.
+
+  -You can add as many sorts as you want, or remove them by clicking the `X` to their right.
+
+  -Change the order that multiple sorts are applied by dragging them up or down using `⋮⋮` .
+
+Note:Different properties sort by different logic, depending on their value type.
+
+  -Text properties such as `Name` and `Text` sort alphabetically.
+
+  -Number properties sort numerically.
+
+  -For `Select` and `Multi-select` properties, you get to define what sorting order means. Click on the property, then drag options up or down to set the sort order.
+
+
+
+### Groups
+
+You can group your database by different properties on your table to visualize them in different ways.
+
+  -Click the `•••` menu and find `Group` . You can group by nearly any property type.
+
+  -The database will now group by values of that property. Each group includes a `👁️` to the left, so you can quickly hide groups and focus on what you need.
+
+  -You can sort your database groups by selecting `Sort` and choosing to sort manually or sort by the options provided (alphabetical, ascending, and more).
+
+  -Empty groups can also be hidden from view with the `Hide empty groups` toggle.
+
+### Search your database
+
+You can search for specific content in your database.
+
+  -Click `🔎` at the top right and type the word(s) you're looking for in page titles or properties.
+
+  -You'll see your database change in real-time to only show the items that fit that criteria.
+
+### Freeze column
+
+If you have a large database, it's probably tedious to keep moving back and forth between properties to compare their data.
+
+Instead you can freeze one column, which will cause it to stay visible on the left side no matter where you scroll in the database.
+
+  -To freeze a column, click the name of the column and click `Freeze up to column` .
+
+  -To unfreeze a column, click the name of the column and click `Unfreeze column` .
+
+
+
+
+
+# Database properties
+
+### Database properties add all kinds of context to your database items, like due dates, task owners, relevant URLs, last edited timestamps, and more. Use these properties to filter, sort, and search your data 🧩
+
+### Types of database properties
+
+Property
+
+Description
+
+Text
+
+Add text that can be formatted. Great for summaries, notes, and descriptions!
+
+Number
+
+Accepts numbers. These can also be formatted as currency or progress bars. Useful for tracking counts, prices, or completion.
+
+Select
+
+Choose one option from a list of tags. Useful for categorization.
+
+Status
+
+Track this item’s progress using status tags categorized by To-do, In Progress, or Complete.
+
+Multi-Select
+
+Choose one or more options from a list of tags. Useful for tagging items across multiple categories.
+
+Date
+
+Accepts a date or a date range (time optional). Useful for deadlines, especially with calendar and timeline views.
+
+Formula
+
+Perform calculations based on other properties using Notion’s formula language. Learn morehereandhere →
+
+Relation
+
+Connect databases and mention database pages. Useful for connecting items across your workspace.Learn more here →
+
+Rollup
+
+View and aggregate information about properties from relation properties. Useful for summarizing interconnected data.Learn more here →
+
+Person
+
+Tag anyone in your Notion workspace. Useful for assigning tasks or referencing relevant team members.
+
+File
+
+Upload files and images for easy retrieval. Useful for storing documents and photos.
+
+Checkbox
+
+Use a checkbox to indicate whether a condition is true or false. Useful for lightweight task tracking.
+
+URL
+
+Accepts a link to a website and opens the link in a new tab when clicked.
+
+Email
+
+Accepts an email address and launches your mail client when clicked.
+
+Phone
+
+Accepts a phone number and prompts your device to call it when clicked.
+
+Created time
+
+Records the timestamp of an item's creation. Auto-generated and not editable.
+
+Created by
+
+Automatically records the person who created the item. Auto-generated and not editable.
+
+Last edited time
+
+Records the timestamp of an item's last edit. Auto-updated and not editable.
+
+Last edited by
+
+Records the person who edited the item last. Auto-updated and not editable.
+
+Button
+
+Trigger actions based on the item properties. Learn more below.
+
+ID
+
+Automatically creates a numerical ID for each item. IDs are unique and cannot be manually changed.Learn more here →
+
+Notion AI can save you time by autofilling certain types of database properties!Learn more here→
+
+#### Database buttons
+
+Database buttons automate your workflows so you don’t have to spend as much time manually updating your database. For example, you could use a button to approve a document or mark a daily habit as complete. Buttons can be added to your database as a property, and when a button is clicked, it’ll take actions on database pages so you don’t have to.
+
+To add a database button property:
+
+  -Select `•••` at the top right of your database → `Properties` → `New property` → `Button` .
+
+  -Add a label for your button, like `Approve` or `Complete` .
+
+  -Add an action for your button. This is the action you want to have taken when the button is selected. Multiple actions can be taken using one button. You can select from:
+
+    *`Add page to...` : This will add a page to a database of your choice.
+
+    *`Edit pages in...` : This will edit properties for pages in a database of your choice.
+
+    *`Show confirmation` : This will show a message to the person who has selected the button before any further action is taken. You could pair this with another action so that you can be more careful with edits made to your database.
+
+    *`Open page` : This will open a page from a database of your choice. You can also decide how the page will open on the screen.
+
+    *`Send Slack notification to...` : This will send a Slack notification to the Slack channel of your choosing.
+
+Want more real-life examples of how to use database buttons?Read this guide →
+
+### Manage properties
+
+To manage the properties of a database, select `•••` at its top right → `Properties` . From there, you can:
+
+  -Add a new property: Select `New property` , then select a property type and give your property a name.
+
+  -Hide a property: Select the eye icon next to a property you don’t want to show in your database.
+
+  -Edit a property: Select `⋮⋮` . You can rename your property, hide it from view, wrap or don’t wrap it in view, duplicate it, or delete it.
+
+  -Rearrange properties: Drag `⋮⋮` to put your properties in a different order.
+
+### Edit property values
+
+Any data put into a property is called a value. The way you edit values is different for each type of property. Here are just a few examples:
+
+  -For `Select` and `Multi-select` properties, you'll be prompted to add tags by typing what you want and pressing enter after each. Colors are randomly assigned.
+
+    *You can add as many unique tags to these menus as you want.
+
+    *Edit tag names and colors, or delete them by clicking on the property field (i.e. the table cell), then `•••` that appears to the right when you hover over any property.
+
+    *Reorder tags by grabbing the `⋮⋮` icon to their left and dragging.
+
+  -For `Date` properties, clicking to add data will bring up our date picker, where you can select the day relevant to the database item — maybe it's an event date or deadline.
+
+    *Click `Remind` to set a reminder in this property that will notify you on the given date and time.
+
+    *Switch on `End date` to define a range of dates in this property.
+
+    *Switch on `Include time` to choose an exact time, not just a day.
+
+    *Click `Date format & timezone` to modify these settings.
+
+    *Click `Clear` to remove any value in the date property.
+
+  -For `Files & media` properties, clicking on the field provided will prompt you to upload a file, or paste a link to embed a file.
+
+    *You can also drag a file from your computer into the property to upload it.
+
+    *You can add multiple files into any field at once.
+
+    *Click on the `•••` to the right of uploaded files to `Delete` , `Download` , `Full screen` or `View original` .
+
+    *Use the `⋮⋮` to the left of uploaded files to drag and re-order them.
+
+  -In a `Person` property, you can tag other members or guests in your workspace.
+
+    *Just type their names and press `enter` after each.
+
+    *To delete anyone tagged, click on them, then click `X` next to their name.
+
+  -Values automatically appear for these properties: `Created time` , `Created by` , `Last edited time` , `Last edited By` .
+
+  -You can simply type or paste values for `URL` , `Email` , `Phone` and `Number` properties, just like you would for a `Text` property.
+
+  -Editing values for `Relation` and `Rollup` properties requires multiple steps.
+
+### Comment in properties
+
+You can leave comments in database properties,only when you’re in table view or when you have a database page open.
+
+Note:
+
+  -At this time, you can’t comment in name, formula, rollup, button, and unique ID properties.
+
+  -Properties must already have a value assigned before someone can comment on them.
+
+
+
+To comment on a property while in table view:
+
+  -Hover over a property for a database item.
+
+  -Select the `💬` that appears.
+
+  -Enter your comment.
+
+Note:While you can comment on a checkbox property, you’ll have to open the database page to do so — there won’t be a way to do this from table view.
+
+To comment on a property while in a database page:
+
+  -Hover over a property.
+
+  -Select the `💬` that appears, or select the `⋮⋮` to the left of the property → `Comment` .
+
+  -Enter your comment.
+
+Once a comment has been made, you’ll see `💬` next to the property it’s attached to. You can select `💬` to see the comment and add to the conversation.
+
+
+
+# Relations & rollups
+
+### Have you ever wanted to connect the data between two tables? You're in luck! Notion's relation property is designed to help you express useful relationships between items in different databases 🛠
+
+### What is a database relation?
+
+Let's say you have two databases for your theoretical business 😉
+
+  -One that tracks customers
+
+  -One that tracks items purchased
+
+You want to know both which customers bought which items, as well as which items were purchased by which customers. This is a job for relations!
+
+  -In the two tables above, the columns labeled `↗ Items Purchased` and `↗ Customers` are relation properties, which can be added like any other database property.
+
+  -Here, when you add an item bought into theCustomersdatabase, the customers who bought them automatically appear in the `↗ Customers` column in theItemsdatabase.
+
+#### Example use cases
+
+  -Connect yourdatabase of restaurantswith yourdatabase of neighborhoodsso you can see which restaurants are in which neighborhoods at a glance.
+
+  -Connect yourdatabase of meeting noteswith yourdatabase of clientsto provide quick access to the notes relevant to each client.
+
+  -Connect yourdatabase of taskswith yourdatabase of bigger projectsto understand how projects are broken down into tasks, and how tasks contribute to projects.
+
+  -Connect yourdatabase of candidateswith yourdatabase of interviewersto keep track of who interviewed whom.
+
+### Create a relation
+
+To relate two databases, you need two databases. So let's assume you've made theCustomersandItemsdatabases above for the purpose of this walkthrough.
+
+  -Add a new column/property to yourCustomersdatabase and give it a name, likeItems Purchased.
+
+  -Search for `Relation` .
+
+  -Then, search for the database you want to create the relation with.
+
+  -You'll see a preview of the relation. In this case, we've created a relation from the Customer database to the Items database.
+
+  -Click the blue `Add relation` button to finalize the creation of the new relation property.
+
+  -Now when you click in a cell in this relation column, you'll bring up a menu where you can search for and choose items from the other database to add.
+
+    *For example, this is how you can add which clothes each customer bought.
+
+    *To add an item, click the name in the list. To delete an item, hover over and then click the `–` button on the right.
+
+Tip:To change the database you're connecting to, re-select `Relation` as the property type for that particularly property. You'll be prompted to choose a new database.
+
+
+
+### Two-way relations
+
+Relations are created as one-way by default. But you can easily toggle on a corresponding relation in the destination database.
+
+With two-way relations, the edits work both ways! So if you add a customer to theItemsdatabase in the relation column, the change pops up in yourCustomersdatabase.
+
+  -Follow the above instructions to create a new relation property.
+
+  -Click the toggle that says `Show on [name of related database]` . In our example, this says `Show on Items DB` .
+
+  -Give this corresponding relation a name.
+
+  -Below, you'll see a preview of the two-way relation. In this case, we've created a relation from the Customer database to the Items database,anda relation from the Items database to the Customer database.
+
+  -Click the blue `Add relation` button to finalize the creation of these two new relation properties.
+
+### View and remove related pages
+
+When you create a relation, you're essentially adding Notion pages stored in one database into the property field of another.
+
+  -These pages can be opened and edited like any other! Click on the page in the relation column. Then click on it again in the window that pops up.
+
+  -You can also remove any related page by hovering over and clicking the `–` at the right.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/6aY5QvlYiho9kna9b7SbQb/dd6d2a296fd2934153d8f0e4a6e889bc/relation_open_page.mp4)
+
+  -You can choose to limit the number of pages that can be included in your relations property – with the option to select `1 page` or to have `No limit` .
+
+  -If you select the option to limit it to `1 page` , people using your database will only be able to select 1 page in the relation. This is especially useful for situations where only one page should be related to one another, for example - if only one order number should be associated with each purchase.
+
+### Display options for relations
+
+Relations can be displayed on pages in three different ways.
+
+To change the display:
+
+  -While on a database page, click on the relation.
+
+  -Click `Show as` and select one of the following:
+
+  -`As property` : The relation will be displayed at the top of the page, alongside all the page properties.
+
+  -`As page section` : The relation will be displayed right above the page body, as its own section. Best option if you want the relation to standout.
+
+  -`Minimal` : The relation will be display right above the page body, but with the content hidden.
+
+Note:If you want to change a relation from `Minimal` to another display, click `•••` -> `Customize page` .
+
+#### Customize displayed properties for relations
+
+When you set up a relation in your database, you can also choose to display certain properties of linked pages. For example, let’s say you have a database of frequently asked questions at your company. Each FAQ has a relation to a page that further explains the answer to the question. You might want people to also be able to see the owner of each page, so they know who to reach out to with more questions. You can set your FAQ database up so that the owner is visible along with the relevant page!
+
+To do this:
+
+  -Open a page in a database that has a relation property.
+
+  -Click the field next to that property to link a page → click `•••` .
+
+  -In the menu that appears, drag the properties of the related database into or out of `Shown in relation` or `Hidden in relation` .
+
+  -Once you’re done, you’ll see your desired properties appear in the relation field. This will apply to all of the pages in your current database.
+
+### Relate a database to itself
+
+Let's say you want items in the same database to have relationships with each other. For example, you have a tasks database and you want each task to relate to other tasks.
+
+  -Start off by creating a new relation.
+
+  -Then search for and choose the database you're currently working in.
+
+  -You'll now see that the database is related to `This database` .
+
+Just as with relations between two databases, you can choose to make this a one-way relation or two-way relation.
+
+  -To make it a two-way relation, toggle on `Separate properties` . You'll see a second property show up.
+
+### Rollups
+
+Rollups help you aggregate data in your databases based on relations. Going back to our customers and items example above, let's say you wanted to know how much each customer spent based on what they bought.
+
+  -First, create the relation so you know who bought what.
+
+  -Add a new column/property and choose `Rollup` from the `Property type` menu. Give it a descriptive name.
+
+  -Clicking on any cell in the rollup column will bring up a new menu asking you for:
+
+    *The relation property you want to roll up.
+
+    *The property of those related pages you want to roll up.
+
+    *The calculation you want to apply to them.
+
+  -So, for our example, you'd choose to roll up the relation property `Items Purchased` and the `Price` property within those pages. Then you'd choose `Sum` as the calculation.
+
+    *Doing this adds up the prices of each item related to a customer's name, giving you the total dollars they spent in your rollup column.
+
+#### Rollup types
+
+There are different calculations you can apply as a rollup. Here are all of them:
+
+  -`Show original` : This just shows all related pages in the same cell. It's the same as the relation property itself.
+
+  -`Show unique values` : This shows each unique value in the selected property for all related pages.
+
+  -`Count all` : Counts the total number of values in the selected property for all related pages.
+
+  -`Count values` : Counts the number of non-empty values in the selected property for all related pages.
+
+  -`Count unique values` : Counts the number of unique values in the selected property for all related pages.
+
+  -`Count empty` : Counts the number of related pages with an empty value for the property selected. So, if one item a customer bought didn't have a price and that was the property selected, the rollup column would say 1.
+
+  -`Count not empty` : Counts the number of related pages with assigned values for the property you selected.
+
+  -`Percent empty` : Shows the percentage of related pages with no value in the property you selected.
+
+  -`Percent not empty` : Shows the percentage of related pages with a value in the property you selected.
+
+These rollup calculations are only available forNumberproperties:
+
+  -`Sum` : Computes the sum of the numeric properties for related pages (like above).
+
+  -`Average` : Computes the average of the numeric properties for related pages.
+
+  -`Median` : Finds the median of the numeric properties for related pages.
+
+  -`Min` : Finds the lowest number in the numeric property for related pages.
+
+  -`Max` : Finds the highest number in the numeric property for related pages.
+
+  -`Range` : Computes the range between the highest and lowest numbers in the numeric property for related pages ( `Max` - `Min` ).
+
+These rollup calculations are only available forDateproperties:
+
+  -`Earliest date` : Finds the earliest date/time in the date property for all related pages.
+
+  -`Latest date` : Finds the latest date/time in the date property for all related pages.
+
+  -`Date range` : Computes the span of time between the latest and earliest dates in the date property for related pages.
+
+#### Aggregate rollups
+
+In both tables and boards, you can apply calculations to your rollup column to get a sense of sums, ranges, averages, etc. for your entire database.
+
+  -Let's say you want to find the total money spent by all customers in our example.
+
+  -At the bottom of your Customers table, under your rollup column, click `Calculate` .
+
+  -Choose `Sum` to add all the values in that column together and get a grand total.
+
+
+
+### FAQs
+
+Can I export or import relations?
+
+When you export a relational database as a CSV file, the relation properties will export as plain text URLs. For now, you can't re-import that CSV back into Notion to re-establish the relations with other databases.
+
+Can I duplicate a database with a relation?
+
+Yes, but the following will happen which can be kind of confusing:
+
+If you create a copy of the Customers database in the example above, you'll see a new relation property automatically appear in the Items database.
+
+This happens because relations sync two ways in Notion. When a database is duplicated, you also duplicate its relationships with other databases. You'll get the hang of it! 💪
+
+Can I rollup a rollup?
+
+Unfortunately not, as this could create unintended loops. We recommend sticking to rolling up other properties 😊
+
+
+
+# Customize your database
+
+### Tailor your database to your needs with lots of customization options to choose from ✨
+
+Note:You can only customize a database if you have `Can edit` access.
+
+### Customize your database
+
+To customize your database:
+
+  -Open your database and select `•••` at the top.
+
+  -Select `Customize {your database's name}` .
+
+  -Search for and select a specific feature, or select from the features within `Settings` , `Suggested` , and `Advanced` to discover ways to make your database more useful.
+
+### Types of customizations
+
+The kinds of customizations you can make in a database can be split up into a few categories.
+
+`Settings` provides ways to quickly adjust some of your database’s existing features, like its views or properties. Select `See more` at the bottom of this section for more options.
+
+`Suggested` shows you some additions you might want to make to your database. For example, your database could benefit from AI summaries of each database item, or a view of tasks that have been assigned to you. Select `See all features` to see all of the additional customizations you can make to your database.
+
+`Advanced` displays the ability to bring information from other tools you might use in your work into your Notion database. Select `Connections` to see what apps are available to connect.
+
+Note:The following actions are only available through the customize menu of a database:
+
+  -Setting upsub-items and dependencies
+
+  -Turning your database into atask database
+
+  -Creatingsprintsfrom a task database
+
+
+
+
+
+
+
+# Database templates
+
+### Most databases contain the same types of pages created over and over again. Think of weekly meeting notes, bug reports, or design specs. To make this easy, database templates let you define and replicate certain page structures with one click 🖨
+
+### Create a database template
+
+To create a template inside a database, click the dropdown arrow next to `New` at the top right of your database. Then, select `+ New template` .
+
+When editing a new or existing template, you'll see a bar across the top indicating which database it's located in.
+
+Whatever you title this page will be the name of the template you use going forward. For instance, you might title this one `Bug` .
+
+On this page, you can define properties for your template. For example, you can create a template for bug reports that automatically puts `P1` in the Priority property and assigns the user `Fig` to the Product Manager property. You can also add content in the page itself.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/5Wlj2ITuaoOEr0AJBF3ecc/cf6dc755b7763242030729c43d0b463b/Configure_DB_template__1_.mp4)
+
+Templates can contain any type of content, including images, embeds, and sub-pages. Whatever you choose will show up identically on each page created with the template.
+
+Note:If you add a relation property to a template, do not fill it in unless you want every page you create with that template to relate to the same existing page(s).
+
+### Use a database template
+
+  -Create a new page in your database and choose any of the templates from the gray menu it contains.
+
+  -You can also click the dropdown menu on the right of the blue `New` button at the top right of your database. Choose any template you've created to generate that type of page.
+
+  -Give the page a unique title.
+
+  -Once you've created a new page with a template, you can make any changes you want to the content that appeared.
+
+### Repeating database templates
+
+Repeating database templates automatically create a copy of a template in your database however often you would like.
+
+#### Create a repeating database template
+
+To create a repeating database template:
+
+  -Open the dropdown next to `New` or `+` (depending on your screen size) at the top of your database.
+
+  -Next to the database template you want to repeat, select `•••` .
+
+  -Open the dropdown next to `Repeat` .
+
+  -You can make your template repeat daily, weekly, monthly, or yearly. Indicate how many weeks, months, or years you want in between repeats, as well as your start date and the time you want your database template to be repeated.
+
+#### Nesting database templates
+
+You may want to create a database inside of a recurring database template, with that database having templates of its own. While this is possible, be mindful of the limitations:
+
+  -You can’t nest a template within a template that recurs daily. You can only nest a template within a template that recurs weekly, monthly, or yearly.
+
+  -You can only have three levels of nesting per database template.
+
+### Edit, duplicate, or delete an existing template
+
+  -Open the dropdown next to `+` or `New` at the top of your database.
+
+  -Click `•••` next to the template you want to edit and click `Edit` . Make your changes in the editing view that pops up.
+
+  -The same `•••` menu also lets you duplicate or delete a template.
+
+
+
+### FAQs
+
+Are the templates I create in one database available in all other databases in my workspace?
+
+No, they're only available in the specific database where you created them. For every new database you create, you can define new templates.
+
+How do relation properties work with templates?
+
+While you can create relation properties in database templates, we don't recommend that you define them unless you want every page of a certain type to be related to the same page(s).
+
+Is there a limit to the number of database templates I can make?
+
+Nope! You can make as many as you want.
+
+
+
+# Database automations
+
+### Improve your efficiency by automating the most tedious parts of your work 🔁
+
+Database automations are sequences of actions that happen any time a specific change to a database occurs. Automations consist of both triggers (the events that initiate the automation) and actions (the effect of the automation). Database automations are meant to help save you time and simplify your work, and can be very basic or more complex depending on your needs.
+
+Database automations can be used for many things, including:
+
+  -Assigning a task to a specific person when its status changes.
+
+  -Sending a Slack notification to a channel when a page is added to a database.
+
+Note:
+
+  -Database automations are available on paid plans on all platforms.Free plan users can create Slack notification automations and use, but not edit, existing automations in templates.
+
+  -Database automations can be created, edited, or deleted by anyone with full access to the database.Slack automationsare the only exception. These can only be edited by the automation creator.
+
+  -Automations won’t take action on any pages whose access is restricted.You can check and change page access in theshare menu.
+
+  -Database automations can't be triggered by other automations.Button actions, however, can trigger database automations. For example:
+
+    *A recurring template automation will not trigger a database automation.
+
+    *A database automation creating a page in another database will not trigger a database automation.
+
+    *A user clicking a button that creates a page will trigger a database automation.
+
+
+
+### Create a database automation
+
+To create a database automation:
+
+  -Click `⚡` at the top of a database → New automation.
+
+  -Give your database automation a name if you’d like.
+
+  -Add triggers. Learn more about the types of triggersbelow →
+
+  -Add actions. Learn more about the types of actionsbelow →
+
+  -Select `Save` .
+
+Did you know you can also add a button property to your database? With the click of a button, actions can be taken on your database on your behalf.Learn more here →
+
+### Database automation triggers
+
+Automations can have one trigger or multiple triggers. When you set up an automation, you can decide whether the automation will take place `When any of these occur` or `When all of these occur` .
+
+Note:If you have multiple `is edited` triggers that mustalloccur for your automation to take place, those triggers need to happen within a small window of about three seconds. If they don’t, your automation may not be triggered properly. To avoid this, you can:
+
+  -Create separate automations for each trigger.
+
+  -Use a more specific trigger than `is edited` , like `is set to` or `contains` .
+
+
+
+You can choose from two types of triggers: `Page added` or `Property edited` .
+
+If you choose a `Property edited` trigger, you can indicate which properties from your database will trigger the automation.
+
+For name, person, number, text, select, and relation properties, you can choose what kinds of edits made to that property will trigger an automation. For example, you might have a list of contacts in a Notion database and set up an automation where the trigger is a phone number starting with the numbers 732, and the action is that person’s state being set to New Jersey.
+
+You can also have more than one condition for your trigger so that two or more things must be true for the automation to occur.
+
+### Database automation actions
+
+Automations can take one action or multiple actions. You can choose from a variety of actions:
+
+  -`Edit property` will edit the properties of pages in the database you are currently in.
+
+  -`Add page to` will add a page to a database of your choosing, and edit the properties of that page.
+
+  -`Edit pages in` will edit pages and properties in a database of your choosing.
+
+  -`Send notification to` will send a notification to specific people in your Notion workspace. Your recipient can be up to 20 people in your workspace, or people who are associated with a certain People property in your database. Add a message that you want to go along with the notification.
+
+  -`Send Slack notification to…` will send a notification to the Slack channel you want.
+
+If you choose an `Edit property` trigger, you can indicate how you want those properties to be updated.
+
+For multi-select, people, and relation properties, you can add or remove individual values instead of adding or removing all values at once. For example, you might have a task database where if the task name contains the word “blog”, your name is added to the people property, even if there are other people already assigned to that task.
+
+Get more inspiration for using database workflows inthis guide →
+
+### Edit, pause, or delete database automations
+
+To see and manage all of the automations for a database:
+
+  -Click `⚡` at the top of a database.
+
+    *This `⚡` will only appear if you have active automations.
+
+  -Hover over the automation and click•••.
+
+  -Select `Edit` , `Pause` , or `Delete` .
+
+
+
+### FAQs
+
+How frequently is the database scanned for “changes” in properties?
+
+Database automations work over a three second window. For example, within this three second window, a user can remove a trigger and delete any changes, resulting in no property change to the automation.
+
+
+
+Do automations work on pages in the entire database, or pages in a single database view?
+
+Either one. During the creation process, you can specify if the automation should run on pages in the entire database, or in a specific view. If any filters in that view change, the automation will then apply to the adjusted list of pages.
+
+
+
+Can guests with full access to a database create automations?
+
+Unfortunately, guests can't create database automations.
+
+
+
+
+
+# Intro to formulas
+
+### In a Notion database, you can add a formula property that lets you run all kinds of calculations and functions based on other properties. You can use formulas to manipulate existing data and arrive at many other helpful values 🔮
+
+Notion formulas can perform calculations on your existing database properties and help give you better understanding of your data.
+
+For a comprehensive tutorial on formulas and how you might use them, check out these resources:
+
+  -Formula syntax & functions
+
+  -How to write Notion formulas that extend the capabilities of your databases
+
+
+
+### Adding a formula property
+
+To start writing a formula, add a formula property to your Notion database:
+
+  -Click the `•••` menu on your database
+
+  -Select `Properties` and click `+ Add a property`
+
+  -Select `Formula`
+
+  -Click `Edit` and begin writing your formula
+
+#### Writing a formula
+
+Formulas 2.0
+
+We've recently updated our formula language! Your existing formulas will be automatically migrated for this update and should behave the same.
+
+For more information, check out our guide:
+
+  -How to use Notion’s new and improved formulas with your existing setups
+
+
+
+Notion’s formula syntax might look familiar if you’ve done any programming before! You’ll choosefunctions(which accomplish different tasks) andinputs(data to manipulate). Anoutput(the result) will be computed and displayed in the new formula property for every row in your database.
+
+For example, in this formula: `dateSubtract(prop("Date"), 14, "days")`
+
+  -The function is `dateSubtract()`
+
+  -`dateSubtract()` takes in adate,number, and then a unittext, which can be `"days"` , `"hours"` , etc.
+
+  -The inputs areDate(property),14(number), and"days"(unit of time).
+
+  -The output will be a date representing 14 days before yourDateproperty
+
+![Image](/cdn-cgi/image/format=webp,width=3840/https://images.ctfassets.net/spoqsaf9291f/530f3UtuN1GSylKZHjNXwU/ec18bcf7e6c22a91323725addd7e76f9/formulas_2.0_help_center.png)
+
+#### Formula editor
+
+Notion’s formula editor contains several helper features to assist in writing formulas.
+
+  -The editor automatically provides suggestions of functions or properties based on what's in your formula.
+
+    *You can navigate this suggestions panel with `up` & `down` arrows and use `Enter` to accept a suggestion.
+
+  -Long formulas will wrap once you’ve exceeded the width of the editor, but you can also use `Shift` + `Enter` to create a new line!
+
+    *To navigate between lines, you can use `alt/option + up/down` .
+
+  -If you open the formula editor from a database row, you'll see a live preview of the result of the formula for that row.
+
+    *Note that the result preview will not display line breaks, which can be added using `"\n"` in the formula, e.g. `"Hello" + "\n" + "World"`
+
+  -The editor will display errors and highlight the erroneous code, so you can better identify the source of issues.
+
+### Formula data types
+
+Formulas can manipulate and return different data types. Other property types are supported but their data type will be converted.
+
+Text
+
+  -For example, `"Hello world"`
+
+Number
+
+  -For example, `1, -2.5`
+
+  -Can be displayed using the formatting options of the Formula property (e.g. as a percentage, currency, or with a ring or bar).
+
+Date
+
+  -Displays as a date with time (like August 29, 2023 1:33 PM) and can be reformatted to text using the `dateFormat()` function.
+
+  -Dates can be date ranges, which can be constructed using the `dateRange()` function.
+
+  -Dates cannot store seconds or milliseconds.
+
+People
+
+  -You can use `name()` or `email()` to retrieve data off any People types.
+
+  -Displays as people’s names with their photos.
+
+Booleans
+
+  -Can be `true` or `false` .
+
+  -Displays as a filled or unfilled checkbox.
+
+Pages
+
+  -Represents Notion pages, like relations.
+
+  -You can retrieve the properties of a given Notion page by using `.` on them!
+
+  -Displays as a rich page link with the page's icon.
+
+Lists(or arrays)
+
+  -Lists can hold items of any type, including more lists. Multi-select, People, Relation, and most Rollup properties will return list values.
+
+  -You can use list functions like `at()` , `filter()` , `map()` to manipulate lists.
+
+  -Use the `includes()` function to check whether these values contain a specific value instead of equality checks.
+
+    *Example: `prop("Tags").includes("Movie")`
+
+  -List items display comma-separated for texts, numbers, and dates. For people, checkboxes, and pages, they display space-separated.
+
+Empty
+
+  -The empty value is not displayed in the output of a formula property, but can be used in the computations themselves.
+
+  -You can check for emptyness on any piece of data with the `empty()` function.
+
+  -For example, `toNumber("")` or `parseDate("Not a date")` will return `Empty` .
+
+
+
+
+
+# Formula syntax & functions
+
+### Notion formulas can operate on various properties and functions. Here, you'll find a list of them ➗
+
+Looking for Notion formula basics? Check outthis article →
+
+
+
+Notion formulas can operate using various properties and functions. Here, you'll find a list of them!
+
+### Properties
+
+Formulas support almost all property types. Note that formula types are different from property types.
+
+Property Types
+
+Examples
+
+Formula Type
+
+Title
+
+`prop("Title")`  `prop("Title").length()`
+
+Text
+
+Text
+
+`prop("Text")`  `prop("Text").length()`
+
+Text
+
+Select
+
+`prop("Priority") == "High"`
+
+Text
+
+Multi-Select
+
+`prop("Tags").length()`  `prop("Tags").includes("Finance")`
+
+Text (list)
+
+Checkbox
+
+`prop("Checkbox")not prop("Checkbox")`
+
+Boolean
+
+Email, URL, Phone Number
+
+`!empty(prop("Phone"))!empty(prop("Email"))link("Call", "tel:" + prop("Phone"))`
+
+Text
+
+Unique ID
+
+`prop("Task ID").split("-").first()` ← Prefix `prop("Task ID").split("-").last()` ← ID
+
+Text
+
+Created By,Edited By
+
+`prop("Created By").name()prop("Created By").email()`
+
+Person
+
+Person
+
+`prop("Person")prop("Person").at(0).name()prop("Person").map(current.email())`
+
+Person (list)
+
+Date,Created Time,Last Edited Time
+
+`prop("Due Date") > now()dateBetween(prop("Birthday"), now(), "days")`
+
+Date
+
+Number
+
+`prop("Number") / 2pi() * prop("Radius") ^ 2`
+
+Number
+
+Relation
+
+`prop("Tasks").length()prop("Tasks").filter(current.prop("Status") !== "Done")`
+
+Page (list)
+
+Rollup
+
+`prop("Purchases").length()prop("Average cost") * 12`
+
+Number, date, or list of any type. Depends on rollup configuration.
+
+### Built-ins
+
+Built-ins are specific symbols and values that are built into the language to help designate a calculation.
+
+Built-in
+
+Example
+
+Math operators: `+` , `-` , `*` , `%`
+
+`2 * pi()`  `"hello" + "world"`
+
+Boolean values: `true` , `false`
+
+`true`  `false`
+
+Comparison operators: `==` , `>` , `>=` , `<` , `<=`
+
+`123 == 123` = `true`  `"Notion" == "Motion"` = `false`
+
+Logical operators: `and` , `or` , `not`
+
+and: `true and falsetrue && false`  `and(true, false)` or: `true or falsetrue || false`  `or(true, false)` not: `not true!true`
+
+Ternary operator: `? :`
+
+`X ? Y : Z` is equivalent to `if(X, Y, Z)`
+
+### Functions
+
+Notion formulas support the following functions.
+
+Name
+
+Description
+
+Example
+
+if
+
+Returns the first value if the condition is true; otherwise, returns the second value.
+
+`if(true, 1, 2)` = `1`  `if(false, 1, 2)` = `2`  `prop("Checked") == true ? "Complete" : "Incomplete"`
+
+ifs
+
+Returns the value that corresponds to the first true condition. This can be used as an alternative to multiple nested if() statements.
+
+`ifs(true, 1, true, 2, 3)` = `1`  `ifs(false, 1, false, 2, 3)` = `3`
+
+empty
+
+Returns true if the value is empty. 0, “”, and [] are considered empty.
+
+`empty(0)` = `true`  `empty([])` = `true`
+
+length
+
+Returns the length of the text or list value.
+
+`length("hello")` = `5`  `length([1, 2, 3])` = `3`
+
+substring
+
+Returns the substring of the text from the start index (inclusive) to the end index (optional and exclusive).
+
+`substring("Notion", 0, 3)` = `"Not"`  `substring("Notion", 3)` = `"ion"`
+
+contains
+
+Returns true if the search string is present in the value.
+
+`contains("Notion", "ot")` = `true`
+
+test
+
+Returns true if the value matches the regular expression and false otherwise.
+
+`test("Notion", "Not")` = `true`  `test("Notion", "\\d")` = `false`
+
+match
+
+Returns all matches of the regular expression as a list.
+
+`match("Notion Notion", "Not")` = `["Not", "Not"]`  `match("Notion 123 Notion 456", "\\d+")` = `["123", "456"]`
+
+replace
+
+Replaces the first match of the regular expression with the replacement value.
+
+`replace("Notion Notion", "N", "M")` = `"Motion Notion"`
+
+replaceAll
+
+Replaces all matches of the regular expression with the replacement value.
+
+`replaceAll("Notion Notion", "N", "M")` = `"Motion Motion"`  `replaceAll("Notion 123", "\\d", "")` = `"Notion"`
+
+lower
+
+Converts the text to lowercase.
+
+`lower("NOTION")` = `"notion"`
+
+upper
+
+Converts the text to uppercase.
+
+`upper("notion")` = `"NOTION"`
+
+repeat
+
+Repeats the text a given number of times.
+
+`repeat("0", 4)` = `"0000"`  `repeat("~=", 10)` = `"~=~=~=~=~=~=~=~=~=~="`
+
+link
+
+Creates a hyperlink from the label text and the URL.
+
+`link("Notion", "https://notion.so")` ="Notion"
+
+style
+
+Adds styles and colors to the text. Valid formatting styles: `"b"` (bold), `"u"` (underline), `"i"` (italics), `"c"` (code), or `"s"` (strikethrough). Valid colors: `"gray"` , `"brown"` , `"orange"` , `"yellow"` , `"green"` , `"blue"` , `"purple"` , `"pink"` , and `"red"` . Add `"_background"` to colors to set background colors.
+
+`style("Notion", "b", "u")` = `"`  `Notion`  `"`  `style("Notion", "blue", "gray_background")`
+
+unstyle
+
+Removes formatting styles from the text. If no styles are specified, all styles are removed.
+
+`unstyle("Text")`  `unstyle("Text", "b")`
+
+format
+
+Returns the value formatted as text.
+
+`format(1234)` = `"1234"`  `format(now())` = `"August 30, 2023 17:55"`
+
+add
+
+Returns the sum of two numbers.
+
+`add(5, 10)` = `15`  `5 + 10` = `15`
+
+subtract
+
+Returns the difference of two numbers.
+
+`subtract(5, 10)` = `-5`  `5 - 10` = `-5`
+
+multiply
+
+Returns the product of two numbers.
+
+`multiply(5, 10)` = `50`  `5 * 10` = `50`
+
+mod
+
+Returns the first number modulo the second number.
+
+`mod(5, 10)` = `5`  `5 % 10` = `5`
+
+pow
+
+Returns the result of a base number raised to an exponent power.
+
+`pow(5, 10)` = `9765625`  `5 ^ 10` = `9765625`
+
+divide
+
+Returns the quotient of two numbers.
+
+`divide(5, 10)` = `0.5`  `5 / 10` = `0.5`
+
+min
+
+Returns the smallest number of the arguments.
+
+`min(1, 2, 3)` = `1`  `min([1, 2, 3])` = `1`
+
+max
+
+Returns the largest number of the arguments.
+
+`max(1, 2, 3)` = `3`  `max([1, 2, 3])` = `3`
+
+sum
+
+Returns the sum of its arguments.
+
+`sum(1, 2, 3)` = `6`  `sum([1, 2, 3], 4, 5)` = `15`
+
+median
+
+Returns the middle value of its arguments.
+
+`median(1, 2, 4) = 2median([1, 2, 3], 4) = 2.5`
+
+mean
+
+Returns the arithmetic average of its arguments.
+
+`mean(1, 2, 3) = 2mean([1, 2, 3], 4, 5) = 3`
+
+abs
+
+Returns the absolute value of the number.
+
+`abs(10)` = `10`  `abs(-10)` = `10`
+
+round
+
+Returns the value of a number rounded to the nearest integer.
+
+`round(0.4)` = `0`  `round(-0.6)` = `-1`
+
+ceil
+
+Returns the smallest integer greater than or equal to the number.
+
+`ceil(0.4)` = `1`  `ceil(-0.6)` = `0`
+
+floor
+
+Returns the largest integer less than or equal to the number.
+
+`floor(0.4)` = `0`  `floor(-0.6)` = `-1`
+
+sqrt
+
+Returns the positive square root of the number.
+
+`sqrt(4)` = `2`  `sqrt(7)` = `2.6457513110645907`
+
+cbrt
+
+Returns the cube root of the number.
+
+`cbrt(9)` = `2.080083823051904`  `cbrt(64)` = `4`
+
+exp
+
+Returns e^x, where x is the argument, and e is Euler's number (2.718…), the base of the natural logarithm.
+
+`exp(1)` = `2.718281828459045`  `exp(-1)` = `0.36787944117144233`
+
+ln
+
+Returns the natural logarithm of the number.
+
+`ln(2.718281828459045)` = `1`  `ln(10)` = `2.302585092994046`
+
+log10
+
+Returns the base 10 logarithm of the number.
+
+`log10(10)` = `1`  `log10(100000)` = `5`
+
+log2
+
+Returns the base 2 logarithm of the number.
+
+`log2(4)` = `2`  `log2(1024)` = `10`
+
+sign
+
+Returns 1 if the number is positive, -1 if it is negative, and 0 if it is zero.
+
+`sign(-10)` = `-1`  `sign(10)` = `1`
+
+pi
+
+Returns the ratio of a circle's circumference to its diameter.
+
+`pi()` = `3.141592653589793`
+
+e
+
+Returns the base of the natural logarithm.
+
+`e()` = `2.718281828459045`
+
+toNumber
+
+Parses a number from text.
+
+`toNumber("2")` = `2`  `toNumber(now())` = `1693443300000`  `toNumber(true)` = `1`
+
+now
+
+Returns the current date and time.
+
+`now()` = `@August 30, 2023 5:55 PM`
+
+today
+
+Returns the current date without the time.
+
+`today() = @April 19, 2024`
+
+minute
+
+Returns the minute of the date (0-59).
+
+`minute(parseDate("2023-07-10T17:35Z"))` = `35`
+
+hour
+
+Returns the hour of the date (0-23).
+
+`hour(parseDate("2023-07-10T17:35Z"))` = `17`
+
+day
+
+Returns the day of the week of the date, between 1 (Monday) and 7 (Sunday).
+
+`day(parseDate("2023-07-10T17:35Z"))` = `1`
+
+date
+
+Returns the day of the month from the date (1-31).
+
+`date(parseDate("2023-07-10T17:35Z"))` = `10`
+
+week
+
+Returns the ISO week of the year of the date (1-53).
+
+`week(parseDate("2023-01-02"))` = `1`
+
+month
+
+Returns the month of the date (1-12).
+
+`month(parseDate("2023-07-10T17:35Z"))` = `7`
+
+year
+
+Returns the year of the date.
+
+`year(now())` = `2023`
+
+dateAdd
+
+Adds time to the date. The unit argument can be one of: `"years"` , `"quarters"` , `"months"` , `"weeks"` , `"days"` , `"hours"` , or `"minutes"` .
+
+`dateAdd(now(), 1, "days")` = `@August 31, 2023 5:55 PM`  `dateAdd(now(), 2, "months")` = `@October 30, 2023 5:55PM`  `dateAdd(now(), 3, "years")` = `@August 30, 2026 5:55 PM`
+
+dateSubtract
+
+Subtracts time from the date. The unit argument can be one of: `"years"` , `"quarters"` , `"months"` , `"weeks"` , `"days"` , `"hours"` , or `"minutes"` .
+
+`dateSubtract(now(), 1, "days")` = `@August 29, 2023 5:55 PM`  `dateSubtract(now(), 2, "months")` = `@June 30, 2023 5:55 PM`  `dateSubtract(now(), 3, "years")` = `@August 30, 2020 5:55 PM`
+
+dateBetween
+
+Returns the difference between two dates. The unit argument can be one of: `"years"` , `"quarters"` , `"months"` , `"weeks"` , `"days"` , `"hours"` , or `"minutes"` .
+
+`dateBetween(now(), parseDate("2022-09-07"), "days")` = `357`  `dateBetween(parseDate("2030-01-01"), now(), "years")` = `6`
+
+dateRange
+
+Returns a date range constructed from the start and end dates.
+
+`dateRange(prop("Start Date"), prop("End Date"))` = `@September 7, 2022 → September 7, 2023`
+
+dateStart
+
+Returns the start of the date range.
+
+`dateStart(prop("Date Range"))` = `@September 7, 2022`  `dateBetween(dateStart(prop("Date Range")), dateEnd(prop("Date Range")), "days")` = `-365`
+
+dateEnd
+
+Returns the end of the date range.
+
+`dateEnd(prop("Date range"))` = `@September 7, 2023`  `dateBetween(dateEnd(prop("Date Range")), dateStart(prop("Date Range")), "days")` = `365`
+
+timestamp
+
+Returns the current Unix timestamp, representing the number of milliseconds that have elapsed since January 1, 1970.
+
+`timestamp(now())` = `1693443300000`
+
+fromTimestamp
+
+Returns the date from the given Unix timestamp. The timestamp represents the number of milliseconds that have elapsed since January 1, 1970. Note: the returned date will not retain the seconds & milliseconds.
+
+`fromTimestamp(1689024900000)` = `@July 10, 2023 2:35 PM`
+
+formatDate
+
+Formats the date using a custom format string. The format string can contain the following text to represent parts of the date: `"YYYY"` for year, `"MM"` for month, `"DD"` for day, `"h"` for hour, `"mm"` for minute.
+
+`formatDate(now(), "MMMM D, Y")` = `"August 30, 2023"formatDate(now(), "MM/DD/YYYY")` = `"08/30/2023"formatDate(now(), "h:mm A")` = `"17:55 PM"`
+
+parseDate
+
+Returns the date parsed according to the ISO 8601 standard.
+
+`parseDate("2022-01-01")` = `@January 1, 2022`  `parseDate("2022-01-01T00:00Z")` = `@December 31, 2021 4:00 PM`
+
+name
+
+Returns the name of a person.
+
+`name(prop("Created By"))`  `prop("Pioneers").map(name(current)).join(", ")` = `"Grace Hopper, Ada Lovelace"`
+
+email
+
+Returns the email address of a person.
+
+`email(prop("Created By"))`  `prop("People").map(email(current)).join(", ")`
+
+at
+
+Returns the value at the specified index in a list.
+
+`at([1, 2, 3], 1)` = `2`
+
+first
+
+Returns the first item in the list.
+
+`first([1, 2, 3])` = `1`
+
+last
+
+Returns the last item in the list.
+
+`last([1, 2, 3])` = `3`
+
+slice
+
+Returns the items of the list from the provided start index (inclusive) to the end index (optional and exclusive).
+
+`slice([1, 2, 3], 1, 2)` = `[2]`  `slice(["a", "b", "c"], 1)` = `["b", "c"]`
+
+concat
+
+Returns the concatenation of multiple lists.
+
+`concat([1, 2], [3, 4])` = `[1, 2, 3, 4]`  `concat(["a", "b"], ["c", "d"])` = `["a", "b", "c", "d"]`
+
+sort
+
+Returns the list in sorted order.
+
+`sort([3, 1, 2])` = `[1, 2, 3]`
+
+reverse
+
+Returns the reversed list.
+
+`reverse(["green", "eggs", "ham"])` = `["ham", "eggs", "green"]`
+
+join
+
+Returns the values of the list with the joiner placed between each of the values.
+
+`join(["a", "b", "c"], ", ")` = `"a, b, c"`  `join(["dog", "go"], "")` = `"doggo"`
+
+split
+
+Returns the list of values created by splitting a text input by a separator.
+
+`split("apple,pear,orange", ",")` = `["apple", "pear", "orange"]`
+
+unique
+
+Returns the list of unique values in the input list.
+
+`unique([1, 1, 2])` = `[1, 2]`
+
+includes
+
+Returns true if the list contains the specified value, and false otherwise.
+
+`includes(["a", "b", "c"], "b")` = `true`  `includes([1, 2, 3], 4)` = `false`
+
+find
+
+Returns the first item in the list for which the condition evaluates to true.
+
+`find(["a", "b", "c"], current == "b")` = `"b"`  `find([1, 2, 3], current > 100)` = `Empty`
+
+findIndex
+
+Returns the index of the first item in the list for which the condition is true.
+
+`findIndex(["a", "b", "c"], current == "b")` = `1`  `findIndex([1, 2, 3], current > 100)` = `-1`
+
+filter
+
+Returns the values in the list for which the condition is true.
+
+`filter([1, 2, 3], current > 1)` = `[2, 3]`  `filter(["a", "b", "c"], current == "a")` = `["a"]`
+
+some
+
+Returns true if any item in the list satisfies the given condition, and false otherwise.
+
+`some([1, 2, 3], current == 2)` = `true`  `some(["a", "b", "c"], current.length > 2)` = `false`
+
+every
+
+Returns true if every item in the list satisfies the given condition, and false otherwise.
+
+`every([1, 2, 3], current > 0)` = `true`  `every(["a", "b", "c"], current == "b")` = `false`
+
+map
+
+Returns the list populated with the results of calling the expression on every item in the input list.
+
+`map([1, 2, 3], current + 1)` = `[2, 3, 4]`  `map([1, 2, 3], current + index)` = `[1, 3, 5]`
+
+flat
+
+Flattens a list of lists into a single list.
+
+`flat([1, 2, 3])` = `[1, 2, 3]`  `flat([[1, 2], [3, 4]])` = `[1, 2, 3, 4]`
+
+id
+
+Returns the id of the page. If no page is provided, returns the id of the page the formula is on.
+
+`id()id(prop("Relation").first())`
+
+equal
+
+Returns true if both values are equal and false otherwise.
+
+`equal(1, 1)` = `true`  `"a" == "b"` = `false`
+
+unequal
+
+Returns false if both values are equal and true otherwise.
+
+`unequal(1, 2)` = `true`  `"a" != "a"` = `false`
+
+let
+
+Assigns a value to a variable and evaluates the expression using that variable.
+
+`let(person, "Alan", "Hello, " + person + "!")` = `"Hello, Alan!"`  `let(radius, 4, round(pi() * radius ^ 2))` = `50`
+
+lets
+
+Assigns values to multiple variables and evaluates the expression using those variables.
+
+`lets(a, "Hello", b, "world", a + " " + b)` = `"Hello world"`  `lets(base, 3, height, 8, base * height / 2)` = `12`
+
+
+
+
+
+# Sub-items & dependencies
+
+### Use sub-items and dependencies to give depth to any workflow 🐣
+
+  -Learn more about task databaseshere →
+
+  -Want to see and manage all of your tasks in one place? Learn about My taskshere →
+
+
+
+### Sub-items
+
+Sub-items allow you to break tasks into smaller, distinct pieces of work, so that they can be easily scoped out, assigned, and tracked. They are visible in all database views.
+
+#### Enable sub-items
+
+  -Open your database and select `•••` at the top.
+
+  -Select `Customize {your database's name}` .
+
+  -Search for `Sub-items` .
+
+  -Select `Add` next to `Sub-items` .
+
+  -Select `Turn on sub-items` .
+
+#### View sub-items
+
+Depending on your database view, there are a few ways you can view your sub-items. To adjust the way sub-items show up in your database, select `•••` at its top right → `Customize {your database's name}` → `Sub-items` → your current setting next to `Show as` .
+
+For table, list, and timeline views, you can choose:
+
+  -`Nested in toggle` : This will allow you to open and close toggles in parent items to show or hide sub-items within them.
+
+  -`Parents only` : Sub-items won’t be shown. To see them, you'll have to go into the parent item page.
+
+  -`Flattened list` : This will show all of your parent and sub-items in a flat list. In other words, sub-items won’t be indented in the list to distinguish them from parent items.
+
+For board, calendar, and gallery views, you can choose:
+
+  -`Card property` : This will show all your sub-items on the card for your parent item.
+
+  -`Parents only` : Sub-items won’t be shown. To see them, you'll have to go into the parent item page.
+
+  -`Flattened list` : This will show all of your parent and sub-items as separate items.
+
+#### Move, duplicate, and delete items with sub-items
+
+  -When you move an item with sub-items, sub-items will be turned on for the target database if they aren’t already.
+
+    *If you don’t have permission to turn on sub-items on the target database, sub-items will be turned into parent items once they’re moved.
+
+    *If you don’t have edit access for a particular sub-item, it won’t be moved.
+
+  -When you duplicate an item with sub-items, the item and all its sub-items will be duplicated into new pages.
+
+  -When you delete an item with sub-items, all of the sub-items will be deleted as well. Make sure to move your sub-items out of the parent item if you want to keep them.
+
+#### Edit and remove sub-items
+
+You can change how sub-items and parent items are nested:
+
+  -Open your database and select `•••` at its top right → `Customize {your database's name}` → `Sub-items` .
+
+  -Click `Advanced settings` → `Property` and select which item type — `Sub-item` or `Parent item` — you want nested in your table. The same property will be used to display sub-items for all views of your database.
+
+  -You can also turn on `Show nesting toggle on title` .
+
+#### Turn off sub-items
+
+  -Open your database and select `•••` at its top right → `Customize {your database's name}` → `Sub-items` .
+
+  -Select `Turn off sub-items` .
+
+### Dependencies
+
+Adding a dependency lets you connect tasks to each other in a linear way. Use a dependency when you want to communicate related tasks to your team.
+
+#### Add a dependency
+
+  -Open your database and select `•••` at the top.
+
+  -Select `Customize {your database's name}` .
+
+  -Search for `Dependencies` .
+
+  -Select `Add` next to `Dependencies` .
+
+  -Choose one of the following settings for automatic date shifting:
+
+    *`Shift only when dates overlap` :Tasks will only be shifted when their dates start to overlap. The distance between tasks may still be decreased.
+
+    *`Shift & maintain time between items` :If task A is blocking task B and the due date of task A is shifted forward one week, the due date of B will also shift forward one week.
+
+    *`Do not automatically shift` :Due dates are never automatically shifted.
+
+  -Choose whether you want to prevent shifted items from starting or ending on weekends.
+
+  -Select `Turn on dependencies` .
+
+#### Change your dependency date shifting settings
+
+Some things don't go quite as planned. You can automatically change the dates on dependencies when there when there are changes or conflicts. To change your dependency date shifting settings:
+
+  -Open your database and select `•••` at its top right → `Customize {your database's name}` → `Dependencies` .
+
+  -Select a new option for automatic date shifting.
+
+  -Toggle on or off `Avoid weekends` .
+
+
+
+
+
+# Task databases & sprints
+
+### Help your team stay on track with task databases and sprints 💪
+
+Task databases and sprints help your team easily manage time-boxed work and stick to a schedule.
+
+### Create a task database
+
+A task database in Notion is a type of database that requires a status, assignee, and due date property to help you track the work that you need to get done.
+
+To create a task database or turn an existing database into a task database:
+
+  -Open your database and select `•••` at the top.
+
+  -Select `Customize {your database's name}` .
+
+  -Search for `Tasks` .
+
+  -Select `Add` next to `Tasks` .
+
+  -Pick which properties in your database will correspond with the task status, assignee, and due date. If your database doesn’t already have these properties, you can create them by selecting `Create new` .
+
+  -Select `Turn into task database` .
+
+Any tasks assigned to you from that database will appear in My tasks. My tasks is a widget inside Home that helps you track your tasks across all task databases in your workspace in one place. Learn morehere →
+
+### Turn a task database into a regular database
+
+If you no longer want a database to be a task database:
+
+  -Open your database and select `•••` at the top.
+
+  -Select `Customize {your database's name}` .
+
+  -Search for and select `Tasks` .
+
+  -Select `Remove` .
+
+### Create a sprint
+
+To use Sprints, you must have a Task database in Notion. You can turn any database in Notion into a Task database followingthese instructions.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/5VBPT8TlfPF351m2Qly6PS/06545e473c16680ed84c776d4879e891/mytasks2.mp4)
+
+Once you have a Task database, you can add Sprints to your set-up. To do this:
+
+  -Open your database and select `•••` at the top.
+
+  -Select `Customize {your database's name}` .
+
+  -Search for `Sprints` .
+
+  -Select `Add` next to `Sprints` .
+
+  -Select `Turn on sprints` .
+
+#### Sprint board and sprints database
+
+Once you turn on sprints for your database, a few items will be created to help you track them.These will be accessible in your Notion sidebar, alongside the original database you used to set up sprints.
+
+The `Sprint board` is where you can track all of the tasks belonging to your current and future sprints, using a few different views:
+
+  -`Current Sprint` : Shows tasks in the current sprint.
+
+  -`Sprint planning` : Shows tasks in the current, next, and last sprint, as well as any tasks not yet assigned to a sprint.
+
+  -`Backlog` : Shows tasks not assigned to a sprint.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/5jFdrcA0OTX0Ka9JPwGuQF/cf249081e50c0d4e48516f502444e1b1/sprint_board.mp4)
+
+The `Sprints` database will give you a general view of your current and future sprints. You can open any sprint's page to view the tasks within. You'll also notice a `Timeline` view, which gives you a more linear look at your sprints.
+
+If you’ve accidentally deleted the `Current Sprint` view and want to recreate it:
+
+  -Set up a view in the original task database that you’d like to use as your `Current Sprint` view.
+
+  -Select `•••` at the top right → `Customize {your database's name}` → `Sprints` → `Manage sprint from this view` .
+
+
+
+### Plan a sprint
+
+  -In the `Sprint board` , go to the `Sprint planning` view.
+
+  -Move any unfinished tasks from your current sprint or from the backlog into the next sprint.
+
+### Complete a sprint
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/2iInUmEhAFxOgOooq7J5bk/a8efc349e5a2ee6baf1405eea6615938/complete_sprint.mp4)
+
+To mark a sprint as complete:
+
+  -In the `Sprint board` , go to your `Current` sprint.
+
+  -Select `Complete sprint` .
+
+  -You'll be asked to confirm the dates of your next sprint and what you'd like to do with the incomplete tasks from your current sprint. You can move them to the next sprint, move them to your backlog, or keep them in the current sprint.
+
+  -Select `Complete Sprint` .
+
+Alternatively, you can seamlessly transition from one sprint to the next by setting sprints to automatically complete.Learn about how to set your sprints to automatically complete and begin below →
+
+When you complete a sprint:
+
+  -The status of your `Current` sprint will be changed to `Last` . Whichever sprint was currently assigned to `Last` , if there is one, will now be set to `Past` .
+
+  -The status of the `Next` sprint will be changed to `Current` .
+
+  -The tasks on the board will reflect the new `Current` sprint.
+
+  -The `Next` sprint will be created if none exists.
+
+### Sprint settings
+
+Customize your sprints to fit your needs. To do this, go to your sprint board and select `•••` → `Customize {your database's name}` → `Sprints` . From here, you can adjust the following:
+
+  -`Duration` : Choose how many weeks (from one to eight) you want each sprint to run for.
+
+  -`Start on` : Choose which day of the week you want your sprints to begin on. If you change this in the middle of an active sprint, the current sprint’s dates will change. For example, if your sprints used to run for two weeks starting on Mondays, but you want your sprints to run for two weeks starting on Thursdays, your current sprint will run until two weeks after the upcoming Thursday, so that your next sprint can begin on Thursday as you indicated.
+
+  -`Incomplete tasks` : Choose what will happen to any incomplete tasks from your sprints. You can put them in the next sprint, move them to your backlog, or keep them in their original sprint.
+
+  -`Automated sprints` : Turn this on if you want sprints to complete automatically before the next one is automatically created and started.
+
+  -`Turn off sprints` : Choose this to turn off a sprint. Once you turn sprints off, your sprints database, sprint board, and relations between tasks and sprints will be permanently deleted. If you choose to turn sprints on again, you’ll start with a brand new database, board, and relations.
+
+Note:
+
+  -You can’t adjust the dates in your sprints database because these dates are either populated based on the settings above, or set when you manually complete a sprint.
+
+  -If you need to break your sprint cadence temporarily, like for the holidays, we suggest turning off automatic sprints and waiting until you’re ready to resume your normal sprint cadence before starting your next sprint.
+
+
+
+Learn more
+
+  -How engineering and product teams use Notion for sprint planning
+
+  -Connect projects and docs to get more done, faster
+
+
+
+
+
+
+
+# Data sources & linked databases
+
+### Need to reference database content somewhere else in your workspace? Linked databases let you show, filter, and sort the same source data across multiple locations ⛓
+
+### Choosing a data source
+
+When you make a database, you’ll be given the option to select an existing data source from the workspace or to a create a brand new one.
+
+We suggest selecting an existing data source if you want to use the same properties from another database, or an existing view living elsewhere in your workspace. Search for an existing database and then choose the one you'd like to use.
+
+We suggest creating a new data source if the information you're adding to the database is completely new and doesn’t exist anywhere else in your workspace, or if you want to keep it separate from other data. To create a new database, click `New table` , `New list` , etc. (depending on the type of view you are creating) in the menu that appears.
+
+### Create a linked database
+
+Think of each linked database as a two-way excerpt of the source database. It references the same source data, but has its own views, filters, and sorts.
+
+  -In a page, type `/linked` and press enter.
+
+  -A menu will pop up that allows you to type to search for specific databases in your workspace. You can also scroll to browse.
+
+  -The database you select will show up as a copy of the original, which you can filter, sort, and view differently without changing the original.
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/16n94GwwbzKPo638sNIunU/fc160c5dd011a1ba57912e909f2d47e6/Create_linked_DB.mp4)
+
+### Edit linked databases
+
+  -When interacting with a linked database, the views, filters, or sorts you create and delete will not affect the views on the original database.
+
+  -However, edits you make to theactual contentorpropertiesof a linked databasewillbe reflected in the original.
+
+  -You can add as many linked databases as you would like inline on a single page. Filter them for different purposes to create your own dashboard.
+
+
+
+### FAQs
+
+I tried sharing a page with a linked database, but the recipient wasn't able to see it.
+
+Whoever you share this type of page with needs to have access to the original database to be able to see any linked excerpts of that database.
+
+Can I name my linked database something different from the original database?
+
+Not at the moment. We've had a few users ask about this though, so it's on our to-do list!
+
+
+
+# Optimize database load times & performance
+
+### Here’s how to make sure your databases are always feeling quick and snappy 🏃🏼
+
+We’re always working to improve your experience with Notion, and we appreciate your feedback and patience. If your databases aren’t feeling very fast when you use them, there are a few reasons why this might be happening, and a few ways you can make improvements.
+
+### Things that can slow your database down
+
+  -Number of pages: If your database has a ton of pages, it might be slower to load.
+
+  -Number of properties: The more visible properties your database has, the longer it might take to load.
+
+  -Complex sorts and filters: If your database has a sort or filter on properties like title, text, formula, or rollup, the logic behind it can make load times longer.
+
+### Things you can do to speed up your database setup
+
+#### Avoid building too many databases into high-traffic pages
+
+If you have a large workspace, avoid having lots ofinline databases, like dashboards, in high-traffic pages. The more simultaneously viewed databases, the more stress on your setup.
+
+Try housing each database in its own page first. Once you’ve done that, if you’d like all of the databases to be displayed in one page, you can:
+
+  -Type `/linked` in that page and select `Linked view of a database` to create alinked database.
+
+  -Create database views in this linked database and configure them to point to your desired source databases. Different database views can point to different source databases!
+
+When using a single linked database, only one database view is open at a time, and therefore only that one database is listening for updates. You should see an improvement in performance with this setup.
+
+#### Avoid complex reference chains
+
+Formulas and rollups are extremely powerful, but the more complex they are, the slower your database may be. For example, a formula that depends on several other formulas that each depend on rollups may take longer to calculate.
+
+#### Minimize the number of filters and sorts on formulas and rollups
+
+Databases that arefiltered and sortedonformulaandrollupproperties may take a bit longer to load.
+
+#### Filter on simple properties
+
+Adding filters based on simple properties such as select, multi-select, status, number, and date may improve the speed of your database. Even if you have complex filters, this may help by reducing the number of pages that need to be processed.
+
+#### Hide unnecessary properties
+
+If some properties are less important in your database view, hiding them may improve responsiveness and interactivity.
+
+#### Delete any unused pages
+
+We suggest removing any unnecessary or duplicative pages from your database to keep it as simple and up-to-date as possible. If that’s not an option for you, adding a filter on the `Created time` property to filter out old pages may significantly improve performance for very large databases.
+
+Learn more about databases to make sure you're using them in the best way for your specific needs
+
+  -Organize information with databases
+
+  -More resources on databases
+
+
+
+
+
+
+
+# Table view
+
+### A table is the classic database view, but tables in Notion are more than just rows and columns. Each row opens up into its own page, and can contain whatever properties you want 📊
+
+### Create a table view
+
+Here's how to to add a database in table view to Notion:
+
+  -Create a new page in your workspace.
+
+  -Under `Get started with` , click on `Table` .
+
+If you want to create an inline table, type `/Table view` on any page and press `enter` .
+
+Note:Expand inline databases to full page by clicking `⤢` at the top right. Hover over the top of your database to see its option menus. Click `•••` to see the `Properties` , `Filter` , and `Sort` options.
+
+#### Add table view to a database
+
+You can add a table to an existing database to view its data in that format.
+
+  -Click `+` at the top left of your database.
+
+  -Select `Table` from the dropdown menu.
+
+Note:You can also create simple tables if you want to display plain text visually without database functionalities (such as filters, sorts, and specific property values).
+
+Learn more about simple tables here →
+
+### Bulk editing multiple rows
+
+You can select multiple rows in order to edit their properties.
+
+  -Hover over any row and click the checkbox.
+
+    *To select all, click the checkbox at the very top left of the database, next to the `Title` property.
+
+  -Select a property in the menu that just appeared to edit for all selected rows.
+
+### Customize your table
+
+#### Rearrange columns & rows
+
+Switch up how your table is ordered with drag-and-drop on desktop or browser.
+
+  -For rows, hover, then click and hold the `⋮⋮` icon on the left to drag it up or down.
+
+  -For columns, click and hold their headings to drag them left or right (like below).
+
+    *Resize columns by hovering over their edges, and dragging right or left.
+
+Tip:You can also rearrange your columns by clicking `Properties` at the top right, then using the⋮⋮icon next to the properties shown to drag them up or down.
+
+#### Wrap cell content
+
+If your cells contain a lot of content, you can have it appear on multiple lines.
+
+  -Click on the `•••` icon at the top right of your table, click `Layout` toggle on `Wrap all columns` .
+
+    *Or to wrap a single property, click at the top of a specific column and toggle on `Wrap column` .
+
+#### Calculations
+
+At the bottom of every column in your table, you can run calculations that will show you information about the data contained in that column.
+
+Hover below the last row in your table, then click the word `Calculate` that appears under any column you want to learn more about:
+
+  -You'll see a dropdown menu containing these calculation options:
+
+    *`Count all` : Gives you the total number of rows in the column.
+
+    *`Count values` : Counts the number of property values contained in the column.
+
+    *`Count unique values` : Counts the number of unique property values contained in the column, omitting duplicates.
+
+    *`Count empty` : Counts the number of rows that do not have a value in the column.
+
+    *`Count not empty` : Counts the number of rows where the column is filled.
+
+    *`Percent empty` : Gives you the percentage of rows that do not have the chosen property filled in.
+
+    *`Percent not empty` : Gives you the percentage of cards that do have the property filled in.
+
+    *`Earliest date` : If you have time-related properties in your table like `Last edited` or `Created time` , you can choose to show when the oldest row was edited or created.
+
+    *`Latest date` : Shows when the newest row was last edited or created.
+
+    *`Date range` : Shows you the time gap between the oldest and newest edit or creation time.
+
+  -If you have a `Number` property in your table, you unlock several other calculation options:
+
+    *`Sum` : Shows the sum of the numbers in the column.
+
+    *`Average` : Shows the average of the numbers in the column.
+
+    *`Median` : Shows the median of the numbers in the column.
+
+    *`Min` : Shows the lowest number in the column.
+
+    *`Max` : Shows the highest number in the column.
+
+    *`Range` : Subtracts the lowest number from the highest.
+
+Here are some use cases for tables from our team and the Notion community:
+
+  -Lightweight CRM
+
+  -Fundraising database
+
+  -Media prioritization
+
+  -Habit tracker
+
+  -Morning routine planner
+
+  -Exercise tracker
+
+  -Freelance client tracker
+
+
+
+
+
+### FAQs
+
+Is there a way to add background colors to specific cells? Or conditional formatting?
+
+Not at the moment, unfortunately. It's a popular feature request though, so definitely on our radar! For the time being, you can use Select and Multi-select properties to add a pop of color to your table 🎨
+
+Why can't I delete the Name property?
+
+Our tables are a lot different than traditional spreadsheets, since each row represents a database entry that can be opened as its own page, or visualized in other database views. The `Title` property gives you access to database pages. That said, you can drag the column left or right to re-order it however you want!
+
+Is there a way to skip the modal view, and always Open as Page by default?
+
+Yes!
+
+  -Clickthe `•••` at the top right of your database.
+
+  -Under `Layout` , click `Open pages in` and select `Full page` .
+
+
+
+Does Notion have simple (non-database) tables?
+
+Yes!Learn more about simple tables here →
+
+How can I turn a full page database into an inline database?
+
+  -If it's not already, drag the database from your sidebar into another page. It will become sub-page
+
+  -Go to that page, click the `⋮⋮` button next to the database sub-page and select `Turn into inline` .
+
+    *Click the `⋮⋮` button and select `Turn into page` to change it back.
+
+
+
+
+
+# Board view
+
+### Boards are helpful for showing items in a database moving through stages of a process, or grouped by property. Use them for project management and visualizing your data 📋
+
+### Create a board
+
+To add a board to your workspace:
+
+  -Create a new page in your workspace.
+
+  -Under `Get started with` , click the `•••` and then `Board` .
+
+If you want to create an inline board view, type `/Board view` on any page and press `enter` .
+
+Note:Expand inline databases to full page by clicking `⤢` at the top right. Hover over the top of your database to see its option menus. Click `•••` to see the `Properties` , `Filter` , and `Sort` options.
+
+#### Add board view to a database
+
+You can add a board to an existing database to view its data in that format.More on views here →
+
+  -Click `+` at the top left of your database.
+
+  -Select `Board` from the dropdown menu.
+
+#### Reorder columns & cards
+
+Switch up how your board is ordered with drag-and-drop.
+
+  -To rearrange columns, click and hold on a heading, then drag left or right.
+
+  -To move cards up and down or between columns, click, hold, and drag.
+
+Tip:Board view columns are colored by default, but you can turn this off by clicking Group at the top right, and then toggling "Color columns".
+
+#### Add or change sub-grouping
+
+In board view, you can add a second layer of grouping, called sub-grouping. This lets you further organize cards, while preserving your main grouping columns.
+
+  -Click the `•••` in the top right of your database and click `Sub-group` . Select a property to group.
+
+    *Each sub-group includes a toggle to the left, so you can quickly hide and show sub-groups to focus on what you need.
+
+#### Change card size
+
+Depending on how you want your board to look, you can choose large, medium, or small card sizes. Your choice is applied to all cards.
+
+  -Click `•••` at the top left of your board.
+
+  -Click `Layout` and the `Card size` dropdown.
+
+#### Display images on cards
+
+Dress up your board by adding an image or preview of your card's content.
+
+  -Click `•••` at the top left of your board.
+
+  -Click `Layout` and the `Card preview` dropdown.
+
+    *`Page cover` : Will show the image you chose as your page's cover on your card.
+
+    *`Page content` : Will show a preview of the page's content. If you have images on your page, the card will display whichever image comes first.
+
+    *`Files` : If you have a `Files & media` property in your database, you'll have the option to display whatever image files you've added to this property on your cards.
+
+  -Once you have images on your board, you can choose to crop them one of two ways.
+
+    *Click the `•••` at the top, then select `Layout` and switch on `Fit image` so the entirety of the image fits within the frame of the card.
+
+    *Switch off `Fit image` and the image will be cropped to fill the entire card frame.
+
+    *Reposition an image inside a card frame by hovering over it, clicking `Reposition` and dragging it into the position you want.
+
+#### Display properties on cards
+
+You can choose which properties you want displayed on the front of your cards in your board.
+
+  -Click `Properties` and click the switches next to the properties listed to hide or show them.
+
+  -Rearrange their order on your cards by using the `⋮⋮` icon to drag them up or down in this list.
+
+#### Hide columns
+
+  -For the column you want to hide, click `•••` to the right of the heading.
+
+  -Click `Hide group` .
+
+  -Reveal hidden columns by scrolling all the way to the right. You'll see a list of `Hidden columns` .
+
+  -Click on any hidden column, then on `•••` to choose `Show group` .
+
+  -You can also click on a hidden column to search its contents, or click the `+` icon to add a card inside it.
+
+#### Calculations
+
+To the immediate right of each column heading, you'll see a gray number. The default is for this to show the number of cards in each column, but you can change it to give you other information.
+
+  -Click on the number, and you'll see a menu of the following options:
+
+    *`Count all` : Gives you the total number of rows in the column.
+
+    *`Count values` : Counts the number of property values contained in the column.
+
+    *`Count unique values` : Counts the number of unique property values contained in the column, omitting duplicates.
+
+    *`Count empty` : Counts the number of rows that do not have a value in the column.
+
+    *`Count not empty` : Counts the number of rows where the column is filled.
+
+    *`Percent empty` : Gives you the percentage of rows that do not have the chosen property filled in.
+
+    *`Percent not empty` : Gives you the percentage of cards that do have the property filled in.
+
+    *`Earliest date` : If you have time-related properties in your table like `Last edited` or `Created time` , you can choose to show when the oldest row was edited or created.
+
+    *`Latest date` : Shows when the newest row was last edited or created.
+
+    *`Date range` : Shows you the time gap between the oldest and newest edit or creation time.
+
+  -If you have a `Number` property in your table, you unlock several other calculation options:
+
+    *`Sum` : Shows the sum of the numbers in the column.
+
+    *`Average` : Shows the average of the numbers in the column.
+
+    *`Median` : Shows the median of the numbers in the column.
+
+    *`Min` : Shows the lowest number in the column.
+
+    *`Max` : Shows the highest number in the column.
+
+    *`Range` : Subtracts the lowest number from the highest.
+
+Templates:Here are some use cases for boards from our team and the Notion community:
+
+  -Work Portfolio
+
+  -Employee Onboarding
+
+  -Recruiting Pipeline
+
+  -Roadmap
+
+
+
+
+
+
+
+### FAQs
+
+How can I turn a full page database into an inline database?
+
+  -If it's not already, drag the database from your sidebar into another page. It will become sub-page
+
+  -Go to that page, click the `⋮⋮` button next to the database sub-page and select `Turn into inline` .
+
+    *Click the `⋮⋮` button and select `Turn into page` to change it back.
+
+
+
+Is there a way to skip the modal view, and always Open as Page by default?
+
+Yes!
+
+  -Clickthe `•••` at the top right of your database.
+
+  -Under `Layout` , click `Open pages in` and select `Full page` .
+
+
+
+Is there a way to add background colors to board cards?
+
+Not at the moment, unfortunately. It's a popular feature request though, so definitely on our radar! For the time being, you can use Select and Multi-select properties to add a pop of color to your cards 🎨
+
+Any way to group by a relation or formula property?
+
+Not currently 😓 It’s a legit use case though, and definitely something we want to support in the future.
+
+I have a "Done" column in my board that's getting a bit crowded. Can I archive these automatically?
+
+We'd recommend hiding this column. You can do this by clicking the `•••` icon next to the column heading and selecting `Hide` . You can drag any completed tasks into this hidden archive by clicking and dragging your cards into that tag under `Hidden Columns` .
+
+
+
+# Timeline view
+
+### For anyone who needs to visualize their projects plotted chronologically - whether it's hours, years, or anything in between - Notion's timeline is a type of database that keeps you on task and on track ⏳
+
+### Create a timeline
+
+Timelines show the progress of your project over time so you can make sure things are happening when they should.
+
+Want to track your database’s events with the rest of your appointments, meetings, and plans? You can add your Notion database to Notion Calendar so you can see all your important dates in one place! You can even update your database dates directly from Notion Calendar.Learn more about how to do this here →
+
+Here's how to to add a timeline to Notion:
+
+  -Create a new page in your workspace.
+
+  -Under `Get started with` , click the `•••` and then `Timeline` .
+
+If you want to create an inline timeline, type `/Timeline view` on any page and press `enter` .
+
+#### Add timeline view to a database
+
+Add a timeline to an existing database to view its data in that format.More on views here →
+
+  -Click `+` at the top left of your database.
+
+  -Select `Board` from the dropdown menu.
+
+Note:Timelines only work if you have at least one date property in your database containing a range of dates. Otherwise nothing will be plotted.
+
+### Customize your timeline
+
+Edit your timeline so it does the job you need it to do. There are several ways to change the appearance of your timeline and the projects you plot on it however is most helpful to you.
+
+#### Adjust timeframe
+
+You can view your projects on any time scale, from hours all the way up to years.
+
+  -On the right side of your timeline, to the left of `< Today >` , you'll see a dropdown menu with a unit of time.
+
+    *Your timeline will automatically adjust to show your current projects rendered on the new time scale.
+
+#### Adjust project length
+
+  -Hover over the left or right edge of any project. Your cursor will indicate that you can drag and drop each edge to make it as long or short as you want it to be.
+
+    *You'll see date indicators appear to guide you.
+
+Note:You'll see small arrows appear on each row of your timeline to indicate that a project has occurred before or after your current view, or included scope before or after. You can click on these arrows to jump right to the project.
+
+#### Come back to today
+
+At any time, you can jump to the current day on your timeline. Just click `< Today >` on the right side underneath the top level menu.
+
+#### Show or hide table
+
+In Notion, you can show a table to the left of your timeline so you can always see a full list of your projects no matter when they are scheduled.
+
+To show or hide table in any timeline, click the `>>` or `<<` on the left.
+
+#### Limit projects displayed
+
+Depending on how many projects you have in a timeline, and what you're using the timeline for, you may want to only see 10 project pages at a time, or many more. To set your preference:
+
+  -Click `•••` at the top of your database.
+
+  -Select `Load limit` and select a number of pages.
+
+#### Show or hide properties
+
+Timelines give you a few ways to display properties at a glance so you can see information about your projects right away.
+
+  -Click `•••` at the top right of your timeline and then `Properties` .
+
+  -You will see all your properties in this menu displayed next to a toggle. To show properties directly on your project cards in your timeline, toggle them on. To hide them, toggle them off.
+
+  -When showing a table in your timeline, you'll also have the option to display properties as frozen columns to the left. You can toggle these on and off in the `Properties` menu, too, but only if you have `Show table` switched on.
+
+  -You can also hide properties displayed in this table portion of your timeline by clicking on your column headers and choosing `Hide` from the menu.
+
+#### Rearrange columns & rows
+
+Switch how projects and properties are ordered in your timeline with drag-and-drop:
+
+  -When not showing table, click and hold any project page plotted on your timeline, then drag it up or down.
+
+    *When showing table, hover over any row, then click and hold the `⋮⋮` icon on the left to drag it up or down
+
+  -You can also re-order columns when showing table. Click and hold their headings to drag them left or right (like below).
+
+    *Resize columns by hovering over their edges, and dragging right or left.
+
+#### Plot different dates (Timeline by)
+
+If you have multiple date properties in your database, you can plot your projects on your timeline using any of them. And it's easy to switch between them.
+
+For example, you might have one date property for project work and another for the time needed to prep launch. To show the one that you want:
+
+  -Click `•••` at the top right of your timeline and then `Layout` .
+
+  -Click `Show timeline by` .
+
+  -Choose which date property you want your timeline to show.
+
+    *You can choose to have start and end dates as separate properties that dictate how your projects or plotted. You can turn that on in this menu. Or you can have the date range you want to plot exist in the same date property.
+
+#### Calculations
+
+When showing a table, you can run calculations that will show you information about the data contained in each column at the bottom of your timeline.
+
+Hover below the last row in your table, then click the word `Calculate` that appears under any column you want to learn more about:
+
+  -You'll see a dropdown menu containing these calculation options:
+
+    *`Count all` : Gives you the total number of rows in the column.
+
+    *`Count empty` : Counts the number of rows that do not have a value in the column.
+
+    *`Count not empty` : Counts the number of rows where the column is filled.
+
+    *`Count values` : Counts the number of property values contained in the column.
+
+    *`Count unique values` : Counts the number of unique property values contained in the column, omitting duplicates.
+
+    *`Percent empty` : Gives you the percentage of rows that do not have the chosen property filled in.
+
+    *`Percent not empty` : Gives you the percentage of cards that do have the property filled in.
+
+    *`Earliest date` : If you have time-related properties in your table like `Last edited` or `Created time` , you can choose to show when the oldest row was edited or created.
+
+    *`Latest date` : Shows when the newest row was last edited or created.
+
+    *`Date range` : Shows you the time gap between the oldest and newest edit or creation time.
+
+  -If you have a `Number` property in your table, you unlock several other calculation options:
+
+    *`Sum` : Shows the sum of the numbers in the column.
+
+    *`Average` : Shows the average of the numbers in the column.
+
+    *`Median` : Shows the median of the numbers in the column.
+
+    *`Min` : Shows the lowest number in the column.
+
+    *`Max` : Shows the highest number in the column.
+
+    *`Range` : Subtracts the lowest number from the highest.
+
+Templates:Here are some use cases for tables from our team and the Notion community:
+
+  -Project Schedule
+
+  -App Development
+
+  -Reading List
+
+  -Home Renovation
+
+  -Goal setting
+
+
+
+
+
+### FAQs
+
+Is there a way to add conditional formatting? Like change the color of projects plotted on my timeline or background color of cells in the table?
+
+Not yet, unfortunately. It's a popular feature request though, so definitely on our radar! For the time being, you can use `Select` and `Multi-select` properties to add a pop of color to your timeline 🎨
+
+
+
+Why can't I delete the Name property when showing table in my timeline?
+
+Timelines are essentially databases, and databases are essentially lists of items. That's what goes in the `Name` property. All the other data points contained are attributes of these items, like due dates, owners, tags and more. You can't remove the `Name` property because that's the core information contained. You can, however, rename that property to align with whatever you are working on.
+
+
+
+Is there a way to skip the modal view, and always Open as Page by default?
+
+Yes!
+
+  -Clickthe `•••` at the top right of your database.
+
+  -Under `Layout` , click `Open pages in` and select `Full page` .
+
+
+
+Does Notion have simple (non-database) tables?
+
+Yes!Learn more about simple tables here →
+
+How can I turn a full page database into an inline database?
+
+  -If it's not already, drag the database from your sidebar into another page. It will become sub-page
+
+  -Go to that page, click the `⋮⋮` button next to the database sub-page and select `Turn into inline` .
+
+    *Click the `⋮⋮` button and select `Turn into page` to change it back.
+
+
+
+
+
+# Calendar view
+
+### Calendars let you visualize how database items connect to certain dates. Use one when you want a bird's-eye view for important launch dates, multi-day events, or even projects spanning multiple months 🗓️
+
+### Create a calendar
+
+Calendars show when your database items are scheduled to take place. To use one, your database must contain a `Date` property.
+
+Want to track your database’s events with the rest of your appointments, meetings, and plans? You can add your Notion database to Notion Calendar so you can see all your important dates in one place! You can even update your database dates directly from Notion Calendar.Learn more about how to do this here →
+
+  -Create a new page in your workspace.
+
+  -Under `Get started with` , click the `•••` and then `Calendar` .
+
+If you want to create an inline calendar, type `/Calendar view` on any page and press `enter` .
+
+Note:Expand inline databases to full page by clicking `⤢` at the top right. Hover over the top of your database to see its option menus. Click `•••` to see the `Properties` , `Filter` , and `Sort` options.
+
+#### Add calendar view to a database
+
+You can add a calendar to an existing database to view its data in that format.Learn more about views here →
+
+  -Click `+` at the top left of your database.
+
+  -Select `Calendar` from the dropdown menu.
+
+### Customize your calendar
+
+You can modify your calendar in a few different ways. Change its properties and appearance.
+
+#### Weekly view
+
+To get a more specific view of your calendar, you can display your pages as weeks instead of months:
+
+  -Click `•••` in the top right of your database, then `Layout` .
+
+  -Click `Show calendar as` and then select `Week` .
+
+#### Show another month
+
+Notion calendars display in monthly format. Skip back to a past month or ahead to a future month in one of two ways:
+
+  -Click the `<` or `>` arrows surrounding the word `Today` at the top right of your calendar.
+
+  -Scroll down infinitely and you'll see the months advance at the top left of your calendar. (You can't scroll up to go back in time.)
+
+Note:Your calendar will remember which date range you were viewing last. Next time you open the page, that's the range you'll see.
+
+#### Move & stretch cards
+
+Rearrange cards on your calendar with drag-and-drop.
+
+  -Click and hold any card to drag and drop it to any other day on your calendar.
+
+  -Have your card span multiple days by hovering over its right or left edge, clicking and dragging to expand it in either direction.
+
+#### Display, hide & order properties
+
+You can choose which properties you want displayed on the front of the cards on your calendar – like a due date or project lead.
+
+  -Click `•••` at the top of the calendar, then select `Properties.`
+
+  -Clickthe switches next to the properties in your database to hide or show them.
+
+  -Rearrange the order they display on your calendar cards by using the `⋮⋮` icon to drag them up or down.
+
+#### Switch between calendars
+
+If you have multiple date properties in your database, you can view separate calendars for each of them.
+
+  -Click the `•••` button at the top of the calendar and then select `Layout` .
+
+  -Click `Show calendar by` and select your date property.
+
+#### Start your week on Monday
+
+Depending on where in the world you're located, all of your Notion calendars will start their weeks on Sunday or Monday. You can also change this setting:
+
+  -Click on `Settings & members` then `Language & region` .
+
+  -Switch the `Start week on Monday` toggle on or off accordingly.
+
+Templates:Here are some use cases for calendars from our team and the Notion community!
+
+  -Editorial calendar
+
+  -Daily planner
+
+  -Personal finances
+
+
+
+
+
+### FAQs
+
+How can I turn a full page database into an inline database?
+
+  -If it's not already, drag the database from your sidebar into another page. It will become sub-page
+
+  -Go to that page, click the `⋮⋮` button next to the database sub-page and select `Turn into inline` .
+
+    *Click the `⋮⋮` button and select `Turn into page` to change it back.
+
+
+
+How can I integrate a Notion calendar with my Google/Apple/Microsoft calendar?
+
+You can use our API to integrate external platforms with Notion! Check out ourdeveloper hubto get started.
+
+We also support the ability to embed aview-only Google Calendar into Notionif you're embedding from the same email address that you're using with your Notion account.
+
+
+
+Any way to set a default date format for the date property?
+
+Not at the moment, unfortunately. It’s definitely something we want to support in the future, though. We appreciate your patience while we make our way though our to-do list! 🙏
+
+Can I have calendars start on Monday instead of Sunday?
+
+Yes! This setting is automatic based on your region, but you can turn it on manually in the `Language & region` tab of `Settings & Members` in the left-hand sidebar. This will apply to every calendar in your Notion account.
+
+Any way to see a daily/yearly view instead of the monthly view?
+
+There's a daily view on mobile that you can access by tapping on any date in your calendar, or you can use our Timeline view, which allows you to display timescales from hours all the way to years!
+
+
+
+# List view
+
+### Lists are simple and minimalist database views. They're ideal for storing notes, articles, and documents that don't need too many properties. Every item in a list is a page that can be opened with one click and store as much content as you need 📜
+
+### Create a list
+
+Here's how to to add a list database to Notion:
+
+  -Create a new page in your workspace.
+
+  -Under `Get started with` , click the `•••` and then `List` .
+
+If you want to create an inline list, type `/List view` on any page and press `enter` .
+
+Note:Expand inline databases to full page by clicking `⤢` at the top right. Hover over the top of your database to see its option menus. Click `•••` to see the `Properties` , `Filter` , and `Sort` options.
+
+#### Add list view to a database
+
+You can add a list to an existing database to view its data in that format.More on views here →
+
+  -Click `+` at the top left of your database.
+
+  -Select `List` from the dropdown menu.
+
+### Customize your list
+
+#### Edit list properties
+
+In lists, all the properties assigned to an item appear at the far right to label and tag it with helpful information and context.
+
+To edit properties in your list:
+
+  -Click `Properties` at the top right of your list, then `+ Add a property` .
+
+  -Not all properties in your list need to be visible in your list itself. In the `Properties` menu, switch on and off what you want visible or hidden.
+
+  -You can also add new properties that apply to your whole list in page view by opening an item as a page and clicking `+ Add a property` at the bottom of the list of properties.
+
+  -Edit an existing property by clicking `⋮⋮` to the left of it in the `Properties` menu. This lets you rename it, choose a different property type for it, duplicate it or delete it.
+
+#### Rearrange rows & properties
+
+Switch up how your list is ordered with drag-and-drop on desktop or browser.
+
+  -For items, hover, then click and hold the `⋮⋮` icon on the left to drag it up or down.
+
+  -Reorder the way properties display by going to `Properties` and dragging the listed properties up or down using the left `⋮⋮` icon as a handle.
+
+Templates:Here are a couple use cases for lists from our team and the Notion community:
+
+  -Meeting Notes
+
+  -Notes & Drafts
+
+
+
+
+
+
+
+### FAQs
+
+How can I turn a full page database into an inline database?
+
+  -If it's not already, drag the database from your sidebar into another page. It will become sub-page
+
+  -Go to that page, click the `⋮⋮` button next to the database sub-page and select `Turn into inline` .
+
+    *Click the `⋮⋮` button and select `Turn into page` to change it back.
+
+
+
+Is there a way to skip the modal view, and always Open as Page by default?
+
+Yes!
+
+  -Clickthe `•••` at the top right of your database.
+
+  -Under `Layout` , click `Open pages in` and select `Full page` .
+
+
+
+How can I include an emoji in a tag, such as "🔥Urgent"?
+
+Use your computer's emoji picker to include emojis inline on a Notion page, or anywhere else on your computer! Here are shortcuts to bring up the picker:
+
+Mac: `ctrl` + `cmd` + `space`
+
+Windows 10: `windows key` + `.` or `windows key` + `;`
+
+
+
+# Gallery view
+
+### Gallery view is the best way to display databases with visual components, like mood boards, office directories, virtual recipe boxes, and more 🖼️
+
+### Create a gallery
+
+Here's how to to add a database in gallery view to Notion:
+
+  -Create a new page in your workspace.
+
+  -Under `Get started with` , click the `•••` and then `Gallery` .
+
+If you want to create an inline gallery, type `/Gallery view` on any page and press `enter` .
+
+#### Add gallery view to a database
+
+You can add a gallery to an existing database to view its data in that format.
+
+  -Click `+` at the top left of your database.
+
+  -Select `Gallery` from the dropdown menu.
+
+### Customize your gallery
+
+Edit your gallery so it does the job you need it to do. There are several ways to change its organization and appearance to fit the task at hand.
+
+#### Change card preview
+
+To change the card preview:
+
+  -Click the `•••` menu.
+
+  -Select `Layout` and `Card preview` .
+
+You have several options for which images appear in your gallery:
+
+  -Page cover: Gallery will display the cover images selected on each page.
+
+  -Page content: Gallery will display the first image in the body of each page in the gallery. If there is no image, it will show a preview of the content on the page.
+
+  -Files & media: Gallery will display image files uploaded in a file property.
+
+#### Fit, stretch & reposition images
+
+There are a few ways your images can show up in your gallery:
+
+  -Click the `•••` at the top, then select `Layout` and switch on `Fit image` so the entirety of the image fits within the frame of the card.
+
+  -To crop your images so they fill your card frames, switch off `Fit image` . This is the default.
+
+  -To change the part of your image shown on a card, hover over any card and click `Reposition` . Then drag your image accordingly and click `Save position` .
+
+#### Rearrange cards
+
+To reorder the cards in your gallery, just click and hold, then drag left, right, up, or down.
+
+#### Card size
+
+You can choose your images to display as small, medium, or large.
+
+  -Go to ••• at the top right of your gallery and select `Layout` .
+
+  -Click on the `Card size` dropdown and select the size you want.
+
+Tip:You can also hide the name of any card in your gallery, allowing you to show the image as a standalone element. In the `Properties` menu, switch off `Name` . Helpful for simple and elegant mood boards and photo collections.
+
+#### Display, hide & order properties
+
+You can choose which properties you want displayed underneath your images in your gallery. In the directory example, you can show or hide the location and title tags.
+
+  -Click `Properties` and then click the switches next to the properties in your database to hide or show them.
+
+  -Rearrange the order they display on your gallery cards by using the `⋮⋮` icon to drag them up or down in the `Properties` menu.
+
+Templates:Here are some use cases for galleries from our team and the Notion community:
+
+  -Notion Template Gallery
+
+  -Recipe collection
+
+  -Cafe directory
+
+  -Board game tracker
+
+  -Mood board
+
+
+
+
+
+### FAQs
+
+How can I turn a full page database into an inline database?
+
+  -If it's not already, drag the database from your sidebar into another page. It will become sub-page
+
+  -Go to that page, click the `⋮⋮` button next to the database sub-page and select `Turn into inline` .
+
+    *Click the `⋮⋮` button and select `Turn into page` to change it back.
+
+
+
+Is there a way to skip the modal view, and always Open as Page by default?
+
+Yes!
+
+  -Clickthe `•••` at the top right of your database.
+
+  -Under `Layout` , click `Open pages in` and select `Full page` .
+
+
+
+How can I include an emoji in a tag, such as "🔥Urgent"?
+
+Use your computer's emoji picker to include emojis inline on a Notion page, or anywhere else on your computer! Here are shortcuts to bring up the picker:
+
+Mac: `ctrl` + `cmd` + `space`
+
+Windows 10: `windows key` + `.` or `windows key` + `;`
+
+
+
+# Chart view
+
+### Charts help visualize the vast amount of information in your database. Customize your charts so you can see your data in the way that’s most helpful. You can even put charts from multiple databases into a Notion page to create a powerful dashboard 📊
+
+Note:Everyone on a paid plan can create unlimited charts. Members on the Free plan can try one chart for free. Learn more about charts availabilityhere →
+
+### Create a chart view of a database
+
+Note:
+
+  -Charts can only display up to 200 groups and 50 subgroups at a time (for example, 200 days on the X-axis).
+
+  -If you’re in a large database, your chart may be a little bit slower to update.
+
+  -If your database’s sub-items or sub-tasks aren’t reflecting in your chart, you may have to update your database settings to display all items in your database as a flattened list. To do this, select `•••` at the top of your database → `Customize {your database's name}` → `Sub-items` or `Sub-tasks` . Next to `Show as` , adjust the setting to `Flattened list` . Learn more about viewing sub-itemshere →
+
+
+
+To create a chart in Notion:
+
+  -In a page, use the slash command `/chart` .
+
+  -In the menu that appears, select `Vertical bar chart` , `Horizontal bar chart` , `Line chart` , or `Donut chart` .
+
+  -Link an existing database, or select `New chart` to create a new database.
+
+Note:At this time, you can’t edit database entries from chart view. Use or create another view to edit your data.
+
+### Add a chart view to a database
+
+Chart view works with existing databases so that it can take your current database items and visualize them. To add a chart view to a database:
+
+  -In a database, select `+` next to your existing views. Depending on your screen size, you may have to open the dropdown next to your current view and select `Add view` .
+
+  -In the menu that appears, select `Chart` .
+
+[Video](//videos.ctfassets.net/spoqsaf9291f/oh94Vn2kJGYGSLtBVOsa1/4cdfa41107e1fd9f351e1b3cad662133/Create_a_chart.mp4)
+
+### Turn an existing database view into a chart view
+
+To turn a view in your database into a chart view:
+
+  -Select `•••` at the top of your database.
+
+  -Select `Layout` .
+
+  -Select `Chart` .
+
+### Customize your chart
+
+#### Change your chart type
+
+There are several types of charts you can choose from. To change your chart type:
+
+  -With your chart view open, select `•••` at the top of your database.
+
+  -Select `Vertical bar chart` , `Horizontal bar chart` , `Line chart` , or `Donut chart` .
+
+#### Customize your bar or line chart
+
+Note:
+
+  -The X and Y axis configurations are only available for bar and line charts.
+
+  -Your X and Y axes won’t be able to show rollups, buttons, unique IDs, files and media, or formulas resulting in a list of outputs. Certain formulas, like formulas based on relations and rollups and other complex formulas, may cause charts to take a little bit longer to load.
+
+
+
+The X and Y axes of your chart can be configured to show you what’s most important. To configure your X axis:
+
+  -With your chart view open, select `•••` at the top of your database.
+
+  -Under `X axis` , you can adjust the following:
+
+    *`What to show` : Choose the property that should be associated with your X axis. Let’s say you want the X axis to show your tasks by status.
+
+    *`Sort by` : Choose how your data should be sorted. For example, you might want to sort by ascending status (going from to-do to complete). You can also control what’s shown or hidden from your chart by selecting `👁️` next to any of the options under `Visible groups` . For example, you might choose to exclude any tasks marked as complete from your chart if you’re only looking to visualize your in-progress tasks. Anything that’s hidden will move to `Hidden groups` .
+
+    *`Omit zero values` : Depending on your setup, you may or may not see this option. Toggle this on or off depending on whether you want to include property values for which there are no associated items. For example, let’s say you have a status for paused tasks. If there aren’t any tasks in your database that are paused, you can toggle `Omit zero values` off if you don’t want the paused status shown in your chart. If you toggle on `Omit zero values` , you’ll see all of the status options in your chart, even if there are no tasks for some of those status options.
+
+To configure your Y axis:
+
+  -With your chart view open, select `•••` at the top of your database.
+
+  -Under `Y axis` , you can adjust the following:
+
+    *`What to show` : Choose the property that should be associated with your Y axis. You can also choose to show `Count` , which would show you the number of items associated with your X axis.
+
+    *`Group by` : Choose the property that you want to group your Y axis by. You can also choose `None` if you don’t want any grouping.
+
+    *`Omit zero values` : Depending on your setup, you may or may not see this option. Toggle this on or off depending on whether you want to include property values for which there are no associated items. For example, let’s say you have a status for paused tasks. If there aren’t any tasks in your database that are paused, you can toggle `Omit zero values` off if you don’t want the paused status shown in your chart. If you toggle on `Omit zero values` , you’ll see all of the status options in your chart, even if there are no tasks for some of those status options.
+
+    *`Cumulative` : You’ll see this option if your chart is showing `Count` or `Sum` and your X axis property is sorted in ascending order. Toggle on `Cumulative` if you want your chart to reflect the total amount of information gathered over time. Toggle off `Cumulative` if you want the chart to reflect the data for the current moment in time. For example, let’s say you have a chart where you’re tracking how many tasks you have completed. You completed two tasks yesterday, and three tasks today. If `Cumulative` is toggled on, you’ll see two tasks completed yesterday, and five tasks (two from yesterday, three from today) completed today. If `Cumulative` is toggled off, you’ll see two tasks completed yesterday, and three tasks completed today.
+
+#### Customize your donut chart
+
+Note:Your donut chart won’t be able to show rollups, buttons, unique IDs, files and media, and certain formulas.
+
+Donut charts can be customized slightly differently from other chart types. To customize your donut chart:
+
+  -With your chart view open, select `•••` at the top of your database.
+
+  -Under `Data` , you can adjust:
+
+    *`What to show` : Choose the property you want your data to show.
+
+    *`Each slice represents` : Choose the property you want your slices to be organized by.
+
+    *`Sort by` : Choose how your data should be sorted. For example, you might want to sort by ascending status (going from to-do to complete). You can also control what’s shown or hidden from your chart by selecting `👁️` next to any of the options under `Visible groups` . For example, you might choose to exclude any tasks marked as complete from your chart if you’re only looking to visualize your in-progress tasks. Anything that’s hidden will move to `Hidden groups` .
+
+#### Change your chart style
+
+You can customize the look and feel of your chart. To do this:
+
+  -With your chart view open, select `•••` at the top of your database.
+
+  -Under `Style` , you can adjust the following:
+
+    *`Color` : Choose a color palette for your chart.
+
+    *`More style options` , which include:
+
+      *`Height` : Choose from `Small` to `Extra large` .
+
+      *`Grid line` : Choose whether to add a grid line to your horizontal or vertical axes.
+
+      *`Axis name` : Choose whether to name your X or Y axes.
+
+      *`Data labels` : In a bar or line chart, toggle this on to label your data points. In a donut chart, select this to choose how you want your data points to be labeled.
+
+      *`Smooth line` : Toggle this on to make the line in your line chart curved instead of angular.
+
+      *`Gradient area` : Toggle this on to fill the space under your line chart with a gradient.
+
+      *`Show value in center` : Toggle this on to show the value in the middle of your donut chart.
+
+      *`Color by value` : This option will only be visible for bar and donut charts whose color is not `Auto` or `Colorful` . Toggle this on to make your data points darker in color as the value increases.
+
+      *`Legend` : Toggle this on to create a legend for your line or donut chart.
+
+### View a chart
+
+Open up a chart view and you can do the following:
+
+  -Hover over elements of the chart to see labels.
+
+  -Click on a category in the legend to hide groups.
+
+  -Copy the link to the chart.
+
+### Save your chart
+
+You can download your chart to share or use elsewhere. To do this:
+
+  -With your chart view open, select `•••` at the top of your database.
+
+  -Select `Save chart as...` .
+
+  -Customize the background of your chart. You can preview your chart as you do this.
+
+  -Select `Copy as PNG` , `Download PNG` , or `Download SVG` . Note that these options aren't currently available on the Android app.
+
+Note:If you’re on a paid plan, you can choose not to include a background in your chart — this will also remove the `Made with Notion` watermark.
+
+### Create a dashboard
+
+You can bring multiple charts together into a page, then click and drag them around to create a handy dashboard. Learn more about creating dashboards inthis guide →
+
+### Chart view availability
+
+Everyone can try charts. If you’re on a Free plan, you can create one chart, and if you’re on a paid plan, you can create unlimited charts. Learn more about our plans and pricinghere →
+
+Note:
+
+  -If you’re on a Free plan, you can delete your one free chart to create another.
+
+  -If you’re on a Free plan and download a template that contains charts, you’ll only be able to see one of the charts in the template (as long as you haven’t already used up your free chart).
+
+
+
+
+
+
+
+# Unique ID
+
+### Add an extra layer of project management by giving your tasks their own IDs 🤖
+
+Unique ID is a database property that helps you manage projects and organize tasks. Once the property is added, IDs are automatically created for each new and existing database item.
+
+### Adding unique IDs
+
+Connect GitHub to Notion so you can get the most out of your unique ID property!
+
+  -GitHub Integrations
+
+  -Integrate GitHub (Help Center)
+
+
+
+While in any database:
+
+  -Click the `+` at the far right side of the database to add a new property.
+
+  -Select `ID` .
+
+    *The prefix will be generated automatically based on the names of the teamspace and database, but you can change this anytime in the text box.
+
+#### Unique ID URL
+
+All pages with the unique ID property can be accessed via a special URL with the ID number. For example, if a page has the ID: `TASK-123` you can get to that page through `notion.so/TASK-123` .
+
+Unique ID URLs will only work if your unique ID has a prefix.To make sure your unique IDs contain a prefix, click on the ID property in a database, select `Edit property` , and check that the `Prefix` field is not empty.
+
+Note:Unique ID numbers always start at 1 and are assigned to every page, including deleted pages. ID numbers will never change.
+
+
+
