@@ -7,7 +7,7 @@ reference_url = 'https://www.notion.so/help/reference'
 
 def scrape_chapters():
     """
-    Scrape all chapter (chapter) links from the Notion help reference page.
+    Scrape all chapters links from the Notion help reference page.
 
     Returns:
         dict: A dictionary with chapter names as keys and their URLs as values.
@@ -68,4 +68,4 @@ if __name__ == "__main__":
     for chapter_name, chapter_url in chapters.items():
         chapter_intros[chapter_name], articles[chapter_name] = scrape_articles(chapter_name, chapter_url)
 
-    print(chapter_intros)
+    print(articles[chapter_name])
