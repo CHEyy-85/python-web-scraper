@@ -3,4 +3,4 @@ This repository contains a collection of Python scripts designed for the Trade T
 
 Run scraping.py will extract and parse the core contents of each help articles for Notion into a .txt file organized by Chapter.
 
-Run chuking.py will merge the .txt files and chunck the contents into desirable small pieces with meaningful splits.
+Run chunking.py will merge the .txt files and chunck the contents into desirable small pieces with meaningful splits.
