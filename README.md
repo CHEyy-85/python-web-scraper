@@ -1,6 +1,10 @@
-# trade_terminal_assessment
-This repository contains a collection of Python scripts designed for the Trade Terminal Notion web scrapping assessment.
+# Web Article Scraper
 
-Run scraping.py will extract and parse the core contents of each help articles for Notion into a .txt file organized by Chapter.
+## Overview
+This is a personal project to practice web scraping using Python and BeautifulSoup. The script scrapes tutorial articles from Notion and generates formatted text files.
 
-Run chunking.py will merge the .txt files and chunck the contents into desirable small pieces with meaningful splits.
+## Features
+- Scrapes article content from Notion's tutorial pages
+- Extracts relevant text and headings
+- Formats the content neatly before saving
+- Saves the scraped data as text files
